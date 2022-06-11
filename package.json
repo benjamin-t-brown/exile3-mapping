@@ -1,0 +1,41 @@
+{
+  "name": "exile-3-map",
+  "version": "1.0.0",
+  "description": "Exile 3 Map",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn watch",
+    "test": "cross-env NODE_ENV=test ./node_modules/.bin/mocha --require @babel/register --timeout 99999",
+    "build": "webpack -p && terser --compress --mangle -o dist/main.min.js -- dist/main.js && echo 'wrote dist/main.min.js' && ls -alh dist/main.min.js",
+    "watch": "webpack-dev-server --progress  --client-log-level error",
+    "tiled": "cp tiled/props/* dist/img/ && cp tiled/stages/* dist/img/ && cp tiled/scratch/*.png dist/img/ && cp tiled/*.json src/db/map/rooms/ && node tiled/createTilesetMapping.script.js",
+    "analyze": "webpack --profile --json > stats.json && webpack-bundle-analyzer stats.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/benjamin-t-brown/exile3-map.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Benjamin Brown",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^10.0.3"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-flowtype": "^3.10.1",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-mocha": "^5.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "prettier": "^1.19.1"
+  }
+}

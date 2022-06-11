@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+img {
+  display:none;
+}
+select {
+  width: 200;
+  padding: 5;
+  margin: 5;
+}
+</style>
+</head>
+<body>
+<div><select id="zones"></select></div>
+<canvas id="canvas"></canvas>
+<img id="ter1" src="TER1.BMP"></img>
+<img id="ter2" src="TER2.BMP"></img>
+<img id="ter3" src="TER3.BMP"></img>
+<img id="ter4" src="TER4.BMP"></img>
+<img id="ter5" src="TER5.BMP"></img>
+<img id="ter6" src="TERANIM.BMP"></img>
+</body>
+<footer>
+<script type="module">
+import main from './main.js';
+(async () => {
+    main();
+  })();
+</script>
+</footer>
+</html>
