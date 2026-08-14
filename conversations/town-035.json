@@ -1,0 +1,1061 @@
+{
+  "talkRecord": 35,
+  "townId": 35,
+  "personalityBase": 351,
+  "label": "Alzon, Zalifar, Dalakros, General Baziron, Ozmo, Tenuta",
+  "people": [
+    {
+      "id": 351,
+      "slot": 0,
+      "title": "Alzon",
+      "look": "You meet one of the Empire's seemingly endless supply of bureaucrats. She has the haggard look that comes with long periods of much work and no sleep.",
+      "name": "She shuffles idly through a thick stack of papers. _I am Alzon._",
+      "job": "_I am in charge of supply for large parts of Monoroe Province's internal structure. In addition, I am the jobs dispatcher. If you would like some courier work, let me know._",
+      "dunno": "_Please, I'm terribly busy._",
+      "nodes": [
+        {
+          "keywords": [
+            "mono",
+            "prov"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_And if you wish an opinion on anything political, you've come to the wrong place. All of our leaders are infinitely wise and strong. And the punishments for those who say otherwise are just in their severity. All right?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "jobs",
+            "disp"
+          ],
+          "type": 25,
+          "typeName": "job_bank",
+          "extras": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We are desperate for help, but not so desperate we would turn to such as you for help._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "inte",
+            "stru"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It seems there is nothing we are not short of these days. If you have any goods you could sell us, it would be a great help._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "good",
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Immensely relived, she looks over your goods, and makes an offer on anything identified.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 352,
+      "slot": 1,
+      "title": "Zalifar",
+      "look": "You meet a wizard, currently living a hermetical existence in the mountains of eastern Valorim. However, he doesn't seem reclusive or unhappy to see you. In fact, he seems very pleased and relieved.",
+      "name": "_I am Zalifar. Welcome to my home._",
+      "job": "_I live up here, experiencing my wizardry and the joys of flying. Alas, I see many of this land's troubles._",
+      "dunno": "_I don't know of that._",
+      "nodes": [
+        {
+          "keywords": [
+            "wiza"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have many subjects I study. Lately, I've been studying the alchemical herbs that grow in these mountains. If you wish to purchase an interesting recipe for Resurrection Balm using Ember Flowers, just ask._|",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "joys",
+            "flyi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I live here because it is an easy place from which I can fly about. I could rhapsodize for hours about the joys of the wind, of the heights, of soaring far above the land. However, that's not why I'm glad you're here._",
+          "str2": "_I have been waiting for someone to come here, so I can discuss the land's troubles._"
+        },
+        {
+          "keywords": [
+            "land",
+            "trou"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The land is being overrun by golems. Nobody below knows where they come from. I do. If you assist me, I will give you the location of their lair._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 16,
+          "typeName": "shop_alchemy",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Zalifar",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "assi",
+            "loca"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            107,
+            8,
+            0,
+            0
+          ],
+          "str1": "_I wish you to assist me in dealing with a drake._",
+          "str2": "You tell Zalifar of your encounter with Dalakros. He nods. _All right then. I will aid you. When I was flying over certain areas, I saw a large spire. I must give you information about it._"
+        },
+        {
+          "keywords": [
+            "spir",
+            "info"
+          ],
+          "type": 24,
+          "typeName": "buy_location",
+          "extras": [
+            0,
+            32,
+            0,
+            0
+          ],
+          "str1": "_The golem's spire is directly northwest of Tevrono. It is magically hidden - it's in a large meadow, and you need to look at it and concentrate for several minutes before you can see it._ (You take note of this.) _Also interesting are the stone circles._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ston",
+            "circ"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The spire is surrounded by four stone circles, two in the woods, two in the mountains. I'm sure they have something to do with the golem spire._",
+          "str2": "_One of the two in the mountains I could reach by flying there, but one I couldn't. Maybe there's a tunnel to it._"
+        },
+        {
+          "keywords": [
+            "deal",
+            "drak"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_An enormous drake lives in the mountains southwest of Greendale. You can only get there by flying. It's west of a large field of rubble which is south of Greendale._",
+          "str2": "_We saw each other frequently when flying, but had a sort of a truce. Until recently._"
+        },
+        {
+          "keywords": [
+            "truc",
+            "rece"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Recently, it has started to chase me, actually trying to kill me! It seemed maddened. Go find it, and ensure it will never attack me, and I will give you assistance in finding the golems._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 353,
+      "slot": 2,
+      "title": "Dalakros",
+      "look": "You come face to face with Dalakros the drake. You can see he is a thinning creature, and his scales are beginning to lose their sheen. It is slowly starving.",
+      "name": "_I am Dalakros._",
+      "job": "It looks at you with naked hunger. _I hunt._",
+      "dunno": "It looks at you hungrily.",
+      "nodes": [
+        {
+          "keywords": [
+            "hunt"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I hunt for sustenance, as I long have, in the woods. But the golems have taken my food away!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gole",
+            "food"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They kill all, all the deer, all the bears, and I have little choice but to sometimes hunt human meat!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "huma",
+            "meat"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have even hunted a wizard, who sometimes flies over the woods to the east. It is not something I wish to do, but I have no choice. That is why I have hoped you humans would approach me to speak._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "appr",
+            "spea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I will resist my urges for your meat, and leave flying humans alone, but only if you adventurers personally swear to do all you can to destroy the golems. Agree or disagree?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "disa"
+          ],
+          "type": 27,
+          "typeName": "start_fight",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "The drake becomes infuriated, and his hunger suddenly takes control of his. _Fine, then!_ he roars. _Then there is only one other way you may be of use to me!_ He attacks.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "agre"
+          ],
+          "type": 2,
+          "typeName": "set_sdf",
+          "extras": [
+            107,
+            8,
+            0,
+            0
+          ],
+          "str1": "He nods. _Then I will not attack humans. For now. This I swear._ (You take note of this.) _But remember, if you take too long, I may not be able to help myself. Now go, and good luck to you._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 354,
+      "slot": 3,
+      "title": "General Baziron",
+      "look": "This massive man wears the armor and insignia of an Empire Dervish, although he doesn't seem to be in physical shape for melee. This must be the infamous General Baziron.",
+      "name": "He stands to firmly shake your hands. _I am General Baziron. Welcome to Tevrono._ His voice is deep and rough, and his skin is weathered. He has the look of a man who has spent most of his life outdoors.",
+      "job": "He sighs. _It has fallen to me to lead our forces against the golems. We, I'm afraid, are their only effective opposition._",
+      "dunno": "He looks at you impatiently. _Look, I have a war to run._",
+      "nodes": [
+        {
+          "keywords": [
+            "forc",
+            "gole"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            0,
+            0,
+            0
+          ],
+          "str1": "He chuckles. _The golems are lethal foes. However, they have their weaknessess, and I have developed tactics against them. This is good, as we're the only people who have had any luck opposing them._",
+          "str2": "He looks uncomfortable. _We appreciate your help against the golems, but now we have the problem of surviving the peace._"
+        },
+        {
+          "keywords": [
+            "effe",
+            "oppo"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            0,
+            0,
+            0
+          ],
+          "str1": "He frowns. _Those fools in Gale, they don't realize the golems are a different foe, and need different tactics. We out here in Tevrono have been the only troops who've had any luck against those things._",
+          "str2": "He looks uncomfortable. _We appreciate your help against the golems, but now we have the problem of surviving the peace._"
+        },
+        {
+          "keywords": [
+            "surv",
+            "peac"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The leaders of Gale are jealous of our past success against the golems. My troops and I are in great danger. We must be very careful in what we say and to who. I cannot speak to you. Good day._ He turns away.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "tact",
+            "weak"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Tactics that are good for us. Probably nothing that'd help you, but I'll give you one example of how we've been able to defeat them. It's unrelated to the reason I wanted to speak with you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "exam",
+            "defe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The golems aren't smart. They act only in a certain way, and can't adapt to new situations. So if we figure out how they behave, we can find a weakness in it and they can't figure out how to deal with it._",
+          "str2": "_For example, consider how they bombard our walls._"
+        },
+        {
+          "keywords": [
+            "bomb",
+            "wall"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They walk out, approach to eighty feet, throw fireballs and ice bolts, and flee. However, if we sneak up behind them and attack just when they're firing over the walls, it takes them a long time to react. They're dead by then._",
+          "str2": "_If the fools in Gale saw this, the war would go much different. But that's not the reason I wanted to speak with you._"
+        },
+        {
+          "keywords": [
+            "reas",
+            "spea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We're doing all right against the golems, but we need help. We're chopping at them and slowing them down, but we don't have the strength to find and assault their source._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fool",
+            "gale"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_'Tis not wise to criticize the leadership in Gale too strongly. But they won't listen to us and they won't support us. That's the reason I wanted to speak with you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "find",
+            "assa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I've heard of you. You have had luck infiltrating and destroying the enemies fortresses. I would like you to do the same. I can't tell you where they come from, but I can tell you one valuable fact._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "valu",
+            "fact"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There are mountains to the southeast. Far up in them lives a mage. He visited us, flying down from the sky like a bird. He said someone should go up to see him ... he knows much about the golems. Why he wanted us to go up there, we don't know._",
+          "str2": "_But I thought you might want to know. You may be our only hope against the golems._"
+        }
+      ]
+    },
+    {
+      "id": 355,
+      "slot": 4,
+      "title": "Ozmo",
+      "look": "A man sits alone in the empty inn, working on a map.",
+      "name": "_I am Ozmo. Nice to see civilians._",
+      "job": "_I'm a mapmaker. I'm stranded here, I'm afraid._",
+      "dunno": "He shakes his head.",
+      "nodes": [
+        {
+          "keywords": [
+            "mapm",
+            "maps"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He cheers up. _That's my trade! I've been making maps of the area, to help Baziron and his troops. If you want, you can purchase a map of Monoroe Province for only 50 gold._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stra",
+            "afra"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He sighs. _I've been here for months. I came here on a mapmaking trip, just before the golems made a major advance and circled Tevrono. Now, I probably can't get away without risking death. So I just sit here, wait, and make maps._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "bazi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The only general who has had any success against the golems. You should see him. He's a hero!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 22,
+          "typeName": "buy_town_map",
+          "extras": [
+            50,
+            5,
+            0,
+            0
+          ],
+          "str1": "Ozmo give you one of the many copies he's made of his map of Monoroe province.",
+          "str2": "You don't have 50 gold."
+        }
+      ]
+    },
+    {
+      "id": 356,
+      "slot": 5,
+      "title": "Tenuta",
+      "look": "You meet Tevrono's weaponsmith. She is almost frantically busy, struggling to keep up with the demands of supplying the soldiers in Tevrono.",
+      "name": "_I'm Tenuta,_ she says breathlessly.",
+      "job": "_Helping keep Baziron's troops supplied. You can purchase some things too. I still have some of my old stock._",
+      "dunno": "She belches in confusion.",
+      "nodes": [
+        {
+          "keywords": [
+            "bazi",
+            "troo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_General Baziron has figured out how the golems move and act, and figures out ways to kill them. It's an honor to supply his troops. I make them weapons, and improve them when I have the time._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "stoc"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            6,
+            0,
+            0,
+            0
+          ],
+          "str1": "Tenuta's Blades",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "impr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I know a little magic, enough to make a weapon burst into eternal flame. Interesting, eh? Very draining, but I do it when I have the chance._",
+          "str2": "She thinks. _If you want a weapon augmented, let me know._"
+        },
+        {
+          "keywords": [
+            "augm"
+          ],
+          "type": 20,
+          "typeName": "enchant",
+          "extras": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Let me see your identified, non-magical weapons._ She looks them over, and gives a price for augmenting each one.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 357,
+      "slot": 6,
+      "title": "Cerulian",
+      "look": "You meet Moon's librarian. She turns to you, and nods in a businesslike way.",
+      "name": "_I am Cerulian. Greetings._ She speaks tersely, seemingly nervous and uninterested in talking to you.",
+      "job": "_I run the library of Moon. I also do item identification, if that is what you need._",
+      "dunno": "She look at you in an erudite, but confused manner.",
+      "nodes": [
+        {
+          "keywords": [
+            "item",
+            "iden"
+          ],
+          "type": 19,
+          "typeName": "identify",
+          "extras": [
+            25,
+            0,
+            0,
+            0
+          ],
+          "str1": "She quickly looks over your items. _Yes, I can identify these. It'll be 25 gold each._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "libr",
+            "moon"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She points at the northern doors. _Through there is one of the greatest magical libraries in Valorim. Certain authorized persons can enter._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "auth",
+            "pers"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_People become authorized by paying a fee, which is used to obtain new tomes and maintain the ones we already have. If you wish to obtain access, it is only 4000 gold._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "obta",
+            "acce"
+          ],
+          "type": 168,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 168,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 358,
+      "slot": 7,
+      "title": "Lumok",
+      "look": "The innkeeper is clearly very nervous. She washes the counter quickly, always watching the door.",
+      "name": "_I am Lumok. Welcome to my inn._ Her voice is high-pitched and uneven.",
+      "job": "_We have a free room for only 10 gold. We have beer for 5, and our specialty, bourbon for 15._",
+      "dunno": "She shrugs.",
+      "nodes": [
+        {
+          "keywords": [
+            "free",
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            10,
+            3,
+            0,
+            0
+          ],
+          "str1": "She quickly and wordlessly takes you to your room. You sleep comfortably.",
+          "str2": "_I'm sorry. You don't have the gold._"
+        },
+        {
+          "keywords": [
+            "beer"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "The beer is bitter and watery. Not good at all. Lumok says _You should try the bourbon. It's much better._",
+          "str2": "_I'm sorry. You don't have the gold._"
+        },
+        {
+          "keywords": [
+            "bour"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            15,
+            0,
+            0,
+            0
+          ],
+          "str1": "The bourbon is strong and excellent. As you sip, Lumok says _Would you like some advice, friends?_",
+          "str2": "_I'm sorry. You don't have the gold._"
+        },
+        {
+          "keywords": [
+            "advi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_If you're heading north, forget it. People aren't supposed to speak of it, but Valorim has been quarantined. Blackcrag fortress is closed off._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "valo",
+            "quar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire, scared of the monsters, has left us to our fate. And that is that._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "blac",
+            "fort"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Our greatest fort is taken from us. Now, we cannot go there when the alien beasts come back._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "alie",
+            "beas"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks visibly upset. _The destroyers of the Keep of Tinraya! I will not speak of it. Want to know more? Go to Dorngas._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dorn"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Southwest._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 359,
+      "slot": 8,
+      "title": "Tekora-Tel",
+      "look": "You meet a tall, dignified Vahnatai. His skin has the dry, dusty sheen that is a sign of a Vahnatai growing old.",
+      "name": "_I am Tekora-Tel, of Avit._ The Tel after his name means he is a leader or mayor of some sort.",
+      "job": "_I am a leader and a teacher. I come from our city of Avit with my pupil, searching for one of our number._",
+      "dunno": "The Vahnatai bows apologetically.",
+      "nodes": [
+        {
+          "keywords": [
+            "avit"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My home, one of our finest cities in our lands far, far below. My city was the first to greet the humans. This fact is related to my search._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "pupi",
+            "teac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My student, Kyhar, is near. Speak to him if you wish - I wish him to meet humans._ He thinks. _This is reminding me. I teach magic to those I find. Wish you to purchase spells from me?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "numb",
+            "sear"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_One of our mages, Bon-Ihrno, disappeared. He was a hero among us, the first to befriend you humans, and to bring Exiles into our lands. He said he was going on a journey, and has not been seen for months._",
+          "str2": "_It is a worrying mystery._"
+        },
+        {
+          "keywords": [
+            "worr",
+            "myst"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Should you ever meet him, return here to me. I wish much to know of where he has gone._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 15,
+          "typeName": "shop_priest_spells",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Tekora-Tel",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 360,
+      "slot": 9,
+      "title": "Kyhar",
+      "look": "You meet a Vahnatai child. She looks up at you with great curiosity.",
+      "name": "_My calling is Kyhar._ She can speak your tongue, but slow and haltingly.",
+      "job": "_I am of learning and travelling._",
+      "dunno": "The Vahnatai bows apologetically.",
+      "nodes": [
+        {
+          "keywords": [
+            "lear",
+            "trav"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_With my mastering one, Tekora-Tel. He learns me of magic._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "lear",
+            "magi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He is learning on me my magic and alchemy._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "magi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks embarrassed. At least, that's what you think it is. _I knowing not much of it yet._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "alch"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes! We learning alchemy before magic. All of us learning so! I know much good recipe. Tekora-Tel say I may teach, to earn money if I can! I am aged enough to do so. Like purchasing?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "aged",
+            "enou"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I be a whole seventy of your years old!_ You shake your head in astonishment at this. She is only as large as a ten year old human child.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 16,
+          "typeName": "shop_alchemy",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Kyhar's recipes",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

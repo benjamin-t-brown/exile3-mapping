@@ -1,0 +1,1056 @@
+{
+  "talkRecord": 7,
+  "townId": 7,
+  "personalityBase": 71,
+  "label": "Dominique, Hsska, Cmd. Zhivanevskaya, Dossor, Ernest, Big Ghast",
+  "people": [
+    {
+      "id": 71,
+      "slot": 0,
+      "title": "Dominique",
+      "look": "This woman is surprisingly small and delicate to be working in a construction site in the middle of nowhere surrounded by hostile monsters. She seems perfectly at home, however.",
+      "name": "She bows to you. _Greetings, fellow Exiles._",
+      "job": "She takes a delicate sip of her mushroom beer. _I spend most of my time on watch duty._",
+      "dunno": "She shakes her head.",
+      "nodes": [
+        {
+          "keywords": [
+            "watc",
+            "duty"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            4,
+            0,
+            0
+          ],
+          "str1": "_I have sharp eyes, and a long attention span. I can spot a chitrach from twice as far away as anyone else. That can be the difference between life and death!_",
+          "str2": "_I can spot a chitrach twice as far away as anyone else. It's a good thing - I have to be especially on my guard now, after the killings._"
+        },
+        {
+          "keywords": [
+            "chit"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Nasty, nasty creatures. They used to only live down with the Vahnatai. Now they're spreading everywhere. I hear someone brought a few of them up to Exile as an experiment, and they escaped and spread everywhere!_",
+          "str2": "_At least that's what I heard. Is it true? Beats me. At least they keep me in a job!_ At that, she raises her mug and takes a hearty swig."
+        },
+        {
+          "keywords": [
+            "life",
+            "deat"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Every moment counts when a chitrach shows up. Everyone needs to be brought inside, and the guards need to go out. A second too slow, and we might lose a worker, and nobody wants that._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "kill"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They call them murders, but I don't buy that. Foley and Thompson went out. They got careless. They were too slow. A chitrach ate them. End of story._",
+          "str2": "_You'll hear lots of weird rumors about magic and evil and stuff, but don't buy it. And the earthquake was just a coincidence!_"
+        },
+        {
+          "keywords": [
+            "eart",
+            "coin"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A day before the bodies were found, there was a big rumbling, like an earthquake. But that sort of thing happens often enough. Dumb to think there was a connection._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "slot": 1,
+      "title": "Hsska",
+      "look": "There is a slith curled up here. It's clearly  miserable and almost completely dormant.",
+      "name": "When you speak to it, it raises its head weakly and looks at you. _Hsska, _it whispers.",
+      "job": "It sighs, a long, drawn out hissing sound. _Alwaysss so cold here. Can't do what they want._",
+      "dunno": "_Ssss. I know not._",
+      "nodes": [
+        {
+          "keywords": [
+            "cold"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Alwaysss so cold. They won't build firesss. In Gnass, we alwaysss had fires._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "want"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Its voice is very quiet. You have to struggle to hear it. _Cutting ssstone. Sssstacking stone. Making wallssss. Not good work for a slith. I make statuesss._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gnas"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Our beautiful city, far below._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stat"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Statues are noble thingsss for a slith to build. Remember our ancestorsss. Create beauty. I wish to go home now._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "home"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "A dreamy look appears in its reptilian eyes. However, it says nothing.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "slot": 2,
+      "title": "Cmd. Zhivanevskaya",
+      "look": "This woman is middle aged, but walks with the stride and confidence of a warrior half her age. The steel sword at her side looks well worn.",
+      "name": "_My name is Zhivanevskaya. But you can call me Commander Zhivanevskaya.",
+      "job": "_I oversee the defense of this town, and believe me, there have been nothing but troubles._",
+      "dunno": "_What are you talking about?_",
+      "nodes": [
+        {
+          "keywords": [
+            "trou",
+            "defe"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            4,
+            0,
+            0
+          ],
+          "str1": "_Well, it's bad enough that there's ten chitrachs out here for every one of us, hungry for blood. But then there were problems with the sliths they sent to make up half our work force._",
+          "str2": "_Well, first there were the problems with the chitrachs and the sliths, and now we have a murder investigation to deal with!_"
+        },
+        {
+          "keywords": [
+            "zhiv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes, that's right. Just don't forget ... it's Commander to you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "chit"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Big evil bugs. You don't want to know._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "murd",
+            "inve"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Simple enough. Foley and Thompson went out to survey. Now they're dead. The bodies are in a cave up to the north, but nobody wants to go up there. Can't blame them._",
+          "str2": "_I know nothing about it, really, You should talk to that big-shot Flanagan guy._"
+        },
+        {
+          "keywords": [
+            "flan"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He's Unspecified Services._ He pauses, and looks at you distastefully. _Like you. Come up from Fort Emergence to make everything all better. Talk to him. We're busy trying to build a city._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "slit"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Now don't get me wrong. I got no problems with those lizards. They just shouldn't be here. They need lots of heat, and if we sent people out to forage stuff to burn, they'd be eaten by chitrachs!_",
+          "str2": "_Plus, they're terrible laborers!_"
+        },
+        {
+          "keywords": [
+            "terr",
+            "labo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The lizards only started making building a few years ago, and they just don't have the knack! Plus, they keep insisting on putting statues up everywhere! They refuse to work unless they can make statues!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stat"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She spits in irritation. _It's some religious thing. They can't make a city without statues. Look, I got nothing against them personally. They just shouldn't be here now!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "slot": 3,
+      "title": "Dossor",
+      "look": "You meet a big, burly Slith, skin dry from the heat of his forge.",
+      "name": "_I am Dossor. Welcome to this shop._",
+      "job": "_I am the blacksssmith for this new city. I  run the first shop here._",
+      "dunno": "_Ssss. I know not. Apologies._",
+      "nodes": [
+        {
+          "keywords": [
+            "shop",
+            "blac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This is the first working shop in Formello. It is necessary because the people here need metal goods to build the city._",
+          "str2": "_Also, I provide a good place for slithssss to come and meet._"
+        },
+        {
+          "keywords": [
+            "meta",
+            "good"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Hammers and axes and weapons to fight monsters. I also have weapons for purchase by passerss by. Like you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "weap"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "str1": "Dossor the Smith",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "come",
+            "meet"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We slithsss were sent here by our people as a peace gesture to humans. It was a very difficult idea._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "diff",
+            "idea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It is too cold for us here, except in my forge. The humansss do not like usss and we are ill-suited to the work. When the city is done most of us will return home._",
+          "str2": "_But alasss, few will have anything happy to say about the experience. Little peace came from this._"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "slot": 4,
+      "title": "Ernest",
+      "look": "You meet a tall, heavily built mage with a pot belly. His hair is unkempt ... he clearly wasn't expecting visitors.",
+      "name": "_I am Ernest. Welcome to my humble abode._",
+      "job": "_It is a pleasure to meet some Exiles at last. Welcome to my home._",
+      "dunno": "_What?_",
+      "nodes": [
+        {
+          "keywords": [
+            "home",
+            "abod"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This little warren out in the boonies is where I do my teleportation research. No slimes come here, so it's perfect._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "exil",
+            "last"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He holds his hands open as a peaceful gesture. _Well, the paleness of your skin immediately marks you as an Exile. Don't worry about it. You aren't likely to meet much hostility. Around Krizsan, anyway._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "host",
+            "kriz"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, people are really busy worrying about the slimes, and they don't believe your lot is powerful enough to create them. So you're safe around here. The other provinces are a different story._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "othe",
+            "prov"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I hear up north they think the plagues were caused by Exiles. Be careful if you go up there._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "powe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I know you are powerful enough. Did you create them? Or not? I couldn't care less. Exiles are as good to test my teleporters as anybody._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "worr",
+            "slim"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You must know, don't you? About a year ago, giant slimes started appearing everywhere. They eat everything, attack everyone, and nobody can figure out where they come from._",
+          "str2": "_I hear the other provinces are having similar problems, but I don't get much news. I spend all my time here, researching._"
+        },
+        {
+          "keywords": [
+            "tele",
+            "rese"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He smiles wryly. _Seems like everyone's doing teleportation research these days, doesn't it? Well, my devices actually work. I'll even let you test them, for a cost._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "test",
+            "cost"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I've made teleporters that go to the five biggest cities in Valorim. A week's travel, done in an instant. Generally somewhat safe. And only 250 gold for a chance to try one of them._ He chuckles.",
+          "str2": "_Quite a bargain, eh? Let me know if you want to purchase a ticket._"
+        },
+        {
+          "keywords": [
+            "purc",
+            "tick"
+          ],
+          "type": 21,
+          "typeName": "buy_service",
+          "extras": [
+            250,
+            85,
+            8,
+            1
+          ],
+          "str1": "You pay him. _Excellent! The portals are around here somewhere. Help yourself! Oh, and don't play with any of the runes._",
+          "str2": "He shakes his head. _I know, I know. I should be happy for volunteers. But research is expensive. I have to insist on 250 gold._"
+        },
+        {
+          "keywords": [
+            "rune"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The portals are powered by a ball of serious energy, held in check by several runes. If you come across it, don't tinker with it. That would be bad. Very bad._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "slot": 5,
+      "title": "Big Ghast",
+      "look": "A huge ghast sits on the throne, gazing at you hungrily. Drool drips from its massive teeth, and little bits of blood are speckled around its mouth.",
+      "name": "It emits a deep chuckle. _My name will not save your life._",
+      "job": "It runs a claw down an arm of the throne. _I have been placed here to Gorvifal to taunt you._",
+      "dunno": "He growls in irritation. _That is not the answer!_",
+      "nodes": [
+        {
+          "keywords": [
+            "gorv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You are in the tomb of Gorvifal, mighty warrior and thane! For centuries he has lurked here, hiding his crypt and then making it visible again._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "taun",
+            "plea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have been placed here to ask you a riddle. Answer correctly, and I will depart and let you proceed. Fail, and wander aimlessly. Are you ready for the test?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "cryp",
+            "visi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Nothing pleases him more than snaring a few passers-by, tormenting them, and destroying them. I am honored to share in this pleasure._",
+          "str2": "_He is brilliant. You have no hope. You may just want to let me eat you now._"
+        },
+        {
+          "keywords": [
+            "bril",
+            "hope"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_When people begin to suspect that people are being abducted, he makes the crypt disappear for years and years. We get very hungry, but it guarantees much carnage for us._ It grins. _In the long run._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ridd",
+            "test"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Here is the riddle. When you know the answer, speak it to me. 'I have two knives. They're sharp and red. I want to stick them in your head.'_ He grins.",
+          "str2": "_What are they?_"
+        },
+        {
+          "keywords": [
+            "teet"
+          ],
+          "type": 27,
+          "typeName": "start_fight",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It growls. _Teeth? A ghoul does not have mere teeth! I eat you now!_ He springs from his seat to attack.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fang"
+          ],
+          "type": 26,
+          "typeName": "npc_leaves",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It looks disappointed. _You may move on. But remember ... when you die, I will be feeding on you._ It fades away before your eyes. Creepy.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "slot": 6,
+      "title": "Cindy",
+      "look": "You meet a female mage. She's pacing back and forth, completely involved in her own thoughts. She stares intently at a vial of brightly colored slime in her hand.",
+      "name": "She looks up at you, but her gaze is absent. Her mind is clearly miles away. _I am ... umm ... I'm Cindy. Hi._",
+      "job": "_I am ... oh._ She stares at the vial and thinks for a moment. _I ... Research. I am doing research._",
+      "dunno": "She shakes her head.",
+      "nodes": [
+        {
+          "keywords": [
+            "vial",
+            "slim"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She holds the vial of slime up so that you can see it. It's mauve. _This. ... A sample. Very useful. For research._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rese"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            3,
+            0,
+            0
+          ],
+          "str1": "_Looking for ways to defeat slimes._ She uncorks the slime, and sniffs it. _The danger to us is great._",
+          "str2": "_Looking for ways to prevent return of slimes._"
+        },
+        {
+          "keywords": [
+            "retu"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks up at you, annoyed by the persistent questioning. _They might return. They might not return. We must prepare now. Find ways to fight them, or at least keep them out._ She resumes her thinking.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "defe",
+            "dang"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The slimes can enter Krizsan at will. They slide though holes in our walls. I look for a weapon we can use against them, but the work is slow._ She thinks. _Perhaps you should leave, so I can work more._",
+          "str2": "_The slimes enter Krizsan at will. In fact, they killed the shipwright last week, and even have attacked this city hall. I look for a weapon to use against them. Salt didn't work. I will search more._"
+        },
+        {
+          "keywords": [
+            "salt"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Worked against slugs. Tried it on slimes. Lost a good soldier trying that one out. Oh well._ She shrugs, and continues to concentrate.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "slot": 7,
+      "title": "Fellows",
+      "look": "This man looks like a sailor, but is wearing the robes of an apprentice mage (dirty and torn robes, but robes nonetheless). He stares intently into an orb on the table in front of him.",
+      "name": "As you approach the table, he looks up from the orb. _Welcome, my children!_ he says, in an affected fortune teller voice. _Come forth, so I may speak unto you._",
+      "job": "_Greetings, children! I will forecast your future for only 2 coins! Also, I can share with you my great magical skills!_",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "magi",
+            "skil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He waves his hands, and there is a flash of light. It's a very simple spell. _I can  create charms which will shift your fortunes. Purchase one, and you will never be devoured by the seas. A bargain, compared to the value of your life!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fore",
+            "futu"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "He takes your gold, and waves his hands over the orb. _I see many adventures, and much fame! And treasure!_ You don't look impressed. _OK, he says. It's lame. I know. But nobody cares about my real talents._",
+          "str2": "_I am sorry. The secrets of the ages require the proffering to gold to see!_"
+        },
+        {
+          "keywords": [
+            "purc",
+            "char"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Lucky Charms",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "real",
+            "tale"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He leans close. _Well, I really do know a few spells, and sailing the seas, I learned a lot. Show me one of your items, and I could identify it for a reasonable price._",
+          "str2": "_Identification isn't as in demand as charms, of course, but can be actually worth something._"
+        },
+        {
+          "keywords": [
+            "iden"
+          ],
+          "type": 19,
+          "typeName": "identify",
+          "extras": [
+            10,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks at your items. It takes a while, but he seems to be able to figure out what they are. _Ten gold each,_ he says.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "slot": 8,
+      "title": "McElroy",
+      "look": "This innkeeper has filthy, dirt-encrusted hands, which have probably touched every mug and plate in the place. He looks you over with disinterested eyes.",
+      "name": "_I'm McElroy. Welcome to the Rowdy Oar._",
+      "job": "He wipes his nose with the back of his hand. _Well, we got the best drinks in the whole town. Only two gold. And we got room in the common room to sleep for the night. Only three gold. And we'll make sure none of the slimes get ya'._",
+      "dunno": "He wipes a glass with his bare hand, and shakes his head.",
+      "nodes": [
+        {
+          "keywords": [
+            "best",
+            "drin"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "He serves you up mugs of weak beer, with fragments of brown material floating in it. Sadly, it's still a good bit better than any of the mushroom beer you ever got in Exile.",
+          "str2": "_Hey! Fine beverages like I offer are worth the money!_"
+        },
+        {
+          "keywords": [
+            "comm",
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            3,
+            1,
+            0,
+            0
+          ],
+          "str1": "You are shown to the bug infested, smelly common room. Regretfully, you lie down for the night.",
+          "str2": "You don't even have the cash to stay in the filthy common room. He has no pity for your rather sad situation."
+        },
+        {
+          "keywords": [
+            "slim"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            3,
+            0,
+            0
+          ],
+          "str1": "_Well, those slime creatures have been sneakin' in all over the place. There was even an attack near here!_",
+          "str2": "_Well, there haven't been any slimes around here for a while, but if they come back, They won't get in here!_"
+        },
+        {
+          "keywords": [
+            "atta",
+            "near"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, that little shrine had some difficulties, but there aren't any slimes near here now. You can stay here without any worries!_ He looks plenty worried as he says it.",
+          "str2": "_Oh, one will slip through the walls every once in a while, but none get in here. Sleep easy!_ He grins in a way you find not at all reassuring."
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "slot": 9,
+      "title": "Dawn",
+      "look": "You meet a woman with a sun-weathered face, loose clothes, and a sure step. Tattoos ring her arms and wrists. She gives you a cocksure grin as you approach.",
+      "name": "She tugs her earlobe as she looks you over. _I'm Dawn._",
+      "job": "_Well, I normally sail the open seas. Now I just wait around here. Krizsan's my home, after all._",
+      "dunno": "_Yeah, whatever, buddy._",
+      "nodes": [
+        {
+          "keywords": [
+            "sail",
+            "seas"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Not much call for that now. Ships haven't been sailing since the monsters appeared._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "kriz",
+            "home"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            25,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I grew up here. There's no way I'm leaving without a fight._",
+          "str2": "She shakes her head sadly. _This has always been my home, but the slimes are decimating it. I may try to become an Exile._ She tugs her earlobe and smiles.  _Looking at you, it can't be that bad a thing to be!_"
+        },
+        {
+          "keywords": [
+            "ship",
+            "mons"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Interesting thing about that. Just when the slimes started appearing, when I was sailing into Krizsan for the last time before the ships stopped going, I saw some weird lights on the coast._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ligh",
+            "coas"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The south coast, just west of here. There was a tower, and there were some seriously weird lights flashing around it._ She tugs her earlobe thoughtfully.",
+          "str2": "_Maybe it's just me, but the slimes must be caused by a bunch of weird magic. Well, there's weird magic there._ She grins. _But what do I know? I'm just a sailor, and you're genuine Exiles!_"
+        },
+        {
+          "keywords": [
+            "genu",
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She laughs. _Don't worry! Your secret is safe with me! I was pretty close to being sent down there a few times myself!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "leav",
+            "figh"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            3,
+            0,
+            0
+          ],
+          "str1": "She sighs. _That's the problem, though. It's easy to kill one slime. Just one stab is all it takes. But they keep coming and coming, and if one gets the drop on you, and it'll hit you with a spell, or cover you with acid, or worse._",
+          "str2": "_That's right. And if the slimes ever come back, I'll be on the front lines against them!_"
+        }
+      ]
+    }
+  ]
+}

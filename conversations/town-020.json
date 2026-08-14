@@ -1,0 +1,813 @@
+{
+  "talkRecord": 20,
+  "townId": 20,
+  "personalityBase": 201,
+  "label": "Crud Muncher, Doom Bringer, Sinbar, Elise, Kendrick, Jen",
+  "people": [
+    {
+      "id": 201,
+      "slot": 0,
+      "title": "Crud Muncher",
+      "look": "You see a perky cockroach, waving its forelegs and antennae about and mumbling things in its high-pitched voice. It stops, embarrassed, when it sees you.",
+      "name": "_I'm Crud Muncher!_",
+      "job": "_I'm trying to learn how to cast magic spells!_ it says cheerfully.",
+      "dunno": "_You're silly!_",
+      "nodes": [
+        {
+          "keywords": [
+            "make",
+            "filt"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yum!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "magi",
+            "spel"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah! I want to know how to throw lots of fire! And to magically make filth!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "lots",
+            "fire"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah, like those mean humans do. If I could cast spells, my babies would be safe!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "babi",
+            "safe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It turns, and you see that it's and she, and that she has a huge egg sac. _I'm expecting forty or so, and I want them to grow up safe and strong!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "slot": 1,
+      "title": "Doom Bringer",
+      "look": "You see a giant roach, busily poking at one of the tall walls of piled trash and rotting goo. It bounces over to you when it sees you.",
+      "name": "_I'm Doom Bringer,_ it says, it a happy voice. It waves its antennae at you.",
+      "job": "_I'm eating. But enough about me. You're cute!_",
+      "dunno": "_You're silly!_",
+      "nodes": [
+        {
+          "keywords": [
+            "cute"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It waves its antenna. _Aren't my feelers pretty?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "feel",
+            "pret"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah! I work hard on them._ It moves them around delicately. _Are you busy?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "busy"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It sighs. _You're probably going to the Filth Factory, and won't hang around, huh?_ This seems to sadden it.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "filt",
+            "fact"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah. Filth Spreader keeps going on about it. I forget what it was like, though._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "spre",
+            "forg"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Filth Spreader is around here somewhere. He's really cute!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "slot": 2,
+      "title": "Sinbar",
+      "look": "You meet an Empire soldier. He is clearly quite ill - his skin is pale, he coughs often, and he has small sores on his cheeks. He looks at you with instant and extreme dislike. ",
+      "name": "He coughs. _I'm Captain Sinbar._",
+      "job": "_I'm leading the troops in this area, taking them on patrols._ He looks you over closely. _Where are you from?_",
+      "dunno": "He coughs.",
+      "nodes": [
+        {
+          "keywords": [
+            "troo",
+            "patr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He coughs again, and his lips are now flecked with blood. _Nothing went right since we scoured the forest a month ago._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "wher",
+            "from"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Before you can answer, he says _Everyone's talking about how there are Exiles up here somehow. We soldiers are awfully interested in this._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "exil",
+            "sold"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Not all of us are as sick as me, and we all lost friends in the war with Exile. We get our hands on one of those worms, and they'll pay, but good. You hear me?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "scou",
+            "fore"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We killed a bunch of roaches on that trip. Our mage even fried a mother and a whole brood of little ones with a fireball. We must have bagged a hundred of the buggers._ He coughs again, more savagely than before.",
+          "str2": "_On the way back, we all got sick, all of a sudden like. Half of us are dead now._"
+        },
+        {
+          "keywords": [
+            "sudd",
+            "like"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Like, overnight. We haven't sent a large force out since._ He suddenly gets woozy. _I gotta ... I gotta ... I gotta keep patrolling._ He wanders off.",
+          "str2": "You don't give him very long."
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "slot": 3,
+      "title": "Elise",
+      "look": "A tall, thin woman tends the bar. She looks you over nervously as you approach.",
+      "name": "_I'm Elise,_ she says. She's clearly on edge.",
+      "job": "_I run the Porter's Retreat. That's where you are, you know. We have a round of beer for 3 gold, and a decent room for 5._ She looks around nervously as she speaks. _Sorry. I've been a bit on edge._",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "port",
+            "retr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The only safe bed for many miles around. We get a lot of nervous people._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "roun",
+            "beer"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "As usual, the beer is pretty lousy, and again, as usual, it tastes great to you. You aren't looking forward to returning to the swill that's the order of the day in Exile.",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "dece",
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            5,
+            3,
+            0,
+            0
+          ],
+          "str1": "Elise shows you to your room. She also warns you _Keep a sharp blade handy._",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "nerv",
+            "edge"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            8,
+            0,
+            0
+          ],
+          "str1": "_There's a bunch of troglodytes living to the north. Yeah, troglodytes! There are still some around, and they're raiding us nonstop! The Porter's Retreat is the only place near here where merchants can be safe._ ",
+          "str2": "_The troglodytes aren't attacking here as much these days, but just when we get complacent, a new bunch always comes down to attack. Still, it's not as bad as it was._"
+        },
+        {
+          "keywords": [
+            "trog",
+            "safe"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            8,
+            0,
+            0
+          ],
+          "str1": "She shakes her head. _We're well armed, but we hope Sharimik or the Empire or someone does something soon. The things are really too tough for us to fight on our own._",
+          "str2": "She sighs. _I guess I liked it better when they were extinct._"
+        },
+        {
+          "keywords": [
+            "shar",
+            "empi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She grimaces. _Our mighty leaders. Fat lot of good they did us._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "slot": 4,
+      "title": "Kendrick",
+      "look": "You meet a small man hunched over the table, making intricate notes on a map with a feather pen.",
+      "name": "He looks up. _I'm Kendrick. Greetings!_",
+      "job": "_I'm a mapmaker, of course. A useful trade, in these parts._",
+      "dunno": "He shrugs.",
+      "nodes": [
+        {
+          "keywords": [
+            "mapm"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_And I take great pride in my trade! You can purchase a beautiful map of this area for only 50 gold._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "usef",
+            "trad"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Why yes. This is one of the few known areas that hasn't been totally explored._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "part",
+            "expl"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Everything the Empire owns is so settled and covered and recovered, Valorim is the only place a decent mapmaker can go to really do interesting work._",
+          "str2": "_There's plenty of monsters here, of course, but I just avoid them._"
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 22,
+          "typeName": "buy_town_map",
+          "extras": [
+            50,
+            3,
+            0,
+            0
+          ],
+          "str1": "He gives you a detailed map, written on fine vellum. It shows the city of Sharamik, and everything to the southeast. It should be very useful.",
+          "str2": "He shakes his head. _This is quality work. I can't just give it away._"
+        },
+        {
+          "keywords": [
+            "mons",
+            "avoi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I run. All in a days work!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "slot": 5,
+      "title": "Jen",
+      "look": "This woman's skin is dark enough that she could pass for a surface dweller, but you immediately recognize her for what she is: an Exile. She looks nervous.",
+      "name": "_I'm Jen. We shouldn't talk._",
+      "job": "_I'm Unspecified Services, formerly selling food in Formello. Look, we shouldn't talk._",
+      "dunno": "_Please, I'm very busy._",
+      "nodes": [
+        {
+          "keywords": [
+            "unsp",
+            "serv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks more nervous with every moment you spend talking to her. _Yes, Unspecified Services, like you. And again, we really, really shouldn't be seen talking._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "shou",
+            "talk"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Right. Look. There's a woman on our side. She's collecting info in Sharamik and Lorelei. You'll recognize her as an Exile. Look for her. She can help. Now go away._",
+          "str2": "She stares down into her beer and starts to ignore you."
+        }
+      ]
+    },
+    {
+      "id": 207,
+      "slot": 6,
+      "title": "Meiko",
+      "look": "You meet a young priestess. She nods to you when you approach.",
+      "name": "_I am Meiko._",
+      "job": "_I am out spreading the faith of the Anama._",
+      "dunno": "_I can't help, my child._",
+      "nodes": [
+        {
+          "keywords": [
+            "fait",
+            "anam"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            4,
+            0,
+            2,
+            0
+          ],
+          "str1": "_We preach of the dangers of magic. We are based on the Isle of Bigail._",
+          "str2": "She smiles. _I know I don't need to tell you of our beliefs. The word has spread that the Exiles have joined us. I am honored to meet you, and can offer you a piece of advice._"
+        },
+        {
+          "keywords": [
+            "piec",
+            "advi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The people of Sharamik, to the north, are very paranoid. Until you've proved somewhere else that you can help them with their problems, it's best to stay away. There's nothing they'd like more than to scapegoat some Exiles for their problems._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dang",
+            "magi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She smiles sadly. _Just look around. Magical creatures slay us, forcing us into hiding at every turn. Unless something is done about this, these problems will get worse before they get better._",
+          "str2": "_If this idea intrigues you, my church can be found on the Isle of Bigail._"
+        },
+        {
+          "keywords": [
+            "isle",
+            "biga"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A beautiful, recently settled island. My church has worked it very hard, despite many difficulties. Head west to city of Farport. You can take a ferry over. Hope you go! It's wonderful there!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "slot": 7,
+      "title": "Voster",
+      "look": "A massive, grim looking, taciturn man is working a piece of red hot steel with firm, practiced blows. When you approach, he sets the metal in the coals to keep hot, and turns to you.",
+      "name": "_Voster._",
+      "job": "He talks slowly and simply. _I have weapons. I can also do improvements. What would you like?_",
+      "dunno": "He grunts noncommittally.",
+      "nodes": [
+        {
+          "keywords": [
+            "purc",
+            "weap"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Voster's Weaponry",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "impr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grunts, and picks up a massive steel hammer. _Rework weapon. Make it much sharper. Better against troglodytes. Just ask for augmentation._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "augm"
+          ],
+          "type": 20,
+          "typeName": "enchant",
+          "extras": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks over your weapons. _Only do nonmagic weapons. Not already improved. Identified._ He rattles off the prices.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "shar",
+            "trog"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Troglodytes tough. Need good weapons. Otherwise they spit you and you die in agony. Augmentation?_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 209,
+      "slot": 8,
+      "title": "Oppenheimer",
+      "look": "This is the sort of man who's only comfortable when surrounded by piles of books. His eyes must be very weak - he has to lean forward to make you out. In addition to books, there are many odd items scattered about the room.",
+      "name": "_I'm Oppenheimer._ He closes his book as he says it. A cloud of dust rises up, making him cough.",
+      "job": "_I'm a sage, specializing in items._",
+      "dunno": "_I don't know._",
+      "nodes": [
+        {
+          "keywords": [
+            "sage",
+            "item"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A very lucrative field. I do identification, of course. In addition, I also obtain items for resale. If you want to sell anything, you have but to ask._",
+          "str2": "_It's nice to see adventurers in these parts, by the way._"
+        },
+        {
+          "keywords": [
+            "iden"
+          ],
+          "type": 19,
+          "typeName": "identify",
+          "extras": [
+            15,
+            0,
+            0,
+            0
+          ],
+          "str1": "It takes a while, and you have to hold your equipment very close to his face so he can see it, but he eventually satisfies himself that he knows what everything you're carrying is.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He has a hard time seeing your items, but he still manages to make an offer on everything you own that's identified. He seems pretty confident in his ability to appraise everything.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "adve"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            3,
+            0,
+            0
+          ],
+          "str1": "_The slimes attack our town all the time. I often fear for my life - I wouldn't be able to see one until it was actually on me. We all wish for someone to appear and help us, but, to be frank, we have little hope._",
+          "str2": "_I heard about what you did to the slimes. Everyone does. On behalf of Bolton, I thank you._"
+        }
+      ]
+    },
+    {
+      "id": 210,
+      "slot": 9,
+      "title": "Londo",
+      "look": "A short, stocky man, mostly bald, sits behind the counter. He has several knives, and a sharp, analytical gaze.",
+      "name": "_I am Londo,_ he says in a thickly accented voice.",
+      "job": "_I am responsible for education in this filthy town. I teach the people who go to work in the mines._",
+      "dunno": "_What is this? For this you waste my time?_",
+      "nodes": [
+        {
+          "keywords": [
+            "resp",
+            "educ"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The mines are dangerous, in the best of times. The poor workers must be told what to do at all times. I need to teach them a wide variety of skills. If you need training, I can help you too, for a fee._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trai",
+            "skil"
+          ],
+          "type": 9,
+          "typeName": "training",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "filt",
+            "town"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The dust constantly clogs my nose, and the dirt is always in my clothes! At least it's been better lately, because of all the troubles in the mines._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "work",
+            "mine"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The mines here have much gold and silver, excellent because Valorim is so much poorer than the rest of the Empire. However, there has been much in the way of troubles there lately._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trou",
+            "dang"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The mines have been attacked by many, many dangerous monsters. I am not who you should ask about that, though._",
+          "str2": "_You should talk to Delenn. She runs the mines. Her office is nearby._"
+        }
+      ]
+    }
+  ]
+}

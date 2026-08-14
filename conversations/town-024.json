@@ -1,0 +1,811 @@
+{
+  "talkRecord": 24,
+  "townId": 24,
+  "personalityBase": 241,
+  "label": "Spragins, Grassi, Grove, Quinn, Ginny, Ehrenfeld",
+  "people": [
+    {
+      "id": 241,
+      "slot": 0,
+      "title": "Spragins",
+      "look": "You meet a wizened old man with a carefully trimmed white beard. He sets down a thick, leather bound book to speak with you. He's pale enough to have come from Exile.",
+      "name": "_I am known to people in general as Spragins._",
+      "job": "He takes a deep breath and thinks it over. _Well, I do magic, I suppose. That seems to be a good overall description of my activities._",
+      "dunno": "He rubs his chin in confusion.",
+      "nodes": [
+        {
+          "keywords": [
+            "magi",
+            "acti"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes, magic does seem to be a good catch-all sort of term for it. For example, I can magically identify your items, for a small fee. Or I teach spells to passing mages, for a price. And, of course, I do research._",
+          "str2": "_That would seem to be an excellent summary of the current activities I am referring to when using the generic term 'magic'._"
+        },
+        {
+          "keywords": [
+            "teac",
+            "spel"
+          ],
+          "type": 14,
+          "typeName": "shop_mage_spells",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Spragin's Spells",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "iden",
+            "item"
+          ],
+          "type": 19,
+          "typeName": "identify",
+          "extras": [
+            15,
+            0,
+            0,
+            0
+          ],
+          "str1": "After a bit of thought, he casts a spell. _Excellent,_ he says. _My head now contains a variety of relevant, item related information. Each segment of it will cost 15 gold. What do you wish to know about?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rese"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He sighs. _I am working on the puzzle of the ages ... a way to modify the spell Magic Map so it works outdoors. Many have cried for such a wondrous thing, and yet it is still in coming. Perhaps one day ..._ His voice trails off.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "slot": 1,
+      "title": "Grassi",
+      "look": "You stumble over a small, middle-aged man, who is sitting concealed behind a clump of trees. He looks panicked at first, but relaxes after looking you over for a moment.",
+      "name": "_I'm Grassi. Move in, quick! Don't let anyone see you!_",
+      "job": "_I'm an alchemist. I study alchemy. Be careful!_ He motions for you to join him behind the trees. _You can't be too careful!_",
+      "dunno": "He looks nervous. _Are we allowed to talk about that?_",
+      "nodes": [
+        {
+          "keywords": [
+            "alch"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's hard to do any new research when concealed back here, I admit, but you can't be too careful. It's a pity, too. I had come up with some excellent recipes involving graymold!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "care",
+            "conc"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks somber, and shrinks further back into the bushes. _Well, there's the troglodytes, of course. What's worse, there's Mayor Knight._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "reci",
+            "gray"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes! I can teach how to make excellent potions for the healing of wounds and the curing of poison, using only graymold! Would you care to purchase this knowledge?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "teac"
+          ],
+          "type": 16,
+          "typeName": "shop_alchemy",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Grassi's Alchemy",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mayo",
+            "knig"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We've not heard anything from the Empire for months! Knight is using the opportunity to take total control of the town. He and his flunkies punish anyone who questions them!_",
+          "str2": "_Can you blame me for just thinking back here, out of the way?_"
+        },
+        {
+          "keywords": [
+            "trog"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            8,
+            0,
+            0
+          ],
+          "str1": "_Troglodyte patrols hit town all the time. Their mages hit us with Shockwaves, and cast spells so their fighters can fly in and cause all sorts of havoc! That's why I just hide. Wouldn't you?_",
+          "str2": "_Well, they say that the troglodytes aren't a problem anymore, now that they're fighting the giants. But they still attack here sometimes! Who can blame me for being nervous?_"
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "slot": 2,
+      "title": "Grove",
+      "look": "The man behind the counter is not at all your ordinary, muscle-bound blacksmith. In fact, he's a rather bland looking mage. He's holding a steel broadsword and looking at it with a practiced eye.",
+      "name": "He mumbles a few words of a spell and runs his fingers over the blade of the weapon he's holding. The metal glows red hot for a moment. The man looks up at you. _Welcome. I am known as Grove._",
+      "job": "_Well, I have a variety of high quality weapons available. You can sell me your excess goods if you wish. But my customers most value me for my magical skills._",
+      "dunno": "_Sorry. Can't help you._",
+      "nodes": [
+        {
+          "keywords": [
+            "weap",
+            "purc"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Grove's Weaponry",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Grove looks over your supplies. _Well, some of this is not in my usual line, but these days you can sell just about anything._ He makes you offers.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "magi",
+            "skil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Why, yes! I believe that one day all blacksmithing will not be done with crude bashing by hammers, but with spells. Magic is a very versatile and beneficial tool, no matter what the Anama say._",
+          "str2": "_In fact, for a fee, I can augment your weapons. I can fill them with energy, which you can then unleash in the form of flames. Interested?_"
+        },
+        {
+          "keywords": [
+            "anam"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He shakes his head in disgust. _I don't speak of them any more than I have to._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "augm"
+          ],
+          "type": 20,
+          "typeName": "enchant",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks over your weapons. _Excellent! I can put this energy into any identified, non-magical weapon which some lesser smith has not yet augmented._ He gives prices for the weapons he can improve.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "slot": 3,
+      "title": "Quinn",
+      "look": "The owner of the inn looks like someone who is young, but who has been rapidly aged by circumstances. She looks glad to see a customer.",
+      "name": "_I'm Quinn,_ she says.",
+      "job": "_I run this inn, and let me tell you, it's one trial or tribulation after another, if you care, which you don't. But look. We have a reasonably safe room for 10 gold. We have rounds of beer for 2 gold, and fine bourbon for 12. I recommend the bourbon._",
+      "dunno": "She shrugs.",
+      "nodes": [
+        {
+          "keywords": [
+            "tria",
+            "trib"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            130,
+            2,
+            0,
+            0
+          ],
+          "str1": "_Well, the troglos use spells to move their ambushers into town, and guess what building tends to be the first they hit! That's right ... my inn._ She shakes her head. _It's one continuous bother, let me tell you._",
+          "str2": "She looks quite upset. _We got really hit a few days ago. Demolished half my rooms, and killed Ehrenfeld, my only paying customer!_"
+        },
+        {
+          "keywords": [
+            "safe",
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            10,
+            4,
+            0,
+            0
+          ],
+          "str1": "She shows you to a room. _Oh, by the way. It's perfectly safe. But you should keep your sword nearby, just in case._",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "beer",
+            "roun"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "She serves you some beer. It's weak and unpleasant. She says _Sorry about the beer. It's pretty bad. My regular brewer got killed. Now the bourbon ... it's excellent!_",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "fine",
+            "bour"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            12,
+            0,
+            0,
+            0
+          ],
+          "str1": "She pours you several shots of strong liquor. The stuff hurts even your toughened throats. She leans close to you. _By the way, I've been hearing some intriguing rumors about a certain artifact. My knowledge will only cost 100 gold._",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "ehre"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He was in his room resting, and a few troglo firestorms caved in the whole corner of the inn. We barely got the fire out as it was. Now, how am I supposed to run an inn with all the troglos about!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trog"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I tell you, it's the people running this dump! They ..._ She stops herself, and suddenly looks around to see who's listening. Worried, she says _Sorry. Forgot myself for a moment. Care for some bourbon? A round's only 12 gold._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rumo",
+            "know"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            100,
+            0,
+            0,
+            0
+          ],
+          "str1": "She gladly takes the money. _Thanks! There was this trooper named Masok, out of Angel's Rest, in here the other day. When drunk, I heard him mention something about a halberd, the best ever made, and how he could find it. Can't hurt to ask him about it!_",
+          "str2": "_Sorry,_ she says. _A hundred gold, and not one less._"
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "slot": 4,
+      "title": "Ginny",
+      "look": "You meet a very pretty young woman, busy chopping garlic. The counter is covered with delicious looking food.",
+      "name": "_I'm Ginny! Welcome to my shop._",
+      "job": "She indicates the counter in front of you. _Doesn't all of this look good? It all can be yours! I have all sorts of food for sale._ She smiles. _It's nice to have customers. It's been lonely lately._",
+      "dunno": "She smiles apologetically.",
+      "nodes": [
+        {
+          "keywords": [
+            "food",
+            "purc"
+          ],
+          "type": 11,
+          "typeName": "shop_food",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Ginny's Rations",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "cust",
+            "lone"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_With all the monsters about, the merchants I always talked to don't come through much anymore. I talk to the townspeople, but some of them are, well, ungrateful._ She looks irked as she says it.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ungr",
+            "ring"
+          ],
+          "type": 144,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 144,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sloa",
+            "lost"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            9,
+            9,
+            1,
+            0
+          ],
+          "str1": "_Sloan's one of the town archers, and he's very, very good and handsome! I was fond of him. Once. But then I gave him my ring, a family heirloom, for luck, and he loses it! I wish someone would make that meanie return it!_",
+          "str2": "She sighs. _The oaf still hasn't been in to see me yet, now that all of this has been settled._ She pouts, then smiles again. _Oh well! It can't be too long!_"
+        },
+        {
+          "keywords": [
+            "mean",
+            "retu"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I mean, he came in, apologized, said the ring was gone, and left! Just like that! And I haven't seen him since! What sort of way is that for a gentleman to act?_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "slot": 5,
+      "title": "Ehrenfeld",
+      "look": "A man sits at one of the inn's tables. The table has several shields on it, and the man is polishing one of them.",
+      "name": "_I'm Ehrenfeld._",
+      "job": "_Well, my shop was destroyed in a troglo raid, so I have to run my business here for now. Care to see my wares?_",
+      "dunno": "_Can't help you._",
+      "nodes": [
+        {
+          "keywords": [
+            "trog",
+            "raid"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Those vermin! I hope we wipe them out again._ He thinks. _Oh well. I almost have the money to rebuild my shop together, and at least I have my health!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "busi",
+            "ware"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He runs off to his hotel room, and returns shortly with a few pieces of armor. _Here we are! My shop is gone, but my goods are as high quality as ever! Care to make a purchase?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 5,
+          "typeName": "shop_armor",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Ehrenfeld's Armor",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "slot": 6,
+      "title": "Sean",
+      "look": "This mage is practically ready to stumble into you. It's obviously been quite some time since he's slept.",
+      "name": "_Sean,_ he mumbles.",
+      "job": "He stares off into space for a minute or so while trying to formulate an answer. Finally, he says _Maintain the barriers._",
+      "dunno": "_Can't help you._",
+      "nodes": [
+        {
+          "keywords": [
+            "main",
+            "barr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Troglos keep knocking down walls. We make magic barriers to plug holes. They dispel barriers. Big pain, those dispel spells._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "disp",
+            "spel"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He teeters a bit. _Dispelling Barriers rare and powerful spell. Anyone knowing it can mess up our defenses. You want to learn?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "lear"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, forget it. We don't teach it. Though Mayor Knight might hire you, if you spoke to him._ He almost falls over right in front of you.",
+          "str2": "_Bye. Going to bed. If I can._ He stumbles off."
+        }
+      ]
+    },
+    {
+      "id": 248,
+      "slot": 7,
+      "title": "Sloan",
+      "look": "You meet one of the Empire's archers. Empire archers tend to be the most skilled and lethal known, and this one looks to be no exception. However, he also looks somewhat depressed.",
+      "name": "_I'm Sloan._ He doesn't look pleased that you're talking to him.",
+      "job": "_I ... I ... Wait a minute! I don't have to talk to you! I have enough problems._",
+      "dunno": "_Sorry. Were you saying something._",
+      "nodes": [
+        {
+          "keywords": [
+            "enou",
+            "prob"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            9,
+            9,
+            1,
+            0
+          ],
+          "str1": "_Hey! Even if I wanted to talk to you, which I don't, these days it's not too smart being seen talking to Exiles. So buzz off!_",
+          "str2": "_Look, I really appreciate what you did with the ring and all. It's just that I don't think it's safe or prudent for me, an Empire soldier, to be seen talking to Exiles. Sorry. It's just the way it is._"
+        },
+        {
+          "keywords": [
+            "exil"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_That's right. Everyone knows there's Exiles about, and everyone knows about you in particular. If the Empire ever sent representatives down here anymore, you'd be arrested for sure!_",
+          "str2": "_But for now, I don't want to be seen talking to you. Good day!_ He tromps off."
+        },
+        {
+          "keywords": [
+            "ring",
+            "ginn"
+          ],
+          "type": 145,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 145,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 249,
+      "slot": 8,
+      "title": "Sloan",
+      "look": "You meet one of the Empire's elite archers. They are reputed to be able to put an arrow into anything, at any distance, but it seems the only thing this fellow wants an arrow put into is himself.",
+      "name": "_Sloan,_ he says, barely seeming to notice you.",
+      "job": "_I doesn't matter._",
+      "dunno": "He doesn't say anything. He only looks upset.",
+      "nodes": [
+        {
+          "keywords": [
+            "does",
+            "matt"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I ... I ..._ He turns to look at you, and starts to speak in an increasingly shrill voice. _You Exiles probably think we Empire people are just mindless clods, eh? Well, the troglos just killed my ..._ He takes a moment to regain control._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trog",
+            "kill"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There was a woman I loved. I lost something she owned. It drove us apart. And before anything could be done, she died in a raid. I've heard of you. I have a request._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "requ"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire's abandoned us. Our leaders are fools. You're the only people who've done anything about the monsters! Everyone knows it!_",
+          "str2": "_I want the troglos dead, you hear me! Every last one of them! Dead! Do for us what you've done for others! Kill them all!_ The last part comes out in a scream, People start to stare. Embarrassed, he turns away."
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "slot": 9,
+      "title": "Najib",
+      "look": "This man, wearing the sash and insignia of a mayor of the Empire, sits here drinking ale. Lots of it.",
+      "name": "_I am known an Najib. That's Mayor Najib._ He belches.",
+      "job": "He laughs. _I'm planning strategy! What do you think I'm doing?_ He takes a long swig of ale.",
+      "dunno": "He shakes his head.",
+      "nodes": [
+        {
+          "keywords": [
+            "plan",
+            "stra"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            146,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah. Planning how to hold off endless troglos with almost no troops and no reinforcements. How to do anything when the Empire has quarantined the area._",
+          "str2": "_Yeah. Now that the trogs destroyed Aminro and put me out of a job, and the Empire is nowhere to be seen, I'm trying to figure out how to deal with the madmen in Sharimik._"
+        },
+        {
+          "keywords": [
+            "trog"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            8,
+            0,
+            0
+          ],
+          "str1": "_They breed like bunnies, and they're smart and fierce and ruthless. Like nothing we've ever fought before!_ He drinks more.",
+          "str2": "_The troglos are still out there. They're fighting the giants. But they'll be back!_"
+        },
+        {
+          "keywords": [
+            "empi",
+            "quar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Bet you hadn't heard about that! The Keep of Tinraya's been destroyed by monsters! Totally. The Empire has shut us all off to die, to keep the monsters from spreading._ He takes a long swig of ale. ",
+          "str2": "_And that's why I drink._"
+        },
+        {
+          "keywords": [
+            "keep",
+            "tinr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_That's right. The biggest, strongest city in Valorim is now just a smoking hole. Sobering, eh?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "madm",
+            "shar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He finishes his beer and calls for two more. _Mayor Knight's turning this into his own little fiefdom, and has the support to do it. Nobody gets anything without licking his boots. And the troglos move on._",
+          "str2": "He drinks more. _And people wonder why I spend most of my time these days drunk._"
+        }
+      ]
+    }
+  ]
+}

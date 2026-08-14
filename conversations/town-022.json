@@ -1,0 +1,856 @@
+{
+  "talkRecord": 22,
+  "townId": 22,
+  "personalityBase": 221,
+  "label": "Dana, Valentino, Kawas, Gebra Person, Anzovin, Laika",
+  "people": [
+    {
+      "id": 221,
+      "slot": 0,
+      "title": "Dana",
+      "look": "You meet an aging female merchant, wearing fine jewelry and rich clothes. She looks on edge.",
+      "name": "She shakes your hand. _I am Dana._",
+      "job": "_Well, I run shipping up and down the east coast. Right now, we're looking for couriers._",
+      "dunno": "_I can't help with that._",
+      "nodes": [
+        {
+          "keywords": [
+            "east",
+            "coas"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_From here up to Squiggus, and beyond._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "look",
+            "cour"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. We need supplies run up to Squiggus. You can purchase bundles here, and carry them up there. They'll pay you handsomely for them._",
+          "str2": "_It's been very hard to get couriers lately, alas. There's been some monster troubles._"
+        },
+        {
+          "keywords": [
+            "mons",
+            "trou"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks annoyed, but not at you. _You should ask Mayor Runkle. He's next door. He's been useless for dealing with the problem, but at least he may be able to explain it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "bund"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "str1": "Supplies for Squiggus",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "slot": 1,
+      "title": "Valentino",
+      "look": "A tall, thin, twitchy man is sitting behind the counter. He's using a rag to energetically polish what looks, to you, like a shard of broken glass.",
+      "name": "He stands up. _Ah! Welcome to you, stout travelers! I am Valentino! Welcome to my shop!_ He sits back down.",
+      "job": "He's very pleased you asked. _Why, I collect and distribute all manner of wondrous items! Here is how the process works! You sell me the excess crud you don't want. I hike the price, and make it available to others for purchase. Elegant, eh?_",
+      "dunno": "_Whatever do you mean?_",
+      "nodes": [
+        {
+          "keywords": [
+            "wond",
+            "item"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Wondrous items. And, of course, a lot of garbage._ He shrugs.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He lurches forward to look over your equipment. He makes offers on everything identified.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "othe"
+          ],
+          "type": 17,
+          "typeName": "shop_misc",
+          "extras": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "str1": "Valentino's Items",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "eleg"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_At least, I like to think so!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "slot": 2,
+      "title": "Kawas",
+      "look": "You meet a sour faced little man in monk's robes.",
+      "name": "_I am Kawas._",
+      "job": "He looks at you coldly. _I am in charge of welcoming people to Gebra._",
+      "dunno": "_I can't help with that._",
+      "nodes": [
+        {
+          "keywords": [
+            "gebr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A quiet, uninteresting town. Perhaps you should return to Storm Port. It's much more interesting there._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "welc",
+            "peop"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I tell people all the things Gebra has to offer._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "thin",
+            "offe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks at you blankly. _Hmm. Come to think of it, we don't have anything to offer. Just some crops. And dull people. Fortunately, it's very easy to return to Storm Port. Why don't you?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stor",
+            "port"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He graces you with an icy smile. _It's a lovely town, with much to offer, and only a short boat ride away too! I'm sure you would find it much more interesting!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 224,
+      "slot": 3,
+      "title": "Gebra Person",
+      "look": "You meet one of Gebra's citizens. Odd. Most people you've met in Valorim aren't this thin or haggard looking.",
+      "name": "The person is quite quiet for a few moments, as if having trouble figuring out exactly what you asked. Finally, _I am ... a Gebran._",
+      "job": "You wait while the question percolates through the townperson's brain. _I ... I farm._",
+      "dunno": "You get a blank stare.",
+      "nodes": [
+        {
+          "keywords": [
+            "farm"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Farm. Yes, farm. For food._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "food"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Another long, confused pause. _Food. Yes. That is what I farm for. And I am busy._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "busy"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. Food. Farm._ The person vacantly wanders off.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "slot": 4,
+      "title": "Anzovin",
+      "look": "This man might have once been rather imposing and sinister looking. His robes are faded, however, and his hair is graying. He seems very pleased to have a visitor.",
+      "name": "_I am Anzovin. Welcome to my shrine!_",
+      "job": "_I rule this temple, the Temple of the Surging Darkness!_ He emits a laugh that was intended to sound sinister, but sounds rather asthmatic instead. You notice the temple is looking rather run down, and the walls are cracked.",
+      "dunno": "_Fine, ask your meaningless questions now. But remember ... one day I will RULE the WORLD!_",
+      "nodes": [
+        {
+          "keywords": [
+            "surg",
+            "dark"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grins evilly. _Yes, puny mortals! We believe the darker powers are waiting for cruel forces to rise among the humans!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "crue",
+            "forc"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes! These cruel forces will be imbued by mighty energy by those unholy powers, and from there we, umm ... that is to say, they will rise up, and RULE the WORLD!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rule",
+            "worl"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes!_ He laughs sinisterly, turns to the altar, and notices that it's looking very cracked and shabby indeed. He turns back to you, looking embarrassed.",
+          "str2": "_Sorry about that. This was all a lot more impressive before the storms._"
+        },
+        {
+          "keywords": [
+            "impr",
+            "stor"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah. We got hit by serious storms about a year back. Building fell over. Some people died. Most people left. I had a shrine, and that's better than nothing, so I stayed. I gather herbs. And make a few undead to relieve the tedium._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "shri",
+            "noth"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He stands up straight and tall. _Yes! And one day, puny mortal, people will return and join me, and the dark powers will notice us and imbue us with dark energy, and we will RULE the WORLD! We will rend this puny globe in twain!_",
+          "str2": "Then he slouches again. _Sorry, get a little carried away sometimes._"
+        },
+        {
+          "keywords": [
+            "make",
+            "unde"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well? Wouldn't you?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gath",
+            "herb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes! There's good alchemical herbs on this island._ He thinks. _Care to purchase some?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Anzovin's Herbs",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "slot": 5,
+      "title": "Laika",
+      "look": "A beggarwoman kneels by the docks. In addition to an alms bowl, she holds a roll of tickets.",
+      "name": "_I am Laika._",
+      "job": "She sneezes and wipes her nose on her sleeve. _Well, I'm a beggar, really. But lately I've been more of a saleswoman._",
+      "dunno": "She shakes her head.",
+      "nodes": [
+        {
+          "keywords": [
+            "begg",
+            "sale"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You can purchase tickets to the city of Gebra from me. Only 12 gold ... 10 for the ticket plus a 2 gold service charge._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "serv",
+            "char"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes, a service charge, also known as a 'Keep the poor beggarwoman from starving to death charge.'_ Seems reasonable enough, when put like that.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "tick"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            12,
+            143,
+            9,
+            0
+          ],
+          "str1": "She takes your money and hands you your tickets. You notice 3 gold, not 2, ends up in her bowl. She then says _Donate a gold to the cause, kind adventurers?_",
+          "str2": "She shakes her head. _Alas, I must insist on the 12 gold._"
+        },
+        {
+          "keywords": [
+            "gold",
+            "caus"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "str1": "You hand her another coin. She says _Watch yourselves on Gebra, unless you're well equipped to defend yourselves. They're a weird lot, and not everyone who goes there comes back, if you get my meanin'._",
+          "str2": "_Good gods, lads! You're poorer than me!_"
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "slot": 6,
+      "title": "Esselarea",
+      "look": "You meet a dryad, a beautiful, feminine creature of the woods with greenish hair and skin. She isn't as peaceful and carefree as you've heard these creatures are, however. She is distraught, and has been crying.",
+      "name": "_I am Esselarea,_ she says, in a voice choked with grief.",
+      "job": "_I am trying to regain my grove!_ Fresh tears begin to run down her face.",
+      "dunno": "She looks sad. _Please. I can't think about that when my grove is in danger._",
+      "nodes": [
+        {
+          "keywords": [
+            "rega",
+            "grov"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She stamps her foot in fury. _A fierce ogre snuck in, and scared me out! A dryad's grove is her life. I'm trying to figure out how to remove it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ogre",
+            "remo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A horrid beast, the biggest I've ever seen. It's in there now, burning my trees and killing my pets. Oh, how I'd reward someone who slew it!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "tree",
+            "pets"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I feel the death of every tree and every animal. If something isn't done to the ogre soon, I'll be done for!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rewa",
+            "slew"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Her tears dry up, replaced by a furious gaze. _The ogre stole some of my trinkets. Whoever slew it could have them. But there's a problem._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trin"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Gold. Magic items. That sort of thing._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "prob"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_One of you can enter my glade to the east. But only one of you. The defense of my glade are working against me now. Only one outsider can enter. That was how that one ogre got in._",
+          "str2": "_Please please please, will one of you accept this quest?_"
+        },
+        {
+          "keywords": [
+            "acce",
+            "ques"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_If you do, just go through the trees to the northeast. My hopes go with you!_ She blushes, and then starts to cry again.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "slot": 7,
+      "title": "First Gremlin",
+      "look": "A nasty little gremlin is grinning at you.",
+      "name": "_I'm a gremlin! What use do I have for names!_",
+      "job": "It gives you a toothy little grin. _I should be helping you get further into the grove!_",
+      "dunno": "It looks amused.",
+      "nodes": [
+        {
+          "keywords": [
+            "help",
+            "grov"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_But just being helpful wouldn't be very gremlinish, now, would it?_ It emits a little high-pitched laugh. _Tell you what ... I'll help you if you can answer my riddle._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "answ",
+            "ridd"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have a thousand little knives, my hands are red and white. You can give them to your maid, to make things turn out right. What am I?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "flow"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Not quite._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rose"
+          ],
+          "type": 138,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 138,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "slot": 8,
+      "title": "Second Gremlin",
+      "look": "An unusually tall gremlin, a full 3 feet, has been waiting for you.",
+      "name": "It says _1234._ You aren't sure why.",
+      "job": "_6789. 2345._ You aren't sure why it's saying this.",
+      "dunno": "_4567?_",
+      "nodes": [
+        {
+          "keywords": [
+            "1234",
+            "3456"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_4567. 2345!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "2345"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It looks offended. _4567!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "4567",
+            "6789"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_1234! 1234!_ It pauses. _2345._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "5678"
+          ],
+          "type": 139,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 139,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "7890"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It looks intrigued. _5678?_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "slot": 9,
+      "title": "Third Gremlin",
+      "look": "A gremlin looks at you enigmatically.",
+      "name": "_I don't have a name. But at least my name isn't a number!_",
+      "job": "_I'm here to help you rescue the grove._",
+      "dunno": "It looks amused.",
+      "nodes": [
+        {
+          "keywords": [
+            "numb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_One of the gremlins in the grove only talks in numbers! What an idiot!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "resc",
+            "grov"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yep. Of course, I'm a gremlin. I don't want to be too useful. I can give you a hint, though!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hint"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It grins enigmatically, and points due north.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "grem",
+            "usef"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It laughs. _We're just not friendly creatures!_ It kicks you in the shin, just to punctuate the point.",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

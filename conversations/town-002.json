@@ -1,0 +1,1088 @@
+{
+  "talkRecord": 2,
+  "townId": 2,
+  "personalityBase": 21,
+  "label": "Levy, Marian, Ko, Captain Johnson, Elisa, Gordon",
+  "people": [
+    {
+      "id": 21,
+      "slot": 0,
+      "title": "Levy",
+      "look": "A pale Exile, impeccably dressed and hair neatly cut, waits behind the counter. As you approach, he checks his notes.",
+      "name": "_I am Levy. How may I help you?_",
+      "job": "_I am in charge of making allowances for those in Exile's employ. I also provide rewards for those who perform exceptional services._ He smiles. _In addition, I've been given a very valuable stewardship._",
+      "dunno": "Levy looks confused.",
+      "nodes": [
+        {
+          "keywords": [
+            "allo",
+            "empl"
+          ],
+          "type": 100,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 100,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rewa",
+            "serv"
+          ],
+          "type": 101,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 101,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "valu",
+            "stew"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            6,
+            0,
+            0
+          ],
+          "str1": "He gives a small, smug smile. _I am entrusted with the guardianship of Thralni's Sphere._",
+          "str2": "He looks somewhat ill. _I was entrusted with the guardianship of Thralni's Sphere. Then it was stolen._"
+        },
+        {
+          "keywords": [
+            "thra",
+            "sphe"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            6,
+            0,
+            0
+          ],
+          "str1": "_An irreplaceable and ancient artifact. It gives its possessor the power of flight._ He flashes you another small, tight smile. _If you ever need to borrow it, be sure to give me a request._",
+          "str2": "_The only artifact known to give the power of flight. Gone now._"
+        },
+        {
+          "keywords": [
+            "borr",
+            "requ"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He smiles smugly. _Request denied. Perhaps if you try again later ..._ You resist the urge to punch him.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stol",
+            "gone"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            6,
+            0,
+            0
+          ],
+          "str1": "_What do you mean?_",
+          "str2": "_There was an explosion in the middle of the night. We went to the orb's vault, and it was ravaged and empty. There was no way anyone could have snuck in. We think the thieves teleported in!_"
+        },
+        {
+          "keywords": [
+            "thie",
+            "tele"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            6,
+            2,
+            0
+          ],
+          "str1": "_It's the only way they could have entered. Fortunately, Seles, Exile's best teleportation expert, came here to investigate, and she agreed with this guess. She said that anyone interested in tracking the thieves should go see her._",
+          "str2": "_Doesn't matter, now that you recovered it. Well done. We've authorized you to keep it. Use it well._"
+        },
+        {
+          "keywords": [
+            "sele",
+            "expe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_She lives at the Portal Keep. She might help someone recover the orb._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "slot": 1,
+      "title": "Marian",
+      "look": "You meet a small, heavy-set woman with a friendly attitude and radiant smile. She wears long, well-cared for robes.",
+      "name": "She shakes your hands. _I'm Marian. Hi there!_",
+      "job": "_Well, let's see. I was doing research in Motrax's Cave, but everything up here seemed more important, so I came to Fort Emergence to help out._",
+      "dunno": "_Sorry, pal. Can't help you there._",
+      "nodes": [
+        {
+          "keywords": [
+            "rese",
+            "motr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She grows sad. _Yes. Poor old Motrax. There were five dragons in Exile, and Motrax was the oldest and kindest. In the Empire War a band of those bastards tried to slay him. The wounds he received killed him after a long illness._",
+          "str2": "_After that, the place had too many sad memories for us. I mean me and the captain over there._"
+        },
+        {
+          "keywords": [
+            "fort",
+            "emer"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It takes a lot of time and work to bring people up from the underworld, and it's frightening being so close to the Empire. That's why we're so shorthanded now, and why it's so important to have volunteers come._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "seem",
+            "impo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You know, this whole finally retaking the surface thing._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "help"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I look after the supplies. It's dull, and the pay stinks, but I'm closer to the surface than I ever thought I'd be able to be._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "surf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The surface! Finally! Seems like a dream come true._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "capt"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Captain Ko. He's somewhere around here. He's a, shall we say, rather good friend of mine._ She grins.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "slot": 2,
+      "title": "Ko",
+      "look": "You meet a Captain of the Exile army. He's very thin, somewhat hyper, and undeniably friendly.",
+      "name": "_I'm Ko. ... Ummm ... Captain Ko. ... Oh, just Ko. Greetings!_ He shakes your hands vigorously.",
+      "job": "_Well, not much in the way of fighting. I just help Marian with the supplies._",
+      "dunno": "Ko fidgets uncomfortably.",
+      "nodes": [
+        {
+          "keywords": [
+            "figh"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There may be fighting someday, but we're hoping to avoid it for a while. There are nowhere near enough troops here to have a chance against the Empire._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mari"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We came up here together. We're sort of inseparable, you know._ He grins happily and rocks on the balls of his feet.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "supp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yep. It takes a lot to feed an army, after all. By the way, you the lot that's going up to the surface? If so, the stuff in the side supply room is for you. Help yourselves!_",
+          "str2": "_It's also there for your storage use._"
+        },
+        {
+          "keywords": [
+            "stor"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_If you have too much stuff, leave the excess in the side storeroom. We'll watch it to make sure nothing happens to it._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "slot": 3,
+      "title": "Captain Johnson",
+      "look": "You meet a gaunt, severe man. His armor bears the insignia of a commander. He has a regal bearing, but cruel eyes.",
+      "name": "He looks at you coldly. _I am Commander Johnson._",
+      "job": "_I command all soldiers in this fortress._",
+      "dunno": "Commander Johnson looks annoyed. _What are you talking about?_",
+      "nodes": [
+        {
+          "keywords": [
+            "comm",
+            "sold"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. I command soldiers. Which you aren't. Someday, we're going to have to slay all those Empire bastards, and when they do, it'll be the soldiers who do the work._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "slay",
+            "bast"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes, that's right. Slay all of them. And you and your other 'Unspecified Services' wastes of air will be no good to anybody._ ",
+          "str2": "_It's your turn now. But someday, it'll be up to the men. Not the kids. So go away._ He looks away."
+        },
+        {
+          "keywords": [
+            "bunk"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks startled. _Who told you about that?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sand"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            0,
+            42,
+            1,
+            0
+          ],
+          "str1": "He looks furious. _Damn her! All right. The bunker is in New Cotra. To enter it, walk up to the center of the east side, and say 'Galros.' Now get away from me._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "slot": 4,
+      "title": "Elisa",
+      "look": "A old, small, very round woman stirs a pot of savory lizard stew. She is surrounded with enough kitchen implements and supplies to feed an army, which is, you suppose, her job.",
+      "name": "_Welcome, children. I am Elise._",
+      "job": "_I provide hot meals to all my children. I also, if asked very nicely, provide rations for troopers going out on trips._",
+      "dunno": "She smiles, and says nothing.",
+      "nodes": [
+        {
+          "keywords": [
+            "meal",
+            "chil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Once I had children of my own, but they grew up and left. After that, I had the skills to cook for a horde, but no horde to cook for._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "troo",
+            "rati"
+          ],
+          "type": 102,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 102,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hord"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Now I cook for a somewhat older horde. Exile troops eat a lot, but not much more than my nine kids did!_ She chuckles at that. She seems like she's about to tell you a story about her family, and then thinks better of it.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "slot": 5,
+      "title": "Gordon",
+      "look": "You meet a young, scrawny man with short, sandy brown hair. He bows respectfully to you as you approach.",
+      "name": "_Greeting, adventurers! I am Gordon._",
+      "job": "_Well, I'm sort of the servant for the guest quarters. I sort of keep everything clean, prepare meals, that sort of thing._",
+      "dunno": "Gordon looks confused.",
+      "nodes": [
+        {
+          "keywords": [
+            "serv",
+            "clea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, when important guests such as yourselves come, they expect to be treated well, and with as much luxury as we can summon, and that sort of thing. Unfortunately, there's one problem._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "meal"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks nervous. _Ummm, there's a bit of a problem with that. The fort is sort of not entirely ready, and I don't have the supplies up here to cook yet. Perhaps if you went to see Elisa?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "elis"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_She runs the main kitchen, in the southwest corner. She gives lots of food to anyone who asks!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "impo",
+            "gues"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks at you as if you were terribly important people. _You're the most important guests we've had yet! Why, you're going to be the first explorers to seriously look around on the surface!_",
+          "str2": "He says, without irony, _I really envy you._"
+        },
+        {
+          "keywords": [
+            "surf",
+            "envy"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_To go out on the surface! What I would give to be you! Be sure to come back and tell me what it's like!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "prob"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, we're trying to get the fort ready for all the troops that will eventually be here. Unfortunately, we're not totally ready yet._ He looks scared.",
+          "str2": "_Please don't try to get me into trouble! It's not my fault if anything goes wrong! I just sweep!_"
+        },
+        {
+          "keywords": [
+            "swee"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grabs a broom and sweeps a little, by way of demonstration.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "slot": 6,
+      "title": "Yanmitho",
+      "look": "A young, lithe woman with dark skin moves lithely about the room, performing various martial exercises. A vicious looking curved sword is sheathed at her side. This person is clearly capable of being quite lethal.",
+      "name": "She walks over and gives you a stiff, sharp, not entirely respectful bow. _I am Yanmitho, the trainer for Fort Emergence._",
+      "job": "She looks at you with distaste. _I am here to train soldiers to the best of my ability. I can also train ... others._ She says 'others' with great disdain. You can't help but guess her contempt is aimed at you.",
+      "dunno": "Yanmitho looks impatient.",
+      "nodes": [
+        {
+          "keywords": [
+            "trai"
+          ],
+          "type": 9,
+          "typeName": "training",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sold"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I train all soldiers as best I can and do not expect the slightest compensation. I also have to train those who are, like you, from Unspecified Services._",
+          "str2": "_I am forced to train you, but nobody is forcing me to train you for free._ She give you a nasty smile."
+        },
+        {
+          "keywords": [
+            "othe",
+            "disd"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You work for Unspecified Services, do you not? I am not afraid to say I have little respect for your lot._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "unsp",
+            "serv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Unspecified Services! Pfaugh!_ She spits. _A ragtag band of untrained adventurers, amateur spies, and mixed hangers on. We soldiers train hard and die for our cause. You wander around aimlessly, and expect respect._",
+          "str2": "_And yet, King Micah gives the first contact with the surface to your undisciplined lot._ She spits again."
+        },
+        {
+          "keywords": [
+            "king",
+            "mica"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It is not to such as me to question the wisdom of my monarch._ She pauses and thinks. _Even if he is wrong._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "slot": 7,
+      "title": "Berra",
+      "look": "You meet a small, bent wizard, heavy with years. He is poring over a thick book, researching esoteric fields you could never begin to comprehend.",
+      "name": "He looks up at you. It is clear his mind is wandering in realms far away. He croaks _I am Berra._",
+      "job": "_I mainly concern myself with doing research. If only the facilities here were adequate._",
+      "dunno": "He grunts in confusion.",
+      "nodes": [
+        {
+          "keywords": [
+            "adeq",
+            "faci"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He croaks in irritation. _Now, if I was at the Tower of Magi, I would have all the tomes and materials I need! But here, I have little to work with._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rese"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            3,
+            0,
+            0
+          ],
+          "str1": "_Devising immensely powerful spells, communicating with beings beyond your comprehension, gaining absolute power. Nothing you could possibly understand. You're probably just here to waste my time._",
+          "str2": "He croaks angrily at you. _I'm supposed to fritter away my time analyzing any evidence you can provide to determine who is responsible for the devastation on the surface. If you have evidence, give it to me. Otherwise, go away._"
+        },
+        {
+          "keywords": [
+            "give",
+            "evid"
+          ],
+          "type": 103,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 103,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "deva",
+            "surf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_As if I care about any of that. Why can't they just leave me to my work?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "towe",
+            "magi"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            5,
+            0,
+            0
+          ],
+          "str1": "_The Tower of Magi, the center of magical learning in Exile. Oh, what I would give to be there! The research I could perform!_",
+          "str2": "He grunts in anger. _Eternal curses on that Linda! She destroyed the greatest center of learning in Exile, perhaps the world! Oh, the research I could be doing were it not for her. Hmmmph._"
+        },
+        {
+          "keywords": [
+            "wast",
+            "time"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He croaks angrily at you. _I'm supposed to fritter away my time analyzing any evidence you may provide to determine who is responsible for the devastation on the surface. So if you have evidence, give it to me, or go away._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "slot": 8,
+      "title": "Mazumdar",
+      "look": "This woman is quite young, probably in her mid-twenties. Yet, she radiates power well beyond her years. She levels a piercing gaze at you.",
+      "name": "_I am Mazumdar, Head Mage of Fort Emergence._",
+      "job": "_I coordinate all magical activities that take place in Fort Emergence._",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "coor"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Coordination is very important. If two mages attempt conflicting spells simultaneously ..._ She draws her finger across her throat in a slitting sort of motion.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "magi",
+            "acti"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This fort will eventually be used for experimentation, training, and launching magical spells against our foes._",
+          "str2": "_However, the Triad keeps us from being nearly as powerful as we could be._"
+        },
+        {
+          "keywords": [
+            "fort",
+            "emer"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This fort is still painfully understaffed. However, if we have our way, it will soon be a great center of magical power._ She grimaces. _That is, if the Triad allows it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "tria"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Triad consists of the three greatest mages of Exile. They are in charge of all things magical. Unfortunately, they tend to not want to let power out of their control._",
+          "str2": "_For that reason, our resources are nowhere near what they could be._ She grins. _With exceptions._"
+        },
+        {
+          "keywords": [
+            "reso",
+            "exce"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We are supposed to be training mages here. Yet, the Triad won't let us have the books to teach spells from._",
+          "str2": "She grins mischieviously. _However, we've managed to sneak a few things past them. We need those tomes, after all._"
+        },
+        {
+          "keywords": [
+            "snea",
+            "tome"
+          ],
+          "type": 104,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 104,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "slot": 9,
+      "title": "Eva",
+      "look": "This young mage's robes were probably clean this morning. Now, they have bits of fur and tiny clumps of dung on them.",
+      "name": "She curtsies, self-consciously brushing fur and such off her robe as she does so. _I'm Eva._",
+      "job": "_I'm here to research the flora and fauna of the surface world. We magically summon samples from the surface world, examine them in their cells, and teleport them back up._",
+      "dunno": "Eva shakes her head. _Never heard of it._",
+      "nodes": [
+        {
+          "keywords": [
+            "flor"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You know? Plants. If there's anything you've found of interest, ask me about it. Maybe I'll know something!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "faun"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You know? Animals. If there's anything you've found of interest, ask me about it. Maybe I'll know something!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "summ",
+            "tele"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's a difficult technique, but remember ... we need to stay hidden from the Empire as long as possible._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "cell"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There are some interesting samples in there right now. Please don't let them out._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "shee"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Very stupid surface meat creatures._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "wolf",
+            "bear"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Surface carnivores. They'll take a bite out of you if you get the chance._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "worg"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's a type of wolf, bred for huge size and ill temper._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ursa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The ursagi are a sort of intelligent, mutant bear. They're very evil. We captured one, and it almost picked the lock of its cell with its claw. It would have been a horrible mess if it had escaped!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "basi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Basilisks exist on the surface too. Beware them._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "roac",
+            "cock"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Cockroaches are small insect pests on the surface world. Giant evil roaches, however, are definitely an aberration._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trog",
+            "gian"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I tend to know more about animals. I know little of humanoids._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "slim"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They sound fascinating, but I know nothing of them._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "alie",
+            "beas"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks very concerned. _I have never heard of anything like they alien beasts. Alarming creatures. Pure malice._",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

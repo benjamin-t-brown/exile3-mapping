@@ -1,0 +1,831 @@
+{
+  "talkRecord": 31,
+  "townId": 31,
+  "personalityBase": 311,
+  "label": "Udell, Bohen-Ihrno, Abra, Athron, Khoth, Sulfras",
+  "people": [
+    {
+      "id": 311,
+      "slot": 0,
+      "title": "Udell",
+      "look": "This man is polishing a small statue when you come in. The shop is filled with all sorts of unusual and uninteresting items, from all over Valorim.",
+      "name": "_I'm Udell._",
+      "job": "_Welcome to Udell's Miscellany. We have things ships bring from all over. Sell me your stuff, and purchase new stuff to carry around!_",
+      "dunno": "He looks confused.",
+      "nodes": [
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He appraises your things, and makes offers on everything identified.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 17,
+          "typeName": "shop_misc",
+          "extras": [
+            3,
+            3,
+            0,
+            0
+          ],
+          "str1": "Udell's Stuff",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 312,
+      "slot": 1,
+      "title": "Bohen-Ihrno",
+      "look": "You meet a Vahnatai, carefully studying a book written on mica sheets. It's amazing - what's a Vahnatai doing up here?",
+      "name": "She stands, and bows elaborately to you. _I am being pleased to see you. I am named Bohen-Ihrno._ You know 'Ihrno' marks her as a wise person among her people.",
+      "job": "_I am being pleased you be having you here. We were knowing Exiles were up here, but were not expecting them to be visiting this site._ She has the odd syntax normal among Vahnatai.",
+      "dunno": "_I am not understanding._",
+      "nodes": [
+        {
+          "keywords": [
+            "exil",
+            "here"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We were having much pleasure in our allies returning to the surface. In fact, it was Exile spies who were detecting this site and reporting it to us so we could visit._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "visi",
+            "site"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It is being a great mystery. It is a Vahnatai ruin, but at the surface of the world, where our people are thought to have never been. It is greatly ancient, and greatly interesting._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "anci",
+            "inte"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We Vahnatai are always having great need to know of our ancestors. For them to have been here is one of the greatest things we may have been wanting to be knowing._",
+          "str2": "_Unfortunately, there is a problem, and if you will be helping us, perhaps you can be rewarded._"
+        },
+        {
+          "keywords": [
+            "help",
+            "rewa"
+          ],
+          "type": 162,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 162,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "depa"
+          ],
+          "type": 163,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 163,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 313,
+      "slot": 2,
+      "title": "Abra",
+      "look": "You meet a Vahnatai, very strange considering the rarely ever leave their deep caverns. He looks extremely ill, like being near the surface doesn't agree with him.",
+      "name": "He pants. _I am Abra._",
+      "job": "He looks up at you. His eyes are glazed over. _I and Bohen do missions for our people._",
+      "dunno": "_I am not understanding._",
+      "nodes": [
+        {
+          "keywords": [
+            "bohe",
+            "miss"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_For many years, she and I have been going from place to place, reviving sleeping Vahnatai, killing hydras, and such. But this mission has been being the worst._ He has the usual strange Vahnatai syntax when speaking, and his voice is weak.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "slee",
+            "vahn"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Every few centuries, we Vahnatai hibernate to let our caves replenish ourselves. A few years ago, our clans hibernation ended, and we went to help revive our people._",
+          "str2": "_In fact, a few humans aided us on one such occasion._"
+        },
+        {
+          "keywords": [
+            "slay",
+            "hydr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Hydras live in our caves, and are always being pests. Sometimes, they must be controlled._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "huma",
+            "occa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They were the first humans to be visiting our lands! It was being a great honor._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "miss",
+            "wors"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The surface is awful, no place for one of us. Worse, we want to find what is in these caves, but there are many monsters._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "surf",
+            "awfu"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The heat! The lack of pressure in the air! The oddness of the air. Every moment is a difficulty for us. We wish to return home._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "many",
+            "mons"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Vahnavoi and Hraithes, Vahnatai evil undead, who must have been in these ruins for the many centuries they have been here._",
+          "str2": "_We don't know who made this place, but we suspect it was for the imprisonment of dark souls. But we will not know without someone helping us._"
+        },
+        {
+          "keywords": [
+            "help",
+            "soul"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Speak to Bohen of that. We cannot fight the monsters ourselves, but you might._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 314,
+      "slot": 3,
+      "title": "Athron",
+      "look": "You stand before the legendary, secretive Athron. She is dark gray green, eighty feet from tip to tail, and completely lethal. She also looks undecided about whether to kill you or not.",
+      "name": "She snorts flame, and speaks in a voice deepened by centuries of life. _I am Athron._",
+      "job": "She idly gouges the floor with a claw two feet long. _I raise my brood, in peace._",
+      "dunno": "_Why do you waste my time?_",
+      "nodes": [
+        {
+          "keywords": [
+            "broo",
+            "peac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I am the first of my kind in a century to have children. However, circumstances force me to be protective._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "firs",
+            "chil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She smolders with anger, but not at you. _The Empire hunted and slew most of us. Few of those left are capable of breeding anymore. In my brood are many of the hopes of our race._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "circ",
+            "prot"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She snorts. _My siblings wish to do battle. I wish for our people to survive. Which is more important? That is why I wish to help fight the Alien Beasts._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sibl",
+            "batt"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire captured them both to use against the Exiles. They will not admit this to you, but it drives them to get revenge. I do not believe their revenge has began yet, but it will bring doom upon us for sure._",
+          "str2": "_We have enough trouble with the Alien Beasts._"
+        },
+        {
+          "keywords": [
+            "alie",
+            "beas"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She growls. _They are pests, who none can control. That is what Sulfras and Khoth say, anyway. They cannot control them. They wish them slain. I will assist in this. I will give you humans help again._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "assi",
+            "help"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            104,
+            3,
+            0,
+            0
+          ],
+          "str1": "_The Alien Beasts are malevolent and sly. I can slay them, but I fear they may still sneak in and take my broodlings. In the middle chest nearby, you can find metal which may make a weapon to kill them. That is all the help I can give._",
+          "str2": "_You took the metal. That is all the help I can give you. Good luck to you. I have little but contempt for humans, but you are the best of a wormy, weak lot._"
+        },
+        {
+          "keywords": [
+            "khot"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He is the most learned of our kind, but the Empire humans forced him to aid them in the war with your people, and the hatred that comes from that overpowers his mind._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sulf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Her strength even amazes me. The power of her muscles and her magic could rock this world. Yet, the Empire humans tricked and subdued her with amazing magic. Now that Garzahd is dead, however, none exist who can tame her._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire is the great enemy, but they must be treated cautiously. That is all I have to say on the subject._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "garz"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A human wizard, whose magic could almost equal a dragons. He tricked and ensnared Garzahd. Exiles killed him in the war._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hope",
+            "race"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Athron is an alien creature to you, centuries old, incredibly powerful, implacably reptilian. Yet, in her face, you can still recognize that most basic of emotions, the pure, simple pride of motherhood.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 315,
+      "slot": 4,
+      "title": "Khoth",
+      "look": "You encounter the dragon Khoth, one of the most learned and secretive members of dragonkind. He is reading a scroll, carefully holding it in his claws. You have to wait five minutes for him to finish it before he deigns to speak with you.",
+      "name": "His voice is raspy, and laced with contempt. _I am Khoth, humans._",
+      "job": "_I study and learn. And the rest of the time, I meditate on my hatred of humans._",
+      "dunno": "_I know of that, but will not speak of it._",
+      "nodes": [
+        {
+          "keywords": [
+            "stud",
+            "lear"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I know of worlds you cannot contemplate, and of facts of science so bizarre you cannot imagine. I can speak tongues thought lost to the Earth. A hundred human minds could not encompass all that I have forgotten._",
+          "str2": "_Sulfras has convinced me, however, that a little of this should be shared with you._"
+        },
+        {
+          "keywords": [
+            "hatr",
+            "huma"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I despise humankind, especially the clump of petty monkeys that calls itself the Empire. But this is all irrelevant. Sulfras has convinced me I must assist you in other matters, by sharing with you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "shar",
+            "assi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You may purchase a few spells from me. I am always eager to add to my trove. What is more, Sulfras wants me to help you with this Alien Beast problem._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trov"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He snorts a gout of fire. _Only a fool asks a dragon of his trove._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "desp",
+            "empi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "His eyes flash with fury. He inhales deeply. You prepare for the burst of flame, but, fortunately, it doesn't come. He calms down, and says _I choose not to speak of it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "alie",
+            "beas"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The humans are set upon from all sides by sinister beasts. We approve of this. It fills dragonkind with joy. However, one of these types of creatures, the alien beasts, brings me and my siblings much inconvenience._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sibl"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Athron and Sulfras are my siblings._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "atho",
+            "sulf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Athron is lost in the fuzzy headed joys of the brood. Sulfras is focused and powerful. And that is all you are allowed to know._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "inco"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Alien Beasts can be killed by us, but only with difficulty, and not before they do serious damage. We know you battle these monsters, and believe, with help, you can make the beast problem decrease._",
+          "str2": "_That is why there is a ritual Sulfras wishes me to teach you._"
+        },
+        {
+          "keywords": [
+            "ritu",
+            "teac"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Search my bookshelves. You will find what you need eventually. I have a tome which will teach you how to make a weapon to slay alien beasts, the culmination of months of thorough research on my part._",
+          "str2": "_Now go. I wish to waste no more time on mere humans._"
+        },
+        {
+          "keywords": [
+            "purc",
+            "spel"
+          ],
+          "type": 14,
+          "typeName": "shop_mage_spells",
+          "extras": [
+            6,
+            0,
+            0,
+            0
+          ],
+          "str1": "Khoth's Spells",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 316,
+      "slot": 5,
+      "title": "Sulfras",
+      "look": "You stand, quaking, before a specimen of the largest and mightiest species on the planet: a dragon. Sulfras, queen of lizardkind, towers before you, staring at you with ancient, fiery eyes. She breathes deeply, and the thick sulphurous gas makes you gag.",
+      "name": "_I am Sulfras._ Her words are slow and majestic, and when she speaks you can easily see her multitudes of massive teeth.",
+      "job": "_I lead the return of the dragons to the surface world. I have allowed you to enter so we can speak of important matters._",
+      "dunno": "_Speak clearly, fool!_",
+      "nodes": [
+        {
+          "keywords": [
+            "retu",
+            "surf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The foul humans of the Empire slew many of our kind, and dispersed the rest. I wish to lead our triumphant return to the surface, and to exact a grim vengeance on the Empire._",
+          "str2": "_This leads me, however, to the suspicions of the Exiles._"
+        },
+        {
+          "keywords": [
+            "drag"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Only three dragons are here: me, and my siblings, Athron and Khoth. There are more of us, though, and one by one I will bring them here._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "impo",
+            "matt"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_First, it has come to our attention that we have fallen under the suspicions of the Exiles. Second, we wish to enlist your help._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "susp",
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She emits a dry, flaming chuckle. _Some Exiles believe we have caused the plagues of monsters that beset the world. We did not. Our vengeance against the Empire has not yet begun._",
+          "str2": "_The enemy of our enemy is our friend. That is why we wish to reassure Exile. Also, we wish to enlist your help._"
+        },
+        {
+          "keywords": [
+            "athr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My sister, Athron, has recently had a brood of dragonlings, and is uninterested in our war._ She looks irritated. _Still, hopefully soon her paranoia will disperse and she will join the necessary struggle._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "khot"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Khoth's wisdom is infinite, and his hatred of the humans is almost as great as mine._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "veng",
+            "empi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She glares at you. _Do not ask._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hatr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She breathes a warning burst of flame. _You have not yet earned the right to ask our motives._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "enli",
+            "help"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We wish your aid in dealing with certain irksome pests._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "irks",
+            "pest"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            57,
+            9,
+            0,
+            0
+          ],
+          "str1": "_First, go to the northeast cave of my lair. Enter it, and deal with the pests within. When you have slain them, come back and ask me of them again._",
+          "str2": "_As you can see, these 'Alien Beasts,' as the humans call them, are mildly annoying. We know you fight the monsters. We have had difficulties with the beasts. I wish to make you a sword to exterminate them._"
+        },
+        {
+          "keywords": [
+            "swor",
+            "exte"
+          ],
+          "type": 164,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 164,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

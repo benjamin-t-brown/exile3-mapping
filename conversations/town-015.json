@@ -1,0 +1,843 @@
+{
+  "talkRecord": 15,
+  "townId": 15,
+  "personalityBase": 151,
+  "label": "Begbie, Renton, Mickie, Irvine, Boyle, Jed",
+  "people": [
+    {
+      "id": 151,
+      "slot": 0,
+      "title": "Begbie",
+      "look": "This man is well built and dangerous looking. His face has a dark, ferrety look to it, and he seems quite at home among all the weapons.",
+      "name": "_Ahm Begbie,_ he says. You can't quite place his accent.",
+      "job": "_Ah got weapons, ya daft sod! What else would I got? I run this shop with mah' mate Renton. Also, if you wanna' sell somethin', I'm your man._",
+      "dunno": "He grumbles indifferently.",
+      "nodes": [
+        {
+          "keywords": [
+            "purc",
+            "weap"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Begbie's Weaponry",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mate",
+            "rent"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            50,
+            1,
+            0,
+            0
+          ],
+          "str1": "_Across the way. Fine armors of all sorts, he got._",
+          "str2": "_Aye, but he's a bit under the weather, ya' see. I dinna' ken what happened to him. He's in hospital, now._ His accent makes it a bit difficult to piece together what he's saying."
+        },
+        {
+          "keywords": [
+            "hero",
+            "skag"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            152
+          ],
+          "str1": "_Who tol' you about that? Get outta' here!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "weat",
+            "hosp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He got the shakes, and all sorts of problems. Was them roaches, I bet, but what can ya' do?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 8,
+          "typeName": "sell_weapons",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks you over for weapons, and gives you offers.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "slot": 1,
+      "title": "Renton",
+      "look": "The man behind the counter is tall and thin, and has very short hair. He wears an Anama ring.",
+      "name": "_I'm Renton._",
+      "job": "_Oh, just trying to rebuild my life, ya' know. So I run this shop here. You can purchase armor here, finest quality, brought down from Gale._",
+      "dunno": "_I dinna' ken that._",
+      "nodes": [
+        {
+          "keywords": [
+            "rebu",
+            "life"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I'd rather not talk about it. Let's just say I got into the magic a little far, and was goin' funny in the head. The Anama helped me to a point where I could walk upright, and wasn't seeing stuff that wasn't there._",
+          "str2": "_Things aren't as interesting running a shop, but at least I'm sane. You know?_"
+        },
+        {
+          "keywords": [
+            "purc",
+            "armo"
+          ],
+          "type": 5,
+          "typeName": "shop_armor",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Renton's Armor",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gale"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_To the northeast, hundreds and hundreds of miles away. They make the finest armor in Valorim up there, and I got a bunch of it shipped here. You won't see it's like anywhere for miles and miles!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "slot": 2,
+      "title": "Mickie",
+      "look": "The tattoos and weathered skin on this woman mark her as one who's seen a lot of the sea. She cleans off the bar's counter with a dirty rag in a calloused hand.",
+      "name": "_I'm Mickie. You gonna' just gab or you gonna' get a drink?_",
+      "job": "_Well, for fine out-of-towners like yourself, we have the luxury suite. Only 10 gold. Plus, we have a fine amber ale on tap. You gents can purchase that for only 6 gold._",
+      "dunno": "She laughs. _What was that?_",
+      "nodes": [
+        {
+          "keywords": [
+            "luxu",
+            "suit"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            10,
+            3,
+            0,
+            0
+          ],
+          "str1": "_It's luxury, all right! No giant cockroaches been in there for a week!_ She shows you to your room. It's unpleasant, but basically sufficient._",
+          "str2": "_Oh yeah? And where's your 10 gold?_"
+        },
+        {
+          "keywords": [
+            "purc",
+            "ambe"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            6,
+            0,
+            0,
+            0
+          ],
+          "str1": "She serves up the unpleasant tasting, watered down, yellowish fluid. _Sorry we can't get anything better. The Anama make beer, but keep it all to themselves._ She thinks. _Of course, I do have a little bit of stronger stuff. Only 10 gold._",
+          "str2": "You don't have the money."
+        },
+        {
+          "keywords": [
+            "anam"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Buncha' weirdos if you ask me. My inn was here before they were. Losers._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stro",
+            "stuf"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            10,
+            0,
+            0,
+            0
+          ],
+          "str1": "She serves up some incredibly strong and intensely nasty grog. As you force it down, she says _By the way, want to be let in on a little secret? Only 20 gold._",
+          "str2": "You don't have the money."
+        },
+        {
+          "keywords": [
+            "secr"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "str1": "She leans close. _You look like people who do a little traveling, and are comfortable with your weapons. Irvine over there in the corner is lookin' for people like you. Go ask him about shipping._",
+          "str2": "You don't have the money."
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "slot": 3,
+      "title": "Irvine",
+      "look": "A sleepy looking man sits hunched over in the corner, nursing a mug of really nasty smelling drink. He doesn't look like he wants to talk to you.",
+      "name": "_Irvine._",
+      "job": "_I'm enjoying my privacy._",
+      "dunno": "He shakes his head shiftily.",
+      "nodes": [
+        {
+          "keywords": [
+            "priv"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. Privacy. That's when you don't get bothered by every loser adventurer who walks into the bar. Good day._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ship"
+          ],
+          "type": 132,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 132,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "herb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He raises his eyebrows. _Herbs? Oh ... are you interested in shipping?_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "slot": 4,
+      "title": "Boyle",
+      "look": "This man has the earrings of a sailor who has been over many seas and to many lands. There's something very unusual about him: he wears an Anama ring.",
+      "name": "_Greetings to you. My name is Boyle._ He's unusually friendly for a sailor.",
+      "job": "_I sail the seas, a very difficult calling of late. For some time now, I have been stranded on this isle._",
+      "dunno": "He spits.",
+      "nodes": [
+        {
+          "keywords": [
+            "sail",
+            "seas"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "His eyes get a faraway look. _Oh, the wondrous sights I have seen. I hope someday I shall not be stranded, and can see them again. And, of course, carry the word to other lands._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "diff",
+            "call"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_With the monsters roaming everywhere, trade has slowed to a standstill. Nobody produces goods, or calls for good beyond what they can produce themselves to survive._",
+          "str2": "_When cargo ships stopped sailing, many sailors, such as myself, became stranded._"
+        },
+        {
+          "keywords": [
+            "stra",
+            "isle"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_While I am trapped here until I can find a ship to take me home, my time here has not been a loss. I have gained a purpose in my life and much tranquility through the teachings of the Anama._",
+          "str2": "_I once even carried a wand to defend myself! Now it is no more. I have weaker defenses, but more peace._"
+        },
+        {
+          "keywords": [
+            "wand",
+            "anam"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Anama taught me that a sword to use against others is of only limited use when the others have more swords than you. That is why I no longer use or will support the use of magic._",
+          "str2": "_To show my loyalty, I took a wand I had carried for defense for many years, and threw it through a grate into sewers, where I hope it lies still._ He looks very proud of this."
+        },
+        {
+          "keywords": [
+            "carr",
+            "word"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The word of the Anama, of course. In my time on this isle with them, I have learned much from them about how to make our world a better place._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "slot": 5,
+      "title": "Jed",
+      "look": "You meet a very tired and overworked man. He has the look of someone who's been up for days straight. He wears a mask over his mouth, and often wipes his sweaty brow. You notice he wears an Anama ring.",
+      "name": "He speaks with you while grinding up some healing herbs. _I'm just called Jed. Sorry if I can't give you my full attention._",
+      "job": "He applies a poultice to a sick woman's forehead. _I'm Shayder's healer. It's a terrible task, as you can probably tell._",
+      "dunno": "_Please, I'm very busy._",
+      "nodes": [
+        {
+          "keywords": [
+            "shay",
+            "heal"
+          ],
+          "type": 18,
+          "typeName": "healer",
+          "extras": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "str1": "Jed of Shayder",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "terr",
+            "task"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's the roaches, of course. They're a plague causing nightmare. If it wasn't for the Anama, there would be many, many more deaths._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "roac"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            70,
+            1,
+            0,
+            0
+          ],
+          "str1": "He wipes his brow. _The roaches are a nightmare, no two ways about it. So many people have fallen ill from the plagues they spread we may have to expand the hospital!_",
+          "str2": "He wipes his brow. _The roaches have caused so much plague we've had to expand the hospital, and may do it again._"
+        },
+        {
+          "keywords": [
+            "plag",
+            "nigh"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            5,
+            0,
+            0
+          ],
+          "str1": "_Everything the roaches touch becomes diseased, and a risk to all around it._",
+          "str2": "_Everything the roaches touched became diseased, and a risk to all around it. There are still roaches around, and the diseases they left are still with us. The horror continues._"
+        },
+        {
+          "keywords": [
+            "deat"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Many have died. Many more will, no matter what. At least the Anama have saved many lives._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "anam"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            4,
+            0,
+            2,
+            0
+          ],
+          "str1": "_The Anama have been working nonstop to heal the diseased, Anama or not._ He smiles. _I am proud to be a member._",
+          "str2": "_The Anama have been working nonstop to heal the diseased, Anama or not._ He smiles. _But you wear the Anama rings. You know the comfort they can give._"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "slot": 6,
+      "title": "Arkley",
+      "look": "You meet a withered, tired looking man in long robes. When you approach, he is studying diagrams with illustrations of cockroaches on them.",
+      "name": "_I am Arkley. Greeting to you._",
+      "job": "_I am the librarian of Shayder, and one of the keepers of knowledge for the Anama church._",
+      "dunno": "_Don't have any books on that._",
+      "nodes": [
+        {
+          "keywords": [
+            "libr",
+            "shay"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He waves at the shelves of books surrounding you. _The Anama dislike magic, but are great believers in knowledge. Ahonar himself commissioned me to do a bit of very important research._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "keep",
+            "know"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I keep the library, but I also seek learning when necessary. High Priest Ahonar has me doing some crucial research._",
+          "str2": "_Also, I make money on the side by creating maps. If you would like to purchase one of my maps of the island, you have but to ask. Only 50 gold._"
+        },
+        {
+          "keywords": [
+            "anam",
+            "chur"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Others can describe the beliefs of the Anama better than I. I am mainly concerned with the simple practical maintenance of our library._",
+          "str2": "_Perhaps you would be more interested in hearing about my research?_"
+        },
+        {
+          "keywords": [
+            "magi",
+            "sara"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He shows his Anama ring. _I agree with their stance on magic, though I do not dislike mages. Sara, to the southeast, is a mage but a great finder of knowledge._ ",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "impo",
+            "rese"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            5,
+            0,
+            0
+          ],
+          "str1": "_My current research is critical. I am trying to find ways to deal with the cockroaches that plague us. I am having little luck, but I have found a few leads._",
+          "str2": "_I am trying to find ways to heal certain diseases the cockroaches brought. Now that I think of it, it is dry, esoteric stuff. But very in line with the Anama's desire to heal as many people as possible._"
+        },
+        {
+          "keywords": [
+            "purc",
+            "maps"
+          ],
+          "type": 22,
+          "typeName": "buy_town_map",
+          "extras": [
+            50,
+            2,
+            0,
+            0
+          ],
+          "str1": "He takes your gold, and gives you a neatly drawn maps. _Thank you,_ he says. _This will feed me well while I do my research._",
+          "str2": "He shakes his head. _Even a lowly librarian has to make a living._"
+        },
+        {
+          "keywords": [
+            "cock",
+            "lead"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            5,
+            0,
+            0
+          ],
+          "str1": "_Well, I have heard that there are intelligent spiders on this island. It's odd, but they may be able to help. Also, I know of a mage named Purgatos, who I suspect will be an aid._",
+          "str2": "_I heard that you defeated the cockroaches. The thanks of the people of the Isle of Bigail go with you wherever you go._"
+        },
+        {
+          "keywords": [
+            "mage",
+            "purg"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I know it is problematical for an Anama member to send one to a mage, but, just between you and me, we are not yet strong enough to handle the roaches on our own. Purgatos lives in the ruined town of Kneece._",
+          "str2": "_I believe you can find a ferry there in the town of Kuper._"
+        },
+        {
+          "keywords": [
+            "inte",
+            "spid"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes, intelligent friendly spiders. They live near the town of Bavner. Something this bizarre cannot help but be a help to us._",
+          "str2": "_To help find Bavner, by the way, you can purchase maps of the Isle of Bigail from me._"
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "slot": 7,
+      "title": "Deland",
+      "look": "A young boy, about ten years old, moves quickly about the temple, sweeping the corridors with a large broom.",
+      "name": "He bows. _I'm Deland._",
+      "job": "_I work for the Anama! Someday I'm going to be a big Anama Priest!_",
+      "dunno": "He fidgets.",
+      "nodes": [
+        {
+          "keywords": [
+            "anam"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            5,
+            2,
+            0
+          ],
+          "str1": "_You should join. They do a lot of good!_",
+          "str2": "_You're a member! You know all about it!_"
+        },
+        {
+          "keywords": [
+            "prie"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I'll travel around and heal disease, and kill monsters, just like Ahonar!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "good",
+            "ahon"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Go talk to Ahonar! He's the high priest and he does all the good things. When the disease killed my parents, he took me in._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dise",
+            "pare"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He turns very quiet. _I miss them. I don't wanna' talk about it._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "slot": 8,
+      "title": "Rippel",
+      "look": "The woman behind the counter is clearly deathly ill. She is selling food, which is a tricky thing for an ill person to do. She wears a mask, and moves the food around with tongs.",
+      "name": "She coughs under the mask. _I am Rippel._",
+      "job": "She leans back in her chair, barely conscious. _I am selling food. It's necessary._",
+      "dunno": "She stares at you blankly.",
+      "nodes": [
+        {
+          "keywords": [
+            "food",
+            "purc"
+          ],
+          "type": 11,
+          "typeName": "shop_food",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Rippel's Rations",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "nece"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She turns away from the meager goods she still has for sale, and emits a series of wracking coughs. Then she turns back to you. _People need food. I need money. Things are bad._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "food",
+            "mone"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She coughs, and seems to get weaker every moment. _Hurts to talk. Sorry._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "slot": 9,
+      "title": "Sick Boy",
+      "look": "A thin man with running sores on his face moves up to beg from you. He's a pathetic sight.",
+      "name": "He coughs. _I'm called Sick Boy. Imagine that._",
+      "job": "_I just wander and survive as best I can. Give me a few coins? I'll tall ya' what I know._",
+      "dunno": "He coughs. _Don't know about that!_",
+      "nodes": [
+        {
+          "keywords": [
+            "wand",
+            "surv"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            70,
+            1,
+            0,
+            0
+          ],
+          "str1": "_People are good to me, and sometimes give me a few coins. The people who ain't in the Anama are best._",
+          "str2": "_Thank the Gods for Mickie! With all the roaches around, she lets me wait in here, so that they don't gets me. It's more than the Anama ever did for me._"
+        },
+        {
+          "keywords": [
+            "give",
+            "coin"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "He accepts the coins gladly. _Thanks, friends! By the way, keep an eye out for Judith. She's a healer who goes from town to town. I heard her say once she knows about some ancient artifact. Ask her!_",
+          "str2": "_You have no coins to give._"
+        },
+        {
+          "keywords": [
+            "mick",
+            "anam"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Anama aren't too kind to people who don't belong sometimes._ He shrugs safely. _Well, it goes to show you, sometimes the holier someone gets, the worse they are._",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

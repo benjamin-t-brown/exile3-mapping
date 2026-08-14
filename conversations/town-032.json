@@ -1,0 +1,832 @@
+{
+  "talkRecord": 32,
+  "townId": 32,
+  "personalityBase": 321,
+  "label": "Pasi, Langley, Cole, Alba, Zachariah, Herb Seller",
+  "people": [
+    {
+      "id": 321,
+      "slot": 0,
+      "title": "Pasi",
+      "look": "You find a small, wiry man standing and waiting outside the city walls. You only notice him when you get close to him - it's like he has some sort of weak concealment spell.",
+      "name": "_I am Pasi._",
+      "job": "_Well, these days, it's difficult to enter Gale. I give assistance in doing so to those in need._",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "diff",
+            "ente"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The leadership in Gale is currently, shall we say, less than inspiring._ He looks you over carefully. _That is why I will give you, entirely free of charge, a warning._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gale"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A difficult place to live these days, to say the least._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "assi",
+            "need"
+          ],
+          "type": 165,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 165,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "warn"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Word of the arrival of the Exiles has spread far, and many in Valorim welcome the news. Mayor Rali and Garrison Commander Leona do not, not at all. Watch your step around City Hall. If they notice you, your fate will be grim._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Sorry, friends, but there's not a person in this province who doesn't know about the Exiles that are wandering around. So be careful. Some of the troops around here have standing orders to slay any Exile they see._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 324,
+      "slot": 3,
+      "title": "Langley",
+      "look": "The innkeeper gives you a knowing wink when you approach the bar. She seems to know how you entered Gale, and how illegal your presence here is.",
+      "name": "_I'm Langley. How may I help you._",
+      "job": "_Well, I would be honored in you would stay in one of our luxury rooms. Only 20 gold, for such, well, intriguing guests. In addition, for such as yourselves, we have a variety of unusual services._",
+      "dunno": "_Huh?_",
+      "nodes": [
+        {
+          "keywords": [
+            "luxu",
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            20,
+            3,
+            0,
+            0
+          ],
+          "str1": "She shows you to your room, which isn't luxurious in any sense of the word. Still, it is safe place to stay, in a very unsafe city.",
+          "str2": "_Ah, but without the proper payment, I cannot be expected to serve you, can I?_"
+        },
+        {
+          "keywords": [
+            "unus",
+            "serv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She points at a woman sitting in the corner. _If you're here for medicine, she will help you out. Very reasonable prices. If you're selling goods you may have obtained somehow, I pay excellent rates._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell",
+            "good"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "medi"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Annoyed, she leans close and lowers her voice. _Careful! That stuff is still illegal, and Mayor Rali will have our heads on a stick if it pleases her. You want the stuff, ask Alba over there about medicine. Don't talk to me about it anymore._",
+          "str2": "_In fact, just get away!_"
+        }
+      ]
+    },
+    {
+      "id": 325,
+      "slot": 4,
+      "title": "Cole",
+      "look": "The innkeeper here wears a hefty greatsword at his belt, and seems prepared to leap over the bar and break up a fight or fight a golem at any moment. He has a variety of scars.",
+      "name": "_I'm Cole, the innkeeper here._",
+      "job": "_Bourbon is 8 gold for a round. A room for the night is five. And don't bug the customers. We keep to ourselves here. Remember that._",
+      "dunno": "_Can't help you with that._",
+      "nodes": [
+        {
+          "keywords": [
+            "bour"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            8,
+            0,
+            0,
+            0
+          ],
+          "str1": "The drink is neither strong nor good. As you choke it down, Cole says _By the way, you should be careful in Gale._",
+          "str2": "You don't have 8 gold."
+        },
+        {
+          "keywords": [
+            "room",
+            "nigh"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            5,
+            3,
+            0,
+            0
+          ],
+          "str1": "You pay the money, and he shows you to your room. As he leaves, he says _And be sure to come back for a drink in the morning. Sometimes I chat a bit with the paying customers._",
+          "str2": "You don't have 5 gold."
+        },
+        {
+          "keywords": [
+            "care",
+            "gale"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Mayor Rali is losing it. Sealed off the city. Talking about the golems is asking for trouble. He's jealous of anyone who can fight them, and resents anyone talking about them because it points out how little good he's done against them._",
+          "str2": "_You're lucky. Wouldn't tell this to just anyone._"
+        },
+        {
+          "keywords": [
+            "luck",
+            "anyo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Everyone who comes through that door has another story about what the Exiles are doing to fight the monsters. Now if you ask me, the person you should talk to is the General._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gene"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Go up to Tevrono. You'll see who I mean._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 326,
+      "slot": 5,
+      "title": "Alba",
+      "look": "A large woman with a blank face is sitting at the table. She isn't drinking or eating or talking with anyone. She just sits at an empty table, waiting.",
+      "name": "_I am Alba._",
+      "job": "_Just waiting._",
+      "dunno": "_Can't help you with that._",
+      "nodes": [
+        {
+          "keywords": [
+            "wait"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You don't know what for? I have nothing to speak to you about._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "herb",
+            "medi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She smiles. _Yes, I just sit here and they come to me. Welcome. Have a seat._ You sit. _Now, you're interested in a little Skribbane?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "skri"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Only the best, brought at great difficulty and expense from the Isle of Bigail to here. You can purchase some from me. The effects are extraordinary._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "effe",
+            "extr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Everyone in town uses it. Or if not everyone yet, soon. Just the thing to relieve the fear of the golems. It's especially good for soldiers and adventurers. Doubles your strength. Erases your fear! Makes you fight like tigers!_",
+          "str2": "_A whole city cannot be wrong. Just the edge you'll need dodging golems is just one purchase away._"
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Buying Skribbane",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 327,
+      "slot": 6,
+      "title": "Zachariah",
+      "look": "You meet a middle aged priest. He's a massive man, moving comfortably in his armor with a great mace hanging from his belt. However, it's plain to see weariness is eating away at him, bit by bit.",
+      "name": "_I am simply called Zachariah. Welcome to my sanctuary._",
+      "job": "_It is good to see fresh, bold faces in this battered town. I will give you assistance however I am able. However, I am afraid I am growing rather tired._",
+      "dunno": "He looks confused.",
+      "nodes": [
+        {
+          "keywords": [
+            "assi",
+            "able"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I am an accomplished healer. I can also make a variety of spells available to you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "batt",
+            "tire"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This town fights two wars, one from without, one from within. Golems attack our bodies, and Skribbane herb attacks our souls._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gole",
+            "bodi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They do to us what the giants do to Lorelei. They rush in, throw spells at us, and run back. Every day, we grow weaker. Only one town has had luck fighting them._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "luck",
+            "figh"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There is a force up in Tevrono, a town to the north, that has had much success against the golems. However, they stand alone. Our mayor refuses to support them. If you wish to battle the golems, you should go up there and see what they're doing right._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "skri",
+            "herb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Oh, my poor flock. They are subjected to constant danger and fear. Then these men and women come, and offer them  strange new way to completely escape the horror of their lives, and they leap at it._",
+          "str2": "_It is only then that they find out the true price._"
+        },
+        {
+          "keywords": [
+            "true",
+            "pric"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Once you ingest Skribbane Herb, it starts to seize control of your soul. The more you take, the less good it does you, but the more you need it. I tell you, it is as implacable and lethal a foe as the golems ever were._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "heal"
+          ],
+          "type": 18,
+          "typeName": "healer",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Zachariah",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Healing or spells?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "spel"
+          ],
+          "type": 15,
+          "typeName": "shop_priest_spells",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Zachariah",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 328,
+      "slot": 7,
+      "title": "Herb Seller",
+      "look": "You meet the woman who runs this grim place. She moves smoothly up to you and bows.",
+      "name": "She grimaces. _I prefer not to say my name. I'm sure you understand._",
+      "job": "_Why, I sell refuge. Or strength._",
+      "dunno": "She looks uncomfortable.",
+      "nodes": [
+        {
+          "keywords": [
+            "owne"
+          ],
+          "type": 22,
+          "typeName": "buy_town_map",
+          "extras": [
+            1000,
+            19,
+            0,
+            0
+          ],
+          "str1": "She takes your gold and hands you a key made of electrum. _Poor soul. She was slain by a golem's fireball, not long after she sold this to me. Oh well._",
+          "str2": "_Ah, but you cannot afford that. Would you like some herb instead?_"
+        },
+        {
+          "keywords": [
+            "libr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She thinks. _Oh, yes! The Librarian of Gale came here often. She traded a key to the library for some herb. You can have ownership of it for only 1000 gold. It does me no good._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "refu",
+            "stre"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Both come from the same miraculous source: Skribbane Herb._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "skri",
+            "herb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Brought at great risk from the Isle of Bigail, Skribbane herb will increase your strength, both of mind and body. Take it before  battle, and you will be nearly invincible! Take it when you are afraid, or tired, and feel true restoration of your soul._",
+          "str2": "_Such a miracle can only be purchased here!_ She smiles and bats her eyelashes. _Do you wish to obtain some?_"
+        },
+        {
+          "keywords": [
+            "purc",
+            "obta"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "str1": "Skribbane Herb",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 329,
+      "slot": 8,
+      "title": "Nantier",
+      "look": "You meet Gale's alchemist. He looks at you skeptically.",
+      "name": "_I am Nantier._",
+      "job": "He says tiredly _I don't make herb. I don't have herb. I am a simple alchemist._",
+      "dunno": "He doesn't seem to know what you're talking about.",
+      "nodes": [
+        {
+          "keywords": [
+            "herb",
+            "skri"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I don't know anything about that Skribbane herb stuff beyond that everyone asks for it and I don't have it. If that's what you want, I'll have to bid you good day._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "simp",
+            "alch"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I teach alchemical recipes. If you would like to purchase one, that's something I can do for you. Be sure to ask about the needed ingredients. I could do it a lot better if I could enter the library. Still, we all do what we can._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "reci"
+          ],
+          "type": 16,
+          "typeName": "shop_alchemy",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Nantier's Recipes",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ente",
+            "libr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Gale has a small but very high quality library in city hall. Unfortunately, the librarian died and our esteemed mayor closed it for good._ He thinks. _I heard one woman say she knows how to enter it, but I will have no dealings with her._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "deal",
+            "woma"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_She has a shop, where she sells that cursed herb stuff. I'm not sure where it is. She told me she knows something of the library. I want to get into it, but I wouldn't go near her place of business for the world._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "need",
+            "ingr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_To make Strong Poison, you need Holly and Wormgrass. To make a Strong Healing Potion, you need Graymold and Comfrey Root._ He thinks. _By the way, will you be travelling Monoroe Province much?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mono",
+            "prov"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You're in Monoroe Province now. If you want a map, head north to the town of Tevrono. My friend Ozmo is a mapmaker. He's stuck there. Talk to him, and he can help you find your way around._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 330,
+      "slot": 9,
+      "title": "Velnas",
+      "look": "This woman is clearly a mage. However, you aren't sure how much you should trust her. She seems constantly distracted, and her eyes look glazed over.",
+      "name": "_I am ... I ... I am Velnas._",
+      "job": "She thinks. _Excuse my distraction. I am a bit tired. I am Gale's mage. I teach spells, and do other services._",
+      "dunno": "You get no response.",
+      "nodes": [
+        {
+          "keywords": [
+            "tire",
+            "dist"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She suddenly becomes very defensive. _What? Why should I not be tired? The town is under attack all the time. Why else would I be under the weather?_||",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "teac",
+            "spel"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She pulls out a spell book and looks it over. Some of the spells seem to confuse her, but after a bit, she finds a few she seems comfortable with.",
+          "str2": "_You can purchase spells from me. Would you like that?_"
+        },
+        {
+          "keywords": [
+            "othe",
+            "serv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She concentrates. _Well, I can, I can identify items. And you can sell them to me too. I get items to sell to others. Yes. That is right._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "drug",
+            "herb"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She lurches forward in her chair. _I don't have to put up with this! Good day!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "iden"
+          ],
+          "type": 19,
+          "typeName": "identify",
+          "extras": [
+            40,
+            0,
+            0,
+            0
+          ],
+          "str1": "She casts an identify spell, although her motions are so clumsy you're surprised the spell doesn't misfire. _There you are. I'll tell you what each item is for a mere 40 gold._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 14,
+          "typeName": "shop_mage_spells",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Velnas Spells",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks over your identified items, and makes some offers.",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

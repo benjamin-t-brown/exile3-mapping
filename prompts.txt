@@ -1,0 +1,7 @@
+In this repo I've included an old game called Exile3.  it's built for 16 bit windows and doesn't run natively on my machine.  I'm trying to remake this game so I'm able to play it.  Part of my remake means extracting the maps from this game.
+
+I've sort of got a start for that: there are .DAT files in the game that hold data for it in a binary format that i have some DATA_NOTE.txt on.  I've       managed to extract the tile ids for the Outdoor maps and built a little html viewer for it.  I'd like to do the same for the TOWN.DAT. 
+
+In this game when talking to an NPC the system is keyword based.  By default they all respond to "Look" "Name" "Job" "Buy" "Sell", and then they respond to other things as well if defined.  I want to try to extract these conversations from the Exile3/EXILE3.EXE binary if possible.  I've dumped the strings to STRINGS.txt, is there any way to figure out/decrypt the conversations into json files?  I'm not certain that any dialogue exists in the .DAT files.
+
+claude --dangerously-skip-permissions -r

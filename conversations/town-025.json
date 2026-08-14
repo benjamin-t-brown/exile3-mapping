@@ -1,0 +1,634 @@
+{
+  "talkRecord": 25,
+  "townId": 25,
+  "personalityBase": 251,
+  "label": "Shahpur, Starcap, Kurt, Zamora, Bryk, Mayor Scowcroft",
+  "people": [
+    {
+      "id": 251,
+      "slot": 0,
+      "title": "Shahpur",
+      "look": "You meet a haggard woman with long, dark hair. She wears the robes of a priest over her armor, and her garb shows the wear and tear of recent combat.",
+      "name": "_I am Empire War Priestess Shahpur._",
+      "job": "She pats a massive mace hanging at her belt. _I help in the constant battle against the troglos. 'Tis a chore, but I have my faith to preserve me._",
+      "dunno": "_Huh?_",
+      "nodes": [
+        {
+          "keywords": [
+            "batt",
+            "trog"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            8,
+            0,
+            0
+          ],
+          "str1": "_They're vicious and endless foes, but I'm preserved by my prayers._",
+          "str2": "_They're vicious and endless foes. Their numbers have decreased of late, but they still keep coming._"
+        },
+        {
+          "keywords": [
+            "fait",
+            "pres"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            4,
+            0,
+            2,
+            0
+          ],
+          "str1": "_I am one of the Anama. I sustain myself through holy power, without using the dark works of magic._",
+          "str2": "_I am one of the Anama, as I see you are too. I am glad to see one of my kinfolk so far from the Isle of Bigail! I have advice to give you, if you will accept it._"
+        },
+        {
+          "keywords": [
+            "advi",
+            "acce"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I've heard Mayor Knight of Sharimik was looking for some natural born victims to go on a quest to the castle of the troglos. He's trying to become a bit of a local despot, but the mission may be of interest to you._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 252,
+      "slot": 1,
+      "title": "Starcap",
+      "look": "A man, small, wiry, muscular, and leather-clad, is looking you over. His opinion of you seems to be worsening by the moment.",
+      "name": "_I'm Starcap._",
+      "job": "_I spend my life educating cavenewts like you. Fulfilling? I think not._",
+      "dunno": "_What was that, suck-weasel?_",
+      "nodes": [
+        {
+          "keywords": [
+            "suck"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah. Haven't you even been called a suck-weasel before?_ You don't think so.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fulf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_How could any job that involves constant work with smelly, unkempt, manners-impaired adventurers be fulfilling?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "educ",
+            "cave"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah. Educating cavenewts. Adventurers. Like you._ He gets fed up. _Look, you want training or not?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trai"
+          ],
+          "type": 9,
+          "typeName": "training",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 253,
+      "slot": 2,
+      "title": "Kurt",
+      "look": "A scruffy looking sailor type is selling tickets by the dock.",
+      "name": "_Kurt._",
+      "job": "_I got tickets to Farport. Fifteen gold. And that's all I have to talk about._",
+      "dunno": "_Look, I'm really happy to be talking to you. Really, really, really happy._",
+      "nodes": [
+        {
+          "keywords": [
+            "tick",
+            "purc"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            15,
+            8,
+            9,
+            0
+          ],
+          "str1": "He peels you off some tickets. _Lovely. Go to the end of this dock, and the boat will be along shortly. Oh, and go away._",
+          "str2": "You don't have the cash. Kurt looks at you with disgust."
+        },
+        {
+          "keywords": [
+            "talk",
+            "abou"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah, right. Look. Everyone else may be willing to spill their guts, their innermost thoughts, to a bunch of wandering, pale, psychotically violent malcontents, but I'm not. Don't want a ticket? Buzz off._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 254,
+      "slot": 3,
+      "title": "Zamora",
+      "look": "A dark and mysterious woman sits behind the counter, mixing up a potion. The smells are alternately wonderful and nauseating.",
+      "name": "_I am Zamora,_ she says in a soft voice.",
+      "job": "_I make potions of all sorts. Wondrous things, they are._ She smiles, and tastes the brown concoction she's working on.  _Also, I work with other alchemists._",
+      "dunno": "She smiles enigmatically.",
+      "nodes": [
+        {
+          "keywords": [
+            "poti",
+            "wond"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She adds a pinch of powder to a bowl of gray green mulch. It bubbles. _These wonders can be yours too. Very useful. Care to purchase one?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "alch"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Why yes._ She smiles. _In fact, one of them was through recently. Told me of some unusual metal he'd found. He concealed a scroll with a map to it, which he told me about. Then he had the misfortune of being spitted by a troglodyte._",
+          "str2": "_In fact, for only 500 gold, I may be persuaded to say where the scroll is._"
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Zamora's Potions",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "scro"
+          ],
+          "type": 147,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 147,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 255,
+      "slot": 4,
+      "title": "Bryk",
+      "look": "This is a heavily whiskered man with a lot of hair growing out of his nose. He smells very strongly of horses.",
+      "name": "_I'm Bryk. That's what they call me!_",
+      "job": "He snorts and takes a pull of whiskey. _I look after horses! They're my babies!_",
+      "dunno": "He grunt.",
+      "nodes": [
+        {
+          "keywords": [
+            "babi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He smiles. _I love horses._ Then, worried, he hastens to add _In a healthy, natural way._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hors"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah, nothing better to get quickly from one to town to another than a horse. I even have a bunch of 'em out back, strong and healthy, and for sale._",
+          "str2": "_It'd be only 500 gold for horses for your group. Where ya' gonna' get a fairer price than that? Come to me if you ever want to obtain a few._"
+        },
+        {
+          "keywords": [
+            "purc",
+            "obta"
+          ],
+          "type": 146,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 146,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 256,
+      "slot": 5,
+      "title": "Mayor Scowcroft",
+      "look": "The constant attacks of monsters in Valorim have caused the mayors and leaders to have a constant worried and edgy expression. The mayor of Scowcroft is no exception. However, he seems pleased to see you.",
+      "name": "_I'm Mayor Scowcroft. Welcome to you!_",
+      "job": "_Oh, I just try to deal with all the monsters as best I can. I haven't been nearly as effective as your group, though._",
+      "dunno": "He looks nervous. _I can't help. I'm really, really sorry._",
+      "nodes": [
+        {
+          "keywords": [
+            "effe",
+            "grou"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks you over, impressed. _Oh, the word of the traveling Exiles has gotten around pretty quick!_ He thinks. _Wait. It isn't a secret you're Exiles, is it? Am I supposed to know?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "exil",
+            "secr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He leans close. _I sure don't want to mess around with you, being as you're famous and brave and all. But I'd love to help you if I could._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "help",
+            "coul"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He leans close. _Be sure to search my bookshelves, and help yourself to anything you find._ He grins conspiratorially.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 257,
+      "slot": 6,
+      "title": "Terry",
+      "look": "A wiry man sits cross-legged by the dock, selling tickets.",
+      "name": "_I'm Terry._ He scratches himself.",
+      "job": "_Well, I have tickets for sale. To Fenris Port. Only 10 gold._",
+      "dunno": "_Sorry. I just sell tickets._",
+      "nodes": [
+        {
+          "keywords": [
+            "tick",
+            "purc"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            10,
+            133,
+            9,
+            0
+          ],
+          "str1": "He tears you each off a grimy ticket. _Go to the ends of the docks. I'm sure you'll find a place to use the tickets somewhere._",
+          "str2": "_Sorry. It's 10 gold._"
+        },
+        {
+          "keywords": [
+            "fenr",
+            "port"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He laughs, coughs, and spits into the water. _Fenris Port! Great town! Lots of scum there!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "lots",
+            "scum"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah!_ He pulls a begging bowl out from behind his back. _Only 5 gold, and I'll give you a little information.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "litt",
+            "info"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "He hawks and spits an impressive, tobacco spotted stream into the water. _The good folks on the Isle of Bigail make certain herbs valuable in Lorelei. Be sure to look about. Also, for only 100 gold more, I'll tell you a secret._",
+          "str2": "_You're poor! Buzz off!_"
+        },
+        {
+          "keywords": [
+            "secr"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            100,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The guards south of Lorelei will search anyone approaching, looking for these herbs. However, north from Lorelei there's a hidden way to cross the river and get there. Just walk along the river shore. You'll see it._",
+          "str2": "_You don't have the cash! Scum!_"
+        }
+      ]
+    },
+    {
+      "id": 258,
+      "slot": 7,
+      "title": "Nydia",
+      "look": "You meet a priestess. She's counting several piles of gold on top of the altar. When you approach, she scoops it all into a pouch.",
+      "name": "_I'm Nydia. Welcome._",
+      "job": "_I'm a Priestess of the Church of the Divine Lucre. We sell salvation at reasonable rates._",
+      "dunno": "She looks like you're bothering her.",
+      "nodes": [
+        {
+          "keywords": [
+            "chur"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Church of the Divine Lucre._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "divi",
+            "lucr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A beautiful organization. After all, the only way to help others is to help oneself. Self-reliance will lift us all up. Wealth is the great salvation. And we grant absolution for very reasonable rates._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "reas",
+            "rate"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Actually, I am not yet authorized to grant absolution. Haven't saved up enough to buy the ability. But I can do healing, if you wish, and have the money._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "heal"
+          ],
+          "type": 18,
+          "typeName": "healer",
+          "extras": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "str1": "Nydia",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ritu",
+            "sanc"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks suspicious. _Who told you to ask me about that?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "comm",
+            "cori"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She gets upset. You can't imagine why. _Her. I told her I didn't want anything to do ..._ she remembers herself. _Oh. Yes. Look, I'd teach it to you for a fee, but I don't know it. There's a hermit in a hut at the north end of the mountains to the north._",
+          "str2": "_ He knows the spell. I can't get it out of him, but you might be able to. Now go away, please._ Highly agitated, she turns away."
+        }
+      ]
+    },
+    {
+      "id": 259,
+      "slot": 8,
+      "title": "Barber",
+      "look": "Unusually, the innkeeper has a battleaxe swinging at his side, and wears a breastplate which shows the scratches and marks of recent combat. He's so tired he can barely remain standing.",
+      "name": "_Barber,_ he mumbles. _Welcome to my inn._",
+      "job": "_No booze left. Not much at all. Just a room. Only 5 gold. It's been a nightmare._",
+      "dunno": "He shakes his head, exhausted.",
+      "nodes": [
+        {
+          "keywords": [
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            5,
+            2,
+            0,
+            0
+          ],
+          "str1": "Tottering, he shows you to your room. The sounds of combat continuously echo through the town. You sleep poorly.",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "nigh"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Castle Troglo isn't far from here, and there's not a thing anyone can do about it. We eat the worst of the raids, and get hit often, too. It's hard to keep hope sometimes._ He almost nods off several times while speaking.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "home",
+            "some"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            8,
+            0,
+            0
+          ],
+          "str1": "_I'm afraid this town will fall any day now. I'm so tired. My apologies. This use to to be a beautiful town. No more._",
+          "str2": "_The troglos spend most of their time fighting the giants, but send raids against us sometimes still. We still can't rest. Sometimes I think we never will rest again._"
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "slot": 9,
+      "title": "Wounded Person",
+      "look": "A wounded Empire soldier, victim of a troglodyte raider, lies in this bed. All you really see is a mess of bandages and dried blood.",
+      "name": "The victim groans.",
+      "job": "The wounded soldier turns over weakly. It's jarring to see someone so wounded and so unlooked after. There must not be enough magical healing to go around.",
+      "dunno": "The victim groans.",
+      "nodes": []
+    }
+  ]
+}

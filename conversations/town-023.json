@@ -1,0 +1,926 @@
+{
+  "talkRecord": 23,
+  "townId": 23,
+  "personalityBase": 231,
+  "label": "Vahkohs, Busy, Mayor Knight, Commander Corie, Levin, Sandra",
+  "people": [
+    {
+      "id": 231,
+      "slot": 0,
+      "title": "Vahkohs",
+      "look": "A vampire, pale, lithe, and lethal, sits in the throne watching you with amusement. It seems to be sizing up just how much blood each of you contains.",
+      "name": "_I am Vahkohs. Welcome to my tomb._",
+      "job": "_Oh, I suppose I should be slaying and devouring you. But I wish to welcome you first._",
+      "dunno": "It looks amused.",
+      "nodes": [
+        {
+          "keywords": [
+            "welc",
+            "tomb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grins. My, but his fangs are impressive. _This is my tomb. Lovely, isn't it? Huge, imposing, sepulchral. Everything I hoped for. I had my undead servants make it for me._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "slay",
+            "devo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes, well. I could have killed you long before you reached me, but I've done that so many times, and it gets old. So instead, I have a little challenge for you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "unde",
+            "serv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They're wonderfully useful servants. They watch the woods for me. Build my home. Keep me company. Don't know what I would do without them._",
+          "str2": "It rubs its fangs with a long, red tongue. _But enough chatter. About that slaying and devouring._"
+        },
+        {
+          "keywords": [
+            "chal"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You adventurers are such a greedy lot, so I'll tell you what. I'll let you loot my treasure stores! I'll wander off, and let you have your fun. Then, in return, I get to slay you as you try to escape. Doesn't that sound fun?_",
+          "str2": "_Now, do you agree or disagree?_"
+        },
+        {
+          "keywords": [
+            "agre"
+          ],
+          "type": 140,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 140,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "disa"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks disappointed. _Oh well. You'll be back. They always are._ He claps his hands, and you find yourself somewhere else.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "slot": 1,
+      "title": "Busy",
+      "look": "Busy",
+      "name": "n2",
+      "job": "j2",
+      "dunno": "He seems to feel you're wasting his time.",
+      "nodes": []
+    },
+    {
+      "id": 233,
+      "slot": 2,
+      "title": "Mayor Knight",
+      "look": "A harsh looking man watches you dryly from behind his desk. His clothes are very ostentatious, and his mayor's sash is made of remarkably rich fabric. He wears a gold circlet.",
+      "name": "_I am Mayor Knight of Sharimik. Welcome to my office._",
+      "job": "He looks somber. _Well, it's complicated, but at the heart of it, I am trying to maintain control._",
+      "dunno": "He shrugs.",
+      "nodes": [
+        {
+          "keywords": [
+            "main",
+            "cont"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Attacks come at us from all sides. The Empire has abandoned us. I guide my people upon the only safe path left to us._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "atta",
+            "side"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We have foes, both outside and inside. The troglos come at us from without, and subversives cause rot from within._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "subv",
+            "tinr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks disturbed. _I'm afraid you are not authorized to have that information. My apologies._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi",
+            "aban"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire has not sent us guidance, supplies, or reinforcements for months and months. We have to look after ourselves. They have shut us off since the disaster at Tinraya._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "safe",
+            "path"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Control! The Empire rules our world through control, and we can keep Karnold Province safe through control! Our discipline will help us defeat the troglos!_",
+          "str2": "_In fact, that is why you were allowed to enter Sharimik._"
+        },
+        {
+          "keywords": [
+            "trog",
+            "allo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Word has spread of the pale travelers who helped end a plague of monsters to the south. I, therefore, let you come here in the hope that you could be convinced to undertake a quest for us._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "unde",
+            "ques"
+          ],
+          "type": 141,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 141,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "prob",
+            "requ"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Sharimik is ruled by a triad right now. Empire rules bind us still. Before you can go on a mission for us, you need to get approval from Garrison Commander Corie, and Internal Affairs Supervisor Levin._",
+          "str2": "_Go ask them about this mission. Convince them to allow you to undertake it, and I will assist you._"
+        },
+        {
+          "keywords": [
+            "comm",
+            "cori"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_She is in the barracks, at the north end of the city._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "supe",
+            "levi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A superb gentleman. My right hand man. He's just next door._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rewa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_If you accept this mission, I will give you a reward sought after by adventurers everywhere - the spell Dispel Barrier._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "scro"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The scroll grants free passage into Castle Troglo to the bearer. When you get the required permission and accept the mission, I will give you the scroll._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "miss",
+            "ques"
+          ],
+          "type": 141,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 141,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 234,
+      "slot": 3,
+      "title": "Commander Corie",
+      "look": "The garrison commander of Sharimik watches you with skepticism. She seems unwilling but resigned to give you some of her valuable time.",
+      "name": "_Commander Corie._",
+      "job": "_I run the Sharimik garrison. Quite a job. I also help Mayor Knight as best I can._",
+      "dunno": "_I have begun to feel you're wasting my time._",
+      "nodes": [
+        {
+          "keywords": [
+            "shar",
+            "garr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Sharimik has been, for some time, the main military depot for southern Valorim. I'm in charge of looking after it. Quite the responsibility._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mayo",
+            "knig"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He is in charge of anything in Sharimik that isn't military. A competent administrator, although I am concerned about his inability to get anyone to go on this mission he's been talking about._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "miss"
+          ],
+          "type": 142,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 142,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ritu",
+            "sanc"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_All that holy mumbo jumbo is beyond me. I haven't the foggiest idea how to destroy an evil altar. Tell you who might, though. Talk to Nydia. She's in Softport. Tell her my name ... she served with me once._",
+          "str2": "_If she knows anything about how to destroy the troglo altar, she'll tell you And that's the last help you'll get from me._"
+        },
+        {
+          "keywords": [
+            "gian",
+            "alta"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's up a long valley in the mountains east of Angel's Rest. Troglos use altars to magically energize themselves. They're big, powerful things, and destroying one of them would be a great victory._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "slot": 4,
+      "title": "Levin",
+      "look": "The man sitting behind this desk looks as close to a spider as any human can get. He sizes you up with beady eyes.",
+      "name": "_I'm Internal Affairs Supervisor Levin._",
+      "job": "He grins and twitches slightly. _Many tasks fall to me. I maintain loyalty. I am the chief jobs dispatcher. I am mapmaking coordinator. And I assist Mayor Knight whenever possible._",
+      "dunno": "_Can't help with that._",
+      "nodes": [
+        {
+          "keywords": [
+            "main",
+            "loya"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "His mouth twitches in disapproval. _I'm sorry. You are not allowed to know about that._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "jobs",
+            "disp"
+          ],
+          "type": 25,
+          "typeName": "job_bank",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "His mouth twitches in disapproval. _I'm afraid you failed in a previous mission from me. I cannot trust you until your probation period elapses._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mapm",
+            "coor"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I tell official, Empire-sanctioned mapmakers in the area what areas need mapmaking, and compile the fruits of their labors._",
+          "str2": "_Would you like to purchase a map of Karnold Province? Only 300 gold?_"
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 22,
+          "typeName": "buy_town_map",
+          "extras": [
+            300,
+            3,
+            0,
+            0
+          ],
+          "str1": "He collects your gold and gives you a map, carefully drawn of durable sheepskin.",
+          "str2": "He shakes his head. _These maps are very expensive to develop. No discounts._"
+        },
+        {
+          "keywords": [
+            "mayo",
+            "knig"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Mayor Knight is a wise and strong willed man, and I am proud to be at his right hand. By the way, I understand he has been looking for someone to undertake a mission._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "miss"
+          ],
+          "type": 143,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 143,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "slot": 5,
+      "title": "Sandra",
+      "look": "This woman has a light dusting of makeup on her face, put there to make her skin darker. You, however, immediately recognize her as an Exile. She pulls you aside to speak in private.",
+      "name": "_I'm Sandra. Unspecified Services. Pleased to meet you._",
+      "job": "_I'm from Unspecified Services, like you. Heard about your accomplishments. Excellent._",
+      "dunno": "She shakes her head.",
+      "nodes": [
+        {
+          "keywords": [
+            "unsp",
+            "serv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We're the only branch of the Exile government doing anything up here right now. I'm moving between Sharimik and Lorelei, looking things over._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "acco",
+            "exce"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You guys are really going places. Been to the Bunker yet?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "shar",
+            "lore"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Beats heading north. Gale is being attacked by these utterly lethal golems, and the Keep of Tinraya was utterly destroyed._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "keep",
+            "tinr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It was the strongest fort in Valorim, and some sort of bizarre monster unlike anything ever seen wiped it out. Can't find anything else about it, but I'm working on it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "bunk"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's back down in New Cotra. A few mages, trying to figure out outlandish solutions to our problems. They might be able to help you. Talk to Captain Johnson. He'll tell you how to enter._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "capt",
+            "john"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Captain Johnson is back in Fort Emergence. Bitter old guy. Hates Unspecified Services. You may have to press him to get information about the Bunker. Ask him about it, and mention my name to him if he gives you trouble._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "slot": 6,
+      "title": "Ballard",
+      "look": "The man behind the counter is busy polishing some lockpicks.",
+      "name": "_I'm Ballard._",
+      "job": "_I make tools. You can purchase them. And it makes me very happy._ He grins, in order to show how happy he is.",
+      "dunno": "_Huh?_",
+      "nodes": [
+        {
+          "keywords": [
+            "purc",
+            "tool"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Ballard's Tools",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "happ"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Incredibly happy. I could not be happier with the rulership of our town._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rule",
+            "town"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He continues to smile, but his eyes watch you carefully. He speaks clearly and deliberately. _Yes. I could not be more happy with the leadership of our mighty city. I am very content and feel safe. All right?_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "slot": 7,
+      "title": "Isaac",
+      "look": "You meet Sharimik's missile maker. He is putting the final polish on an intensely sharp throwing knife.",
+      "name": "_I'm Isaac. Welcome._",
+      "job": "_You can purchase missiles from me. Quality goods, I assure you. Distracts me from my worries._",
+      "dunno": "_Huh?_",
+      "nodes": [
+        {
+          "keywords": [
+            "purc",
+            "miss"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Isaac's Missile",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dist",
+            "worr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks around to make sure nobody is listening in. _I can tell you about this, but nobody else. We've all heard how brave you are, and it's best not to let our leaders hear us express skepticism._",
+          "str2": "_I am concerned about my child._"
+        },
+        {
+          "keywords": [
+            "lead",
+            "skep"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks grim. _In the absence of the Empire's influence, Mayor Knight grows more controlling every day. Nobody has been punished for saying the wrong thing yet, but some of us fear it is only a matter of time._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "conc",
+            "chil"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            95,
+            2,
+            0,
+            0
+          ],
+          "str1": "_We are attacked by troglodytes all the time. I'm planning to send my daughter, Kelly, to Softport, a much safer place to be. I will miss her so, though._ He sighs. _Thank you for letting me unburden my soul._",
+          "str2": "_I sent my daughter, Kelly, to Softport recently to keep her safe from the troglos. I get messages from her sometimes, but I worry about her terribly, and miss her more._ He sighs. _Thank you for letting me unburden my soul._"
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "slot": 8,
+      "title": "Kelly",
+      "look": "You meet a small girl, who's running down the street bouncing a ball. She stops to watch you.",
+      "name": "_I'm Kelly. Hi!_",
+      "job": "_You're adventurers, right?_",
+      "dunno": "She looks confused.",
+      "nodes": [
+        {
+          "keywords": [
+            "adve",
+            "righ"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She jumps up and down. _Wow! I've never met real adventurers before! I wish I was one! I could look after my daddy._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dadd"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            95,
+            2,
+            0,
+            0
+          ],
+          "str1": "_He's the missile guy! He's real worried about all the troglos, and might send me away. I hope he doesn't. I'd miss him._ She thinks. _Catch!_",
+          "str2": "She looks sad. _Daddy sells missiles back in Sharimik. He sent me here to keep me safe from the mean troglos._ She thinks. _Catch!_"
+        },
+        {
+          "keywords": [
+            "catc"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She throws her ball at you. You barely manage to catch it, and throw it back. _Good catch!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "slot": 9,
+      "title": "Ellyn",
+      "look": "A serene looking woman stands before her altar, thinking happy thoughts. You interrupt them.",
+      "name": "_I am Mother Ellyn._",
+      "job": "_I am the priestess of the Shrine of Happy Thoughts. May I provide assistance?_",
+      "dunno": "_I can't help you with that._",
+      "nodes": [
+        {
+          "keywords": [
+            "happ",
+            "thou"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks slightly embarrassed. _Well, I wanted to start a faith to guide people and make their lives better. Unfortunately, I couldn't come up with a good guiding principle. So I improvised._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "prov",
+            "assi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I can teach a variety of spells. Also, I am a skilled healer._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "prin",
+            "impr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I made the Shrine of Happy Thoughts, based on the principle that, well, things would be a lot better is people were kind and just tried to be nice to each other for a change._",
+          "str2": "_Of course, it hasn't been popular at all. But you can't blame me for trying._"
+        },
+        {
+          "keywords": [
+            "teac",
+            "spel"
+          ],
+          "type": 15,
+          "typeName": "shop_priest_spells",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Ellyn's Spells",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "skil",
+            "heal"
+          ],
+          "type": 18,
+          "typeName": "healer",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Ellyn's Healing",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

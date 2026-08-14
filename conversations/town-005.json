@@ -1,0 +1,1094 @@
+{
+  "talkRecord": 5,
+  "townId": 5,
+  "personalityBase": 51,
+  "label": "Vahnatai Shade, Habecker, Ohar, Ostoth, Enla, Elspeth",
+  "people": [
+    {
+      "id": 51,
+      "slot": 0,
+      "title": "Vahnatai Shade",
+      "look": "From a ways away, this looked like a formidable Vahnatai warrior. When you get close, however, you see that it isn't actually there. It's very slightly translucent. It looks at you as if it were alive, however.",
+      "name": "It stares at you perfectly impassively.",
+      "job": "It says in an emotionless voice, _I have been left here with a message._",
+      "dunno": "It stares at you perfectly impassively.",
+      "nodes": [
+        {
+          "keywords": [
+            "mess"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My creators wish me to tell you not to interfere._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "inte"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire stole three of our Crystal Souls. They stole the soul of our people. You cannot comprehend the magnitude of this offense._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "crea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Rentar-Ihrno and others._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "magn",
+            "offe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Picture if someone violated and destroyed those you loved most. Such it was with us. The Empire must be destroyed. Those who live in the Empire are a part of it and must be destroyed. The Empire's lands must be destroyed._",
+          "str2": "_Those who try to prevent our vengeance must be destroyed._"
+        },
+        {
+          "keywords": [
+            "veng",
+            "dest"
+          ],
+          "type": 26,
+          "typeName": "npc_leaves",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "The shade begins to fade. _Your destruction of the Crystal Souls creating the golems can be forgiven under these circumstances. Do not oppose us further, however._",
+          "str2": "_Aid the great enemy, you become the great enemy. Forever. The Empire and its lands must be ashes. Remember this, and choose wisely. _ The shade disappears."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "slot": 1,
+      "title": "Habecker",
+      "look": "You meet a portly bearded man in nondescript robes. He looks bored.",
+      "name": "_Oh, hello. I'm Habecker. Can I help you?_",
+      "job": "_Well, I was hired to research for the fort. Which is why I'm so bored._",
+      "dunno": "_That is beyond even my knowledge._",
+      "nodes": [
+        {
+          "keywords": [
+            "rese",
+            "fort"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes, I'm a sage by trade. I was brought here to gather and study samples from the surface world. That's why being here is so boring!_",
+          "str2": "_If only I could find someone interested in my abilities._ He looks at you meaningfully."
+        },
+        {
+          "keywords": [
+            "bore",
+            "bori"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I came here to study things from the surface world. However, they won't let me up there to study! So I spend my time down here, wandering back and forth._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "surf",
+            "worl"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_All the things to explore! All the amazing creatures we've forgotten about and need to rediscover. I hear they have a thing called a ... BIRD! Can you imagine?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "bird"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It flies. Or breathes fire. Or something. We'll never know for sure, until I can get to the surface._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "inte",
+            "abil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, I am a sage, and I've done some work in the study of items. If you need something identified, I can do it cheap._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "iden"
+          ],
+          "type": 19,
+          "typeName": "identify",
+          "extras": [
+            10,
+            0,
+            0,
+            0
+          ],
+          "str1": "_At last!_ he exclaims. _Something useful to do!_ He looks over your items very carefully. _Yes, I can identify them, for only 10 gold each._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "slot": 2,
+      "title": "Ohar",
+      "look": "This Vahnatai is tall and spindly even by Vahnatai standards, over seven feet tall and twig thin. He sits in front of the fire pit, carefully polishing an amazingly sharp wave blade.",
+      "name": "_Welcome! It is a pleasure to meet humans at last! I am Ohar._",
+      "job": "_I craft weaponry. Our blades are very different from yours, and yet made under the same principles._",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "weap"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Much effort goes into each of our weapons, many hours of crafting and perfecting. Unlike many of us, however, I am eager to display our skill to you humans._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "blad",
+            "prin"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We have melee weapons, like you: our wave blades. And we have missiles, like you: our razor disks. Though not the variety, I grant._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "disp",
+            "skil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He presents several recently crafted wave blades and neatly wrapped stacks of razor disks. _If you wish to purchase any of my work, let me know._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "vari"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You humans have such a bewildering array of deadly weapons. We are in wonder that you can keep them straight._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "Ohar's Weaponry",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "slot": 3,
+      "title": "Ostoth",
+      "look": "You see an ancient and withered mage, hunched back in a large, carved chair. He  was meditating while staring into a small brazier. Now he looks up at you as if he was expecting you.",
+      "name": "_I am Ostoth. Welcome to the Bunker._",
+      "job": "_I am in charge of the Bunker._",
+      "dunno": "_I'm not sure._",
+      "nodes": [
+        {
+          "keywords": [
+            "bunk"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. I should explain what we are doing here. We are doing research. We are trying to craft tools to use against the enemies of Exile._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "enem",
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Exile has always had many enemies. Always, we had few swords on our side, and it was only the skill of our mages that saved us. The existence of the bunker is how we recognize this fact._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "reco",
+            "fact"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Pathass, Enla, and I wait here, our magical powers waiting to be unleashed on whatever problems may come up._",
+          "str2": "_That is why we have been waiting for you. We felt we might need to research on your behalf._"
+        },
+        {
+          "keywords": [
+            "rese",
+            "tool"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            42,
+            3,
+            0,
+            0
+          ],
+          "str1": "He looks uncomfortable. _When we found out about the monsters on the surface, we realized we may need to craft a weapon to help you fight them._",
+          "str2": "He looks miserable. _Pathass and Enla are gone. Until I can get replacements, I can do nobody any good. At least we finished one weapon for you._"
+        },
+        {
+          "keywords": [
+            "weap",
+            "figh"
+          ],
+          "type": 111,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 111,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "osto",
+            "enla"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            42,
+            3,
+            0,
+            0
+          ],
+          "str1": "_Powerful magicians from Exile. I can think of no task they are not up to._",
+          "str2": "_Pathass is dead. He was a credit to his race. Enla has returned to Exile. She can barely walk now, let alone weave spells._"
+        },
+        {
+          "keywords": [
+            "erik"
+          ],
+          "type": 112,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 112,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "vahn",
+            "rent"
+          ],
+          "type": 113,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 113,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "drag",
+            "sulf"
+          ],
+          "type": 114,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 114,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "desc"
+          ],
+          "type": 115,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 115,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "warn",
+            "howe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Be absolutely sure you are right. Our resources are limited, and we can make only one powerful item. If your first guess is wrong, I strongly doubt we will be able to help you again._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "slot": 4,
+      "title": "Enla",
+      "look": "This tiny woman would look like someone's  friendly old grandmother, were it not for the aura of power emanating from her, and for the Vahnatai chair she sits perfectly comfortably in.",
+      "name": "_I am called Enla. Welcome to the Bunker._",
+      "job": "_I was once studying dragons. Now I do research in the Bunker._",
+      "dunno": "_Am I supposed to know something about that?_",
+      "nodes": [
+        {
+          "keywords": [
+            "stud",
+            "drag"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks sad. _We studied poor old Motrax, oldest of the mighty serpents living in Exile. Then he died. And the other dragons disappeared._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rese",
+            "bunk"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, I study Vahnatai magic._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "disa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A great mystery. Sulfras, Khoth, and Athron were the other dragons in the underworld. However, after the Empire war, they all disappeared. We have few guesses of where they went._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gues"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Maybe down further into the caves. Or more likely, on the surface, although that would be an invitation for the Empire to attack them. The Empire despises any power it can't control, and they would despise the Empire back._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi",
+            "desp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire enslaved Sulfras and Khoth, and Athron dislikes all humans. They no doubt have much hatred for the humans on the surface._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "vahn",
+            "magi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It is amazing what they can do with a simple crystal. For example, they can make actual life in crystalline form._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "life",
+            "crys"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We can do nothing near what they can do. But we have a few ideas. Nothing I want to talk about now, of course._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "slot": 5,
+      "title": "Elspeth",
+      "look": "You meet a small, intense woman in short hair and black leather. Several vicious iron blades hang from her belt, and a proud expression graces her face.",
+      "name": "She greets you with a sharp nod of her head. _I am Elspeth. Welcome to my shop._",
+      "job": "_Well, I run this shop with Nance. I make the best iron weapons you're likely to find, and you can purchase them, if you got the gold. You can also sell me other stuff. I'm sure I can unload it on somebody._",
+      "dunno": "She looks at you impatiently.",
+      "nodes": [
+        {
+          "keywords": [
+            "purc",
+            "weap"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Elspeth's Ironworks",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Elspeth appraises your goods with a practiced eye.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "shop",
+            "nanc"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Nance and I have been through a lot since the Empire sent us down. We just weren't approved of, if you know what I mean. Then we got separated._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sepa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We were living in Cotra when the Empire War hit. They blasted our town apart. We were lucky to escape, but got separated. We didn't find each other for months._",
+          "str2": "_Then we heard about this settlement near the surface. There was no way we could stay away._"
+        },
+        {
+          "keywords": [
+            "sett",
+            "surf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She gives a vicious smile, and for a moment she seems six feet tall. _We will be back on the surface someday. There are no two ways around it. It was wrong of them to throw us down here. And it's up to all of us to make them pay for their crimes._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "slot": 6,
+      "title": "Nance",
+      "look": "There is a gentle looking blonde woman with a kind face sitting at the table. She is sharpening a small knife. She smiles at you as you approach.",
+      "name": "_I am Nance. Greetings to you._",
+      "job": "She shrugs. _Oh, I mainly help Elspeth run her shop. Not what I'd choose as a path, but there you go._",
+      "dunno": "_I don't know about that. Sorry._",
+      "nodes": [
+        {
+          "keywords": [
+            "elsp",
+            "shop"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Have you met Elspeth?_ She grins. _She runs the best smithy in Upper Exile. If not Exile._ She holds up the knife she's sharpening. _It's not quite my area, but it keeps me busy until we can reach the surface._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "choo",
+            "path"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "A dark look passes over her face. _I cared for horses when we lived on the surface. When the Empire exiled us, it took away my entire life's work. That is one of the many reasons I want to return to the surface._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "surf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_All of us were sent to live in pits because of who we were, because we refused to fit in, to conform, to submit to unjust standards._ Nance's normally gentle face has a steely, determined expression.",
+          "str2": "_Every day we live here is an injustice. An injustice we will all gladly face death to right._"
+        },
+        {
+          "keywords": [
+            "glad",
+            "deat"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks a little embarrassed. _I've been told I have a bit of a tendency to go on and speechify._ Then she grins. _But it's fun, so I'm not going to stop!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "slot": 7,
+      "title": "Crisper",
+      "look": "The bar is being tended by a thin man with short black hair, a twitchy demeanor, and a lopsided smile. He wears the traditional sash used in Exile to mark a mayor.",
+      "name": "_I'm Crisper. Crisper the barkeep, or Mayor Crisper. Whichever you prefer._",
+      "job": "_Well, I'm the mayor for now. Painful, but necessary. But I also run the Phoenix, which is a bit more satisfying._",
+      "dunno": "He grins awkwardly.",
+      "nodes": [
+        {
+          "keywords": [
+            "mayo",
+            "pain"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We pick a new mayor every year. That's the person who takes time off building this new, beautiful city to carry out tedious administrative tasks._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "phoe",
+            "sati"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Phoenix, because this Cotra rises from the ashes of the earlier Cotra. I do all the standard inn things. We have an excellent room for only ten gold, and a round of beer is only two._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "admi",
+            "task"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Pushing papers. Organizing things. Meetings. Endless hell. And, worst of all, I occasionally have to press gang some hapless adventures to go on some mission or other._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "earl",
+            "cotr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The former Cotra was destroyed by the Empire in the Empire War. Totally destroyed. I came up here to help build it, especially since it got me away from the spiders._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "spid"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The giant, intelligent, friendly, talking spiders. They're ... they're ... just hope you never meet them._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            10,
+            3,
+            0,
+            0
+          ],
+          "str1": "You pay the fee and retire gladly to your room. Mercifully, there aren't any pests.",
+          "str2": "He shakes his head. _You don't have the cash._"
+        },
+        {
+          "keywords": [
+            "purc",
+            "beer"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "You buy some mushroom beer. It tastes awful, but in a pleasant way.",
+          "str2": "You don't have the 2 gold."
+        },
+        {
+          "keywords": [
+            "adve",
+            "miss"
+          ],
+          "type": 117,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 117,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "slot": 8,
+      "title": "Miles",
+      "look": "There is a young man with dark hair and a neatly trimmed beard behind the counter. His fingers are permanently stained from years and years of working with herbs and mixing concoctions.",
+      "name": "_I am Miles. Miles the mage. Welcome to my shop._",
+      "job": "He points to the bookshelves. _Each of those scrolls contains a recipe I have mastered. Every plant in these caves I have turned into a wondrous concoction of some sort. And I place all my knowledge at your disposal!_",
+      "dunno": "He shakes his head.",
+      "nodes": [
+        {
+          "keywords": [
+            "scro",
+            "reci"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Hundreds of recipes! Of course, most of them are useless. But I've mastered them anyway!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "plan",
+            "cave"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_OK. Not all the plants. I still haven't found a use for Black-spotted sponge moss. But I'm working on it._ He smiles and shrugs. _What's the point of being modest?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "know",
+            "disp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I make potions of all sorts, and you can obtain them for a price. Let me know if you want to purchase some of them._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "poti"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mode"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I live in a cave. I mix mushrooms and lichen for a living. I get backaches all the time. With a life like this, why bother to be modest? Feh!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "slot": 9,
+      "title": "Hmurrr",
+      "look": "There is a Nephilim sitting behind the counter chopping mushrooms. This is not too unusual - some Nephilim have made peace with humans and taken to living among them. A few, but not many.",
+      "name": "It's tail twitches happily and it graces you with a toothy grin. _Mrrrr. My name is Hmurrr. Welcome to my shop._",
+      "job": "It purrs excitedly. _I make all types of foodstuffs for my good human buyers. Mrrrr. You can purchase all of them that you want, and be assured of their edibleness. Mrrr._",
+      "dunno": "_Mmmmurrrr. I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "mrrr",
+            "mrow"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It's whiskers twitch. _Mrrr. Be excusing me ... it is a noise we Nephilim often make in speaking. Mrowr._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "edib",
+            "assu"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Be assured that there are none of the delicious rats and bats in the fine foods I am making. All those things are saved for me and my mate. Only we appreciate them as one should. Mrrrr._",
+          "str2": "You look at the food it is preparing, and indeed, there is no sign of the sort of small animal a cat would find appealing."
+        },
+        {
+          "keywords": [
+            "purc",
+            "food"
+          ],
+          "type": 11,
+          "typeName": "shop_food",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Hmurr's Edibles",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "neph"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Some of us Nephilim think we and  humans fighting is foolish, when Empire is foe enough for us both. Hssss._ It doesn't like the thought of the Empire much.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It spits, annoyed.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mate"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Hmurrr. We Nephilim mate for life, like humans sometimes do._",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

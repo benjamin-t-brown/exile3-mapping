@@ -1,0 +1,980 @@
+{
+  "talkRecord": 14,
+  "townId": 14,
+  "personalityBase": 141,
+  "label": "Vok, Father Rice, Martha, Ahonar, Mayor Bernathy, Grunders",
+  "people": [
+    {
+      "id": 141,
+      "slot": 0,
+      "title": "Vok",
+      "look": "A smelly man stands near the docks. He holds several rolls of grimy tickets in his hands.",
+      "name": "_My name's Vok. And I ain't after small talk._",
+      "job": "_I got tickets for Port Townsend and Sharimik. Boat ride. 10 gold each. Ask if you want to purchase one. And don't bug me otherwise. Like I said, I ain't got time for small talk._",
+      "dunno": "_Hey, buddy, I look like I got time for small talk?_",
+      "nodes": [
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Port Townsend or Sharimik?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "smal",
+            "talk"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He spits. _I sell the tickets. I hangs out with my own kind. You ain't it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "port",
+            "town"
+          ],
+          "type": 21,
+          "typeName": "buy_service",
+          "extras": [
+            10,
+            126,
+            8,
+            1
+          ],
+          "str1": "You give him your money, and he tears off some tickets. _Go to the end of the dock on the left, and wait._",
+          "str2": "He spits on your shoe. _Yeah? And where's your 10 gold, Sparky?_"
+        },
+        {
+          "keywords": [
+            "shar"
+          ],
+          "type": 21,
+          "typeName": "buy_service",
+          "extras": [
+            10,
+            126,
+            9,
+            1,
+            0
+          ],
+          "str1": "You give him your money, and he tears off some tickets. _Go to the end of the center dock and wait._",
+          "str2": "He spits on your shoe. _Yeah? And where's your 10 gold, Sparky?_"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "slot": 2,
+      "title": "Father Rice",
+      "look": "A lone priest stands at the Anama altar, lost in contemplation. When you approach, he turns to you and smiles gently.",
+      "name": "_I am Father Rice of the Anama. Greeting._",
+      "job": "_I provide guidance to Port Townsend. It is my holy task, and, as a priest of the Anama, I will carry it out to the fullest._",
+      "dunno": "_I cannot help you._",
+      "nodes": [
+        {
+          "keywords": [
+            "port",
+            "town"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Port Townsend is one of the more successful villages on this island. So far, we have been only somewhat afflicted by the cockroach plagues and the diseases they bring._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "cock",
+            "dise"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            5,
+            0,
+            0
+          ],
+          "str1": "_We know not why, but the fair Isle of Bigail has been beset by a mighty plague of foul and disgusting cockroaches. Fortunately, we have the Anama to guide us and to help fight the diseases they brought. The Anama leads us from Shayder._",
+          "str2": "_The cockroaches are gone, but the diseases they left remained. It will take much time to recover._"
+        },
+        {
+          "keywords": [
+            "shay"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The largest city on this island, and home of the Anama church. It is not far to the northwest._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "prov",
+            "guid"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This isle has not been settled long, and we have not achieved the level of comfort of other areas. The Anama still generally live in groups of barracks, led by one Priest or Mother who gives guidance._",
+          "str2": "_We hope to be established enough that everyone can have a private home as soon as possible. Our living in barracks tends to make people think the Anama are a cult._"
+        },
+        {
+          "keywords": [
+            "holy",
+            "task"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Life on this island is hard, and was so even before the cockroaches came. Were it not for religious fervor, most of us would have given up long ago._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "anam"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Anama church is the dominant force of this island. We believe that the use of Mage Spells in the long run brings more death and destruction than good._",
+          "str2": "_Would you like me to share some of my beliefs on the subject with you?_"
+        },
+        {
+          "keywords": [
+            "beli",
+            "shar"
+          ],
+          "type": 125,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 125,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "cult"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We are not a cult. Travel the island and speak with us, and I think you will find we are very level headed. Would you like to hear some of our beliefs?_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "slot": 3,
+      "title": "Martha",
+      "look": "A large ogre stands by the dock, holding a roll of tickets. You think it's a female. A small cloud of flies buzzes around her.",
+      "name": "She speaks, showing huge fangs. _I called Martha. You better not laugh._",
+      "job": "_I sell tickets to boats. I sailor, but no ships to sail on._",
+      "dunno": "_Ugh. You dumb._",
+      "nodes": [
+        {
+          "keywords": [
+            "mart",
+            "laug"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I sell tickets to boats. I sailor, but no ships to sail on._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "tick",
+            "boat"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A ticket for trip back to Farport is very cheap. Only 10 gold. Care to purchase one?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 21,
+          "typeName": "buy_service",
+          "extras": [
+            10,
+            127,
+            9,
+            1
+          ],
+          "str1": "She takes your gold, counting it only with great difficulty. Then she tears off your tickets and hands them over. _Go to end of west dock._",
+          "str2": "She shakes her head. _No gold, no go._"
+        },
+        {
+          "keywords": [
+            "sail",
+            "ship"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She grunts. _No ships for sailors like me sail for long time. Bad, bad. I live by selling tickets to small boats to boring places, and by eating roaches._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "roac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She grins. You try not to look too closely at the stuff between her fangs.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "slot": 4,
+      "title": "Ahonar",
+      "look": "This old man wears the elaborate robes of his office as if he was born in them. He looks at you serenely.",
+      "name": "He says simply, _I am Ahonar, spiritual guide of the Anama church._",
+      "job": "_What can I say? I founded the Anama church. I watch over it. I help my people in their struggles._",
+      "dunno": "_I cannot help, my child._",
+      "nodes": [
+        {
+          "keywords": [
+            "teac",
+            "ethe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Would you like to learn of the beliefs of the Anama faith?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "foun",
+            "anam"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My life has been devoted to my teachings, both on ethereal and practical matters._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "peop",
+            "stru"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Those who follow me came to this harsh and unforgiving isle to tame it. Unfortunately, just when we were starting to attain some comfort and safety, the plagues began._",
+          "str2": "_Fortunately, I have many loyal helpers._"
+        },
+        {
+          "keywords": [
+            "prac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My beliefs include that holy energy should be refined to the point where it can fully substitute for magical energy. For this reason, I teach holy prayers to all I can, for a small donation._",
+          "str2": "_Would you like to learn a few useful prayers?_"
+        },
+        {
+          "keywords": [
+            "purc",
+            "pray"
+          ],
+          "type": 15,
+          "typeName": "shop_priest_spells",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Ahonar's Prayers",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "beli",
+            "anam"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Anama are not a cult. We are not freaks. We simply believe that the use of magic creates more problems than it cures. Not an unreasonable belief, considering the state of the world today._",
+          "str2": "_We are always looking for like-minded people to join our church._"
+        },
+        {
+          "keywords": [
+            "loya",
+            "help"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            105,
+            1,
+            0,
+            0
+          ],
+          "str1": "_At my right hand is Lockhart. His office is nearby. And, of course, there are many other loyal members of the faith, and we always look for more to join._",
+          "str2": "He looks sad. _Well, here I had Lockhart and Deland to aid me. They are gone now, lost to disease. But the Anama have many others, and we will soldier on. Somehow._"
+        },
+        {
+          "keywords": [
+            "hars",
+            "unfo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The island had many ogres and bears, as well as thick foliage and rocky soil. It took much effort to get to the point where we could live with some small comforts._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "comf",
+            "safe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You may have seen that most of the Anama live in barracks. This is intolerable. My followers deserve the dignity of privacy, if nothing else._",
+          "str2": "_In addition, of course, the communal living makes the Anama look like a bunch of cultish freaks._"
+        },
+        {
+          "keywords": [
+            "cult",
+            "frea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Disagree with us if you wish, but our beliefs are grounded in nothing but clear  thinking and an appreciation of the harshness of reality. Would you like to learn of the Anama beliefs?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "anam",
+            "beli"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "A look of calm and total conviction comes into his eyes. _Look at the world. Look at the people being slaughtered by beings of magical creation, at the bizarre creatures made by magical experiments._",
+          "str2": "_Look at the undead, made by necromancers, or at armies shredded by fireball spells, stronger than a thousand arrows? What causes all this carnage?_"
+        },
+        {
+          "keywords": [
+            "caus",
+            "carn"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Magical spells! We believe that the bad caused by Mage Spells outweighs the good, and that they should not be used. An unpopular belief, but one we will fight for._",
+          "str2": "_Magic puts too much power into the lone and deranged, to the cost of all. Those who agree with this are always welcome to join us. We welcome those who would belong._"
+        },
+        {
+          "keywords": [
+            "join",
+            "belo"
+          ],
+          "type": 130,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 130,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "lock"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            105,
+            1,
+            0,
+            0
+          ],
+          "str1": "_Lockhart is my most loyal helper._",
+          "str2": "He shakes his head. _Lockhart was a loyal helper, but he is with me no more._"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "slot": 5,
+      "title": "Mayor Bernathy",
+      "look": "A wrinkled and weary woman shuffles papers at the end of the table. She looks up at you with the air of a bureaucrat, and with the sense of having become accustomed to the pointlessness of her existence.",
+      "name": "_I am Mayor Bernathy. Welcome to Shayder._",
+      "job": "_I am the Mayor of the beautiful city of Shayder, placed by the Empire as a guardian. For what all that is worth, which is little. _",
+      "dunno": "She shakes her head.",
+      "nodes": [
+        {
+          "keywords": [
+            "mayo",
+            "shay"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            149
+          ],
+          "str1": "She coughs. She doesn't look well. _I was hand-picked by the Empire to come out here and try to run this place. Of course, the Anama really run everything. Things I say are basically ignored._",
+          "str2": "_Plus, of course, nobody expected the roaches._"
+        },
+        {
+          "keywords": [
+            "empi",
+            "guar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks disturbed. _I've served the Empire loyally for most of my life. I ask myself again and again, why did they send me out here to the wilderness, to a post where I would be all but ignored, and then ..._",
+          "str2": "She shakes her head. _And then, when we most need their help, they ignore us. I am worthless here._"
+        },
+        {
+          "keywords": [
+            "wort",
+            "litt"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I control so little. The guards listen to me sometimes, but not always. Day to day issues are run by Ahonar, high priest of the Anama._",
+          "str2": "_I push papers, and send reports to the Empire, which they ignore. I'm worthless here. Period._"
+        },
+        {
+          "keywords": [
+            "miss",
+            "ques"
+          ],
+          "type": 131,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            149
+          ],
+          "specialId": 131,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "anam",
+            "ahon"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            5,
+            0,
+            0,
+            149
+          ],
+          "str1": "_I won't tell you what rubbish they spout. You'll hear enough of it. But most everyone on the island follows them, and only listen to me when they say so. But they can't handle the roaches! And I have the Empire's authority to give a quest!_",
+          "str2": "She scratches at a small sore on her arm. _I won't tell you what rubbish they spout. You'll hear enough of it. I'll say this for them, though. Without them, the roaches diseases would have killed many more people. The Empire was zero help with that._"
+        },
+        {
+          "keywords": [
+            "roac"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            5,
+            0,
+            0,
+            149
+          ],
+          "str1": "She wipes a running nose. _They bring disease. Everyone is dying. The crops are being eaten._ She grins evilly. _And the Anama can't handle it. About the only authority I have is to give a mission to someone who could handle it._",
+          "str2": "_The roaches are gone. Mostly. But some are left, and the diseases are still very much with us. At least the Anama are good at healing disease._ She coughs. _Your work on that mission was admirable, by the way._"
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "slot": 6,
+      "title": "Grunders",
+      "look": "You meet a short, fidgety accountant type with a heavily chewed pencil behind his ear. He nods in greeting.",
+      "name": "_I'm Grunders. A lovely day to you._",
+      "job": "_Oh, I run a variety of business operations. I'm the main jobs dispatcher for Shayder, and I'm also an accomplished reseller. Good occupations, thanks to the roaches._",
+      "dunno": "He grunts and shakes his head.",
+      "nodes": [
+        {
+          "keywords": [
+            "busi",
+            "oper"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Oh, I run a variety of business operations. I'm the main jobs dispatcher for Shayder, and I'm also an accomplished resaler. Good occupations, thanks to the roaches._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "jobs",
+            "disp"
+          ],
+          "type": 25,
+          "typeName": "job_bank",
+          "extras": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "str1": "He shakes his head. _Our records indicate you screwed up the last job we gave you. You're on probation, I'm afraid._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "acco",
+            "resa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Thanks to all the monsters everywhere, supplies are always short. You can sell me pretty much anything you want!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "roac",
+            "most"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            5,
+            0,
+            0
+          ],
+          "str1": "_Well, with the monsters everywhere, the normal supply lines are gone, so small time couriers and treasure hunters are what's needed today, and I work with them. I'm getting rich, I tell you! Pity about the dead, though._ His sincerity is unconvincing.",
+          "str2": "_The roaches are gone, but there are plenty of monsters elsewhere. Business will be excellent for some time._"
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks over your equipment, giving a price for everything identified. _By the way,_ he says, _Sara does identification, if you need it. She's to the southeast._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "slot": 7,
+      "title": "Sara",
+      "look": "You meet someone unusual in Anama lands: a woman wearing mage robes, and doing so unapologetically. She nods in greeting.",
+      "name": "_I am Sara. I'm a mage._",
+      "job": "_I study the magical arts, and provide training in the same. I even dabble in identification a bit. And believe me, between the roaches and the Anama, these are not stress-free occupations._",
+      "dunno": "_I know a lot, but I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "magi",
+            "arts"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I study the magical arts, and provide training in the same. I even dabble in identification a bit. And believe me, between the roaches and the Anama, these are not stress-free occupations._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dabb",
+            "iden"
+          ],
+          "type": 19,
+          "typeName": "identify",
+          "extras": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "str1": "She inspects your items, and mumbles a few words. _Not a difficult lot. Which one do you want to know about?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "prov",
+            "trai"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I am quite capable of teaching several valuable spells. If you wish to purchase one, let me know._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "spel"
+          ],
+          "type": 14,
+          "typeName": "shop_mage_spells",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Sara's Spells",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "roac"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            70,
+            1,
+            0,
+            0
+          ],
+          "str1": "_I know little about it. The Anama tell me nothing, and I rarely go out with all the sickness._ She thinks. _Though I do know someone who might be able to help ... he's quite wise._",
+          "str2": "She jumps. _Where?_ She realizes you were just asking a question, and calms down. _I don't go out anymore. To many sick people. Too dangerous. I'm just fine in here. Just fine._ She twitches jumpily."
+        },
+        {
+          "keywords": [
+            "anam"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            4,
+            0,
+            2,
+            0
+          ],
+          "str1": "_I care not what they say. Magic, despite its drawbacks, is a great force for good. And no matter what they do, this is home, and here I will remain. The ignorant fools._ She thinks a moment. _Of course, I have met a wise Anama member, believe it or not._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "wise",
+            "memb"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            70,
+            1,
+            0,
+            0
+          ],
+          "str1": "_Arkley, the librarian, is wise and knows an awful lot. You should be sure to speak with him. He's in the library to the north._",
+          "str2": "_Arkley, the librarian, is wise and knows an awful lot. You should be sure to speak with him. He's in the library to the north._ She looks edgy. _I haven't seen him in a while. With all the disease, I haven't been out in weeks._"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "slot": 8,
+      "title": "Mayor Bernathy",
+      "look": "You meet the mayor of Shayder. She's in terrible shape. She coughs constantly, has sweats, and is deathly pale. The diseases the cockroaches brought hit her hard.",
+      "name": "_Call me Bernathy._",
+      "job": "_What does it matter? I was worthless before I got sick. Now the Anama truly control everything._",
+      "dunno": "She coughs and looks confused.",
+      "nodes": [
+        {
+          "keywords": [
+            "empi",
+            "guar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She coughs, a racking cough that seems like it might break her spine. Eventually she manages to say _The Empire has written us off. They've sent no help. Done nothing._",
+          "str2": "_I curse them. I spit in their face. And if I die, it was them that killed me._"
+        },
+        {
+          "keywords": [
+            "wort",
+            "litt"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "A tear runs down her face. She coughs gently. _I can give missions to people, but can't do anything myself. I was worthless when I came here, and I'll die worthless. This is not what I wanted._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "slot": 9,
+      "title": "Rippel",
+      "look": "You meet a young woman with long brown hair and a winning smile. She's very small, but wields a big cleaver. There's plenty of food behind the counter, and the place smells delicious.",
+      "name": "_I'm Rippel. Welcome to my shop._",
+      "job": "_Most of the time I sell food, you know? The rest of the time I keep busy._ She holds up her hand, and you see an Anama ring.",
+      "dunno": "She looks confused.",
+      "nodes": [
+        {
+          "keywords": [
+            "purc",
+            "food"
+          ],
+          "type": 11,
+          "typeName": "shop_food",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Rippel's Rations",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "anam",
+            "ring"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            4,
+            0,
+            2,
+            0
+          ],
+          "str1": "She shows you the ring, a delicate silver band. _I used to live in Sharimik, but I came here to join the Anama. You know, I've never trusted those mages!_",
+          "str2": "She grins. _Oh, I see you have one too! You must not trust those mages either!_"
+        },
+        {
+          "keywords": [
+            "shar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A big city to the northeast. Nice place, but it just doesn't have the spirituality I can find here._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trus",
+            "mage"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_How could you trust them? All mightier that you, clustering in their towers, doing their secret rites, making plagues and weird creatures and stuff? I tell you, that's something we could all do without!_",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

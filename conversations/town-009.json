@@ -1,0 +1,1021 @@
+{
+  "talkRecord": 9,
+  "townId": 9,
+  "personalityBase": 91,
+  "label": "Strange Wizard, Gardner, Captain Agrod, Valoda, Mayor Arbuckle, Captain Maxine",
+  "people": [
+    {
+      "id": 91,
+      "slot": 0,
+      "title": "Strange Wizard",
+      "look": "A wizard in dark robes sits cross legged in front of you. He looks intently at you from under bushy eyebrows, and clearly could not be less impressed.",
+      "name": "_Names have power, child._",
+      "job": "He shakes his head in amusement. _I am merely observing. In this age of fury and blades, knowledge is a true weapon._",
+      "dunno": "_Your question lacks focus._",
+      "nodes": [
+        {
+          "keywords": [
+            "mere",
+            "obse"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I am simply watching carefully what happens, and who is doing what, and what is coming from where. Others can kill the monsters, and they have their purpose._",
+          "str2": "_However, those who wish to solve the true problems that face us must watch and search and learn. Our true enemy has yet to be found._"
+        },
+        {
+          "keywords": [
+            "know",
+            "weap"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We all have much to learn, and about more than just monsters. For example, I believe Valorim contains certain valuable magical artifacts._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fury",
+            "blad"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Exile attacks the Empire. Empire attacks Exile. This struggle is no longer relevant. Krizsan fights the slimes. This struggle is not relevant. Our true enemy has yet to be found._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "magi",
+            "arti"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have been trying to find them. I believe, for example, that I have discovered the location of the long lost Ring of Endless Magery. Perhaps I would tell its location to one who showed me he had true dedication._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "true",
+            "dedi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He thinks. _Well, I think 2500 gold is the going rate for true dedication these days. Perhaps you would like to purchase the location of the ring?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "loca",
+            "ring"
+          ],
+          "type": 24,
+          "typeName": "buy_location",
+          "extras": [
+            2500,
+            70,
+            0,
+            0
+          ],
+          "str1": "He gladly accepts your 'dedication.' _The Ring of Endless Magery is in the Tower of Zkal. That legendary tower, I have found, is at the southern end of the island south of the city of Gale._",
+          "str2": "He shakes his head. _You clearly have insufficient dedication. Perhaps you could accumulate more?_"
+        },
+        {
+          "keywords": [
+            "gale",
+            "zkal"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Gale is at the northeast end of Valorim, many, many miles from here. Have a nice trip._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "slot": 1,
+      "title": "Gardner",
+      "look": "You meet a priest, wandering the streets of the city. He wears rough, woolen clothes, which look like they've been worn through muddy swamps from one end of the continent to the other. Only a small wooden ankh marks him as a holy man.",
+      "name": "He extends a calloused hand to you. _I am Gardner._",
+      "job": "He fingers his ankh. _I've been wandering the lands, trying to help people deal with the monsters that plague us._",
+      "dunno": "_I haven't learned anything of that._",
+      "nodes": [
+        {
+          "keywords": [
+            "wand",
+            "land"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            124,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I was up near Sharimik and Lorelei recently, until I heard this province was getting very little help from the Empire, so I came here. I've walked many miles._",
+          "str2": "_I was up near Sharimik and Lorelei for a while, and then went down to Silvar. Then it was destroyed by slimes, so I came here. I hope I don't have to hit the road yet again, but it's always possible._"
+        },
+        {
+          "keywords": [
+            "mons",
+            "plag"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_In my wanderings, I have heard the slimes attacking Krizsan are actually rather benign. Some cities have been attacked by giants, others by troglodytes. I have heard rumors of golems and bizarre furred beasts._",
+          "str2": "_Most unnerving of all, Shayder has encountered a truly bizarre horror._"
+        },
+        {
+          "keywords": [
+            "help",
+            "peop"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I am mainly a healer. I do what I can in return for a small fee to keep me on the road. Perhaps you need my services?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "shar",
+            "lore"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Two major cities in the middle of the continent of Valorim. They have been attacked by wave upon wave of humanoids - giants and troglodytes. 'Tis a deadly area to visit._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "shay",
+            "horr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Shayder has been attacked by waves of gigantic cockroaches._ He shudders. _Hard to believe._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "heal",
+            "serv"
+          ],
+          "type": 18,
+          "typeName": "healer",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Gardner the Healer",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "slot": 2,
+      "title": "Captain Agrod",
+      "look": "You meet a captain of the Empire army. He has a squashed, puffy face and a huge nose. He looks at you with extreme distrust.",
+      "name": "_I'm Captain Agrod._",
+      "job": "He pulls out a small hip flask and takes a swig from it. _I'm the Empire liaison for this area. I hope you don't plan to cause trouble._",
+      "dunno": "_My duties don't involve that._",
+      "nodes": [
+        {
+          "keywords": [
+            "flas",
+            "swig"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grunts and takes another swig. _If you had to live around here, you'd take a nip once in a while too._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi",
+            "lias"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire stuck me out here in the middle of nowhere to look after things and implement their inane policies. Speaking of which, what's your opinion on unicorns?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "caus",
+            "trou"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Look, we all know there are Exiles wandering around. If you were near the center of the Empire, this would be a serious problem. But this is the middle of nowhere, and we don't care here._",
+          "str2": "_Just don't cause trouble, OK?_"
+        },
+        {
+          "keywords": [
+            "midd",
+            "nowh"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_That's what Krizsan province is, that's for sure._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "inan",
+            "poli"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire is too busy crushing anyone who questions it to worry about what happens in the middle of nowhere. They don't send anyone out here to help out, only to tell people what to do and not offer assistance._",
+          "str2": "_For example, this area is being torn apart and I'm supposed to be hiring people to deal with the unicorns._"
+        },
+        {
+          "keywords": [
+            "unic",
+            "horn"
+          ],
+          "type": 119,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 119,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "slot": 3,
+      "title": "Valoda",
+      "look": "There is an officious looking woman with a turned up nose behind the counter. Even as she looks up at you, she  continues to nervously shuffle papers with her hands.",
+      "name": "_Valoda._ The papers continue to shuffle.",
+      "job": "_I'm the delivery dispatcher. Even in these awful days, the mail must still go through._",
+      "dunno": "_What?_",
+      "nodes": [
+        {
+          "keywords": [
+            "deli",
+            "disp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_When someone needs something sent somewhere, they come to me, and I find someone to do it for them. If you'd like a mission, let me know._",
+          "str2": "_Before you get a mission, however, I have some advice for you._"
+        },
+        {
+          "keywords": [
+            "awfu",
+            "days"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            25,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's nearly impossible to find anyone going anywhere these days. Too many monsters. Far too dangerous. People are paying plenty of money to the people who take my missions._",
+          "str2": "She holds up the papers she's carrying in disgust. _Look at this! A bunch of slimes wrecked my office. I have to solicit adventurers from the road! This is untenable, it really is. Thank goodness I have a great sense of duty._"
+        },
+        {
+          "keywords": [
+            "mail",
+            "thro"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire insists the mail continues to move as much as possible. It might occur to some that perhaps they should send more troops to help us and fewer orders for us to obey._",
+          "str2": "She sighs. _It is, of course, not my place to criticize the Empire._"
+        },
+        {
+          "keywords": [
+            "purc",
+            "miss"
+          ],
+          "type": 25,
+          "typeName": "job_bank",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She checks her records and shakes her head. _I'm afraid you failed to complete one of your missions. I am forbidden to give you any other missions for quite some time._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mons",
+            "slim"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            25,
+            0,
+            0,
+            0
+          ],
+          "str1": "She shuffles the papers nervously. _One slime could wreck all of my records! I'm a constant wreck with worry!_",
+          "str2": "_The monsters are getting to be too much! They destroyed my office!_"
+        },
+        {
+          "keywords": [
+            "reco",
+            "offi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks distressed. _I have records of every mission I ever gave, and the outcome! How am I supposed to work if I lose that information!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "advi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_These are paranoid times. You may not want to take a mission to a city until you know you will be let in. Also, we job dispatchers are unforgiving of failure._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "unfo",
+            "fail"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Fail to complete one of my jobs on time, and don't be surprised if I don't give you another for a few months._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "slot": 4,
+      "title": "Mayor Arbuckle",
+      "look": "You meet a small, fidgety man with the look of a natural-born bureaucrat. He sits in an impressive, polished oak chair far too large for him.",
+      "name": "His expression is hard to read. _Welcome, travelers, to the city hall of Krizsan. I am Mayor Arbuckle._",
+      "job": "He has a nervous tic around his eye. _I was picked by the Empire to look after this area. It was a nightmare assignment, and the monsters have only made it worse._ He surprises you with his bluntness.",
+      "dunno": "He acts as if he knows what you're talking about, but he clearly doesn't.",
+      "nodes": [
+        {
+          "keywords": [
+            "empi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The continent of Valorim is only recently settled. A post here was a dead end for a career even as it was. Then the slimes appeared._",
+          "str2": "_The only worse job is anything dealing with Exile._"
+        },
+        {
+          "keywords": [
+            "nigh",
+            "assi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's bad enough that this is the least developed town in the least developed area in the not at all developed continent of Valorim. But then the slimes appeared, and started to destroy everything._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mons",
+            "slim"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            3,
+            0,
+            0
+          ],
+          "str1": "He looks at you cannily. _I will be blunt. You're adventurers from Exile. I don't know why you're here. I don't care. We have too much else to worry about._ He wipes nervous sweat from his forehead. _I have a mission for you, with a considerable reward._",
+          "str2": "_Well, that work is done. The rebuilding has begun. Have you received your reward for your bold efforts?_"
+        },
+        {
+          "keywords": [
+            "dest",
+            "ever"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            3,
+            0,
+            0
+          ],
+          "str1": "_They can ooze through holes in our walls, and attack us at any hour, in any place. I haven't slept a good night's sleep for months, and I'm far from the only one._",
+          "str2": "_Well, it's true you eliminated the slimes for the most part. There are still a few around, however, and the damage still needs to be repaired. Much work remains to be done._"
+        },
+        {
+          "keywords": [
+            "valo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The settlement of Valorim only began two centuries ago. It is still only sparsely populated, and is the only area where monsters are still known to roam free._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dead",
+            "care"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, I'm here aren't I? I was at the wrong end of a little office power struggle, and ended up at the wrong end of the Earth. That's the Empire for you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "miss",
+            "rewa"
+          ],
+          "type": 118,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 118,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "His mouth twitches. _Don't bother to pretend. I know there are Exiles running around. I don't care. We have too many other problems, and I'm not foolish enough to believe Exile would attack us by dropping slimes in the middle of nowhere._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "slot": 5,
+      "title": "Captain Maxine",
+      "look": "This woman hefts a large halberd around with her. Both her weapon and her breastplate have tiny spots of dried slime on them. ",
+      "name": "She shifts her halberd to one hand and tips her helmet to you. _I am Captain Maxine._",
+      "job": "She shrugs her shoulders brusquely. _Can't talk long. Have work to do. I look after the garrison and city hall. Plenty to do, what with the slime invasion._",
+      "dunno": "_I can't help you with that._",
+      "nodes": [
+        {
+          "keywords": [
+            "garr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Where my soldiers are. They're good men, but there are too many slimes, and they're everywhere. We do our best._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "city",
+            "hall"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            3,
+            0,
+            0
+          ],
+          "str1": "_Just between you and me, City Hall isn't too useful to us. I mean, are we going to club the slimes to death with paperwork? That's all Cindy and Agrod have contributed._",
+          "str2": "_Looking after City Hall is not too difficult, now that there aren't so many slimes._"
+        },
+        {
+          "keywords": [
+            "slim",
+            "inva"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            3,
+            0,
+            0
+          ],
+          "str1": "_Look, every minute I'm talking to you is another minute I'm not hunting those blobs of evil goo. No offense, but you're not worth it._",
+          "str2": "She claps you on the soldier. _I heard what you did! Good work! Bad news is, not all of the slimes are dead yet, though the source is gone. The chopping continues._"
+        },
+        {
+          "keywords": [
+            "cind"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            25,
+            0,
+            0,
+            0
+          ],
+          "str1": "_She does research, trying to figure out how to fight the slimes. She's nowhere near bright enough, and I've lost good men trying out her schemes. Still, she's come close sometimes. She's still worth the trouble._",
+          "str2": "She shakes her head angrily. _She was doing magical research on the slimes. One day she said she might know how to deal with them. The next day a tiny one crawled out of a vial she was holding, and sprayed her face with acid! Killed her! Damn waste._"
+        },
+        {
+          "keywords": [
+            "agro"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            55,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We beg the Empire for help, and who do they send? That worthless paper pusher.  I'd like to use him as a shield, that's what I'd like._",
+          "str2": "_Oh, he was some Empire paper pusher who had an office here. Wasn't paying attention a few days ago. A slime blasted him with a Flame spell. No great loss._"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "slot": 6,
+      "title": "Zoorb",
+      "look": "You meet an archer, standing outside the city limits. He looks very nervous, and constantly watches the ground around him.",
+      "name": "He moves quickly up to you, watching for slimes as he moves. _I'm Zoorb._",
+      "job": "He emits a brittle laugh. _I'm watching the walls, to see if slimes are burning through them. Bloody suicide mission!_",
+      "dunno": "_I can't help you with that._",
+      "nodes": [
+        {
+          "keywords": [
+            "slim",
+            "burn"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Slimes are always trying to get through the city walls. They sit on the wall, and just wait, and their natural acids burrow a tunnel. I'm down here, because someone has to watch for them, and you can only really get a good look from out here._",
+          "str2": "_A job for expendables, if you ask me._"
+        },
+        {
+          "keywords": [
+            "suic",
+            "miss"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I'm supposed to watch for slimes on the walls, but it's only a matter of time before one of them gets the drop on me. Not that they consider me expendable or anything, but they do._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "expe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's such a waste, because I got good ideas! I do!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "good",
+            "idea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Like, I think we should find out what the deal is with those brigands who have slimes with them._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "brig"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There are brigands out there who can actually command the slimes! I heard someone say they saw them coming out of the mountains not far to the west! Maybe if we could find out how they command the slimes, we could do it too!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "slot": 7,
+      "title": "Churdan",
+      "look": "At the sight of your well-traveled band, the innkeeper starts getting bottles of mead ready. Nobody else in the bar gives you much notice.",
+      "name": "_I'm Churdan. You folks look thirsty._",
+      "job": "_Well, our main business here is thirst management - we make the finest mead in Krizsan. You can also get a room if you want - only 5 gold._",
+      "dunno": "_Eh. That ain't my job._",
+      "nodes": [
+        {
+          "keywords": [
+            "thir",
+            "mead"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A round of mead for your band is only 2 gold, and believe me, it'll get ya' where you're goin'. Just ask for a drink when you're ready. Of course, you should be careful. Some folks have been sorta' affected by the stuff._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            5,
+            3,
+            0,
+            0
+          ],
+          "str1": "You go to your room. It's surprisingly cozy.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "drin"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Mead is a wine-like drink made from honey. Their mead is, indeed, excellent. When you're through, the innkeeper says _By the way, want some advice?_",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "affe",
+            "stuf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Some of my more, um, frequent customers said they saw a sprite north of town. What a bunch of goofs!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "advi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_People in the small towns keep to themselves. Most of them won't wanna' talk to you. Always be sure to talk to the innkeepers, though. They'll know what's goin' on!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "spri"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Faerie creature. Hasn't been one of them around here for years and years and years. Thank goodness._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "slot": 9,
+      "title": "Carroll",
+      "look": "The innkeeper is very warty. He doesn't look like he enjoys his job, and he certainly isn't impressed with you.",
+      "name": "_I'm Carroll. Whaddaya' want?_",
+      "job": "_Well, I got the captain's room open for five gold. I got grog for 3 gold for a round. You're just lucky I'm servin' landlubbers._",
+      "dunno": "_Shut up._",
+      "nodes": [
+        {
+          "keywords": [
+            "capt",
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            5,
+            3,
+            0,
+            0
+          ],
+          "str1": "He shows you to your room, muttering something about how it's normally meant for the lords of the sea, not _Scrawny meat._ like you.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "grog",
+            "purc"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "The harsh liquor burns your throats, and Carroll chuckles mockingly. When you're done, he collects your mugs and whispers _Got a secret for ya'. Only 10 gold._",
+          "str2": "You don't have the three gold, and Carroll isn't inclined to give credit."
+        },
+        {
+          "keywords": [
+            "land"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This has been a town that lives by shipping. But with all the monsters, no boats are goin' anywhere. So we gotta' serve people who don't make as honest livings. ",
+          "str2": "He spits on the floor. _But we don't have to like it._"
+        },
+        {
+          "keywords": [
+            "secr"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            10,
+            0,
+            0,
+            0
+          ],
+          "str1": "He pockets your cash and leans close to you, giving you an excellent view of his warts. _To the north is Pergies. They do mining there. Look around ... I hear ya' can get weapons cheap at one of the mines._",
+          "str2": "_Ya' don't got the cash, ya' worthless, scrawny worm in a lamprey's butt._"
+        },
+        {
+          "keywords": [
+            "mons"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You know? The slimes? Roaches? All that? Where ya' been? Exile?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I thought as much. Just don't cause trouble._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hone",
+            "livi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Like on the sea! Duh!_",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

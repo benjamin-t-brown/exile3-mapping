@@ -1,0 +1,2158 @@
+{
+  "source": "Exile3/EXILE3.EXE",
+  "format": "Everyone responds to Look, Name, and Job using those strings on each person. Extra keywords are 4-character prefixes (purc matches purchase). Underscores in dialogue are quotation marks. Node type 100+ calls a town special with that id.",
+  "townCount": 38,
+  "npcCount": 354,
+  "towns": [
+    {
+      "file": "town-000.json",
+      "talkRecord": 0,
+      "townId": 0,
+      "personalityBase": 1,
+      "label": "Weaponsmith, Armorsmith, Merry, Provisioner, Tailor, Fletcher",
+      "npcCount": 7,
+      "people": [
+        {
+          "id": 1,
+          "title": "Weaponsmith",
+          "nodeCount": 5
+        },
+        {
+          "id": 2,
+          "title": "Armorsmith",
+          "nodeCount": 4
+        },
+        {
+          "id": 3,
+          "title": "Merry",
+          "nodeCount": 5
+        },
+        {
+          "id": 4,
+          "title": "Provisioner",
+          "nodeCount": 5
+        },
+        {
+          "id": 5,
+          "title": "Tailor",
+          "nodeCount": 4
+        },
+        {
+          "id": 6,
+          "title": "Fletcher",
+          "nodeCount": 3
+        },
+        {
+          "id": 10,
+          "title": "Lizard",
+          "nodeCount": 3
+        }
+      ]
+    },
+    {
+      "file": "town-001.json",
+      "talkRecord": 1,
+      "townId": 1,
+      "personalityBase": 11,
+      "label": "Cat, Dog, Cave Cow, Cow, Chicken, Sheep",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 11,
+          "title": "Cat",
+          "nodeCount": 1
+        },
+        {
+          "id": 12,
+          "title": "Dog",
+          "nodeCount": 3
+        },
+        {
+          "id": 13,
+          "title": "Cave Cow",
+          "nodeCount": 1
+        },
+        {
+          "id": 14,
+          "title": "Cow",
+          "nodeCount": 1
+        },
+        {
+          "id": 15,
+          "title": "Chicken",
+          "nodeCount": 1
+        },
+        {
+          "id": 16,
+          "title": "Sheep",
+          "nodeCount": 1
+        },
+        {
+          "id": 17,
+          "title": "Innkeeper",
+          "nodeCount": 4
+        },
+        {
+          "id": 18,
+          "title": "Sailor",
+          "nodeCount": 3
+        },
+        {
+          "id": 19,
+          "title": "",
+          "nodeCount": 14
+        },
+        {
+          "id": 20,
+          "title": "Anaximander",
+          "nodeCount": 14
+        }
+      ]
+    },
+    {
+      "file": "town-002.json",
+      "talkRecord": 2,
+      "townId": 2,
+      "personalityBase": 21,
+      "label": "Levy, Marian, Ko, Captain Johnson, Elisa, Gordon",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 21,
+          "title": "Levy",
+          "nodeCount": 8
+        },
+        {
+          "id": 22,
+          "title": "Marian",
+          "nodeCount": 6
+        },
+        {
+          "id": 23,
+          "title": "Ko",
+          "nodeCount": 4
+        },
+        {
+          "id": 24,
+          "title": "Captain Johnson",
+          "nodeCount": 4
+        },
+        {
+          "id": 25,
+          "title": "Elisa",
+          "nodeCount": 3
+        },
+        {
+          "id": 26,
+          "title": "Gordon",
+          "nodeCount": 7
+        },
+        {
+          "id": 27,
+          "title": "Yanmitho",
+          "nodeCount": 5
+        },
+        {
+          "id": 28,
+          "title": "Berra",
+          "nodeCount": 6
+        },
+        {
+          "id": 29,
+          "title": "Mazumdar",
+          "nodeCount": 6
+        },
+        {
+          "id": 30,
+          "title": "Eva",
+          "nodeCount": 13
+        }
+      ]
+    },
+    {
+      "file": "town-003.json",
+      "talkRecord": 3,
+      "townId": 3,
+      "personalityBase": 31,
+      "label": "Solberg, 'X', Ilona, Thereza, Flanagan, Cheeseball",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 31,
+          "title": "Solberg",
+          "nodeCount": 7
+        },
+        {
+          "id": 32,
+          "title": "'X'",
+          "nodeCount": 6
+        },
+        {
+          "id": 33,
+          "title": "Ilona",
+          "nodeCount": 4
+        },
+        {
+          "id": 34,
+          "title": "Thereza",
+          "nodeCount": 4
+        },
+        {
+          "id": 35,
+          "title": "Flanagan",
+          "nodeCount": 5
+        },
+        {
+          "id": 36,
+          "title": "Cheeseball",
+          "nodeCount": 6
+        },
+        {
+          "id": 37,
+          "title": "Kelner",
+          "nodeCount": 8
+        },
+        {
+          "id": 38,
+          "title": "Walner",
+          "nodeCount": 8
+        },
+        {
+          "id": 39,
+          "title": "Jake",
+          "nodeCount": 4
+        },
+        {
+          "id": 40,
+          "title": "Carol",
+          "nodeCount": 5
+        }
+      ]
+    },
+    {
+      "file": "town-004.json",
+      "talkRecord": 4,
+      "townId": 4,
+      "personalityBase": 41,
+      "label": "Seles, Tor, Julio, Denise, Brantford, Seles",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 41,
+          "title": "Seles",
+          "nodeCount": 6
+        },
+        {
+          "id": 42,
+          "title": "Tor",
+          "nodeCount": 6
+        },
+        {
+          "id": 43,
+          "title": "Julio",
+          "nodeCount": 6
+        },
+        {
+          "id": 44,
+          "title": "Denise",
+          "nodeCount": 6
+        },
+        {
+          "id": 45,
+          "title": "Brantford",
+          "nodeCount": 5
+        },
+        {
+          "id": 46,
+          "title": "Seles",
+          "nodeCount": 2
+        },
+        {
+          "id": 47,
+          "title": "Rentar-Ihrno",
+          "nodeCount": 11
+        },
+        {
+          "id": 48,
+          "title": "Glantris-Bok",
+          "nodeCount": 7
+        },
+        {
+          "id": 49,
+          "title": "Vyvnas-Bok",
+          "nodeCount": 5
+        },
+        {
+          "id": 50,
+          "title": "Koriba",
+          "nodeCount": 8
+        }
+      ]
+    },
+    {
+      "file": "town-005.json",
+      "talkRecord": 5,
+      "townId": 5,
+      "personalityBase": 51,
+      "label": "Vahnatai Shade, Habecker, Ohar, Ostoth, Enla, Elspeth",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 51,
+          "title": "Vahnatai Shade",
+          "nodeCount": 5
+        },
+        {
+          "id": 52,
+          "title": "Habecker",
+          "nodeCount": 6
+        },
+        {
+          "id": 53,
+          "title": "Ohar",
+          "nodeCount": 5
+        },
+        {
+          "id": 54,
+          "title": "Ostoth",
+          "nodeCount": 11
+        },
+        {
+          "id": 55,
+          "title": "Enla",
+          "nodeCount": 7
+        },
+        {
+          "id": 56,
+          "title": "Elspeth",
+          "nodeCount": 5
+        },
+        {
+          "id": 57,
+          "title": "Nance",
+          "nodeCount": 4
+        },
+        {
+          "id": 58,
+          "title": "Crisper",
+          "nodeCount": 8
+        },
+        {
+          "id": 59,
+          "title": "Miles",
+          "nodeCount": 5
+        },
+        {
+          "id": 60,
+          "title": "Hmurrr",
+          "nodeCount": 6
+        }
+      ]
+    },
+    {
+      "file": "town-006.json",
+      "talkRecord": 6,
+      "townId": 6,
+      "personalityBase": 61,
+      "label": "Gointz, Asp, Spike, Pathass, McDonald, Foley",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 61,
+          "title": "Gointz",
+          "nodeCount": 6
+        },
+        {
+          "id": 62,
+          "title": "Asp",
+          "nodeCount": 7
+        },
+        {
+          "id": 63,
+          "title": "Spike",
+          "nodeCount": 1
+        },
+        {
+          "id": 64,
+          "title": "Pathass",
+          "nodeCount": 8
+        },
+        {
+          "id": 65,
+          "title": "McDonald",
+          "nodeCount": 6
+        },
+        {
+          "id": 66,
+          "title": "Foley",
+          "nodeCount": 4
+        },
+        {
+          "id": 67,
+          "title": "Thompson",
+          "nodeCount": 6
+        },
+        {
+          "id": 68,
+          "title": "McKinley",
+          "nodeCount": 9
+        },
+        {
+          "id": 69,
+          "title": "McCullouch",
+          "nodeCount": 4
+        },
+        {
+          "id": 70,
+          "title": "Ahsoth",
+          "nodeCount": 5
+        }
+      ]
+    },
+    {
+      "file": "town-007.json",
+      "talkRecord": 7,
+      "townId": 7,
+      "personalityBase": 71,
+      "label": "Dominique, Hsska, Cmd. Zhivanevskaya, Dossor, Ernest, Big Ghast",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 71,
+          "title": "Dominique",
+          "nodeCount": 5
+        },
+        {
+          "id": 72,
+          "title": "Hsska",
+          "nodeCount": 5
+        },
+        {
+          "id": 73,
+          "title": "Cmd. Zhivanevskaya",
+          "nodeCount": 8
+        },
+        {
+          "id": 74,
+          "title": "Dossor",
+          "nodeCount": 5
+        },
+        {
+          "id": 75,
+          "title": "Ernest",
+          "nodeCount": 10
+        },
+        {
+          "id": 76,
+          "title": "Big Ghast",
+          "nodeCount": 7
+        },
+        {
+          "id": 77,
+          "title": "Cindy",
+          "nodeCount": 5
+        },
+        {
+          "id": 78,
+          "title": "Fellows",
+          "nodeCount": 5
+        },
+        {
+          "id": 79,
+          "title": "McElroy",
+          "nodeCount": 4
+        },
+        {
+          "id": 80,
+          "title": "Dawn",
+          "nodeCount": 6
+        }
+      ]
+    },
+    {
+      "file": "town-008.json",
+      "talkRecord": 8,
+      "townId": 8,
+      "personalityBase": 81,
+      "label": "Gypsy, Escovedo, Ellis, Terry, Herron, Jinx",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 81,
+          "title": "Gypsy",
+          "nodeCount": 4
+        },
+        {
+          "id": 82,
+          "title": "Escovedo",
+          "nodeCount": 4
+        },
+        {
+          "id": 83,
+          "title": "Ellis",
+          "nodeCount": 5
+        },
+        {
+          "id": 84,
+          "title": "Terry",
+          "nodeCount": 6
+        },
+        {
+          "id": 85,
+          "title": "Herron",
+          "nodeCount": 5
+        },
+        {
+          "id": 86,
+          "title": "Jinx",
+          "nodeCount": 6
+        },
+        {
+          "id": 87,
+          "title": "Jinx",
+          "nodeCount": 3
+        },
+        {
+          "id": 88,
+          "title": "Benedict",
+          "nodeCount": 5
+        },
+        {
+          "id": 89,
+          "title": "Kessle",
+          "nodeCount": 8
+        },
+        {
+          "id": 90,
+          "title": "Denzil",
+          "nodeCount": 4
+        }
+      ]
+    },
+    {
+      "file": "town-009.json",
+      "talkRecord": 9,
+      "townId": 9,
+      "personalityBase": 91,
+      "label": "Strange Wizard, Gardner, Captain Agrod, Valoda, Mayor Arbuckle, Captain Maxine",
+      "npcCount": 9,
+      "people": [
+        {
+          "id": 91,
+          "title": "Strange Wizard",
+          "nodeCount": 7
+        },
+        {
+          "id": 92,
+          "title": "Gardner",
+          "nodeCount": 6
+        },
+        {
+          "id": 93,
+          "title": "Captain Agrod",
+          "nodeCount": 6
+        },
+        {
+          "id": 94,
+          "title": "Valoda",
+          "nodeCount": 8
+        },
+        {
+          "id": 95,
+          "title": "Mayor Arbuckle",
+          "nodeCount": 8
+        },
+        {
+          "id": 96,
+          "title": "Captain Maxine",
+          "nodeCount": 5
+        },
+        {
+          "id": 97,
+          "title": "Zoorb",
+          "nodeCount": 5
+        },
+        {
+          "id": 98,
+          "title": "Churdan",
+          "nodeCount": 6
+        },
+        {
+          "id": 100,
+          "title": "Carroll",
+          "nodeCount": 7
+        }
+      ]
+    },
+    {
+      "file": "town-010.json",
+      "talkRecord": 10,
+      "townId": 10,
+      "personalityBase": 101,
+      "label": "Glydden, Ilsa, Paulo, Feral, Illyree, Wandering Monk",
+      "npcCount": 7,
+      "people": [
+        {
+          "id": 101,
+          "title": "Glydden",
+          "nodeCount": 8
+        },
+        {
+          "id": 102,
+          "title": "Ilsa",
+          "nodeCount": 6
+        },
+        {
+          "id": 103,
+          "title": "Paulo",
+          "nodeCount": 11
+        },
+        {
+          "id": 107,
+          "title": "Feral",
+          "nodeCount": 6
+        },
+        {
+          "id": 108,
+          "title": "Illyree",
+          "nodeCount": 7
+        },
+        {
+          "id": 109,
+          "title": "Wandering Monk",
+          "nodeCount": 5
+        },
+        {
+          "id": 110,
+          "title": "Claw",
+          "nodeCount": 5
+        }
+      ]
+    },
+    {
+      "file": "town-011.json",
+      "talkRecord": 11,
+      "townId": 11,
+      "personalityBase": 111,
+      "label": "Susie, Vorgar, Kelda, Kilborn, Ghost, Slime",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 111,
+          "title": "Susie",
+          "nodeCount": 7
+        },
+        {
+          "id": 112,
+          "title": "Vorgar",
+          "nodeCount": 5
+        },
+        {
+          "id": 113,
+          "title": "Kelda",
+          "nodeCount": 5
+        },
+        {
+          "id": 114,
+          "title": "Kilborn",
+          "nodeCount": 5
+        },
+        {
+          "id": 115,
+          "title": "Ghost",
+          "nodeCount": 3
+        },
+        {
+          "id": 116,
+          "title": "Slime",
+          "nodeCount": 0
+        },
+        {
+          "id": 117,
+          "title": "Mahdavi",
+          "nodeCount": 8
+        },
+        {
+          "id": 118,
+          "title": "Linda",
+          "nodeCount": 5
+        },
+        {
+          "id": 119,
+          "title": "Vidrain",
+          "nodeCount": 4
+        },
+        {
+          "id": 120,
+          "title": "Kyanan",
+          "nodeCount": 5
+        }
+      ]
+    },
+    {
+      "file": "town-012.json",
+      "talkRecord": 12,
+      "townId": 12,
+      "personalityBase": 121,
+      "label": "Vincent, Clarisse, Piglet, Carrie, Conruc, Menlo",
+      "npcCount": 9,
+      "people": [
+        {
+          "id": 121,
+          "title": "Vincent",
+          "nodeCount": 5
+        },
+        {
+          "id": 122,
+          "title": "Clarisse",
+          "nodeCount": 7
+        },
+        {
+          "id": 123,
+          "title": "Piglet",
+          "nodeCount": 7
+        },
+        {
+          "id": 124,
+          "title": "Carrie",
+          "nodeCount": 4
+        },
+        {
+          "id": 125,
+          "title": "Conruc",
+          "nodeCount": 6
+        },
+        {
+          "id": 127,
+          "title": "Menlo",
+          "nodeCount": 6
+        },
+        {
+          "id": 128,
+          "title": "Spider",
+          "nodeCount": 7
+        },
+        {
+          "id": 129,
+          "title": "Linda",
+          "nodeCount": 10
+        },
+        {
+          "id": 130,
+          "title": "Solberg",
+          "nodeCount": 9
+        }
+      ]
+    },
+    {
+      "file": "town-013.json",
+      "talkRecord": 13,
+      "townId": 13,
+      "personalityBase": 131,
+      "label": "Ghost, Ghost, Ghost, Erika, Claw, Arion",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 131,
+          "title": "Ghost",
+          "nodeCount": 5
+        },
+        {
+          "id": 132,
+          "title": "Ghost",
+          "nodeCount": 9
+        },
+        {
+          "id": 133,
+          "title": "Ghost",
+          "nodeCount": 4
+        },
+        {
+          "id": 134,
+          "title": "Erika",
+          "nodeCount": 24
+        },
+        {
+          "id": 135,
+          "title": "Claw",
+          "nodeCount": 8
+        },
+        {
+          "id": 136,
+          "title": "Arion",
+          "nodeCount": 5
+        },
+        {
+          "id": 137,
+          "title": "Oralse",
+          "nodeCount": 5
+        },
+        {
+          "id": 138,
+          "title": "Orselena",
+          "nodeCount": 4
+        },
+        {
+          "id": 139,
+          "title": "Mrrhrr",
+          "nodeCount": 5
+        },
+        {
+          "id": 140,
+          "title": "Nell",
+          "nodeCount": 5
+        }
+      ]
+    },
+    {
+      "file": "town-014.json",
+      "talkRecord": 14,
+      "townId": 14,
+      "personalityBase": 141,
+      "label": "Vok, Father Rice, Martha, Ahonar, Mayor Bernathy, Grunders",
+      "npcCount": 9,
+      "people": [
+        {
+          "id": 141,
+          "title": "Vok",
+          "nodeCount": 4
+        },
+        {
+          "id": 143,
+          "title": "Father Rice",
+          "nodeCount": 8
+        },
+        {
+          "id": 144,
+          "title": "Martha",
+          "nodeCount": 5
+        },
+        {
+          "id": 145,
+          "title": "Ahonar",
+          "nodeCount": 14
+        },
+        {
+          "id": 146,
+          "title": "Mayor Bernathy",
+          "nodeCount": 6
+        },
+        {
+          "id": 147,
+          "title": "Grunders",
+          "nodeCount": 5
+        },
+        {
+          "id": 148,
+          "title": "Sara",
+          "nodeCount": 7
+        },
+        {
+          "id": 149,
+          "title": "Mayor Bernathy",
+          "nodeCount": 2
+        },
+        {
+          "id": 150,
+          "title": "Rippel",
+          "nodeCount": 4
+        }
+      ]
+    },
+    {
+      "file": "town-015.json",
+      "talkRecord": 15,
+      "townId": 15,
+      "personalityBase": 151,
+      "label": "Begbie, Renton, Mickie, Irvine, Boyle, Jed",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 151,
+          "title": "Begbie",
+          "nodeCount": 5
+        },
+        {
+          "id": 152,
+          "title": "Renton",
+          "nodeCount": 3
+        },
+        {
+          "id": 153,
+          "title": "Mickie",
+          "nodeCount": 5
+        },
+        {
+          "id": 154,
+          "title": "Irvine",
+          "nodeCount": 3
+        },
+        {
+          "id": 155,
+          "title": "Boyle",
+          "nodeCount": 5
+        },
+        {
+          "id": 156,
+          "title": "Jed",
+          "nodeCount": 6
+        },
+        {
+          "id": 157,
+          "title": "Arkley",
+          "nodeCount": 9
+        },
+        {
+          "id": 158,
+          "title": "Deland",
+          "nodeCount": 4
+        },
+        {
+          "id": 159,
+          "title": "Rippel",
+          "nodeCount": 3
+        },
+        {
+          "id": 160,
+          "title": "Sick Boy",
+          "nodeCount": 3
+        }
+      ]
+    },
+    {
+      "file": "town-016.json",
+      "talkRecord": 16,
+      "townId": 16,
+      "personalityBase": 161,
+      "label": "Cassie, Meena, Lockhart, Judith, Oriathon, Plague Victim",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 161,
+          "title": "Cassie",
+          "nodeCount": 4
+        },
+        {
+          "id": 162,
+          "title": "Meena",
+          "nodeCount": 4
+        },
+        {
+          "id": 163,
+          "title": "Lockhart",
+          "nodeCount": 4
+        },
+        {
+          "id": 164,
+          "title": "Judith",
+          "nodeCount": 7
+        },
+        {
+          "id": 165,
+          "title": "Oriathon",
+          "nodeCount": 4
+        },
+        {
+          "id": 166,
+          "title": "Plague Victim",
+          "nodeCount": 2
+        },
+        {
+          "id": 167,
+          "title": "Cassie",
+          "nodeCount": 3
+        },
+        {
+          "id": 168,
+          "title": "Spud",
+          "nodeCount": 5
+        },
+        {
+          "id": 169,
+          "title": "Bohman",
+          "nodeCount": 3
+        },
+        {
+          "id": 170,
+          "title": "Danza",
+          "nodeCount": 3
+        }
+      ]
+    },
+    {
+      "file": "town-017.json",
+      "talkRecord": 17,
+      "townId": 17,
+      "personalityBase": 171,
+      "label": "Garnak, Elspeth, Mother Loomis, Seela, Voorn, Spider",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 171,
+          "title": "Garnak",
+          "nodeCount": 6
+        },
+        {
+          "id": 172,
+          "title": "Elspeth",
+          "nodeCount": 5
+        },
+        {
+          "id": 173,
+          "title": "Mother Loomis",
+          "nodeCount": 5
+        },
+        {
+          "id": 174,
+          "title": "Seela",
+          "nodeCount": 4
+        },
+        {
+          "id": 175,
+          "title": "Voorn",
+          "nodeCount": 3
+        },
+        {
+          "id": 176,
+          "title": "Spider",
+          "nodeCount": 5
+        },
+        {
+          "id": 177,
+          "title": "Spider",
+          "nodeCount": 4
+        },
+        {
+          "id": 178,
+          "title": " Spider",
+          "nodeCount": 4
+        },
+        {
+          "id": 179,
+          "title": "Spider",
+          "nodeCount": 4
+        },
+        {
+          "id": 180,
+          "title": "Spider",
+          "nodeCount": 4
+        }
+      ]
+    },
+    {
+      "file": "town-018.json",
+      "talkRecord": 18,
+      "townId": 18,
+      "personalityBase": 181,
+      "label": "Spider, Spider, Spider, Spider, Mother Melamed, Zog",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 181,
+          "title": "Spider",
+          "nodeCount": 4
+        },
+        {
+          "id": 182,
+          "title": "Spider",
+          "nodeCount": 2
+        },
+        {
+          "id": 183,
+          "title": "Spider",
+          "nodeCount": 3
+        },
+        {
+          "id": 184,
+          "title": "Spider",
+          "nodeCount": 3
+        },
+        {
+          "id": 185,
+          "title": "Mother Melamed",
+          "nodeCount": 7
+        },
+        {
+          "id": 186,
+          "title": "Zog",
+          "nodeCount": 3
+        },
+        {
+          "id": 187,
+          "title": "Bagzath",
+          "nodeCount": 2
+        },
+        {
+          "id": 188,
+          "title": "Olga",
+          "nodeCount": 3
+        },
+        {
+          "id": 189,
+          "title": "Purgatos",
+          "nodeCount": 12
+        },
+        {
+          "id": 190,
+          "title": "Faithful",
+          "nodeCount": 5
+        }
+      ]
+    },
+    {
+      "file": "town-019.json",
+      "talkRecord": 19,
+      "townId": 19,
+      "personalityBase": 191,
+      "label": "Johanna, Kurtz, Gavlax, Volb, Nekaros, Horrid Spectre",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 191,
+          "title": "Johanna",
+          "nodeCount": 5
+        },
+        {
+          "id": 192,
+          "title": "Kurtz",
+          "nodeCount": 8
+        },
+        {
+          "id": 193,
+          "title": "Gavlax",
+          "nodeCount": 5
+        },
+        {
+          "id": 194,
+          "title": "Volb",
+          "nodeCount": 3
+        },
+        {
+          "id": 195,
+          "title": "Nekaros",
+          "nodeCount": 6
+        },
+        {
+          "id": 196,
+          "title": "Horrid Spectre",
+          "nodeCount": 2
+        },
+        {
+          "id": 197,
+          "title": "Guard Roach",
+          "nodeCount": 4
+        },
+        {
+          "id": 198,
+          "title": "Filth Spreader",
+          "nodeCount": 5
+        },
+        {
+          "id": 199,
+          "title": "Slime Gobbler",
+          "nodeCount": 3
+        },
+        {
+          "id": 200,
+          "title": "Spider Slayer",
+          "nodeCount": 3
+        }
+      ]
+    },
+    {
+      "file": "town-020.json",
+      "talkRecord": 20,
+      "townId": 20,
+      "personalityBase": 201,
+      "label": "Crud Muncher, Doom Bringer, Sinbar, Elise, Kendrick, Jen",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 201,
+          "title": "Crud Muncher",
+          "nodeCount": 4
+        },
+        {
+          "id": 202,
+          "title": "Doom Bringer",
+          "nodeCount": 5
+        },
+        {
+          "id": 203,
+          "title": "Sinbar",
+          "nodeCount": 5
+        },
+        {
+          "id": 204,
+          "title": "Elise",
+          "nodeCount": 6
+        },
+        {
+          "id": 205,
+          "title": "Kendrick",
+          "nodeCount": 5
+        },
+        {
+          "id": 206,
+          "title": "Jen",
+          "nodeCount": 2
+        },
+        {
+          "id": 207,
+          "title": "Meiko",
+          "nodeCount": 4
+        },
+        {
+          "id": 208,
+          "title": "Voster",
+          "nodeCount": 4
+        },
+        {
+          "id": 209,
+          "title": "Oppenheimer",
+          "nodeCount": 4
+        },
+        {
+          "id": 210,
+          "title": "Londo",
+          "nodeCount": 5
+        }
+      ]
+    },
+    {
+      "file": "town-021.json",
+      "talkRecord": 21,
+      "townId": 21,
+      "personalityBase": 211,
+      "label": "Delenn, Ivanova, G'Kar, Vincent, Dot, Mervin",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 211,
+          "title": "Delenn",
+          "nodeCount": 7
+        },
+        {
+          "id": 212,
+          "title": "Ivanova",
+          "nodeCount": 8
+        },
+        {
+          "id": 213,
+          "title": "G'Kar",
+          "nodeCount": 3
+        },
+        {
+          "id": 214,
+          "title": "Vincent",
+          "nodeCount": 5
+        },
+        {
+          "id": 215,
+          "title": "Dot",
+          "nodeCount": 5
+        },
+        {
+          "id": 216,
+          "title": "Mervin",
+          "nodeCount": 5
+        },
+        {
+          "id": 217,
+          "title": "Vlad",
+          "nodeCount": 5
+        },
+        {
+          "id": 218,
+          "title": "Harmon",
+          "nodeCount": 5
+        },
+        {
+          "id": 219,
+          "title": "Cmd. Brooks",
+          "nodeCount": 4
+        },
+        {
+          "id": 220,
+          "title": "Mayor Runkle",
+          "nodeCount": 5
+        }
+      ]
+    },
+    {
+      "file": "town-022.json",
+      "talkRecord": 22,
+      "townId": 22,
+      "personalityBase": 221,
+      "label": "Dana, Valentino, Kawas, Gebra Person, Anzovin, Laika",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 221,
+          "title": "Dana",
+          "nodeCount": 4
+        },
+        {
+          "id": 222,
+          "title": "Valentino",
+          "nodeCount": 4
+        },
+        {
+          "id": 223,
+          "title": "Kawas",
+          "nodeCount": 4
+        },
+        {
+          "id": 224,
+          "title": "Gebra Person",
+          "nodeCount": 3
+        },
+        {
+          "id": 225,
+          "title": "Anzovin",
+          "nodeCount": 8
+        },
+        {
+          "id": 226,
+          "title": "Laika",
+          "nodeCount": 4
+        },
+        {
+          "id": 227,
+          "title": "Esselarea",
+          "nodeCount": 7
+        },
+        {
+          "id": 228,
+          "title": "First Gremlin",
+          "nodeCount": 4
+        },
+        {
+          "id": 229,
+          "title": "Second Gremlin",
+          "nodeCount": 5
+        },
+        {
+          "id": 230,
+          "title": "Third Gremlin",
+          "nodeCount": 4
+        }
+      ]
+    },
+    {
+      "file": "town-023.json",
+      "talkRecord": 23,
+      "townId": 23,
+      "personalityBase": 231,
+      "label": "Vahkohs, Busy, Mayor Knight, Commander Corie, Levin, Sandra",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 231,
+          "title": "Vahkohs",
+          "nodeCount": 6
+        },
+        {
+          "id": 232,
+          "title": "Busy",
+          "nodeCount": 0
+        },
+        {
+          "id": 233,
+          "title": "Mayor Knight",
+          "nodeCount": 13
+        },
+        {
+          "id": 234,
+          "title": "Commander Corie",
+          "nodeCount": 5
+        },
+        {
+          "id": 235,
+          "title": "Levin",
+          "nodeCount": 6
+        },
+        {
+          "id": 236,
+          "title": "Sandra",
+          "nodeCount": 6
+        },
+        {
+          "id": 237,
+          "title": "Ballard",
+          "nodeCount": 3
+        },
+        {
+          "id": 238,
+          "title": "Isaac",
+          "nodeCount": 4
+        },
+        {
+          "id": 239,
+          "title": "Kelly",
+          "nodeCount": 3
+        },
+        {
+          "id": 240,
+          "title": "Ellyn",
+          "nodeCount": 5
+        }
+      ]
+    },
+    {
+      "file": "town-024.json",
+      "talkRecord": 24,
+      "townId": 24,
+      "personalityBase": 241,
+      "label": "Spragins, Grassi, Grove, Quinn, Ginny, Ehrenfeld",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 241,
+          "title": "Spragins",
+          "nodeCount": 4
+        },
+        {
+          "id": 242,
+          "title": "Grassi",
+          "nodeCount": 6
+        },
+        {
+          "id": 243,
+          "title": "Grove",
+          "nodeCount": 5
+        },
+        {
+          "id": 244,
+          "title": "Quinn",
+          "nodeCount": 7
+        },
+        {
+          "id": 245,
+          "title": "Ginny",
+          "nodeCount": 5
+        },
+        {
+          "id": 246,
+          "title": "Ehrenfeld",
+          "nodeCount": 3
+        },
+        {
+          "id": 247,
+          "title": "Sean",
+          "nodeCount": 3
+        },
+        {
+          "id": 248,
+          "title": "Sloan",
+          "nodeCount": 3
+        },
+        {
+          "id": 249,
+          "title": "Sloan",
+          "nodeCount": 3
+        },
+        {
+          "id": 250,
+          "title": "Najib",
+          "nodeCount": 5
+        }
+      ]
+    },
+    {
+      "file": "town-025.json",
+      "talkRecord": 25,
+      "townId": 25,
+      "personalityBase": 251,
+      "label": "Shahpur, Starcap, Kurt, Zamora, Bryk, Mayor Scowcroft",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 251,
+          "title": "Shahpur",
+          "nodeCount": 3
+        },
+        {
+          "id": 252,
+          "title": "Starcap",
+          "nodeCount": 4
+        },
+        {
+          "id": 253,
+          "title": "Kurt",
+          "nodeCount": 2
+        },
+        {
+          "id": 254,
+          "title": "Zamora",
+          "nodeCount": 4
+        },
+        {
+          "id": 255,
+          "title": "Bryk",
+          "nodeCount": 3
+        },
+        {
+          "id": 256,
+          "title": "Mayor Scowcroft",
+          "nodeCount": 3
+        },
+        {
+          "id": 257,
+          "title": "Terry",
+          "nodeCount": 5
+        },
+        {
+          "id": 258,
+          "title": "Nydia",
+          "nodeCount": 6
+        },
+        {
+          "id": 259,
+          "title": "Barber",
+          "nodeCount": 3
+        },
+        {
+          "id": 260,
+          "title": "Wounded Person",
+          "nodeCount": 0
+        }
+      ]
+    },
+    {
+      "file": "town-026.json",
+      "talkRecord": 26,
+      "townId": 26,
+      "personalityBase": 261,
+      "label": "Masok, Adrianne, Laverne, Carmine, Shirley, Voltok",
+      "npcCount": 8,
+      "people": [
+        {
+          "id": 261,
+          "title": "Masok",
+          "nodeCount": 4
+        },
+        {
+          "id": 262,
+          "title": "Adrianne",
+          "nodeCount": 4
+        },
+        {
+          "id": 263,
+          "title": "Laverne",
+          "nodeCount": 3
+        },
+        {
+          "id": 264,
+          "title": "Carmine",
+          "nodeCount": 5
+        },
+        {
+          "id": 265,
+          "title": "Shirley",
+          "nodeCount": 4
+        },
+        {
+          "id": 266,
+          "title": "Voltok",
+          "nodeCount": 6
+        },
+        {
+          "id": 267,
+          "title": "Hermit",
+          "nodeCount": 6
+        },
+        {
+          "id": 268,
+          "title": "King Vothkaro",
+          "nodeCount": 9
+        }
+      ]
+    },
+    {
+      "file": "town-027.json",
+      "talkRecord": 27,
+      "townId": 27,
+      "personalityBase": 271,
+      "label": "Mayor Bruette, Dwaine, Carlos, Gertrude, Carson, Yukiko",
+      "npcCount": 9,
+      "people": [
+        {
+          "id": 271,
+          "title": "Mayor Bruette",
+          "nodeCount": 6
+        },
+        {
+          "id": 272,
+          "title": "Dwaine",
+          "nodeCount": 8
+        },
+        {
+          "id": 274,
+          "title": "Carlos",
+          "nodeCount": 6
+        },
+        {
+          "id": 275,
+          "title": "Gertrude",
+          "nodeCount": 5
+        },
+        {
+          "id": 276,
+          "title": "Carson",
+          "nodeCount": 5
+        },
+        {
+          "id": 277,
+          "title": "Yukiko",
+          "nodeCount": 3
+        },
+        {
+          "id": 278,
+          "title": "Lewis",
+          "nodeCount": 5
+        },
+        {
+          "id": 279,
+          "title": "Ligaya",
+          "nodeCount": 4
+        },
+        {
+          "id": 280,
+          "title": "Lyle",
+          "nodeCount": 7
+        }
+      ]
+    },
+    {
+      "file": "town-028.json",
+      "talkRecord": 28,
+      "townId": 28,
+      "personalityBase": 281,
+      "label": "Yessenia, Mundt, Deborah, Randall, Kendra, Geoffrey",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 281,
+          "title": "Yessenia",
+          "nodeCount": 7
+        },
+        {
+          "id": 282,
+          "title": "Mundt",
+          "nodeCount": 5
+        },
+        {
+          "id": 283,
+          "title": "Deborah",
+          "nodeCount": 3
+        },
+        {
+          "id": 284,
+          "title": "Randall",
+          "nodeCount": 7
+        },
+        {
+          "id": 285,
+          "title": "Kendra",
+          "nodeCount": 5
+        },
+        {
+          "id": 286,
+          "title": "Geoffrey",
+          "nodeCount": 13
+        },
+        {
+          "id": 287,
+          "title": "Bruskrud",
+          "nodeCount": 9
+        },
+        {
+          "id": 288,
+          "title": "Winterhouse",
+          "nodeCount": 4
+        },
+        {
+          "id": 289,
+          "title": "Ghost of Hawke",
+          "nodeCount": 0
+        },
+        {
+          "id": 290,
+          "title": "Ghost of Hawke",
+          "nodeCount": 0
+        }
+      ]
+    },
+    {
+      "file": "town-029.json",
+      "talkRecord": 29,
+      "townId": 29,
+      "personalityBase": 291,
+      "label": "Marjorie, Foxfire, Mia, Mrrrr, Kagan, Kirchner",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 291,
+          "title": "Marjorie",
+          "nodeCount": 4
+        },
+        {
+          "id": 292,
+          "title": "Foxfire",
+          "nodeCount": 5
+        },
+        {
+          "id": 293,
+          "title": "Mia",
+          "nodeCount": 3
+        },
+        {
+          "id": 294,
+          "title": "Mrrrr",
+          "nodeCount": 2
+        },
+        {
+          "id": 295,
+          "title": "Kagan",
+          "nodeCount": 6
+        },
+        {
+          "id": 296,
+          "title": "Kirchner",
+          "nodeCount": 3
+        },
+        {
+          "id": 297,
+          "title": "Alonzo",
+          "nodeCount": 4
+        },
+        {
+          "id": 298,
+          "title": "Macitar",
+          "nodeCount": 5
+        },
+        {
+          "id": 299,
+          "title": "Durning",
+          "nodeCount": 4
+        },
+        {
+          "id": 300,
+          "title": "Daltrey",
+          "nodeCount": 10
+        }
+      ]
+    },
+    {
+      "file": "town-030.json",
+      "talkRecord": 30,
+      "townId": 30,
+      "personalityBase": 301,
+      "label": "Rita, Prisoner, Prisoner, Raye, Radewitz, Rabellino",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 301,
+          "title": "Rita",
+          "nodeCount": 5
+        },
+        {
+          "id": 302,
+          "title": "Prisoner",
+          "nodeCount": 3
+        },
+        {
+          "id": 303,
+          "title": "Prisoner",
+          "nodeCount": 0
+        },
+        {
+          "id": 304,
+          "title": "Raye",
+          "nodeCount": 11
+        },
+        {
+          "id": 305,
+          "title": "Radewitz",
+          "nodeCount": 5
+        },
+        {
+          "id": 306,
+          "title": "Rabellino",
+          "nodeCount": 7
+        },
+        {
+          "id": 307,
+          "title": "Black",
+          "nodeCount": 5
+        },
+        {
+          "id": 308,
+          "title": "Yar",
+          "nodeCount": 3
+        },
+        {
+          "id": 309,
+          "title": "Abruzzo",
+          "nodeCount": 4
+        },
+        {
+          "id": 310,
+          "title": "Yale",
+          "nodeCount": 3
+        }
+      ]
+    },
+    {
+      "file": "town-031.json",
+      "talkRecord": 31,
+      "townId": 31,
+      "personalityBase": 311,
+      "label": "Udell, Bohen-Ihrno, Abra, Athron, Khoth, Sulfras",
+      "npcCount": 6,
+      "people": [
+        {
+          "id": 311,
+          "title": "Udell",
+          "nodeCount": 2
+        },
+        {
+          "id": 312,
+          "title": "Bohen-Ihrno",
+          "nodeCount": 5
+        },
+        {
+          "id": 313,
+          "title": "Abra",
+          "nodeCount": 8
+        },
+        {
+          "id": 314,
+          "title": "Athron",
+          "nodeCount": 11
+        },
+        {
+          "id": 315,
+          "title": "Khoth",
+          "nodeCount": 11
+        },
+        {
+          "id": 316,
+          "title": "Sulfras",
+          "nodeCount": 11
+        }
+      ]
+    },
+    {
+      "file": "town-032.json",
+      "talkRecord": 32,
+      "townId": 32,
+      "personalityBase": 321,
+      "label": "Pasi, Langley, Cole, Alba, Zachariah, Herb Seller",
+      "npcCount": 8,
+      "people": [
+        {
+          "id": 321,
+          "title": "Pasi",
+          "nodeCount": 5
+        },
+        {
+          "id": 324,
+          "title": "Langley",
+          "nodeCount": 4
+        },
+        {
+          "id": 325,
+          "title": "Cole",
+          "nodeCount": 5
+        },
+        {
+          "id": 326,
+          "title": "Alba",
+          "nodeCount": 5
+        },
+        {
+          "id": 327,
+          "title": "Zachariah",
+          "nodeCount": 9
+        },
+        {
+          "id": 328,
+          "title": "Herb Seller",
+          "nodeCount": 5
+        },
+        {
+          "id": 329,
+          "title": "Nantier",
+          "nodeCount": 7
+        },
+        {
+          "id": 330,
+          "title": "Velnas",
+          "nodeCount": 7
+        }
+      ]
+    },
+    {
+      "file": "town-033.json",
+      "talkRecord": 33,
+      "townId": 33,
+      "personalityBase": 331,
+      "label": "Kalen, Stern, Dharas, Asp, Gelahd, Hssrrr",
+      "npcCount": 9,
+      "people": [
+        {
+          "id": 331,
+          "title": "Kalen",
+          "nodeCount": 4
+        },
+        {
+          "id": 332,
+          "title": "Stern",
+          "nodeCount": 4
+        },
+        {
+          "id": 333,
+          "title": "Dharas",
+          "nodeCount": 3
+        },
+        {
+          "id": 334,
+          "title": "Asp",
+          "nodeCount": 5
+        },
+        {
+          "id": 335,
+          "title": "Gelahd",
+          "nodeCount": 4
+        },
+        {
+          "id": 336,
+          "title": "Hssrrr",
+          "nodeCount": 1
+        },
+        {
+          "id": 338,
+          "title": "Carol",
+          "nodeCount": 5
+        },
+        {
+          "id": 339,
+          "title": "Mrrurr",
+          "nodeCount": 7
+        },
+        {
+          "id": 340,
+          "title": "Roselei",
+          "nodeCount": 3
+        }
+      ]
+    },
+    {
+      "file": "town-034.json",
+      "talkRecord": 34,
+      "townId": 34,
+      "personalityBase": 341,
+      "label": "Mario, Vagro, Craswell, Malka, Vairlas, Corin",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 341,
+          "title": "Mario",
+          "nodeCount": 3
+        },
+        {
+          "id": 342,
+          "title": "Vagro",
+          "nodeCount": 4
+        },
+        {
+          "id": 343,
+          "title": "Craswell",
+          "nodeCount": 5
+        },
+        {
+          "id": 344,
+          "title": "Malka",
+          "nodeCount": 7
+        },
+        {
+          "id": 345,
+          "title": "Vairlas",
+          "nodeCount": 7
+        },
+        {
+          "id": 346,
+          "title": "Corin",
+          "nodeCount": 5
+        },
+        {
+          "id": 347,
+          "title": "Sydow",
+          "nodeCount": 4
+        },
+        {
+          "id": 348,
+          "title": "Maertok",
+          "nodeCount": 4
+        },
+        {
+          "id": 349,
+          "title": "McElton",
+          "nodeCount": 5
+        },
+        {
+          "id": 350,
+          "title": "McClain",
+          "nodeCount": 3
+        }
+      ]
+    },
+    {
+      "file": "town-035.json",
+      "talkRecord": 35,
+      "townId": 35,
+      "personalityBase": 351,
+      "label": "Alzon, Zalifar, Dalakros, General Baziron, Ozmo, Tenuta",
+      "npcCount": 10,
+      "people": [
+        {
+          "id": 351,
+          "title": "Alzon",
+          "nodeCount": 4
+        },
+        {
+          "id": 352,
+          "title": "Zalifar",
+          "nodeCount": 9
+        },
+        {
+          "id": 353,
+          "title": "Dalakros",
+          "nodeCount": 6
+        },
+        {
+          "id": 354,
+          "title": "General Baziron",
+          "nodeCount": 10
+        },
+        {
+          "id": 355,
+          "title": "Ozmo",
+          "nodeCount": 4
+        },
+        {
+          "id": 356,
+          "title": "Tenuta",
+          "nodeCount": 4
+        },
+        {
+          "id": 357,
+          "title": "Cerulian",
+          "nodeCount": 4
+        },
+        {
+          "id": 358,
+          "title": "Lumok",
+          "nodeCount": 8
+        },
+        {
+          "id": 359,
+          "title": "Tekora-Tel",
+          "nodeCount": 5
+        },
+        {
+          "id": 360,
+          "title": "Kyhar",
+          "nodeCount": 6
+        }
+      ]
+    },
+    {
+      "file": "town-036.json",
+      "talkRecord": 36,
+      "townId": 36,
+      "personalityBase": 361,
+      "label": "Velasquez, Seymour, Howar, Petrie, Shane, Prosise",
+      "npcCount": 9,
+      "people": [
+        {
+          "id": 361,
+          "title": "Velasquez",
+          "nodeCount": 6
+        },
+        {
+          "id": 362,
+          "title": "Seymour",
+          "nodeCount": 4
+        },
+        {
+          "id": 363,
+          "title": "Howar",
+          "nodeCount": 5
+        },
+        {
+          "id": 364,
+          "title": "Petrie",
+          "nodeCount": 4
+        },
+        {
+          "id": 365,
+          "title": "Shane",
+          "nodeCount": 4
+        },
+        {
+          "id": 366,
+          "title": "Prosise",
+          "nodeCount": 1
+        },
+        {
+          "id": 367,
+          "title": "Winn",
+          "nodeCount": 5
+        },
+        {
+          "id": 368,
+          "title": "Vladimir",
+          "nodeCount": 4
+        },
+        {
+          "id": 369,
+          "title": "Empress Prazac",
+          "nodeCount": 12
+        }
+      ]
+    },
+    {
+      "file": "town-037.json",
+      "talkRecord": 37,
+      "townId": 37,
+      "personalityBase": 371,
+      "label": "Terak, Bon-Ihnro, Town Guy, Town Guard",
+      "npcCount": 4,
+      "people": [
+        {
+          "id": 371,
+          "title": "Terak",
+          "nodeCount": 7
+        },
+        {
+          "id": 372,
+          "title": "Bon-Ihnro",
+          "nodeCount": 18
+        },
+        {
+          "id": 373,
+          "title": "Town Guy",
+          "nodeCount": 5
+        },
+        {
+          "id": 374,
+          "title": "Town Guard",
+          "nodeCount": 1
+        }
+      ]
+    }
+  ]
+}

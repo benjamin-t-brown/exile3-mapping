@@ -1,0 +1,1017 @@
+{
+  "talkRecord": 3,
+  "townId": 3,
+  "personalityBase": 31,
+  "label": "Solberg, 'X', Ilona, Thereza, Flanagan, Cheeseball",
+  "people": [
+    {
+      "id": 31,
+      "slot": 0,
+      "title": "Solberg",
+      "look": "You meet an aging mage in flowing, violet robes. Although he is only middle age, he looks worn well beyond his years.",
+      "name": "He gives you a weary bow. _I am Solberg, of the Triad._",
+      "job": "He gives a weary, sad smile. _I serve Exile in my capacity as member of the Triad. Alas, I have endured many ordeals in this position._",
+      "dunno": "Solberg says _I'm not sure about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "endu",
+            "orde"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            24,
+            0,
+            0,
+            0
+          ],
+          "str1": "_For many years, I was forced to hide in a tower far out in the nether caves of Exile, for my own protection. The years of my life I lost in that prison I prefer not to think upon._",
+          "str2": "_The latest ordeal being the horror of the Tower of Magi's destruction. I lost many friends. I prefer not to speak of it._"
+        },
+        {
+          "keywords": [
+            "tria",
+            "posi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Triad of Magi oversees all magical activity in Exile, makes sure dangerous knowledge doesn't become widespread, and watches for any potentially deadly experimentation. Such a position is not without risks._",
+          "str2": "_In addition, I am supposed to give magical rewards to those who merit them._"
+        },
+        {
+          "keywords": [
+            "horr",
+            "dest"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You saw the effects of the destruction as closely as I did. I wish to forget it all._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dang",
+            "know"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We try to control who can cast Kill spells, and the like. If unscrupulous persons obtained certain spells, we could all be in great danger._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "expe",
+            "risk"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            24,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We need to keep a close eye on experiments, to make sure nothing deadly gets loose. In particular, I watch my old adversary, Linda._",
+          "str2": "_We saw, in the destruction of the Tower, our greatest risk and greatest failure. By losing track of Linda's experimentation, we lost so much, including Mahdavi, one of the Triad itself. I mourn for us all._"
+        },
+        {
+          "keywords": [
+            "lind",
+            "adve"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            24,
+            0,
+            0,
+            0
+          ],
+          "str1": "_She has a dangerous predilection for summoning nether creatures. This tendency was what first drove me into hiding for many years. Now that she is back in the Tower, I am very nervous indeed._",
+          "str2": "He seems to age before your eyes. _I curse the woman. I am glad for the fate she met. I'm sorry, but I am._"
+        },
+        {
+          "keywords": [
+            "magi",
+            "rewa"
+          ],
+          "type": 105,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 105,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "slot": 1,
+      "title": "'X'",
+      "look": "You encounter a wizard wearing long, rich violet robes. A heavy cowl covers the mage's head. You can't make out any details of his (or her) face in the shadows inside. It's pretty creepy.",
+      "name": "A reedy, whispery voice emerges from the folds of the cowl. _I am called 'X'._",
+      "job": "_I am of the Triad._",
+      "dunno": "No sound emerges from the dark hood.",
+      "nodes": [
+        {
+          "keywords": [
+            "tria"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Again, the whisper emerges from the cowl. _The guardians of knowledge, and the protectors of Exile._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "guar",
+            "know"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            24,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We restrict the flow of magical knowledge, so that the weak and untrained do not grasp hold of that they cannot control._",
+          "str2": "_We keep the weak from knowledge that would damage them. A wise choice, considering the recent unpleasantness at the Tower of Magi._"
+        },
+        {
+          "keywords": [
+            "weak",
+            "untr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_If one gains magic he or she cannot control, only blood will be produced._ 'X' emits a dry chuckle at this.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "unpl",
+            "towe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Linda was a fool, and we paid for it. Never again._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "prot",
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We watch over the magical knowledge, and grant it to those that have earned it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gran",
+            "earn"
+          ],
+          "type": 106,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 106,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "slot": 2,
+      "title": "Ilona",
+      "look": "A short, middle-aged woman with heavy chain armor watches the front gate. She keeps a short but wicked looking spear close at hand.",
+      "name": "She looks from the gate over to you. _I am Ilona._ Her voice has a heavy accent you can't quite place.",
+      "job": "_I am watching the front gate. Not a risky job, it is true, but one the needs to be getting doing._ Her speech is very strange.",
+      "dunno": "She smiles and shrugs apologetically.",
+      "nodes": [
+        {
+          "keywords": [
+            "risk",
+            "need"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_If the attack is to be coming from the Empire, from the north it will come. From the south, all we see are fresh green troops and supplies._",
+          "str2": "_Out this way are mainly the caves, and Exiles._"
+        },
+        {
+          "keywords": [
+            "fron",
+            "gate"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It is not like the north gate. That is the way to the outdoors, and much more heavily guarded. If the Empire finds us, the north gate is where it will, how you say, hit the fan._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "spee",
+            "acce"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks embarrassed that you mention it. _I am from a long ways away. My apologies._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "cave",
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Leave to the south, and you will be being in a large cavern, many miles across, that Exile just settled. Many towns are there. Just follow the roads._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "slot": 3,
+      "title": "Thereza",
+      "look": "You meet a young woman with long dark hair. She doesn't seem to be too interested in talking to you.",
+      "name": "_Thereza._",
+      "job": "_I'm with Unspecified Services, like you._",
+      "dunno": "She says _I'm not authorized to talk about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "unsp",
+            "serv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The department of spies, lone wolf mages, adventurers, and everyone else working for Exile that isn't in the army. Also the source of eternal resentment on the part of the military._",
+          "str2": "_We both are on assignment for Unspecified Services, at the moment._"
+        },
+        {
+          "keywords": [
+            "assi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Your job is to do recon on the surface. I am the contact for the others being sent up there._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "othe"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes, others. You didn't think something so important would be left to just you, eh?_ She pauses. _And more than that I am not cleared to say. Sorry._",
+          "str2": "She turns away."
+        },
+        {
+          "keywords": [
+            "rese",
+            "mili"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The military resents us because they don't control us and we do many things better than them. So don't expect much help from them._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "slot": 4,
+      "title": "Flanagan",
+      "look": "You meet a burly man with a lot of hair and a lot of gut. He looks you up and down as you approach.",
+      "name": "_I'm Flanagan, with Unspecified Services. Pleased to meet you._",
+      "job": "_I'm sort of an investigating agent._",
+      "dunno": "He belches negatively.",
+      "nodes": [
+        {
+          "keywords": [
+            "unsp",
+            "serv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You know, everyone who works for Exile but doesn't have a specific pigeonhole. Unspecified._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "inve",
+            "agen"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            4,
+            0,
+            0
+          ],
+          "str1": "_Well, I'm too big and loud to be much of a spy! So I wait here. Then, when something goes wrong or gets weird, I'll go look it over and figure out what's going wrong._ He taps his head. _I got more up here than you might think._",
+          "str2": "_Well, right now I'm investigating a pair of messy murders. I'm glad you're here. I could use some help._"
+        },
+        {
+          "keywords": [
+            "mess",
+            "murd"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            4,
+            4,
+            0
+          ],
+          "str1": "_Not long ago, two men here went north to do some surveying. Not long after that, there was an earthquake. Not long after that, they were found in a cave up there, dead. I sure could use another brain to find out what happened._",
+          "str2": "_Well, I don't think we'll find out much else about those earlier murders, but I'm waiting here, just in case something else happens._"
+        },
+        {
+          "keywords": [
+            "brai",
+            "help"
+          ],
+          "type": 107,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 107,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "find",
+            "happ"
+          ],
+          "type": 107,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 107,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "slot": 5,
+      "title": "Cheeseball",
+      "look": "You encounter a very large, very pudgy calico cat. As you approach, it looks up at you. You are surprised to see intelligence in its eyes.",
+      "name": "_I,_ it proclaims regally, _am Cheeseball. Not the name I would have chosen for myself, I assure you._",
+      "job": "_I am, I regret to say, a familiar. Not of my choice._",
+      "dunno": "_Meow?_",
+      "nodes": [
+        {
+          "keywords": [
+            "name",
+            "chee"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Infinite are the indignities we familiars must suffer._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fami"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It walks up and bats at your boot laces. _I am the highly magical, immensely intelligent servant of Solberg. And a lousy job it has been._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "choi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I would prefer to have been a wild jungle cat! Romping through the woods, chasing wildebeests, ripping out their jugulars, that's the life for me!_",
+          "str2": "It hisses in a way that might almost be thought of as ferocious."
+        },
+        {
+          "keywords": [
+            "magi",
+            "inte"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Can't you tell?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "solb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He's  a wizard. He's very powerful. Big deal ... all the years I've been with him, he hasn't once summoned some fresh mice for me._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "lous",
+            "time"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_First, I had to hide with him in some crummy smoky evil tower for years. Then I had to follow him all over the place. No catnip! No mates! No relaxing! How can you not pity me?_ He spits a hairball in irritation.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "slot": 6,
+      "title": "Kelner",
+      "look": "You meet a professional looking mage in well trimmed clothes. Traces of gray are starting to appear in his hair.",
+      "name": "He walks up and formally greets you. _I am Kelner, chief administrator of the Portal Fortress._",
+      "job": "He waves at his surroundings. _I coordinate all comings and goings for the Portal Fortress. It's sort of a promotion from my Tower of Magi post._",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "chie",
+            "admi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A fancy way of saying that I run the place, but all the military mucky-mucks still get to boss me around._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "port",
+            "fort"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The passage through which Exiles come to the surface, and through which we can sometimes return._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "towe",
+            "magi"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            5,
+            0,
+            0
+          ],
+          "str1": "_I spent most of my magical career there, first in training and then as administrator. I finally got transferred up here, much to my relief._",
+          "str2": "He shakes his head. _I am relieved that I was able to get myself away from there before the evil finally came to the surface. However, I will always mourn for the many friends I lost._"
+        },
+        {
+          "keywords": [
+            "tran",
+            "reli"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Once, years ago, a mage named Linda performed certain very dark experiments. I trained there at the time, and was able to help some adventurers purge the evil she brought._",
+          "str2": "_Later, when I was administrator there, Linda returned and I sensed that old habits were starting to return. So I pulled strings and came here. It was not a situation I wanted to deal with anymore._"
+        },
+        {
+          "keywords": [
+            "lind"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Linda, formerly of the Triad, master wizard. She brought a demon into the tower once, and only with great effort was it repelled. Never trusted her, never will._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mili",
+            "muck"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Sorry, I meant no disrespect._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "exil",
+            "surf"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            5,
+            0,
+            0
+          ],
+          "str1": "_It's a tough job running this place, so many people and so many supplies coming up to keep track of, and some people wanting to return as well. But it beats being in the Tower._",
+          "str2": "_Well, now that the Tower is gone, there's an interruption in the transit. Thus, I have to work day and night figuring out how to restore the connection. Damnably difficult job._"
+        },
+        {
+          "keywords": [
+            "retu"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            5,
+            0,
+            0
+          ],
+          "str1": "_Sometimes people can return. You should speak with Seles. She's by the portal. She coordinates all of that._",
+          "str2": "He frowns. _Nobody is returning, however, until the Tower is restored and the portal becomes operational again._"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "slot": 7,
+      "title": "Walner",
+      "look": "You meet a short, portly man with short blonde hair. His fingers are stained with ink, and it looks like he has several pen cases in his pockets. He hold a pen in his hand now, with an unusual rainbow design on it.",
+      "name": "_Greetings! I am Walner the sage._",
+      "job": "_Well, as soon as I heard about the surface portal, I came here to see what the fuss is about. Sages are always welcome wherever they go. And while I wait, I study in the library._",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "sage",
+            "skil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_People of learning and magic are needed up here more than anything. For example, I am an alchemist of some skill._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "surf",
+            "port"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_As you can guess, everyone wants to come up here. The chance to see the surface again is making people frantic. However, only so many can be brought up at a time._",
+          "str2": "He grins. _Of course, when getting a berth, it helps to have certain skills._"
+        },
+        {
+          "keywords": [
+            "rain"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He holds up the rainbow pen. _Oh, this? Call it a symbol of pride._ He smiles enigmatically.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "lear",
+            "magi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Learning to deal with the new things we'll encounter, and magic to defend ourselves from them. For example, I, being a sage, can identify many of the items brought to me._",
+          "str2": "He chuckles, pleased at the chance to make a sale. _In fact, I can identify any items you may have._"
+        },
+        {
+          "keywords": [
+            "alch"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes indeed, and my secrets are for sale. For example, I know an excellent, very old recipe for curing potions using holly. Holly is a surface plant, but since you can go up there, you may be able to find some._",
+          "str2": "_I can also teach you a recipe for healing potions using good old comfrey. Let me know if you'd like to purchase either recipe._"
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 16,
+          "typeName": "shop_alchemy",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Walner's Alchemy",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "iden"
+          ],
+          "type": 19,
+          "typeName": "identify",
+          "extras": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks over your items carefully. _Yes, I can identify them, for a paltry 20 gold each._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "libr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This library was set up as sort of a briefing area for mages arriving up here, to sort of summarize what we know and what we've found. Be sure to look at the books ... some of them are sure to be interesting._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "slot": 8,
+      "title": "Jake",
+      "look": "This is an archer of Exile, polishing a fine yew bow with practiced fingers. His armor bears the insignia of a captain, and his face bears the expression of one who'd rather be somewhere else.",
+      "name": "He nods brusquely. _Captain Jake._",
+      "job": "He seems irritated at the interruption. _Going to Fort Emergence._",
+      "dunno": "He shakes his head.",
+      "nodes": [
+        {
+          "keywords": [
+            "fort",
+            "emer"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There to serve again under old, dear Commander Johnson._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "comm",
+            "john"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks to make sure nobody is listening. _Well, I can tell you, because you're Unspecified Services and won't count for spit in the end. I've served under that vile old bastard before, in Fort Duvno._",
+          "str2": "_He's vicious and cruel, from his hair to his toes._"
+        },
+        {
+          "keywords": [
+            "fort",
+            "duvn"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Little town in Exile. What does it matter?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "vici",
+            "crue"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Mark my words. They can make all the pretty words they want about our meeting the Empire and talking to them and coexisting on the surface, or whatever. But he's in charge at the fort, and the fort is where all the big decisions will be made._",
+          "str2": "_Remember that. This'll all end in blood. Lots of it._ With that, he turns away."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "slot": 9,
+      "title": "Carol",
+      "look": "This is a very tall, dignified woman, her face and short, dark hair starting to bear the signs of middle age. She is currently grinding up some herbs and roots.",
+      "name": "She stands to greet you. _I am Carol, of the Hamer clan._",
+      "job": "She indicates the herbs and poultices that surround her. _I am a healer, brought near the surface to exert my skills._",
+      "dunno": "She gives you a confused look.",
+      "nodes": [
+        {
+          "keywords": [
+            "heal"
+          ],
+          "type": 18,
+          "typeName": "healer",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Carol the Healer",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "brou",
+            "surf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My husband and I were brought up to serve here. The work is hard, but satisfying. I am only a little disappointed._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "skil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I was brought here to heal the soldiers who may be hurt in upcoming battles. We all hope such battles may be averted, of course, but, well, it's best to be prepared._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "husb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My husband Tor looks after the supplies._ She smiles. _It's what he does best._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "disa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She sighs. _I did so want to see the surface, and not be cooped up in yet another cave. Oh well. I believe, if I'm patient, I may yet emerge above ground._",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

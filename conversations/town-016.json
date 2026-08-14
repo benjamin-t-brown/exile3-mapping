@@ -1,0 +1,729 @@
+{
+  "talkRecord": 16,
+  "townId": 16,
+  "personalityBase": 161,
+  "label": "Cassie, Meena, Lockhart, Judith, Oriathon, Plague Victim",
+  "people": [
+    {
+      "id": 161,
+      "slot": 0,
+      "title": "Cassie",
+      "look": "You meet a muscular soldier patrolling the streets of the city. Her soldier's armor has the marks of an Empire Dervish, the title the Empire gives to its strongest, craftiest warriors. When she sees you, she removes her helm and approaches.",
+      "name": "_I'm Dervish Cassie._ She regards at you with extreme antipathy.",
+      "job": "_I'm patrolling for roaches._ She stares at you pointedly. _And other vermin._",
+      "dunno": "_I shall not deign to answer you._",
+      "nodes": [
+        {
+          "keywords": [
+            "derv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            167
+          ],
+          "str1": "_An achievement requiring greater discipline and skill than any Exile worm could ever hope for!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "patr",
+            "roac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I'm patrolling for roaches._ She stares at you pointedly. _And other vermin._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "verm",
+            "roac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            167
+          ],
+          "str1": "_I served in the war with the Exile worms. I've heard of you, and the people of Valorim may tolerate you, but I know what you Exiles have done._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "exil",
+            "worm"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She spits at your feet. _All these monsters came from you! I know it! And don't get smug. Everyone knows Exiles are among, us, and by now, the Empire knows too. Believe me, whatever you're doing, you'll pay for it! A thousand times over!_ ",
+          "str2": "She turns away."
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "slot": 1,
+      "title": "Meena",
+      "look": "You meet a woman with dark skin, long black hair, and an infectious grin. She wears an Anama ring, and healer's robes.",
+      "name": "_I am Meena, of the Anama church. Greetings to you!_",
+      "job": "_I'm a traveling healer. It's tiring work, but there is too much to do for me to stop._",
+      "dunno": "_I can't help you._",
+      "nodes": [
+        {
+          "keywords": [
+            "heal"
+          ],
+          "type": 18,
+          "typeName": "healer",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Meena the Healer",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trav"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I move from city to city as people sicken. The worst was Bavner. Terrible mess._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "tiri",
+            "stop"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            5,
+            0,
+            0
+          ],
+          "str1": "_I heal one person, and two more grow sick. I heal two, and four become ill._ She smiles sadly. _It's frustrating work, but I do save lives. Seeing one child who would not live but for me fills me with all the energy I need._",
+          "str2": "_What can I say? The roaches are gone, but the diseases will be remain. It'll be a long time before this island recovers, that's for sure._"
+        },
+        {
+          "keywords": [
+            "bavn"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Don't know why, but that town has been hit by more disease than just about anyone. Terrible mess._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "slot": 2,
+      "title": "Lockhart",
+      "look": "You meet an elder priest of the Anama church, wearing immaculate robes and taking notes in a thick journal. He seems pleased to see you.",
+      "name": "_I'm Father Lockhart. Greetings to you._",
+      "job": "_I am High Priest Ahonar's chief assistant. I look after the daily affairs of the church. Plus, I look after our young charge._",
+      "dunno": "_Forgive my ignorance, my child._",
+      "nodes": [
+        {
+          "keywords": [
+            "prie",
+            "ahon"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Nothing has honored me more than my days working with Ahonar. His energy and wisdom are infinitely inspiring. Be sure to speak with him ... it's a rare opportunity._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dail",
+            "affa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Supplies. Healer movements. Running the hospital. That sort of thing. Don't get me wrong. I have strong beliefs about our faith. Would you like me to share them?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "youn",
+            "char"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            70,
+            1,
+            0,
+            0
+          ],
+          "str1": "_I look after young Deland. He's an orphan. The roach disease took his parents. Very sad, but we'll raise him right!_",
+          "str2": "He suddenly looks ill. _I'm sorry. I'm still not used to it. His name was Deland. He was an orphan we looked after. He's dead not. Disease took him._ He turns away for a moment while he regains his composure."
+        },
+        {
+          "keywords": [
+            "shar",
+            "beli"
+          ],
+          "type": 129,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 129,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "slot": 3,
+      "title": "Judith",
+      "look": "This woman wears the ankh of a healer, but has a strangely cold, businesslike demeanor.",
+      "name": "_I'm Judith, of the Church of the Divine Lucre._",
+      "job": "_I am a healer of the Church of the Diving Lucre. I have healing available, for very reasonable rates._",
+      "dunno": "_Yeah, whatever._",
+      "nodes": [
+        {
+          "keywords": [
+            "chur"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Of the Divine Lucre, yes._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "divi",
+            "lucr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_What can I say? We believe that the best route to a better life and happier soul is through improvement, and the best improvement comes through enlightened self-interest._",
+          "str2": "_It is a faith that demands much, but has great rewards._"
+        },
+        {
+          "keywords": [
+            "heal"
+          ],
+          "type": 18,
+          "typeName": "healer",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Judith the Healer",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "reas",
+            "rate"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks irked. _The Anama have caused a horrible healing glut in this area. It's almost impossible to make a good gold piece!_ She shrugs. _Still, with demand so high, I'm doing all right._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "anci",
+            "arti"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks annoyed that you've heard of her knowledge, but decides to make the best of it. _It's true. I have stumbled upon the location of the lost Fury Crossbow, an intensely powerful artifact._",
+          "str2": "_I will divulge its location, for a mere thousand gold pieces._"
+        },
+        {
+          "keywords": [
+            "loca",
+            "divu"
+          ],
+          "type": 24,
+          "typeName": "buy_location",
+          "extras": [
+            1000,
+            76,
+            0,
+            0
+          ],
+          "str1": "She says, _Well, I have on good authority that the Fury Crossbow is in the legendary Pit of the Wyrm, far to the northeast. It's due east of a city called Bremerton._ (You take note of this.)",
+          "str2": "She grins. _It's a thousand gold, you know. No less._"
+        },
+        {
+          "keywords": [
+            "grea",
+            "rewa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Focus. Strength. Money. No guilt. You know. What everyone wants._ She grins.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "slot": 4,
+      "title": "Oriathon",
+      "look": "You meet a priest of the Anama. He looks extremely calm and quiet.",
+      "name": "He shakes your hand in greeting, and says simply _I am Oriathon._",
+      "job": "He touches his priest's robes without comment.",
+      "dunno": "He looks confused. _My apologies._",
+      "nodes": [
+        {
+          "keywords": [
+            "prie",
+            "robe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He says, tersely, _I follow my Anama beliefs. It is a struggle._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "beli"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He says simply _At times I wish magic was allowed. But this is my weakness._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stru"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            130,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks very concerned. _Roaches attack constantly. Disease is everywhere. I lead as best I can._",
+          "str2": "He looks very sad and alone. However, _Hectar fell to the disease._ is all he says."
+        },
+        {
+          "keywords": [
+            "magi",
+            "weak"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We will persevere without the dark arts. I am sure of it._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "slot": 5,
+      "title": "Plague Victim",
+      "look": "A victim of one of the many roach diseases lies before you, dripping with sweat.",
+      "name": "Your answer is a long, low moan.",
+      "job": "The plague victim hacks painfully, and whispers _Water._",
+      "dunno": "The plague victim coughs pitifully.",
+      "nodes": [
+        {
+          "keywords": [
+            "wate"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "You bring the plague victim some water. You are thanked in a weak, croaking voice.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hack",
+            "pain"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "The ill person coughs again. _Coughing. Hurts._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "slot": 6,
+      "title": "Cassie",
+      "look": "The woman sitting is this seat was once very strong, but is quickly wasting away. She still wears her armor, though. She's an Empire Dervish.",
+      "name": "_Dervish Cassie, reporting for duty,_ she mumbles. She seems slightly delirious.",
+      "job": "She seems to return to herself a little, and looks at you. _I'm dying, worms._",
+      "dunno": "He clearly doesn't know what you're talking about.",
+      "nodes": [
+        {
+          "keywords": [
+            "exil",
+            "worm"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She spits on your boots. The motion causes her to cough into a rag she holds. When she takes it from her mouth, you see bits of blood in it. _You Exiles did this to me,_ she croaks. _I hope you all die._",
+          "str2": "She turns away."
+        },
+        {
+          "keywords": [
+            "dyin"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yep. The roaches filth got me. But I'll tell you one thing - I'll die with more class than any of the Exile worms I slew did!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "clas",
+            "slew"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We've all heard about you Exiles. We should have killed all of you._ She coughs. Her lips are speckled with blood. _I hope we do yet._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "slot": 7,
+      "title": "Spud",
+      "look": "You meet a beggar. The ravages of disease are clear on him. He can barely move, but still manages an air of grim dignity. He wears a dirty Anama ring.",
+      "name": "_My name is Spud,_ he rasps.",
+      "job": "_I was a farmer. I lost my wife and my health to disease. I ask for a minor gift to feed me while I regain my strength._",
+      "dunno": "_Beats me!_",
+      "nodes": [
+        {
+          "keywords": [
+            "farm"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A difficult enough job, considering the rocky soil, without the plague._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "wife",
+            "heal"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I am only 28,_ he says. He looks much older. _My wife was 26 when the plague got her. Sometimes, as much as it shames me to admit it, I envy her for moving on, while I must stay here._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dise"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The disease tore me apart. I survived, but it shredded my insides. That is why I must beg for gifts while I recover._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stre"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks wistful. _One day, I will be a parasite no longer. Oh, what I would give to be able to do a little bit of honest farm work!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mino",
+            "gift"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "You give Spud a few coins. He bows deeply, which is a great effort for him. _Thank you for your kindness. I shall not forget you._",
+          "str2": "You have nothing to give."
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "slot": 8,
+      "title": "Bohman",
+      "look": "You meet a tall, thin man with dark hair. He carries a polished wood case and a portable stand. When you approach, he sets up the stand and opens the case, revealing an assortment of potions.",
+      "name": "_I am Bohman._",
+      "job": "_I sell potions. No respectable Anama member should be without one._",
+      "dunno": "_I know nothing about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "poti"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I make these potions using only natural ingredients and alchemical processes, without use of a single magical spell. You may purchase them if you wish._",
+          "str2": "He suddenly starts to cough severely. When he straightens up, he says _Excuse me. I think I'm starting to become a touch ill. As I was about to say, you may purchase potions from me if you wish._"
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Bohman's potions",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "anam",
+            "poti"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We don't use magic, but that doesn't mean we're fools. We use all other resources we can find, including the natural plants that come from the earth!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "slot": 9,
+      "title": "Danza",
+      "look": "A young man with dark hair sits behind the counter. He's polishing a crystal.",
+      "name": "He speaks in measured, precise tones. _I'm called Danza. Pleased to meet you._",
+      "job": "_I run this shop, where Anama Members can buy magic substitutes._",
+      "dunno": "_I don't handle that._",
+      "nodes": [
+        {
+          "keywords": [
+            "magi",
+            "subs"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We have found that the best way to get people to refrain from using magic is to come up with substitutes for the more useful Mage Spells. For example, I am in charge of distributing piercing crystals._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "pier",
+            "crys"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The ability to create magical barriers is one of the strongest mage abilities. Piercing crystals can bring those barriers down. Piercing crystals can also unlock magically locked doors._",
+          "str2": "_We've started to make them at a respectable rate. Would you like to purchase some?_"
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Danza's Crystals",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

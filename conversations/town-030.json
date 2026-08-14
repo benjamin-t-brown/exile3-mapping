@@ -1,0 +1,846 @@
+{
+  "talkRecord": 30,
+  "townId": 30,
+  "personalityBase": 301,
+  "label": "Rita, Prisoner, Prisoner, Raye, Radewitz, Rabellino",
+  "people": [
+    {
+      "id": 301,
+      "slot": 0,
+      "title": "Rita",
+      "look": "The inn is kept by a middle aged, pleasant, matronly looking woman. The battle axe strapped across her back looks out of place, but she seems comfortable with it.",
+      "name": "She grins warmly. _Call me Rita, ducks. Get comfortable._",
+      "job": "_Oh, I run the inn. Soldiers and refugees need a safe place to stay._",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "sold",
+            "refu"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She shakes her head. _Poor lambs. What can you give them, besides a kind word and a safe place to rest?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "safe",
+            "plac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks embarrased. _Mercy me, where are my manners? You don't want to jaw, you want to rest! We have a clean room for only five gold. No alcohol left, but we do have good coffee. Only 1 gold!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "clea",
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            4,
+            4,
+            0,
+            0
+          ],
+          "str1": "She shows you to your room, chatting happily all the way.",
+          "str2": "You don't have five gold."
+        },
+        {
+          "keywords": [
+            "good",
+            "coff"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Here you are, lambs._ The coffee is black, acrid, bitter, and leaves a thick residue on the inside of your mouth. It's perfect.",
+          "str2": "You have absolutely no money."
+        },
+        {
+          "keywords": [
+            "perf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Strong enough even for a computer game designer!",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 302,
+      "slot": 1,
+      "title": "Prisoner",
+      "look": "You find a human prisoner, a warrior from the Empire army. He's only dressed in rags now, but in good shape otherwise. He jumps up to greet you.",
+      "name": "He shakes his head. _No time for chat now!_",
+      "job": "_I'm so relieved you're here! I was afraid I was abandoned. Can you help me escape?_",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "reli",
+            "aban"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            303
+          ],
+          "str1": "_The Empire has done so little good against the giants, I thought there was no hope of rescue! Now that you're here, there's hope! Can you help me escape?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "esca",
+            "resc"
+          ],
+          "type": 159,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            303
+          ],
+          "specialId": 159,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            303
+          ],
+          "str1": "You get a skeptical look. _You are with the Empire army, aren't you?_ Then the prisoner shrugs. _Oh, what does it matter, just as long as you can rescue me._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 303,
+      "slot": 2,
+      "title": "Prisoner",
+      "look": "You meet a female Empire soldier, stripped down to rags and half starved. When you enter the cell, however, she leaps to her feet.",
+      "name": "_What does that matter? All that matters is that you're here!",
+      "job": "_I'm so relieved you're here! I was afraid I was abandoned. Can you help me escape?_",
+      "dunno": "_I don't know about that._",
+      "nodes": []
+    },
+    {
+      "id": 304,
+      "slot": 3,
+      "title": "Raye",
+      "look": "You meet a sage, busily at work writing and revising reports and drawings. You look at the drawings - they're all of a bizarre looking beast with eight legs.",
+      "name": "He looks up from his work, and self-conciously wipes some ink from his fingers. _I am Raye. Have a seat._",
+      "job": "_Well, I'm the town sage. That's how I make my living. But to be honest, right now I'm preoccupied with my research._",
+      "dunno": "_Alas, my great knowledge doesn't extend that far._",
+      "nodes": [
+        {
+          "keywords": [
+            "sage",
+            "livi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I sell little bits of info. On farming and such. Nothing interesting. However, I can also do identification._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "iden"
+          ],
+          "type": 19,
+          "typeName": "identify",
+          "extras": [
+            50,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks over your items. _My rates are very reasonable. Only 50 gold per item._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "preo",
+            "rese"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. I am trying to find out as much as I can about the Alien Beasts that threaten us all._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "alie",
+            "beas"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes, that's what they're called. We can think of no better name. You'd know one if you saw one. Five feet high at the shoulder. Six legs. Pure muscle. And utterly lethal._",
+          "str2": "_It was them who managed to destroy the Keep of Tinraya._"
+        },
+        {
+          "keywords": [
+            "utte",
+            "leth"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_One is a match for ten strong soldiers. They tore through the walls of Tinraya itself! They're even worse than dragons!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "keep",
+            "tinr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Keep of Tinraya was to the north. It was the mightiest and well defended city in Valorim. Its walls were thought to be impregnable, until a hundred of the alien beasts found their way inside. Not many survived._",
+          "str2": "_It's a sad tale, but, for once, the Empire reacted correctly._"
+        },
+        {
+          "keywords": [
+            "reac",
+            "corr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It was a brilliant move. Footracer Province, in which the keep was, was surrounded by a wall. A dozen wizards came from the Empire and cast many spells on the wall, so that, instead of keeping invaders out, it held the monsters in!_",
+          "str2": "_Unfortunately, this is a temporary solution._"
+        },
+        {
+          "keywords": [
+            "temp",
+            "solu"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Walls crumble. Spells fade. The beasts are still in there. If something is not done, they'll get out, and keep spreading. Hopefully, someone in Blackcrag Fortress will figure out what to do soon._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "blac",
+            "fort"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They are the ones who determine who gets in and out of Footracer Province. They are the ones who determine our fate. Unfortunately, they have withdrawn._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "with"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Nobody has been in or out of there for months. Valorim is quarantined off. Some fear we've been abandoned to our fate._",
+          "str2": "He shakes his head. _So I study the Alien  Beasts, and look for a weakness. And, to be honest, I don't think there is one._"
+        },
+        {
+          "keywords": [
+            "drag"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Dragons? Oh, I heard some soldier say he saw dragons flying over the mountains to the northwest. Hardly plausible, of course._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 305,
+      "slot": 4,
+      "title": "Radewitz",
+      "look": "You meet the innkeeper, a short, stout man with lots of hair coming out of everywhere. He seems on edge.",
+      "name": "_I'm Radewitz._",
+      "job": "_Running this inn. While it survives, anyway. I can give you a room for only 3 gold. Good rate. Also, for what little they are worth, I sell maps._",
+      "dunno": "_Beats me. Want a room?_",
+      "nodes": [
+        {
+          "keywords": [
+            "runn",
+            "surv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Alien Beasts may come down at any moment and kill us all._ He looks around nervously, then says _But I don't know much about that. Ask Wray ... he works nearby. He knows much more about the things._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "room",
+            "rate"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            3,
+            5,
+            0,
+            0
+          ],
+          "str1": "He looks relieved. _After the Alien Beasts came, nobody who can help it comes up here. Glad I can finally rent a room._ He shows you to a clean, slightly dusty room.",
+          "str2": "You don't have 3 gold."
+        },
+        {
+          "keywords": [
+            "maps"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah, I used to do good business selling maps of Footracer Province, to the north, to passing caravans. Then the Alien Beasts destroyed the whole place. Now my maps are useless._",
+          "str2": "_You can purchase one for only a gold. How's that for a price?_"
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 22,
+          "typeName": "buy_town_map",
+          "extras": [
+            1,
+            9,
+            0,
+            0
+          ],
+          "str1": "He gives you a map, pausing to blow the dust off it.",
+          "str2": "You have no gold."
+        },
+        {
+          "keywords": [
+            "alie",
+            "beas"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Don't know too much, just that they're lethal and will kill us all. Ask Wray the sage ... he knows a lot more about it._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 306,
+      "slot": 5,
+      "title": "Rabellino",
+      "look": "You meet the innkeeper. He also wears the mayor's sash of Calloc. It's not surprising ... most of the mayors of these small towns have to work at a regular job.",
+      "name": "_I'm Rabellino. Welcome to the Beautiful Town of Calloc._",
+      "job": "_Well, we have fine luxury rooms for only 12 gold for the night, and delicious steaks for five gold. Or,_ he says with distaste, _are you here on mayor business?_",
+      "dunno": "_I don't know of that._",
+      "nodes": [
+        {
+          "keywords": [
+            "luxu",
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            12,
+            3,
+            0,
+            0
+          ],
+          "str1": "He shows you to your room, which is anything but luxurious. You pass an uncomfortable night.",
+          "str2": "_That's 12 gold, Bob._"
+        },
+        {
+          "keywords": [
+            "deli",
+            "stea"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "The steaks are stringy and tough. Still, they're far better than the rank lizard meat you get in Exile.",
+          "str2": "_That's 5 gold, Bob._"
+        },
+        {
+          "keywords": [
+            "mayo",
+            "busi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grumbles. _We could use more adventurers around here. The army deserters cause no end of trouble. And worse, we had the trouble with looters and raiders._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "loot",
+            "raid"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            228,
+            9,
+            2,
+            0
+          ],
+          "str1": "_We've had lots of trouble with people coming in and stealing our food. Are you interested in a mission?_",
+          "str2": "_We haven't have many looter problems lately, except for deserters, of course._"
+        },
+        {
+          "keywords": [
+            "miss"
+          ],
+          "type": 160,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 160,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "neph"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Nephilim. Barbarians. The scum of the earth. The less of them there are, the better._ He looks you over suspiciously. _No offense._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi",
+            "dese"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_What with all the monsters everywhere, some of our so called protectors are more than willing to turn coward and run, looting and stealing the possessions of good citizens._",
+          "str2": "_Gut 'em all. That's what I say._"
+        }
+      ]
+    },
+    {
+      "id": 307,
+      "slot": 6,
+      "title": "Black",
+      "look": "You meet a mage. She looks very ill, but still works doggedly on a long, intricate scroll.",
+      "name": "_I am Black. Welcome._ She coughs heavily into her hand.",
+      "job": "She coughs. _Excuse me. I'm not well._ She coughs again. _I teach magic._",
+      "dunno": "She chuckles condescendingly.",
+      "nodes": [
+        {
+          "keywords": [
+            "coug",
+            "well"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I came here from the Isle of Bigail._ She says this as if it answers your question.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "teac",
+            "magi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She coughs again. _Don't worry. I'm not contagious. I don't think. Anyway, you can purchase mage spells from me. If you want._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "spel"
+          ],
+          "type": 14,
+          "typeName": "shop_mage_spells",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "Black's Magic",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "isle",
+            "biga"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks at you skeptically, and coughs savagely. _You know? The isle with all the roaches? The disease spreading roaches? I came here get well, and I am. Slowly._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dise",
+            "roac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I don't know anything about what's going on there. I got away, and that's all there is to it._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 308,
+      "slot": 7,
+      "title": "Yar",
+      "look": "A small, depressed looking man sits at his desk, stitching together a torn vellum page in a thick tome. He seems pleased that his library has received a visitor, but not very much.",
+      "name": "_I am Yar the Librarian._",
+      "job": "_I run the library of Wainscotting. Such as it is._",
+      "dunno": "_I can't help with that. Maybe it's in one of our books._",
+      "nodes": [
+        {
+          "keywords": [
+            "libr",
+            "wain"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Ah, it was a beautiful idea. Ships coming south, coming north, many staying here, most having a few books I could buy. I got books from all over, and kept them here safe. Then the disaster happened._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "disa",
+            "happ"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Plagues of monsters. Valorim was quarantined. No ships from far-away lands. No new books. Nobody wanting to see or buy the old ones. I sit here bored, waiting._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "bore",
+            "wait"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I sit around, waiting for someone like you to come appreciate my work. Feel free to peruse the books. You're adventurers ... you may find something to interest you!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "slot": 8,
+      "title": "Abruzzo",
+      "look": "A tall, brutish man, with the earrings and tattoos that mark all sailors in these parts, runs this inn.",
+      "name": "_I'm Abruzzo._",
+      "job": "He spits into a rag, and used it to wipe off the counter. _I got rooms and booze. Rooms are 20 gold, for you. Booze is also 20 gold, for you. Got a problem with that?_",
+      "dunno": "_Huh?_",
+      "nodes": [
+        {
+          "keywords": [
+            "prob"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, I just don't care._ Nice fellow.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            20,
+            2,
+            0,
+            0
+          ],
+          "str1": "He takes the gold and gruffly shows you to a cold, dirty room. He leaves before you can complain. Resigned, you go to sleep.",
+          "str2": "_Where's your gold? Get bent!_"
+        },
+        {
+          "keywords": [
+            "booz"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "str1": "You buy some acrid, oily liquor. You have to drink it quickly, before it eats its way through the mug. Your intestines scream for mercy.",
+          "str2": "_Where's your gold? Get bent!_"
+        },
+        {
+          "keywords": [
+            "secr",
+            "vagr"
+          ],
+          "type": 2,
+          "typeName": "set_sdf",
+          "extras": [
+            158,
+            9,
+            0,
+            0
+          ],
+          "str1": "You ask him about Vagro. He grins. _Ah, those were the days. Looting, a little piracy. We took a bunch of our loot, and hid it under a statue in this town called Greendale. Then the word got out on us, and we couldn't get it!_",
+          "str2": "He laughs. _Sure it's not there anymore. Someone must have found it by now._"
+        }
+      ]
+    },
+    {
+      "id": 310,
+      "slot": 9,
+      "title": "Yale",
+      "look": "You meet the mayor of Marish. He is sitting in his office, the common room of the town inn, looking at some papers.",
+      "name": "He straightens his mayor's sash, and rises to greet you. _I am Mayor Yale of Marish._",
+      "job": "_I am mayor of Marish. I do the best I can, considering the hard times._",
+      "dunno": "_I am bereft of knowledge with regards to your query._",
+      "nodes": [
+        {
+          "keywords": [
+            "mayo",
+            "mari"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A great honor. When I was too old to be a sailor, this is where I came to settle down. They liked me. Here I am._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hard",
+            "time"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            128,
+            9,
+            1,
+            0
+          ],
+          "str1": "_Monsters. What else does anyone have to worry about? Monsters. Undead and giant lizards are harassing us from the north. That's why we've been looking for some adventurers._",
+          "str2": "_Well, the monsters are gone, but we still have to deal with the utter lack of ships coming from the rest of the Empire._ He shrugs. _We'll survive._"
+        },
+        {
+          "keywords": [
+            "adve",
+            "mons"
+          ],
+          "type": 161,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 161,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

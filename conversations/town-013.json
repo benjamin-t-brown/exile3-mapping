@@ -1,0 +1,1286 @@
+{
+  "talkRecord": 13,
+  "townId": 13,
+  "personalityBase": 131,
+  "label": "Ghost, Ghost, Ghost, Erika, Claw, Arion",
+  "people": [
+    {
+      "id": 131,
+      "slot": 0,
+      "title": "Ghost",
+      "look": "The spirit of a young man floats here, over the charred body of an apprentice mage. It stares at you.",
+      "name": "_I was Bernard._",
+      "job": "_Oh, you must help me. Help me if you can! I need to save Carrie!_",
+      "dunno": "It doesn't respond.",
+      "nodes": [
+        {
+          "keywords": [
+            "help",
+            "plea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Surely you can bring her back! I was under the silence oath all the time, and could never tell her how I felt! Bring her to me?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "carr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I saw them get her! They seized her and dragged her off._ He moans. _I ran! They were too horrifying! They trapped me here. She must have lived! I will still save her!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "save"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I can! I will! Help me? Please?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sile",
+            "oath"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They made me take an oath to be silent before I could be an apprentice! Never could I say a word to her. I had to tell her I loved her in other ways._",
+          "str2": "_Oh, please help me say the words to her._"
+        },
+        {
+          "keywords": [
+            "word"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I want to tell her I love her. Help me?_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "slot": 1,
+      "title": "Ghost",
+      "look": "You encounter the insubstantial form of a middle-aged man, still wearing translucent robes and a sash of office. He motions you forward.",
+      "name": "_I was Conruc. There was not much time._",
+      "job": "_Hurry! I was useless in life! Don't let me be useless in death, too!_",
+      "dunno": "It doesn't respond.",
+      "nodes": [
+        {
+          "keywords": [
+            "usel",
+            "life"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He points at the spectral sash of office. _This was a sign of my uselessness! I could do nothing as a bureaucrat. When the demons came, I saw my chance!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sash",
+            "offi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I was the administrator for the Tower of Magi. I had no powers, no responsibilities. Then I had a chance to fight the demons. I failed._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "demo",
+            "chan"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They have a gate, and they're trying to bring more demons through. I tried to close it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gate",
+            "clos"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The main way to it was well guarded, but I found a back entrance!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "main",
+            "guar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The main entrance is through the garden at the center of the tower, but there are huge demons there. But I know the tower so well, I was able to find a back entrance!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "back",
+            "entr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There's a well hidden secret door far to the northwest. I snuck through it and then through a storeroom, squeezed through a cracked wall, and was near their portal!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "crac",
+            "wall"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I know a spell that knocks down weak walls. Can't remember what it is, though._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "port"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Then a demon surprised me. It sucked away my energy, picked me up, and gutted me. Oh, how it hurt!_ He winces at the memory. _I failed to reach the gate. Now you must try! Otherwise, you are all doomed._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "doom"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You can't feel it. You're not spirits. But I can! An evil force of incredible power is coming! I wouldn't want to be you if you don't shut that portal soon._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "slot": 2,
+      "title": "Ghost",
+      "look": "You find a very insubstantial ghost, huddled in a corner.",
+      "name": "_I'm dead._",
+      "job": "_I'm dead. Before I move on, I have a purpose._",
+      "dunno": "It doesn't respond.",
+      "nodes": [
+        {
+          "keywords": [
+            "dead"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Some imps used me as a plaything. I wish not to speak of it. It is not part of my purpose._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "The ghost's voice is flat and emotionless. _There is something I am being held here to teach you. A spell._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "held",
+            "here"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I don't know who holds me here. Maybe it's me. Does it matter?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "teac",
+            "spel"
+          ],
+          "type": 122,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 122,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "slot": 3,
+      "title": "Erika",
+      "look": "You stand before Erika, master archmage of Exile. She looks surprisingly young - only the cold, ancient look on her face belies her true age. She watches you as if you were a particularly intriguing new form of insect.",
+      "name": "_I am called Erika. Simply Erika._",
+      "job": "_I have many jobs. I am the greatest wizard in Exile. I am a total foe of the Empire. I have an assortment of hobbies. I teach magic, sometimes. Which of these interests you?_",
+      "dunno": "_You start to bore me._",
+      "nodes": [
+        {
+          "keywords": [
+            "erik",
+            "simp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The only use of fancy titles is to draw attention away from one's lack of power._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "amul",
+            "acti"
+          ],
+          "type": 123,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 123,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "grea",
+            "wiza"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She shrugs. _A simple truth. There are mages in Exile whose work I admire, but none of them are any match for me, and none have assisted Exile as I have._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "exil",
+            "assi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Would you like to hear my story?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "tota",
+            "empi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire cast me into Exile, and cursed me in the bargain. I will destroy it, whatever I do!_",
+          "str2": "_I believe you are sympathetic to this. Perhaps you wish me to bestow a boon upon you._"
+        },
+        {
+          "keywords": [
+            "teac",
+            "magi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have taught those of Exile for many years, and sometimes still do so. You may purchase spells if you wish. Beware, though. My time does not come cheap._",
+          "str2": "_This reminds me, I have followed your progress, and wish to bestow a boon upon you._"
+        },
+        {
+          "keywords": [
+            "asso",
+            "hobb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You would not comprehend them. Best you do not ask. And do not stray too far from this hall._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hear",
+            "stor"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She begins to speak. She is calm as her story begins, but the more she speaks. the angrier she gets. It's a fearsome sight. _I was a mage on the surface, working for the Empire. There was a power struggle ... we fought for Hawthorne's favor._",
+          "str2": "_My side lost. I, Patrick, and others were cast down into the depths, and I, their leader, was cursed!_"
+        },
+        {
+          "keywords": [
+            "patr",
+            "solb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Competent, lesser mages._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "cast",
+            "dept"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We found Exile to be a string of filthy caves, filled with scum-encrusted, beleaguered humans fighting desperately for survival. One of them, named Micah, was trying to bring order, but not having much luck._",
+          "str2": "_With the aid of my power, everything changed._"
+        },
+        {
+          "keywords": [
+            "mica"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He's the king now. He has a few good years ahead of him._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "powe",
+            "chan"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We brought magic to the pit. I found a way to fetch my magical tomes from the surface, and, using our combined powers, we tamed the squabbling bands, formed cities, formed schools, beat back the dark forces, and formed a nation._",
+          "str2": "_That left only the surface filth to deal with._"
+        },
+        {
+          "keywords": [
+            "dark",
+            "forc"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The demon lord Grah-Hoth lived in the caves. We defeated and imprisoned him, but it was a close thing._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "surf",
+            "filt"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I said the Empire must pay for what they did to me, and they did! I sent a band of assassins up to kill Emperor Hawthorne! I'm glad I did it! Then they invaded us, and we killed many more of them!_",
+          "str2": "_Even after all of that, that is still only the beginning of my vengeance!_"
+        },
+        {
+          "keywords": [
+            "lead",
+            "curs"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She digs her nails into the arm of her chair. _They dared to lay spells on me! If ever the light of the sun touches me again, I will die in an instant! I have no hope of ever leaving these caves! For that, the surface filth must pay!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "veng",
+            "mons"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She shakes her head. _I wish great vengeance on the Empire, but the plagues of monsters are not my doing. Despite what people say, I am not insane._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "insa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I long to see the sun again, but cannot. That does not mean I wish to deny that pleasure to those I watch over. I am not responsible for the carnage up there, no matter what evidence you find._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "evid"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            309,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You don't even have any evidence that it was me. Don't waste my time!_",
+          "str2": "She scoffs. _I am many things, but not a fool! You think I would leave my symbol there for anyone to find, large as life, to lead them back to me? If you believe that, you're a fool._ "
+        },
+        {
+          "keywords": [
+            "dest"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I wish for the destruction of the Empire, but that doesn't mean I am responsible for the monsters up there._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stra",
+            "hall"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have experiments active in my halls, as well as traps to ensnare nasty spies. I would so hate to have to throw your remains into my trash pits._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "tras",
+            "pits"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Don't enter my tower from the back. That's where I put my experiments that, well, don't work out._ She thinks. _Hmm. That may be where I dropped that wand._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "drop",
+            "wand"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks annoyed. _I was merely thinking aloud._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "spel"
+          ],
+          "type": 14,
+          "typeName": "shop_mage_spells",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "Erika's Spells",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "best",
+            "boon"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            47,
+            8,
+            2,
+            0
+          ],
+          "str1": "_There is an amulet I wish to give you._",
+          "str2": "_You've received my boon. What you do with it is your choice._"
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "slot": 4,
+      "title": "Claw",
+      "look": "There is an old man behind the counter, pulling beers. He's doesn't look very strong or agile, but has several large knives sheathed at his belt. They're clearly meant for more than cooking.",
+      "name": "He says _I'm known as Claw Hardknife._ He looks slightly embarrassed as he says it.",
+      "job": "_I've run this inn here for many years. We have our own brew of beer, only five gold for a round. We also have one room open, only 10 gold for the night._",
+      "dunno": "He shrugs.",
+      "nodes": [
+        {
+          "keywords": [
+            "many",
+            "year"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I started this inn when Krizsan province was still the border. Back then, everything was much rougher._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "room",
+            "open"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            10,
+            4,
+            0,
+            0
+          ],
+          "str1": "Claw leads you to your room, and bows. Despite a few mild bedbug bites, you have an excellent rest.",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "brew",
+            "beer"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "You drink the beer. After Exile's beer, it tastes fantastic to you. The other people in the bar don't look so impressed.",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "kriz",
+            "prov"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This is the southernmost province in Valorim, and the most recently settled. When people first moved down here, it was pretty rough._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "bord"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The border of the settled lands._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "much",
+            "roug"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There were bandits down here, and goblins too. I provided a safe place for people to stay when moving south. That's when I got my nickname._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "band",
+            "gobl"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He pats the knives at his side. _Most of them are gone, but not all. That's where my nickname came from._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "nick"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I took on the name Claw Hardblade, so people knew I meant business. I did my share of killing to back the name up. Now, people won't call me anything else, and it lets people pretend it's still the rough old days._",
+          "str2": "_So I'm Claw Hardblade until I retire. There you go._"
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "slot": 5,
+      "title": "Arion",
+      "look": "There is a mage sitting here, deep in his cups. He motions you to sit with him.",
+      "name": "_Arion._ He takes a swig of beer. _How are you?_",
+      "job": "_I've been stuck here for a while. Minor difficulties._ He shrugs, and drinks more. _I was going south to find a teacher._",
+      "dunno": "_That is beyond my learning._",
+      "nodes": [
+        {
+          "keywords": [
+            "stuc",
+            "here"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He drinks some beer, and seems to approve of the taste. _There are worse places to be stuck, but I would prefer to settle my difficulties and keep moving south._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mino",
+            "diff"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks at you blankly. _That's more than I want to go into. Just a minor disagreement regarding some lumps of metal._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sout",
+            "teac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He is a wizard. None know his name, but he travels around Krizsan, spreading wisdom._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "spre",
+            "wisd"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He has said 'When you find the identity of another, you lose the identity of yourself.' One can ponder his wisdom for many months, and not see the true heart of it!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "lump",
+            "meta"
+          ],
+          "type": 124,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 124,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "slot": 6,
+      "title": "Oralse",
+      "look": "The man at the table wears very loose black clothes. He eats a spartan meal of bread and fruit.",
+      "name": "_I am Oralse._",
+      "job": "_I am a traveler. Until recently, I lived on the Isle of Bigail._ He munches a bit of crust.",
+      "dunno": "He shrugs.",
+      "nodes": [
+        {
+          "keywords": [
+            "trav"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I learned much there, but the monsters became too threatening, so I decided to leave for a while._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "isle",
+            "biga"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A splendid isle, home of the Anama Church. It is a source of great learning. Alas, there is a plague there, and what I learned didn't justify the risk._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mons",
+            "plag"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The isle has been set upon by hordes of cockroaches. They're huge, and carry lethal diseases. Not a place that encourages people to stay._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "anam",
+            "chur"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He smiles enigmatically. _What they teach, I am unworthy to interpret to you.  You will simply have to visit. The Anama effectively rule over the island. You should have little trouble finding them._",
+          "str2": "_You can reach the island by boat._"
+        },
+        {
+          "keywords": [
+            "find",
+            "boat"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He takes a sip of water. _Take the road north from here. At the T intersection to the northeast, go to Farport to the west. There, you can take a boat to Bigail. I wish you luck. Now, I have much to ponder. Many apologies._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "slot": 7,
+      "title": "Orselena",
+      "look": "A tired looking woman greets you with a cup of tea.",
+      "name": "_I'm Orseena. Welcome to my homey, rustic little home._",
+      "job": "She tries to smile warmly, but it just doesn't work out. _I run a little bed and breakfast here.There's a nice cozy room available next door for only 5 gold. It's what I do while my hubby is away._",
+      "dunno": "_I can't help you with that dears._",
+      "nodes": [
+        {
+          "keywords": [
+            "cozy",
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            5,
+            4,
+            0,
+            0
+          ],
+          "str1": "She lets you into the promised cozy room next door, and bids you good night. The next morning, she greets you with hot water, tea and crumpets. You've spent worse nights.",
+          "str2": "She shakes her head. _I'm sorry, lambs, but I have to do what I can to get money while my hubby's away._"
+        },
+        {
+          "keywords": [
+            "hubb",
+            "away"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Her eyes get a far away look, and worry wrinkles appear on her forehead. _He's a soldier. He's off fighting._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sold",
+            "figh"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He's off fighting the slimes._ She looks very sad.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "slim"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_His duty is almost a year more. He's not a young man, and it's terribly dangerous. But I hope, and pray. I'm sure he'll return. I'm sure of it!_ An uncomfortable silence follows.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "slot": 8,
+      "title": "Mrrhrr",
+      "look": "A muscled, efficiently build nephil stands at the anvil, carefully working an axe head. You cannot help but admire the skill and patience he is putting into working the metal.",
+      "name": "He turns to you. _I am Mrrhrr._",
+      "job": "_Mrrr. I do little now. The shortages are great. I cannot travel far. So I stay here, and make improvements. Also, since things are rare, if you want you can do selling._",
+      "dunno": "_Hmrrrrr. I know not of that._",
+      "nodes": [
+        {
+          "keywords": [
+            "shor",
+            "grea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He shakes his head, and his tail twitches nervously. _Little shipping happens now, with all the monsters everywhere. I cannot get fresh metal to forge weapons._",
+          "str2": "_Thus, I spend my time only doing improvements on things._"
+        },
+        {
+          "keywords": [
+            "cann",
+            "trav"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He shakes his head. _Today and for years, much hatred is in the Empire for my kind. Is better here, but if I go far, humans be very dark._",
+          "str2": "_I prefer not to speak of it._"
+        },
+        {
+          "keywords": [
+            "impr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He purrs. _I can sharpen and treat weapons to make them better. I can do this to weapons which are not magic, are identified, and are not already improved. Is this something you might purchase?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "augm"
+          ],
+          "type": 20,
+          "typeName": "enchant",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Whiskers twitching happily, he looks over your weapons.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Excellent,_ he says. _Reselling goods these days is good business._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "slot": 9,
+      "title": "Nell",
+      "look": "There is a woman with robes or a mage and a growing collection of wrinkles sitting at the desk. She was writing when you came in, but stopped in order to speak with you.",
+      "name": "_Nell. Welcome, Exiles._",
+      "job": "_I am sort of an Exile, having had to leave my home recently. Now I do a bit of identification, and am also a scribe._",
+      "dunno": "She shakes her head.",
+      "nodes": [
+        {
+          "keywords": [
+            "sort",
+            "exil"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I understand something of being an Exile. I am a native of the Isle of Bigail. If you want to go there, you can get a boat at the north end of town. Unfortunately, I had to leave, because I kept being harassed by the Anama._",
+          "str2": "She starts to speak, but then sees your Anama rings and clams up."
+        },
+        {
+          "keywords": [
+            "iden"
+          ],
+          "type": 19,
+          "typeName": "identify",
+          "extras": [
+            10,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Why, yes. Part and parcel of being a sage, after all. Only 10 gold per item._ She looks over your items.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "scri"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I write books. One of mine is on that pedestal over there._ She points to the southwest corner of the room. _It's a little treatise I threw together._ She indicates a scroll on the table in front of her.",
+          "str2": "_Now, to make money, I do scrolls. Interested in a purchase?_"
+        },
+        {
+          "keywords": [
+            "purc",
+            "scro"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "str1": "Nell's Scrolls",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "anam",
+            "hara"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Anama control the Isle of Bigail, my long-time home. They make life difficult for any mages there. I can understand their prejudice about magic in this day and age, but you can't blame me for not wanting to be subjected to it._",
+          "str2": "She is unwilling to speak of it."
+        }
+      ]
+    }
+  ]
+}

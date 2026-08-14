@@ -1,0 +1,880 @@
+{
+  "talkRecord": 27,
+  "townId": 27,
+  "personalityBase": 271,
+  "label": "Mayor Bruette, Dwaine, Carlos, Gertrude, Carson, Yukiko",
+  "people": [
+    {
+      "id": 271,
+      "slot": 0,
+      "title": "Mayor Bruette",
+      "look": "You meet a aging woman, whose hair is starting to be shot through with iron bands of gray. She wears the mayor's sash of Lorelei, which seems to weigh her down as if it was made of lead.",
+      "name": "_I am Mayor Bruette. Welcome, adventurers._",
+      "job": "_I am the mayor of the fair city of Lorelei. I am currently charged with maintaining the city._",
+      "dunno": "She shakes her head, fingering her mayor's sash nervously.",
+      "nodes": [
+        {
+          "keywords": [
+            "mayo",
+            "lore"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Being the mayor of Lorelei is currently a taxing job, I'm afraid. I have the sacred duty of maintaining it as best I can._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fair",
+            "city"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She slumps in her throne. _It is, I'm afraid, not entirely what it was. And what it will be again. But soon the Empire will aid us, and it will rise again._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "main",
+            "city"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire has, alas, withdrew from this area. Fortunately, I am sure this is only a temporary thing._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi",
+            "temp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The continent of Valorim is under quarantine. Empire troops have not come to aid us for some time. However, I am sure it is temporary. All we need to do is survive, and they will surely come to aid us soon._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "surv",
+            "quar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Some of my troops criticize me for doing nothing to fight the giants. What fools they are! Anything we do may interfere with what the Empire is planning to help us! Do they not better see the whole picture?_",
+          "str2": "_That is why, if you're here for a mission, you've come to the wrong place._"
+        },
+        {
+          "keywords": [
+            "miss"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She leans forward and pats you on the arm. _Rest, stay safe, and wait. The Empire will provide. I'm sure of it._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 272,
+      "slot": 1,
+      "title": "Dwaine",
+      "look": "This man is of average height and build. His appearance is nondescript in every way, except for one. His eyes are intensely bright and alert.",
+      "name": "_I am Dwaine. I have been waiting for you._",
+      "job": "_I am an Exile, from Unspec, like yourselves. I've been waiting for your arrival._",
+      "dunno": "He smiles enigmatically.",
+      "nodes": [
+        {
+          "keywords": [
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I don't miss Exile at all, I'm afraid. Spying up here is intensely dangerous, but I wouldn't go back._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "unsp",
+            "spyi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I'm Unspecified Services. Remember? Your employers? I've been gathering information and waiting for colleagues to arrive._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "wait",
+            "arri"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. I have things to report. A few odd facts. The leaders of the cities are confused. The Empire has quarantined the whole continent. There's a thieves guild in Lorelei. Nothing exotic._",
+          "str2": "_However, I have managed to worm out one invaluable piece of information. It's about Empress Prazac._"
+        },
+        {
+          "keywords": [
+            "empr",
+            "praz"
+          ],
+          "type": 156,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 156,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi",
+            "quar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's insane! The Empire saw all the problems down here, and just up and went 'We can't deal with this.' They closed the borders, sealed up the Keep of Tinraya, and left._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "keep",
+            "tinr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Can't find much about that. Even asking about it is bad news. It was the biggest city in Valorim, up to the northwest. Then some monster hit it, some monster even worse than everything else, even the golems._",
+          "str2": "_The whole place was devastated, and the Empire walled it off so the creatures couldn't escape._"
+        },
+        {
+          "keywords": [
+            "gole"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Gale, to the northeast, has been bombarded by waves of golems. Nasty, nasty creatures. Don't know much about it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "thie",
+            "guil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's a Guild of criminals. They no doubt possess much illicit information that would be useful to us. I know their leader is in this city, but I don't know where. I also know that they do a lot of business involving packages from Shayder._",
+          "str2": "_If you could contact them, it could be very interesting. Just so you know._"
+        }
+      ]
+    },
+    {
+      "id": 274,
+      "slot": 3,
+      "title": "Carlos",
+      "look": "You meet a wizened, scholarly looking man, with a bushy beard. He has bits of freshly ground herbs under his fingernails, and green stains on his robes.",
+      "name": "_I am Carlos, of the University of Valorim._",
+      "job": "_I am a teacher at the University of Valorim. And very proud of it, as well._",
+      "dunno": "He looks confused.",
+      "nodes": [
+        {
+          "keywords": [
+            "univ",
+            "valo"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            156,
+            0,
+            0,
+            0
+          ],
+          "str1": "He shakes his head angrily. _The University was sacked by those foul hill giants. I had to come here to teach in safety._",
+          "str2": "_This is the first University in all of Valorim. Small, I know, one classroom, few instructors. But it is a start!_"
+        },
+        {
+          "keywords": [
+            "teac"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            156,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have lost my university, but I teach still. My knowledge of alchemy is still as sharp as ever._",
+          "str2": "_We had instructors in history, literature, and other arts. Then the instructors fled. Now we, that is, I, only teach alchemy._"
+        },
+        {
+          "keywords": [
+            "prou"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It is bombarded, nearly abandoned, has no students anymore, and ignored by the Empire even during the best of times. However, it is also my home, a potentially great place, and I am proud of it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "inst"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There were four. Then three of them fled because of the giants. I teach alchemy now. That's all we offer. But we will be a great school one day, I'm sure of it!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "alch"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have been teaching several valuable recipes. I know how to make potions that speed one up or restore magical energy. Both require wormgrass and glowing nettle._",
+          "str2": "_I can also teach how to make graymold salve, bane to diseases of all sorts. All it requires is graymold. If you want to purchase a recipe, let me know._"
+        },
+        {
+          "keywords": [
+            "purc",
+            "reci"
+          ],
+          "type": 16,
+          "typeName": "shop_alchemy",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Carlos the Alchemist",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 275,
+      "slot": 4,
+      "title": "Gertrude",
+      "look": "A stocky woman sits behind the counter, polishing a new, steel shield. She looks pleased to see potential customers.",
+      "name": "_I am Gertrude the armorsmith._",
+      "job": "_I'm the town armorsmith. I'm pleased to see you - things have been slow lately._",
+      "dunno": "She continues to polish her shield.",
+      "nodes": [
+        {
+          "keywords": [
+            "town",
+            "armo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You can purchase or sell armor here. Which interests you?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "slow",
+            "late"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_And not likely to change any. Nobody wants to stay in a city in which death strikes those who walks the streets at random._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "deat",
+            "rand"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The giants lob boulders over the walls, day and night. They move up, throw a few, and run before our soldiers can do anything. Nobody goes out. Not a good business environment, let me tell you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 5,
+          "typeName": "shop_armor",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "Gertrude's Armor",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 6,
+          "typeName": "sell_armor",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She asks to see your identified suits of armor, and makes an offer on each item.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 276,
+      "slot": 5,
+      "title": "Carson",
+      "look": "You see a man in long, flowing priest's robes, sitting behind the counter. In your experience, behind the till is a rather incongruous position for a priest to be in.",
+      "name": "_I am Father Carson. Welcome._",
+      "job": "_I am a priest of the Church of the Divine Lucre. As part of my worship, I run this shop._",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "divi",
+            "lucr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He frowns. _I don't feel like discussing my faith now, certainly not for free. We believe that the best way to improve the world is to improve ourselves, and we will bring everything up with us._",
+          "str2": "_But enough of all that. Time for worship._"
+        },
+        {
+          "keywords": [
+            "wors",
+            "shop"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My holy observances will be in the form of getting rich. To that end I have fine weapons for sale. Furthermore, I can use prayers to improve your blades._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "weap",
+            "purc"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Carson's Weapons",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "impr",
+            "blad"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_What better purpose can there be for a prayer than to improve the world? Improve my standing and wealth, improve your blade. For a fee, I will place a blessing on an identified, non-magical weapon you own._",
+          "str2": "_Would you like this augmentation?_"
+        },
+        {
+          "keywords": [
+            "augm",
+            "bles"
+          ],
+          "type": 20,
+          "typeName": "enchant",
+          "extras": [
+            6,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks over your weapons, and gives the cost to bless each weapon.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 277,
+      "slot": 6,
+      "title": "Yukiko",
+      "look": "A woman with dark skin and hair stands to greet you when you approach. She was intensely studying a thick tome when you entered.",
+      "name": "_I am Yukiko. Sometimes I go by Yukiko the Learned._",
+      "job": "_I am the chief instructor for Lorelei Vocational Technologies._",
+      "dunno": "She frowns at you.",
+      "nodes": [
+        {
+          "keywords": [
+            "chie",
+            "inst"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_That means I'm the one who gets stuck with doing the bulk of the training._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "voca",
+            "tech"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Vocations. You know. Like killing monsters with swords. Killing monsters with spells. Killing monsters with poison, and assassination. All those productive activities._",
+          "str2": "_The upshot is, if you want training, this is the place to come._"
+        },
+        {
+          "keywords": [
+            "trai"
+          ],
+          "type": 9,
+          "typeName": "training",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 278,
+      "slot": 7,
+      "title": "Lewis",
+      "look": "A muscular, swarthy horseman sits at the table, cleaning a bit and bridle. He wears a loose shirt, open to the navel, and is deeply, intensely tanned. It's a bit much.",
+      "name": "_I'm Lewis,_ he says, in a deep, manly voice.",
+      "job": "_I am a horseman, by trade. I breed and raise the mighty beasts._ A trickle of sweat trickles down his muscular chest as he speaks.",
+      "dunno": "He snorts.",
+      "nodes": [
+        {
+          "keywords": [
+            "bree",
+            "rais"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "His chest heaves mightily. _It's been a difficult job. Unsafe to take the mighty beasts out, what with the giants._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "migh",
+            "beas"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes, the mightiest and most noble of beasts. Deserving of mighty and noble owners. Brave souls, much like yourselves. For 600 gold, I can outfit you with a group of sweaty chargers. A purchase you'll never regret._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "outf"
+          ],
+          "type": 157,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 157,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gian",
+            "unsa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You never know when a flying rock will cripple one of them. I've been keeping them inside for some time. Not good for them._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "pack",
+            "shay"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I think it involves someone there named Irving. And herbs. Don't know too much else._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 279,
+      "slot": 8,
+      "title": "Ligaya",
+      "look": "This small shop is filled with feathers. They're everywhere - floating in the air, getting caught in you hair, making you sneeze. Through the cloud you see a young woman, stuffing a bird and preparing it for roasting.",
+      "name": "_I'm Ligaya. Sorry about the feathers._",
+      "job": "_I sell fine food!_ she says chirpily, while picking bits of feather off the stuffed bird.",
+      "dunno": "_I wish I could help you._",
+      "nodes": [
+        {
+          "keywords": [
+            "fine",
+            "food"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I am a specialist in the preparation of all manner of avian life forms. Turkeys, doves, pheasants, finches, chickens, ravens, I can prepare them all. It's even easier with the giants about._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gian"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She pauses, to pull a small bit of down out of her eye. _When throwing rocks at the city, they often aim at birds. I think it relieves the tedium. They get collected, and I make them delicious! Sort of a tiny dividend of all the danger._",
+          "str2": "_Care to purchase some of my wares?_"
+        },
+        {
+          "keywords": [
+            "purc",
+            "ware"
+          ],
+          "type": 11,
+          "typeName": "shop_food",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Ligaya's Birds",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "coll",
+            "dang"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            165,
+            2,
+            0,
+            0
+          ],
+          "str1": "_I have Deborah do most of the collecting for me. She's a beggarwoman, and needs the work. I do worry about her though, what with all the rocks falling._",
+          "str2": "She looks very sad. _Deborah was the beggarwoman who collected the birds for me. A rock got her, I'm afraid. I collect myself now. The hill giants have been hell for us all._"
+        }
+      ]
+    },
+    {
+      "id": 280,
+      "slot": 9,
+      "title": "Lyle",
+      "look": "This man must be Internal Affairs. He's surrounded by a veritable cloud of forms, schedules, and notes, which he valiantly battles with a goose quill pen.",
+      "name": "_I'm Lyle._",
+      "job": "_Have a seat._ You sit. _I'm Internal Affairs for Lorelei. A job of uneven difficulty, let me tell you._",
+      "dunno": "_Sorry. Not in my area._",
+      "nodes": [
+        {
+          "keywords": [
+            "inte",
+            "affa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. The main thing that would concern you is that I'm the mission dispatcher. Also, oddly, I've been given a mansion to sell._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "unev",
+            "diff"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_With the giants coming and going, people mainly stay inside and don't do anything. That makes things easier. But I sometimes have to go out to serve papers and inspect things. That makes things harder._",
+          "str2": "He leans forward and lowers his voice. _It would be better if our leadership was stronger._"
+        },
+        {
+          "keywords": [
+            "lead",
+            "stro"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He says quietly _Our mighty mayor seems inclined to wait until the Empire sends help before taking action. Unfortunately, I feel help is not likely to come._ He shrugs. _But what can I do? I'm just the jobs dispatcher._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "miss",
+            "disp"
+          ],
+          "type": 25,
+          "typeName": "job_bank",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "He frowns. _I'm afraid you failed to complete a job I gave you. I won't be able to give you another for quite some time._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mans",
+            "sell"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            102,
+            1,
+            0,
+            0
+          ],
+          "str1": "_The owner of Hawke's Manse, a huge, beautiful mansion at the northwest corner of town, was killed by a boulder. He had no heirs. I was told to find a buyer for it. A bargain, only 8000 gold. The only thing necessary - a purchaser._",
+          "str2": "_I'm so glad you bought the place. It was one less thing to worry about._"
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 22,
+          "typeName": "buy_town_map",
+          "extras": [
+            8000,
+            15,
+            0,
+            0
+          ],
+          "str1": "He is clearly impressed. You pay him the 8000 gold. In return, he gives you a simple iron key. _Hawke's Manse is in the northwest corner of town. Enjoy your new home._",
+          "str2": "He shakes his head. _Understandable. Eight thousand gold is a huge amount. However, I can accept no less._"
+        },
+        {
+          "keywords": [
+            "reci"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He raises his eyebrows. _Yes. I've heard of the recipe for Knowledge Brew, but only because Foxfire mentioned it to me. She's a bard, who travels around the nearby towns. You may want to ask her about it if you see her._",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+  "talkRecord": 17,
+  "townId": 17,
+  "personalityBase": 171,
+  "label": "Garnak, Elspeth, Mother Loomis, Seela, Voorn, Spider",
+  "people": [
+    {
+      "id": 171,
+      "slot": 0,
+      "title": "Garnak",
+      "look": "You meet the lighthouse keeper, a wiry, aging man with a misshapen face and a host of tiny scars on his hands and arms.",
+      "name": "He emits a loud, long belch, and chuckles. _'Scuse me. I'm Garnak._",
+      "job": "_I take care of Southpoint Lighthouse. Beats' workin!_",
+      "dunno": "He belches in a confused manner.",
+      "nodes": [
+        {
+          "keywords": [
+            "sout",
+            "ligh"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There's a big fire upstairs. I throw a few stick into it every day to maintain it. Ships don't founder on the rocks. I get fed. It's a living._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "beat",
+            "work"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grunts. _Eh. I wouldn't be out here were it not for a few, well ... indiscretions in my past. Can't do the old business, but the new business has its points._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "indi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He burps in irritation. _Not a very tactful question, if I may say so myself._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "busi",
+            "poin"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He says enigmatically _The old skills are still active, if that's what you mean. I know you wouldn't have come out here if you weren't interested. Buying or selling?_",
+          "str2": "He then belches enigmatically."
+        },
+        {
+          "keywords": [
+            "buyi",
+            "purc"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "str1": "Garnak's Supplies",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He gives your things a quick appraisal. _Not bad._ He makes an offer on each of your identified items, belching at each one for emphasis.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "slot": 1,
+      "title": "Elspeth",
+      "look": "The thing you notice most about this woman are her fingers. They're pianist's fingers, or wizard's finger. They're long and thin, and move with perfect precision. It's probably necessary in order to cut and shape the crystals that surround her.",
+      "name": "_I'm Elspeth. Welcome to my little shop._",
+      "job": "_I don't get visitors to my shop often._",
+      "dunno": "She shrugs.",
+      "nodes": [
+        {
+          "keywords": [
+            "visi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A month can go by, and the only people I see are the delivery girl and Garnak._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "litt",
+            "shop"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I work crystals. This is an excellent place for it. Out here, I can concentrate._ She pulls out a large, velvet lined case, and opens it. It's filled with an eye-popping variety of crystals. _Aren't they beautiful?_",
+          "str2": "She winks at you. _And they can be purchased, if you are so inclined._"
+        },
+        {
+          "keywords": [
+            "deli",
+            "girl"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire sends us food every month. Lately, the delivery girl has come guarded, because of the roaches. So it goes._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "garn"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My husband. He's crude, crass, unethical, and gross, but I love him anyway._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "crys"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "Elspeth's Crystals",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "slot": 2,
+      "title": "Mother Loomis",
+      "look": "You meet a woman wearing the robe and rings of the Anama church. She has the air of not suffering fools gladly, and the authority of a born leader.",
+      "name": "_I am Mother Loomis. Welcome to Bavner._",
+      "job": "_I am the guardian of Bavner. A trying job, I am sure you realize, but the faith gives me strength._",
+      "dunno": "_What is that? Speak sense, my child!_",
+      "nodes": [
+        {
+          "keywords": [
+            "guar",
+            "bavn"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            5,
+            0,
+            0
+          ],
+          "str1": "She rolls her eyes. _One trial after another! As if the roaches weren't enough, I have to deal with Judith, and with Seela's ravings!_",
+          "str2": "_Life has become much easier since the roach pit was destroyed, praise Ahonar. Still, there are diseases that still remain, so I must still deal with Judith._"
+        },
+        {
+          "keywords": [
+            "fait",
+            "stre"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Anama teaches self-reliance above all things. We should rely on our own strength, not the energy from realms we do not understand, and from the summoning of bizarre creatures._",
+          "str2": "_I have thought much on my beliefs. Would you like me to share them with you?_"
+        },
+        {
+          "keywords": [
+            "beli",
+            "shar"
+          ],
+          "type": 126,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 126,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "judi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She frowns. _A carpetbagger! She's a healer who travels from town to town, healing for a hefty price! She's from some religion that values making money or amassing power or some such rot. I, as you can probably tell, despise her._",
+          "str2": "_If, for some odd reason, you actually want to meet her, she comes through occasionally._"
+        },
+        {
+          "keywords": [
+            "seel",
+            "ravi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_As if everything else wasn't enough, she says there are spiders in the woods who come and speak with her. She's around town somewhere if you want to ask her about it._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "slot": 3,
+      "title": "Seela",
+      "look": "You meet a young Anama priestess, more than happy to take a break from looking over the fields and picking weeds.",
+      "name": "_I'm Seela._",
+      "job": "_I look after things. I watch the crops, patrol the woods, that sort of thing. And let me tell you, I see some strange things!_",
+      "dunno": "_I can't help with that._",
+      "nodes": [
+        {
+          "keywords": [
+            "watc",
+            "crop"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_More interesting work than you could possibly imagine,_ she says wryly.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "patr",
+            "wood"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We look for disease victims, giant spiders getting a little close, roach infestations, that sort of thing._ She looks around to make sure nobody's listening in, then leans close to you.",
+          "str2": "_Actually, the last few patrols, I've seen something very strange._"
+        },
+        {
+          "keywords": [
+            "stra",
+            "thin"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There are intelligent spiders in the woods! And, what's more, they're friendly! They come and talk to me, and I give them little bugs in return. They're kind of sweet!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "spid",
+            "swee"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I know what you're thinking, but I tell you there are intelligent spiders in the forest. They say they have a big lair somewhere, but haven't told me where. If you went and were nice to them, I'm sure they'd talk to you too._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "slot": 4,
+      "title": "Voorn",
+      "look": "A stolid, massive man is slouched behind the counter. He looks rather dull, but is surrounded by books on a wide variety of topics.",
+      "name": "_I'm Voorn._",
+      "job": "_I'm a teacher._",
+      "dunno": "_I can't help with that._",
+      "nodes": [
+        {
+          "keywords": [
+            "teac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I train adventurers, what adventurers come here anymore. I am schooled in all the adventuring skills, from Alchemy to Priest Spells, and everything in between. If you want training, say so, and we'll go out back._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trai",
+            "back"
+          ],
+          "type": 9,
+          "typeName": "training",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "adve"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Teaching adventurers is very difficult, due to the wide variety of skills I need to keep up on. Still, somehow, I manage. I just don't get much sleep._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "slot": 5,
+      "title": "Spider",
+      "look": "You meet an older spider, its brown hairs starting to be run through with wisps of gray. It has a gold circlet around its head.",
+      "name": "_I'm Spider,_ it says, it's high-pitched voice have a tiny hint of authority.",
+      "job": "_I'm a leader spider!_ it says.",
+      "dunno": "_You're silly!_ it says regally.",
+      "nodes": [
+        {
+          "keywords": [
+            "lead",
+            "spid"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I guided all the other spiders on the big, nasty journey to the surface! I lead them in a catching of yummy bugs. And I say what we should do about those nasty cockroaches._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "jour",
+            "surf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We used to all live down in the weird, dark, chilly caves. Then we found a way up here!_ It gives a happy little jump up and down. _Now we find lots more bugs!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "yumm",
+            "bugs"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It plucks a fist sized cockroach from a nearby web, and munches it down. _Yum! Snacks_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "nast",
+            "cock"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Cockroaches are good food, but also tough and hard to hunt. But not all are bad! There's some friendly roaches! They live the north, but are all hidden. Would you like to know where the friendly roaches are?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "frie",
+            "roac"
+          ],
+          "type": 133,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 133,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "slot": 6,
+      "title": "Spider",
+      "look": "You see a spider marching around, looking for something.",
+      "name": "It runs up to you in glee. _My name is Spider,_ it says.",
+      "job": "_I'm hunting for yummy roaches!_",
+      "dunno": "_You're silly!_",
+      "nodes": [
+        {
+          "keywords": [
+            "hunt"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah!_ it says perkily. It opens its mouth, revealing massive fangs. _For roaches! They're tasty!_ Its voice is unrelentingly bright and high-pitched.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "yumm",
+            "roac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah! We raise them. In pens._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rais",
+            "pens"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It points a pedipalp to the northeast. _There's a bunch of them back there. When the come out, we paralyze them and suck them dry. It's fun! You should try it!_",
+          "str2": "It thinks for a moment, then adds _You're cute!_"
+        },
+        {
+          "keywords": [
+            "cute"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yup!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "slot": 7,
+      "title": " Spider",
+      "look": "An officious, bold spider blocks your way. It doesn't seem to want to let you go east.",
+      "name": "_My name is Spider,_ it says somberly.",
+      "job": "_I'm a guardian arachnid!_ it says in a proud way, and shows its fangs to punctuate the point.",
+      "dunno": "_You can't go east!_ it says. This seems to be its general reaction to things.",
+      "nodes": [
+        {
+          "keywords": [
+            "guar",
+            "arac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I'm guarding our chief! You can't go east until you prove you're allowed!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "chie"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He's powerful and good! I will protect him, even until it's not convenient!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "prov",
+            "allo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It thinks, unsure for the moment how you would prove you can go to the east. Finally, it says _If you are allowed to see our chief, surely you would know his name! What is it?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "spid"
+          ],
+          "type": 26,
+          "typeName": "npc_leaves",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It jumps up and down happily. _That's it! That's Chief Spider's name! You can go through._ ",
+          "str2": "The spider wanders off, looking for bugs."
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "slot": 8,
+      "title": "Spider",
+      "look": "You meet a large spider with big fangs, standing guard. It doesn't seem to want to attack you, however. It's just standing there, watching you with interest.",
+      "name": "_Hi!_ it says. _I'm spider!_ It has a cheery, high pitched voice, coming from somewhere below its pedipalps.",
+      "job": "_I'm guarding our lair! There's mean things about._ It makes a little martial leap in the air, to convince you of its fearsomeness.",
+      "dunno": "_You're silly!_",
+      "nodes": [
+        {
+          "keywords": [
+            "guar",
+            "lair"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You never know when someone mean and bad will try to break in, like some of those cockroaches, or nasty humans._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mean",
+            "thin"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There are many mean things about. Dumb spiders who try to eat us. Nasty humans. And cockroaches find us yummy, just like we think they're way tasty!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "nast",
+            "huma"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It shakes its head sadly. _Some humans don't like spiders. Silly, huh? We're so good at killing roaches!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "roac",
+            "cock"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Roaches are mostly yummy food, but some are smart and friendly like us! They are hiding to the north. You should go meet them! They're swell!_",
+          "str2": "_Our chief knows exactly where they are. He's way to the north!_"
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "slot": 9,
+      "title": "Spider",
+      "look": "An official looking spider marching precisely around. It comes up to your waist, and looks as if it could be as threat, were it not for the unflappable friendliness of these creatures.",
+      "name": "_I'm called Spider,_ it says perkily.",
+      "job": "_I'm the captain spider._ It looks you over. _You're cute!_",
+      "dunno": "_You're silly!_",
+      "nodes": [
+        {
+          "keywords": [
+            "chie"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah. He knows lots and lots and lots and lots of stuff about roaches. You should talk to him! Oh, and you're cute!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "capt",
+            "spid"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It looks uninterested in discussing it. _Yep. The chief picked me._ It returns to the subject it's most interested in. _You're really cute!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "cute"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah!_ It says, bouncing up and down a little. _Want to go on a date?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "date"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "You decline politely. It looks sad, then brightens up. _OK! But if you change your mind, I'll be here. Ask for Spider!_",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

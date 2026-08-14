@@ -1,0 +1,857 @@
+{
+  "talkRecord": 34,
+  "townId": 34,
+  "personalityBase": 341,
+  "label": "Mario, Vagro, Craswell, Malka, Vairlas, Corin",
+  "people": [
+    {
+      "id": 341,
+      "slot": 0,
+      "title": "Mario",
+      "look": "A bleary eyed man sits behind the counter, surrounded by neat packages of rations. He doesn't even bother to conceal the bottle of green liquid he's been drinking.",
+      "name": "_Uh, I'm Mario._ He takes a sip from the vial.",
+      "job": "_Uh, I have food._ He seems annoyed that you're distracting him.",
+      "dunno": "He doesn't respond.",
+      "nodes": [
+        {
+          "keywords": [
+            "have",
+            "food"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. You can purchase it and leave._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 11,
+          "typeName": "shop_food",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Mario's Rations",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "leav"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks longingly at the bottle. _I'm busy. Get what you want and go._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 342,
+      "slot": 1,
+      "title": "Vagro",
+      "look": "Despite the niceness of his shop and the quality of his clothes, this man's essential scruffiness cannot help but shine through. He is polishing a small blue crystal.",
+      "name": "_I'm Vagro,_ he says in a raspy voice. _Welcome to my shop._",
+      "job": "_I run this fine crystal shop here. Feel free to browse._",
+      "dunno": "He looks at you shiftily.",
+      "nodes": [
+        {
+          "keywords": [
+            "crys",
+            "brow"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have crystals of all sorts, for luck, for decoration, and for spell casting. Quite a nice selection, in fact, all of it for purchase at reasonable rates._ He grins. _Great business, eh? Definitely a step up from my sailor days._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sail",
+            "days"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He scratches himself cheerfully. _I was quite the wild one when I was younger. The stories I could tell._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stor"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He chuckles. _Oh, you don't want to hear the stuff I was up to. Though once, I was up to a bit of larceny with an old dog named Abruzzo. We got a big pile of loot, and he took it all and fled west._",
+          "str2": "He grins mischievously. _If you ever meet him, mention my name to him. It'll sure give him a start!_"
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "Vagro's Crystals",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 343,
+      "slot": 2,
+      "title": "Craswell",
+      "look": "You meet an older woman, who looks something like an evil grandmother. Her smile is cold, and her skin seems stretched tight over her face. She is surrounded by bits, bridles, and other horse riding gear.",
+      "name": "_I am Craswell._",
+      "job": "She graces you with a pinched smile. _I breed horses._",
+      "dunno": "She coughs.",
+      "nodes": [
+        {
+          "keywords": [
+            "bree",
+            "hors"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_With all the monsters about, a way to move quickly is greatly valued. It is futile, of course, but you still purchase some of my horses for 750 gold._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "futi",
+            "mons"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Why even attempt to flee them? After all they are so clearly a judgment!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "judg"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They are a punishment for our wicked, magic using ways! The Gods have frowned on us, and this is our punishment. Do you think a mere horse will help you escape the wrath of the almighty?_",
+          "str2": "_Have you, perhaps, heard of the Anama?_"
+        },
+        {
+          "keywords": [
+            "anam"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            4,
+            0,
+            2,
+            0
+          ],
+          "str1": "_We believe that magic is a demonic art, and its use will lead you into Hell. I strongly suggest you repent. Otherwise, no horse or spell in the world will save you from your cruel, eternal judgment._ The conversation seems to have taken a dark turn.",
+          "str2": "She notices your Anama rings, and nods in approval. Oddly, she doesn't wear one."
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 166,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 166,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 344,
+      "slot": 3,
+      "title": "Malka",
+      "look": "You meet a young woman who is busy nursing. She motions for you to wait a minute. When the child is fed, she sets it on the table and turns to you.",
+      "name": "She nods. _Greetings, adventurers. I am Malka._",
+      "job": "She sighs. _I am fleeing Gale._",
+      "dunno": "_Mmmmm?_",
+      "nodes": [
+        {
+          "keywords": [
+            "flee",
+            "gale"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks over at her baby. _We have abandoned our home. It was painful and difficult, but what can one do? We have our child to look after._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "chil",
+            "baby"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_His name is Edward._ She leans over to kiss him on the forehead.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "aban",
+            "home"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Vairlas and I left because everything in Gale is insane. The golems, the herb, the madness of our mayor. It was all too much._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "vair",
+            "gole"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Vairlas knows much of the golems. You should ask him._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "herb",
+            "addi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Here we are - Valorim is attacked on all sides, danger is everywhere, so what do people do? Kill their minds with these strange potions. Gale is filled with twitching, drooling herb addicts. Some soldiers even use the stuff!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sold"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The herb makes them stronger. They can still fight even after taking wounds that would have felled them earlier._ She shakes her head. _The twitching and drooling comes later._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "madn",
+            "mayo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks nervous, and looks around. _Forget I said anything. Mayor Rali has a long reach._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 345,
+      "slot": 4,
+      "title": "Vairlas",
+      "look": "This man's robes are stained from heavy travelling, and his pack seems about to burst open from all the scrolls and books in it.",
+      "name": "_I am Vairlas the sage._",
+      "job": "_I am a sage. Unfortunately, there are few services I can provide now._",
+      "dunno": "_What is that of which you speak?_",
+      "nodes": [
+        {
+          "keywords": [
+            "serv",
+            "prov"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My wife, Malka, and I are on the road now, trying to escape the golems._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gole"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He suddenly looks interested. _You wish to know of the golems? I was studying them intensely before we fled. You can purchase all I know of them, for only 50 gold._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            50,
+            0,
+            0,
+            0
+          ],
+          "str1": "He takes your gold. _Thank you. This will be a great help on the road. Now let's see. Golems. Golems are magically animated statues, very strong and resilient to damage. Gale is currently under constant attack by large groups of them._",
+          "str2": "_This is, as you can imagine, incredibly bizarre._"
+        },
+        {
+          "keywords": [
+            "incr",
+            "biza"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A single golem is normally extremely difficult to make, and yet here we are, being set upon by large groups of them. Someone bearing great magical power must be responsible._",
+          "str2": "_I can also tell you there are several varieties of them, and that we know the direction they come from._"
+        },
+        {
+          "keywords": [
+            "seve",
+            "vari"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I know of four. One has four arms, each ending in blades. Two fire fire and cold bolts respectively. And a fourth can shoot massive bolts of energy._",
+          "str2": "_Also, some soldiers say they have seen golems flying overhead, powerful gray creatures with a demonic aspect. I take there reports seriously._"
+        },
+        {
+          "keywords": [
+            "repo",
+            "seri"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have hear of them from four different soldiers, who claimed to see them personally._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dire"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The golems attacking Gale come from a ways to the north. From north of the town of Tevrono. The exact source of the attackers, however nobody has been able to determine._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 346,
+      "slot": 5,
+      "title": "Corin",
+      "look": "You meet a merchant, resplendent in velvet robes and silver jewelry. However, he has a wasted, haggard look and traces of something green crusted on the corner of his mouth.",
+      "name": "_I am Corin,_ he says in a slurred voice.",
+      "job": "Suddenly, he becomes very cheery and energetic. The transformation is eerie in its speed. His voice is slurred, however. _I run the Mernia lumberyard!_",
+      "dunno": "_Can't help you with that. Sorry._",
+      "nodes": [
+        {
+          "keywords": [
+            "herb",
+            "gree"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He suddenly turns away, upset.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mern",
+            "lumb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He laughs. _Of course, the Empire has quarantined all of Valorim, so our wood sits here, worthless except as termite food! But what does it matter? Everything else is so interesting!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "matt",
+            "inte"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He giggles. _Why, when seen from a distance, a golem's fireball is a beautiful thing! And their bolts of ice leave wondrous, elegant tracings through the air!_ One side of his face twitches slightly.",
+          "str2": "_And if everything falls apart, we can go to the Isle of Maddok._"
+        },
+        {
+          "keywords": [
+            "isle",
+            "madd"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Just across the water to the east. Covered with all sorts of undead. Isn't that just ducky?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "duck"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes! Ducky!_ His cheeriness is starting to turn slightly manic. _Why, if we don't want to be carved up with the golems, we could move over their and have our souls devoured! Ducky is the best word I can think of for that!_ ",
+          "str2": "He laughs, a raspy, ghoulish sound that makes your skin crawl."
+        }
+      ]
+    },
+    {
+      "id": 347,
+      "slot": 6,
+      "title": "Sydow",
+      "look": "You meet a tall woman in priest's robes. She radiates the poise and strength of only the strongest and surest of Valorim's holy people. However, she also seems very weary, and her upper arm is bandaged.",
+      "name": "_I am Priestess Sydow._",
+      "job": "_I travel Monoroe province and provide healing and aid._",
+      "dunno": "_Can't help you with that. Sorry._",
+      "nodes": [
+        {
+          "keywords": [
+            "mono",
+            "prov"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I'm sure I don't need to elaborate on the horrors that have been transpiring here. I am simply doing all I can to help._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "heal"
+          ],
+          "type": 18,
+          "typeName": "healer",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Priestess Sydow",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "help"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I heal those who can't afford it for free, and only charge enough to keep myself going to those who can. I can heal you, if you have need. Also, I give useful spells to any human who can use them._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "usef",
+            "spel"
+          ],
+          "type": 167,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 167,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 348,
+      "slot": 7,
+      "title": "Maertok",
+      "look": "The vigorous, hawkish man wears the robes of a wizard. However, the robes are decorated not with the usual runes or sigils, but with the insignia of a commander in the Empire army. He looks you over appraisingly.",
+      "name": "_I am Commander Maertok. You can call me Commander Maertok._",
+      "job": "_I know of you. You are adventurers. Welcome to our troubled province._",
+      "dunno": "_Can't help you with that. Sorry._",
+      "nodes": [
+        {
+          "keywords": [
+            "welc",
+            "prov"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Don't get me wrong. Monoroe Province is Hell on Earth now, but won't be that way forever. We have General Baziron to lead us._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gene",
+            "bazi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He leads us from Tevrono. He was the only leader who had the guts to ignore those twits in Gale and fight the monsters with his head as well as his blade._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "head",
+            "blad"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            162,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You should go see him yourself to find out what I mean. He lives in Tevrono. I'll be departing for there soon myself._",
+          "str2": "_His office is nearby. You should go see him yourself to see what I mean._"
+        },
+        {
+          "keywords": [
+            "depa",
+            "gree"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We'll be abandoning Greendale soon. The golems were coming here one or two at a time to attack, and we were picking them off easily. Now they're coming in bigger groups, so we're going to rejoin our army before we get cut off._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 349,
+      "slot": 8,
+      "title": "McElton",
+      "look": "This wizard is truly ancient. You're almost afraid something is going to fall off of him while he talks to you.",
+      "name": "_I am McElton the wizard._",
+      "job": "He grunts, and says angrily, _I make magic items. Same as I've done for fifty years. And if you came to get me to leave, it ain't gonna' work!_",
+      "dunno": "_Can't help you with that. Sorry._",
+      "nodes": [
+        {
+          "keywords": [
+            "magi",
+            "item"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_That's right! I make 'em. With my own hands. Enchant 'em myself. You gonna' purchase something, or just stand there like hooked fish?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fift",
+            "year"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_At least!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "leav",
+            "work"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They're about to abandon my home to those overgrown statues out there, are they? Well, I ain't goin' along with it! This is where I've lived for fifty years, where I've honed my craft, and I'm goin' down with the ship!_",
+          "str2": "_Mark my words! Now, you gonna' buy magic items, or just waste my time?_"
+        },
+        {
+          "keywords": [
+            "hook",
+            "fish"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Huh. I thought so._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "McElton's items",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 350,
+      "slot": 9,
+      "title": "McClain",
+      "look": "The innkeeper is incredibly busy. He's cooking the next meal, serving drinks, and keeping everything clean, and he almost seems to be doing it all simultaneously.",
+      "name": "_I'm McClain,_ he pants.",
+      "job": "_Sorry. The inn is completely full. Keeps me busy. I have a little bunk you can rent. Only two gold. I also have rations. Popular items, those._",
+      "dunno": "_Can't help you with that. Sorry._",
+      "nodes": [
+        {
+          "keywords": [
+            "comp",
+            "full"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Everyone's fleeing Gale and stopping here. Can you blame them?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "litt",
+            "bunk"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "str1": "_Down the wall to the west. Used to be a closet. Still smells like it. You can't miss it._ You find your way to the cramped little room.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "rati"
+          ],
+          "type": 11,
+          "typeName": "shop_food",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "Inn Rations",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

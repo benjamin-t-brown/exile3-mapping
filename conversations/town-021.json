@@ -1,0 +1,936 @@
+{
+  "talkRecord": 21,
+  "townId": 21,
+  "personalityBase": 211,
+  "label": "Delenn, Ivanova, G'Kar, Vincent, Dot, Mervin",
+  "people": [
+    {
+      "id": 211,
+      "slot": 0,
+      "title": "Delenn",
+      "look": "You meet a middle aged woman with long dark hair and an air of command. She wears a long, flowing, very professional dress.",
+      "name": "She stands and shakes your hands. _I am Delenn. Welcome to my office._",
+      "job": "_I run the Golddale Mining Company. Challenging, but rewarding work._",
+      "dunno": "She shakes her head. _I'm afraid I can't help you._",
+      "nodes": [
+        {
+          "keywords": [
+            "gold",
+            "trog"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A wealthy and peaceful town. Fortunately, we have suffered little at the hands of the troglodytes that have plagued the north._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mini",
+            "comp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We pull gold and silver out of the mountains to the east. Considering the poverty of much of Valorim, valuable metals are a great blessing to us._",
+          "str2": "_Unfortunately, lately the demands on us have been considerable. We have lately offered rewards for certain services._"
+        },
+        {
+          "keywords": [
+            "rewa",
+            "dema"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There is much wealth in the ground, and many monsters interested in it. We often pay adventures to undertake missions for us._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "pove",
+            "valo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's very simple. We need precious metals to trade with the rest of the Empire for the supplies we need to grow. Without precious metals, Valorim will be a backwater forever._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "miss",
+            "serv"
+          ],
+          "type": 135,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 135,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ursa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Bears can be a threat as it is. The Ursagi are infinitely worse. They're the product of some wizard's insane experiment, escaped and gone wild._",
+          "str2": "_They're intensely fierce, huge, intelligent, wicked bears. Be careful when dealing with them._"
+        },
+        {
+          "keywords": [
+            "liza",
+            "peop"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We've never seen their like. They're humanoid, intelligent lizards. They have their own language, magical spells, and these peculiar, two-tined spears. Watch yourselves ... they'll outwit you if you give them half the chance._",
+          "str2": "She shrugs. _At least, so I hear. Never seen one myself._"
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "slot": 1,
+      "title": "Ivanova",
+      "look": "This woman is piercingly beautiful, and has the air of one who is comfortable holding power. Her robes are simple and precise. She has two wands at her belt.",
+      "name": "_I am Ivanova, sage by trade._",
+      "job": "_I am a sage by trade._ She grimaces. _I do a lot of metal analysis. Leaves little time for my ... well, my other studies._",
+      "dunno": "She shakes her head.",
+      "nodes": [
+        {
+          "keywords": [
+            "wand"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks down at the wands. _Self protection. What else?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sage",
+            "trad"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I study items. You can have me identify your items, and then sell them to me. Beats working._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "meta",
+            "anal"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks impatient. _Metallurgy! What else would a sage by a mine do?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "othe",
+            "stud"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            138,
+            1,
+            1,
+            0
+          ],
+          "str1": "She looks at you shiftily. _I study teleportation a bit. Quite an interesting field of study, eh? In fact, if you wanted to undertake a little mission for me, the reward would be worth your while._",
+          "str2": "She looks at you blankly. _Nothing that would concern you anymore._"
+        },
+        {
+          "keywords": [
+            "iden"
+          ],
+          "type": 19,
+          "typeName": "identify",
+          "extras": [
+            10,
+            0,
+            0,
+            0
+          ],
+          "str1": "She brusquely looks your items over. _Ten gold per id. Let's get on with it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks your inventory over, makes a few offers, and favors you with a shark-like grin. ",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "miss",
+            "rewa"
+          ],
+          "type": 136,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 136,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "erne"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Ernest? It's a great combination ... he's succesful, and absent-minded! Even if he notices the loss of the book, he won't care!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "slot": 2,
+      "title": "G'Kar",
+      "look": "A Nephilim male maintains the inn, keeping the bar clean with feline fastidiousness.",
+      "name": "He purrs in greeting. _I am G'Kar._",
+      "job": "_Mrrrr. We have a fine room for only 15 gold. Apologies ... we have none of our usual mead._",
+      "dunno": "He makes a confused noise.",
+      "nodes": [
+        {
+          "keywords": [
+            "fine",
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            15,
+            5,
+            0,
+            0
+          ],
+          "str1": "He bows, takes your money, and gracefully shows you to the room. There's a fine layer of soot and dust on everything, but it's pleasant otherwise._",
+          "str2": "He shakes his head in apology. _Mrrrr. You haven't the money, I'm afraid._"
+        },
+        {
+          "keywords": [
+            "usua",
+            "mead"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He shrugs, in a smooth, feline way. _The monsters to the north have made merchants nervous about coming here. Thus, my usual sources of mead have dried up. Still looking for a new source._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mons",
+            "nort"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Troglodytes by Sharamik. Giants in Lorelei. Even heard rumors of golems to the northeast!_ He hisses. _Horrible days, to be sure._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "slot": 3,
+      "title": "Vincent",
+      "look": "The inn is run by a pale, bland man. You notice he has a bundle of tickets at his belt.",
+      "name": "He says _Vincent,_ in a voice remarkable in its atonality.",
+      "job": "_You can get a room for the night for a mere 8 gold. We have fine Karnold whiskey for 12 gold. Also, I have boat tickets._ His voice is so flat you almost have to struggle to pay attention.",
+      "dunno": "_I can't help you with that, sir._",
+      "nodes": [
+        {
+          "keywords": [
+            "room",
+            "nigh"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            8,
+            3,
+            0,
+            0
+          ],
+          "str1": "_How nice,_ he says, in an entirely uninterested voice. He shows you to your room.",
+          "str2": "_You don't have the gold. Sir._"
+        },
+        {
+          "keywords": [
+            "karn",
+            "whis"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            12,
+            0,
+            0,
+            0
+          ],
+          "str1": "He quietly pours you several glasses of utterly vicious brown whiskey. You drink it, and for a few minutes, you can see angels.",
+          "str2": "_Karnold Province whiskey is too good to give away for free. Sir._"
+        },
+        {
+          "keywords": [
+            "boat",
+            "tick"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have tickets to Lost Isle. It's a town on the Remote Isle to the south. Nice town. Very peaceful. You can purchase tickets for your group for only 15 gold, round trip._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "voic",
+            "flat"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Sorry if I seem a little flat. Nasty break-up. Long story. Not going to tell it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            15,
+            141,
+            1,
+            0
+          ],
+          "str1": "He peels you off a few tickets. _Go to the docks at the south end of town, and walk to the end of the center one. And thank you for your business._",
+          "str2": "_You don't have enough gold. Sir._"
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "slot": 4,
+      "title": "Dot",
+      "look": "A quiet woman with a sweet smile sits behind the counter, scrubbing clean a few freshly picked bunches of leaves. A fresh, fragrant, herbal smell hangs heavy in the air.",
+      "name": "She continues to clean the leaves which speaking to you. She seems to be doing it automatically. _I'm Dot._",
+      "job": "_I know a few spells, but I'm an herbalist by trade. I collect herbs._",
+      "dunno": "_What was that, boy? What's that to do with business?_",
+      "nodes": [
+        {
+          "keywords": [
+            "spel"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She laughs. _Oh, you wouldn't want to learn spells from me. I wouldn't know how to teach them! You might try a Flame spell, and end up making all your hair fall out! Or worse!_",
+          "str2": "_No, the main thing I have to offer is herbs!_"
+        },
+        {
+          "keywords": [
+            "herb",
+            "trad"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Alchemical herbs! I have a good supply of some of the more effective ones. You can purchase them if you wish._",
+          "str2": "She sighs. _Now if I could find some mandrake to sell! Then I'd be rich!_"
+        },
+        {
+          "keywords": [
+            "purc",
+            "alch"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Dot's Herbs",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mand"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The king of herbs, magically potent in the extreme! I'd love to be able to find a good supply of it. I've heard others have, but I think that's only a rumor._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rumo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I've heard there's a hermit that lives on an island somewhere east or north or somewhere, who sells mandrake. Just a rumor, though, I'm sure._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "slot": 5,
+      "title": "Mervin",
+      "look": "You meet a massive merchant, wearing fine silk clothes. He has thinning hair and a pock-marked face. He'd be very unappealing, if he didn't clearly have so much money.",
+      "name": "He clears his throat extensively. _Just call me Mervin._",
+      "job": "_I run this end of the Eastern Trade Route, and we're always looking for good couriers!_",
+      "dunno": "He shakes his head.",
+      "nodes": [
+        {
+          "keywords": [
+            "trad",
+            "rout"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He sighs contentedly. _Ah, Eastern Valorim. Few people. Many resources. All it takes is merchants to arrange getting the goods in and out, and good couriers to do the job._",
+          "str2": "He looks you over. _Lads, you look to have good courier potential!"
+        },
+        {
+          "keywords": [
+            "good",
+            "cour"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's very simple, and very profitable. Squiggus, a town up the coast to the east, gathers and processes fine, savory herbs. We send clothes and goods to them, to keep them alive out in the wilderness._",
+          "str2": "_You purchase goods here, sell them in Squiggus, and bring their fine herbs back here, where I buy them. Profit for you. Interested?_"
+        },
+        {
+          "keywords": [
+            "inte"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_So ... want to purchase goods, or sell me herbs?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell",
+            "herb"
+          ],
+          "type": 137,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 137,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "good"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "str1": "Trade Goods",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "slot": 6,
+      "title": "Vlad",
+      "look": "You meet a slightly deranged looking little man. His rough, dirty clothes and thick boots speak of many months on the road, and he's bent over under the weight of a heavy sack.",
+      "name": "_I'm Vlad the Light Salesman! How are ya'?_",
+      "job": "_I'm a Light Salesman! Takes me places, let me tell ya'!_",
+      "dunno": "_I'm afraid I can't illuminate that topic._ He laughs at his little joke.",
+      "nodes": [
+        {
+          "keywords": [
+            "ligh",
+            "sale"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You heard right, Sunny Jim! You can't hold a torch to my torches! Don't crawl into a slimy, filthy, death pit without one!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "plac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Oh yeah, seems like I'm always goin' somewhere. I was up in Gale the other week! What a mess!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "torc"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Vlad's Lights",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gale",
+            "mess"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Gale's a city way up the northeast. You aren't gonna' believe this, but they're being attacked by hordes of monsters!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hord",
+            "mons"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You heard me. Hard to believe, I know, but whaddaya' gonna' do? Now, you wanna' buy a torch?_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "slot": 7,
+      "title": "Harmon",
+      "look": "This man is busily chopping herbs. It's an incredibly intricate procedure ... apparently, he is trying to get the all strips to exactly the same length and width. The concentration involved doesn't leave much mental room for dealing with you.",
+      "name": "_Harmon,_ he says, continuing to concentrate on the herbs.",
+      "job": "_Sorry. Chopping herbs._",
+      "dunno": "He keeps chopping herbs, oblivious to what you said.",
+      "nodes": [
+        {
+          "keywords": [
+            "chop",
+            "herb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He keeps chopping, speaking very slowly so that he can devote most of his concentration to his job. _For alchemy. Needs to be very precise. Want to buy ingredients? Give you good price. Don't get many visitors now._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ingr",
+            "purc"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Harmon's Herbs",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "visi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This island got a basilisk nest. (Chop chop.) People have left like crazy. (Chop chop)_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "chop"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He keeps chopping, each slice methodical and precise.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "basi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Deadly things. Turn you to stone by looking at you. Some people thought carrying mirrors would save them. They're dead now. Most everyone left. I stayed. Good ingredients here. Just don't go out much._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "slot": 8,
+      "title": "Cmd. Brooks",
+      "look": "A tired looking woman wearing an intricate gold amulet is sitting behind the desk. She has a great mace at her belt.",
+      "name": "_I'm Commander Brooks._",
+      "job": "She grimaces. _Trying to keep this town in one piece, that's my job. I'm trying to deal with the basilisks._",
+      "dunno": "She fingers her amulet, obviously bored.",
+      "nodes": [
+        {
+          "keywords": [
+            "town",
+            "piec"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Most everyone has left, what with the basilisks. Can't blame them. Only takes a few basilisks to make a place lethal._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "deal",
+            "basi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We don't know how they got here, but there's at least ten of the evil little suckers running around. Most everyone left until they could be dealt with. I stayed to fight them, because I had this._ She points to her amulet.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "amul"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's sort of a family heirloom. When I wear it, the basilisks can't hurt me. Now I spend all my time hunting them, trying to get rid of them all._",
+          "str2": "_I'll succeed someday, somehow._ She laughs bitterly. _You know, some people before they left tried to purchase it from me!_"
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Like I'd get rid of the only thing that could help me save this island! People can be so stupid._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "slot": 9,
+      "title": "Mayor Runkle",
+      "look": "You meet a tired, thin old man. He sits behind the desk, contemplating a skull. You notice the skull has rubies for eyes.",
+      "name": "_I'm Mayor Runkle._",
+      "job": "_I'm the mayor. It's sort of a different post around here. I'm the administrator for several towns. And believe me, we have problems._",
+      "dunno": "He shakes his head.",
+      "nodes": [
+        {
+          "keywords": [
+            "mayo",
+            "admi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He counts the towns off on his fingers. _Storm Port. Libras. Lost Isle. Gorst. Gebra. Bolton. Squiggus. I take care of administrative details for them all. And, of course, try to protect them from monsters._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mons",
+            "prob"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            52,
+            9,
+            0,
+            0
+          ],
+          "str1": "He hold up the skull he was looking at. _There's undead to the northeast, lots of them. We don't know who's making them, and they move farther south every day._",
+          "str2": "_Oh, there's no shortage. The undead problem to the north has subsided for some reason, but there's basilisks to the south, and ursagi to the north, and the Empire's no use, as always._"
+        },
+        {
+          "keywords": [
+            "unde",
+            "skul"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            52,
+            9,
+            0,
+            0
+          ],
+          "str1": "_The undead to the northeast aren't as bad as the monster plagues I hear the big cities have been having, but they are a threat, and the Empire is no help._",
+          "str2": "You tell him you were the ones who slew all the undead. His response is succinct. _Yeah, sure you are, and I suppose you only want a small reward too. Well we don't have any money to give. Don't waste my time._"
+        },
+        {
+          "keywords": [
+            "empi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_When things were peaceful, an Empire adjunct would be through every week, riding me about one thing or another. Now, when we really need their help, we don't get one gold piece, not one soldier._",
+          "str2": "_I don't know what's going on up there, but if they don't start helping out more, this whole area will go straight to Hell._"
+        },
+        {
+          "keywords": [
+            "basi",
+            "ursa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He covers his face with his hands. _Almost no troops, and all these monsters. And the Empire doesn't help at all. I'd quit this job in an instant, but nobody is dumb enough to replace me!_",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

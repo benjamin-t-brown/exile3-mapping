@@ -1,0 +1,815 @@
+{
+  "talkRecord": 18,
+  "townId": 18,
+  "personalityBase": 181,
+  "label": "Spider, Spider, Spider, Spider, Mother Melamed, Zog",
+  "people": [
+    {
+      "id": 181,
+      "slot": 0,
+      "title": "Spider",
+      "look": "You meet a giant spider, pacing about, lost in thought. The hair on its legs has streaks of white. It must be rather old.",
+      "name": "_Hello, humans! My name is spider._ it says. Despite its age, it still has the bright, chirpy voice of the younger spider.",
+      "job": "_I'm a sage spider! I record a history of our people!_",
+      "dunno": "_You're silly!_ it exclaims brightly.",
+      "nodes": [
+        {
+          "keywords": [
+            "sage",
+            "spid"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah! That means I have lots of cool learning and stuff. I record history mainly. When I'm not eating yummy bugs!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "reco",
+            "hist"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah! Would you like to hear about the great journey, or about what we did otherwise!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "grea",
+            "jour"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It hops up and down and clears its throat. _The history of the Great Journey,_ it begins. _We were in caves. Then Spider led us here. Now we have more bugs. Yay!_",
+          "str2": "_Thus endeth the history._"
+        },
+        {
+          "keywords": [
+            "bugs",
+            "othe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It hops up and down and clears its throat. _The history of the Great Journey,_ it begins. _We ate a lot of bugs and they were good. Then we had babies and ate more bugs and they ate bugs. Yayyy!_",
+          "str2": "_Thus endeth the history._"
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "slot": 1,
+      "title": "Spider",
+      "look": "You see a giant spider, busily shepherding about three dozen baby spider, all about the size of puppies. The babies are constant source of idle, chirpy chatter.",
+      "name": "The nanny spider says _My name is Spider!_ Then she pulls one of her charges back to the group with a foreleg.",
+      "job": "_I'm a nanny spider,_ it says, in a not as cheery as usual voice.",
+      "dunno": "_You're silly!_ it exclaims brightly.",
+      "nodes": [
+        {
+          "keywords": [
+            "nann",
+            "spid"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It's sort of hard to hear what it says, over all the baby spiders asking who you are and whether they should eat you or not. _I look after the little babies._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "litt",
+            "babi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "One of the babies gets caught in some of its own webbing, and the nanny has to free it. Then she says _They'll be big, fierce, happy spiders someday. They need to be looked after._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "slot": 2,
+      "title": "Spider",
+      "look": "A giant spider runs up and kisses you in the knee. Then it backs away shyly.",
+      "name": "_I'm Spider,_ it says, pleased you asked.",
+      "job": "_I'm looking for a mate!_ it says exuberantly.",
+      "dunno": "_You're silly!_ it exclaims brightly.",
+      "nodes": [
+        {
+          "keywords": [
+            "look",
+            "mate"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It shies away, and if it could you think it would be blushing. _It's good to make baby spiders, and you're cute!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "cute"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah! You're cute and tall! I like you!_ You sit down, and patiently explain that you would make very poor parents for baby spiders. It understands, and walks away sadly.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "baby",
+            "spid"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah,_ it says. _I want a bunch of nice baby spiders. A bunch of them to teach, and nourish, and not devour, and suck bug juices with. I'll have a brood someday! I'm sure of it!_ It bounces happily at the prospect.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "slot": 3,
+      "title": "Spider",
+      "look": "A baby spider, only about a foot high, watches you.",
+      "name": "_I'm ... ummm ..._ it thinks. _Spider! That's it! Spider!_",
+      "job": "_Well, I'm just growing. But someday, I'll be huge and fierce!_",
+      "dunno": "_You're silly!_ it exclaims brightly.",
+      "nodes": [
+        {
+          "keywords": [
+            "grow"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I'm bigger than all but four of my thirty brothers and sisters! I'm gonna be real fierce!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "huge",
+            "fier"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Then I will devour bugs utterly!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "devo",
+            "bugs"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah!_ It tries to make a fierce striking motion, but only succeeds in getting its legs tangled up. When it straightens out, it says _Not yet. But soon!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "slot": 4,
+      "title": "Mother Melamed",
+      "look": "You meet a priestess of the Anama church. She seems quite friendly, perfectly willing to take a break from her work to speak with you.",
+      "name": "_I am Mother Melamed. How may I help you?_",
+      "job": "She smiles. _Oh, I just sort of guide things here. We haven't had as much trouble from the roaches as other towns, so we just try to keep things safe and simple._",
+      "dunno": "She looks confused.",
+      "nodes": [
+        {
+          "keywords": [
+            "guid",
+            "thin"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She pats the altar. _It's not difficult to figure out the path to take, with the Anama faith to help light the way._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "roac",
+            "town"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I'm not sure why we've been hit with so many fewer roaches._ She smiles, dimples showing. _Just blessed, I guess._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "safe",
+            "simp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Things are never simple, of course. There is Kneece across the way, making everyone nervous._",
+          "str2": "She looks at you meaningfully. _Also, some of our guards have heard there are Exiles around, and are very jumpy._"
+        },
+        {
+          "keywords": [
+            "anam",
+            "fait"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. This town, like most towns on this island, is shepherded by an Anama priest. It's a beautiful religion. Would you like to hear some of my interpretations of its philosophy?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "inte",
+            "phil"
+          ],
+          "type": 127,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 127,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "knee",
+            "nerv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Olga runs a ferry across to that monster infested ruin. Heavens only know why people go, but they do. You can find her by the docks._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "guar",
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Some of them served in the war with Exile, and the wound runs deep. I'd avoid them, if I were you._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "slot": 5,
+      "title": "Zog",
+      "look": "You meet an Empire soldier. He has a nasty scar running down the side of his face, which he fingers as he watches you.",
+      "name": "_I'm Captain Zog._ His voice drips with contempt.",
+      "job": "_Oh, don't act so clever!_ he spits. _You think you're so smart wandering around like that! Well everyone knows about you!_",
+      "dunno": "You get no response.",
+      "nodes": [
+        {
+          "keywords": [
+            "clev",
+            "smar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You Exiles think you're all so smart! Well, keep wandering around up here, and we'll show you how clever we can be!_ He spits at your feet, for emphasis.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "wand",
+            "know"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Everyone acts how it's so great you're around. You guys flouted the Empire, and we can too! Well, they don't know! They didn't get wounded in that pit!_ He points at his scar.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "scar",
+            "woun"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "His voice becomes a hiss. _I lost friends to all of you. One of your spells scarred me for life. There'll never be peace between the Empire and Exile. As long as I'm around, there'll always be a little bit of war._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "slot": 6,
+      "title": "Bagzath",
+      "look": "An Empire soldier is here. He regards you with naked, barely controlled loathing.",
+      "name": "_I am Bagzath, worms._",
+      "job": "He seems barely able to restrain himself. _I found a way down there. I swore to slay Exiles wherever I can. Back away, or I will destroy you._ He fingers the pommel of his sword, seemingly hoping you'll give him an excuse to attack.",
+      "dunno": "You get no response.",
+      "nodes": [
+        {
+          "keywords": [
+            "slay",
+            "dest"
+          ],
+          "type": 27,
+          "typeName": "start_fight",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He can restrain himself no longer. With a long, pent up howl of impotent fury, he draws his blade and attacks.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_An Exile is the lowest form of life. We showed you far more mercy than you could ever deserve. Now, I warn you. Back away, or I will slay you._ He seems to mean it.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "slot": 7,
+      "title": "Olga",
+      "look": "A stocky woman stands by the docks, looking you over. She seems pleased to have potential customers.",
+      "name": "_I am Olga._",
+      "job": "_I run a ferry over to Kneece. The tickets are only 30 gold. Expensive, I know, but the journey is tricky._",
+      "dunno": "You get no response.",
+      "nodes": [
+        {
+          "keywords": [
+            "purc",
+            "tick"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            30,
+            131,
+            8,
+            0
+          ],
+          "str1": "She takes your gold and gives you tickets. _Go to the end of the middle dock, and I'll take you over._",
+          "str2": "She shakes her head. _No gold, no ticket._"
+        },
+        {
+          "keywords": [
+            "ferr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I fish too, but people seem to like to go to Kneece occasionally. Adventurers. Anama. I don't know why._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "knee",
+            "jour"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Kneece is an old ruined town, surrounded by jagged rocks. I don't know if anyone lives there or what. All I know is that people pay enough to go over that just selling a few rides there makes some good money!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "slot": 8,
+      "title": "Purgatos",
+      "look": "A withered old man watches you serenely. He sits with a pair of wands nearby, in case you cause trouble.",
+      "name": "He scratches his nose thoughtfully. _I am Purgatos._",
+      "job": "_I live in seclusion._",
+      "dunno": "He says nothing.",
+      "nodes": [
+        {
+          "keywords": [
+            "secl"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I am avoiding the tentacles of the Empire._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "tent",
+            "empi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire's control is not something I can adjust to. Exile is too cold for me. This island will do, until the inevitable occurs._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi",
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_One is cruel, the other damp. Neither are good choices._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "inev",
+            "occu"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire will come here someday, and suffocate all free thought._ He sighs. _But I know that hearing the complaints of an old man is not the reason you journeyed here._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "reas",
+            "jour"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_News of you precedes you everywhere you go. I can tell you about Kneece, or the Anama, if you wish. But I suspect you are most interested in the problem of the cockroaches._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "knee"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This city was a magical center before the Anama came to Bigail, and suddenly our supply shipments started 'disappearing.' The mages abandoned the place, and a bunch of  giant lizards moved in._",
+          "str2": "_I'm the only person left here. The solitude suits me._"
+        },
+        {
+          "keywords": [
+            "prob",
+            "cock"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            5,
+            0,
+            0
+          ],
+          "str1": "_I do a bit of scrying and ethereal wandering. I know how the monsters are created. There's a small difficulty, though._",
+          "str2": "He shrugs. _There is still a problem, but it's not yours to solve. You've done what you can. I suggest moving on._"
+        },
+        {
+          "keywords": [
+            "anam"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            4,
+            0,
+            2,
+            0
+          ],
+          "str1": "_The ruination of Kneece was their fault. I despise them. Avoid them if at all possible. By the way, they have a huge treasure in their temple somewhere. I hope someone steals it._",
+          "str2": "He notes your Anama rings, and looks at you with distaste."
+        },
+        {
+          "keywords": [
+            "stea",
+            "trea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grins wickedly. _You didn't hear that from me._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mons",
+            "crea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The cockroaches are being made in a huge underground factory, which creates filth for them to grow in and eat before they go out to cause havoc. The Filth Factory is hidden somewhere on the Isle of Bigail._",
+          "str2": "_Therein lies the main difficulty._"
+        },
+        {
+          "keywords": [
+            "diff",
+            "main"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Recently, someone came to me. Don't ask for more details. I choose not to give them. This being told me that when you came, you should be helped._",
+          "str2": "_I have developed a device, which I believe could destroy the factory. However, this would only be useful if the place was found. If you found it, I would make the device a gift to you._"
+        },
+        {
+          "keywords": [
+            "devi",
+            "gift"
+          ],
+          "type": 134,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 134,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "slot": 9,
+      "title": "Faithful",
+      "look": "You notice that the lizard wears a small chain around its neck, and is staring at you.",
+      "name": "It surprises you by speaking. _I'm called Faithful._",
+      "job": "_I'm a familiar._",
+      "dunno": "It hisses confusedly.",
+      "nodes": [
+        {
+          "keywords": [
+            "fait",
+            "fami"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It speaks in a calm, patient, surprisingly hiss-free voice. _I'm a magical, long-lived, intelligent animal guardian to Purgatos. It takes up most of my time._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purg"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My wise and all-powerful master._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "most",
+            "time"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The rest of the time, I have a hobby._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hobb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I go out and chat with the other lizards._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "othe",
+            "liza"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This island has many, many giant lizards on it. I'm not sure why. It makes little sense. But they make good conversation._",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

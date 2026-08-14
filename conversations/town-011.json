@@ -1,0 +1,852 @@
+{
+  "talkRecord": 11,
+  "townId": 11,
+  "personalityBase": 111,
+  "label": "Susie, Vorgar, Kelda, Kilborn, Ghost, Slime",
+  "people": [
+    {
+      "id": 111,
+      "slot": 0,
+      "title": "Susie",
+      "look": "This girl might be about ten. So covered is she by grime and ore dust, however, that she could also be any age from four to sixteen. She looks at you with interest.",
+      "name": "_I'm Susie!_ she says.",
+      "job": "_I'm looking for slimes!_",
+      "dunno": "_Huh?_",
+      "nodes": [
+        {
+          "keywords": [
+            "look",
+            "slim"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They're big and nasty, and when I see one I yell so the guards can kill them!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "guar",
+            "hero"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Then I can be a big adventurer, and go to Exile!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I hear there are weird pale people and big evil monsters down there, and I can fight them and get treasure!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_And then I can be rich and famous!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rich",
+            "famo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah! And then I can go to bed whenever I want!_",
+          "str2": "She squats on the ground and picks at a scab on her knee reflectively, pondering this wondrous fate."
+        },
+        {
+          "keywords": [
+            "pale",
+            "peop"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah!_ She stops and thinks. _A lot like you. Better be careful! People might think you're from Exile, and are big monsters and stuff._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mons"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Monsters are bad!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "slot": 1,
+      "title": "Vorgar",
+      "look": "This man's plate armor, vicious greatsword, and epic muscles mark him as one not to be trifled with. Markings on his breastplate mark him as an Empire Dervish, a member of the Empire's elite shock troops.",
+      "name": "_I am Vorgar._ He looks at you with suspicion.",
+      "job": "_I have been placed here to fend off the slimes. It is one of my easier assignments._",
+      "dunno": "He shrugs you off.",
+      "nodes": [
+        {
+          "keywords": [
+            "fend",
+            "slim"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They wanted to send two dervishes. I told them that would be overreacting. At any rate, there are few of us in Krizsan._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "easi",
+            "assi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He frowns. _I served in Exile. I was part of a unit that was ambushed by a Vahnatai and worm patrol._ (Worms were what the Empire troops called the Exiles.)",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "kriz"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grunts. _The Empire has placed little of its strength in Krizsan. I know not why, but it is not my place to question the wisdom of my benevolent masters._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "vahn",
+            "worm"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Only I and one other survived. The Vahnatai even slew the wounded. I made an oath._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "oath"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_When all this business with the slimes is done, I will go back down there, alone or with others, and all you worms will pay. Count on it._ He clearly recognizes you as Exiles. Considering the paleness of your skin, it's not too surprising.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "slot": 2,
+      "title": "Kelda",
+      "look": "The innkeeper is a rotund woman with long dark hair. She is reading a book when you approach the bar. You have to clear your throat to get her attention.",
+      "name": "_I'm Kelda. Welcome to my inn._",
+      "job": "_Not too much. Not much business, what with all the slimes. I'll give you a good room for only 3 gold, and wine for 1._",
+      "dunno": "She shakes her head.",
+      "nodes": [
+        {
+          "keywords": [
+            "wine"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "str1": "You buy several glasses of thin, watered down wine. There's no wine in Exile, so even this is interesting.",
+          "str2": "You don't even have 1 gold."
+        },
+        {
+          "keywords": [
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            3,
+            4,
+            0,
+            0
+          ],
+          "str1": "Watching for slimes as she goes, Kelda takes you to your room.",
+          "str2": "You don't have the money."
+        },
+        {
+          "keywords": [
+            "busi",
+            "slim"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            50,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Ever since the slimes started appearing, it's been nothing but constant attacks. Oh well. At least we didn't end up like Colchis._",
+          "str2": "_The slimes have been tearing our town apart. There are plenty of destroyed building to testify to it._ She shakes her head, concerned. _Oh well. At least we haven't ended up like Colchis._"
+        },
+        {
+          "keywords": [
+            "colc"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The poor village was only twenty miles to the east. I say 'was'. They were hit by even more slime attacks than us. The humans abandoned the place, and the slimes took over. Nothing but ruins there now._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "atta",
+            "ruin"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Not sure why they got more attacked than us. One thing I've heard, though ... the farther west from here you go, the less slimes there are._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "slot": 3,
+      "title": "Kilborn",
+      "look": "This man is fastidiously cleaning, counting, stacking, and restacking several large piles of coins on the top of the altar. The coins are all shapes and sizes, and from all over.",
+      "name": "The man turns and flashes an unctuous smile. _I'm Kilborn. Welcome to the Temple of the Divine Lucre._",
+      "job": "_Information in power. Power costs. I will tell you our philosophy for a single gold, and the services we offer for only 5._",
+      "dunno": "_I couldn't even talk about that if you paid me._",
+      "nodes": [
+        {
+          "keywords": [
+            "info",
+            "powe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I repeat, our philosophy costs 1 gold, and a list of services we offer costs 5._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "phil"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We believe that the making of money helps all of us. Ambition lifts the poor from the gutter, and profit is the surest path to a happy life. And in the endeavors of money-making, we lead by example._",
+          "str2": "He shakes his head. _No cash, no help._"
+        },
+        {
+          "keywords": [
+            "lead",
+            "exam"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It is only fitting that a priest of the faith of monetary gain would be the richest among is flock, is it not?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "serv"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, we no longer offer healing, I'm afraid. Not cost effective. I do, however, have several spells I can teach very efficiently._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "spel",
+            "purc"
+          ],
+          "type": 15,
+          "typeName": "shop_priest_spells",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Kilborn's Spells",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "slot": 4,
+      "title": "Ghost",
+      "look": "This spirit seems to be struggling to remain in this place. It wavers and warps, and is so unstable you can't tell anything about its shape.",
+      "name": "_Not important. Must help you._",
+      "job": "The words are a whisper. It is clearly struggling to form them. _Help you._",
+      "dunno": "_Must help you._",
+      "nodes": [
+        {
+          "keywords": [
+            "help"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Its speech trickles out, one pained word after another. _Your foes are strong, and you are the only force up here to battle them. I wish to give aid, but can do little. I made this room to wait for you. I have found gifts._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gift"
+          ],
+          "type": 2,
+          "typeName": "set_sdf",
+          "extras": [
+            125,
+            8,
+            0,
+            0
+          ],
+          "str1": "It wavers _Two things are hidden in this ruin, one in the pillar, one in the anvil._ (You take note of this.) _They can make one of you an avatar against the slime. Now I must depart, before I am discovered._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "depa",
+            "disc"
+          ],
+          "type": 26,
+          "typeName": "npc_leaves",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It tries to say something else, but fades away. You are left alone in the room.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "slot": 5,
+      "title": "Slime",
+      "look": "There is one of the nasty, brightly colored slimes sitting in the middle of the floor. It wobbles gently from side to side, but doesn't move. Refreshingly, it isn't trying to attack you.",
+      "name": "It wobbles slightly.",
+      "job": "It writhes and wiggles at the sound of your voice. You would guess it has been placed here for examination. The question: by who?",
+      "dunno": "It wobbles.",
+      "nodes": []
+    },
+    {
+      "id": 117,
+      "slot": 6,
+      "title": "Mahdavi",
+      "look": "You meet a small woman with dark skin and long black hair. She wears the robes of a member of the Triad, and has tiny runes tattoed on her forearms and the backs of her hands. She radiates confidence and power.",
+      "name": "She bows slightly at the waist. _I am Mahdavi, of the Triad._",
+      "job": "_I am a member of the Triad of the Tower of Magi,_ she says modestly. _It is a post of no small responsibility._",
+      "dunno": "_Excuse me?_",
+      "nodes": [
+        {
+          "keywords": [
+            "tria"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Triad is traditionally composed of the three most skilled mages in Exile. We reside in the Tower, and coordinate the magical efforts here. The Triad now consists of me, Solberg, and another._",
+          "str2": "_This usually works well. Sometimes, however, there are irregularities._"
+        },
+        {
+          "keywords": [
+            "towe",
+            "magi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This is the Tower of learning, the center of magical studies and knowledge in Exile. Unfortunately, because of the portal, we have also become something of a waystation._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "smal",
+            "resp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Lately, my efforts have been spent on the operation and maintenace of the portal. It is a tedious job, and I was only picked for it because of my experience with the Empire teleporter._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "irre",
+            "lind"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks uncomfortable. _Linda the archmage was in the Triad once. She performed a rather unfortunate experiment with demonkind, and we had to banish her from the Tower._",
+          "str2": "_Only lately have we allowed her to return, as we need her considerable skill. She seems to have learned her lesson._"
+        },
+        {
+          "keywords": [
+            "empi",
+            "tele"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She smiles wryly. _During the Empire War, our foe's great weakness was its trouble sending troops down here. They made a massive portal to teleport hordes of soldiers here._",
+          "str2": "_I directed an effort to destroy it. For this, I was thought an expert on these things, and stuck with maintaining the portal here._"
+        },
+        {
+          "keywords": [
+            "port",
+            "ways"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The portal here was built several years ago. It was only two years ago that we were able to boost its power sufficiently to send someone near the surface. Our long desired route to the surface was attained._",
+          "str2": "_Unfortunately, it has meant that everybody sent up has had to pass here._ She shrugs. _Tedious, but it's necessary._"
+        },
+        {
+          "keywords": [
+            "solb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A good friend, and one who has suffered much for Exile. He usually studies in his quarters to the south._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "anot"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He calls himself 'X'. I don't understand him. Nobody does. He's skulking around somewhere._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "slot": 7,
+      "title": "Linda",
+      "look": "This old woman wears long, rich, velvet robes, which trail on the floor behind her. Silver characters are sewed into the hem. She has a strange, vacant look, and doesn't seem to be sure of where she's going.",
+      "name": "_I am called Linda._",
+      "job": "She looks down, and is silent for a while. Then she looks up at you. _I do research._",
+      "dunno": "_I don't know._",
+      "nodes": [
+        {
+          "keywords": [
+            "rese"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She begins to speak in an odd sing-song voice. _That is the job of a mage. Magic is a huge, unexplored forest, and there is much of it that is still virgin._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fore",
+            "virg"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. I explore many of the bolder, more fascinating areas._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fasc",
+            "area"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks agitated. _I study various creatures. I prefer not to say their names._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "vari",
+            "crea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She says nothing.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "demo",
+            "haak"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She jumps, as if you hit her. _No! I do nothing of that sort now! No research on that! Leave me alone!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "slot": 8,
+      "title": "Vidrain",
+      "look": "There is a businesslike official standing at the entrance to the portal, notepad in hand. As people filter by walking to and from the portal, he checks them off.",
+      "name": "_I'm Vidrain._",
+      "job": "_I'm very busy. I've received information on you._",
+      "dunno": "_I'm really very busy._",
+      "nodes": [
+        {
+          "keywords": [
+            "very",
+            "busy"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We're forcing as many people through here as possible. Everyone needs to be identified and checked off. Our staff is too small._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rece",
+            "info"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You've been sent here for training. I can tell you where the instructors are._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "staf",
+            "smal"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_For thousands of people going through, each of which needs to be checked? Of course._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trai",
+            "inst"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The spells you are to receive will be taught to you by 'X' or Solberg, of the Triad. I'm not aware of their locations, but poke around. I'm sure they'll turn up._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "slot": 9,
+      "title": "Kyanan",
+      "look": "You meet a tidy young mage in tidy robes. Her hair is neatly combed, and a small wand hangs at her belt.",
+      "name": "_Kyanan._",
+      "job": "_I am a teacher at the Magic School._",
+      "dunno": "She looks uncomfortable.",
+      "nodes": [
+        {
+          "keywords": [
+            "smal",
+            "wand"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks down at it. _You never know when you'll need a little defense._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "magi",
+            "scho"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Tower of Magi is where all Exile's most promising mages receive their schooling. It's a demanding process._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "teac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I instruct the students in the school in the art of casting projectile spells._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "proj",
+            "spel"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You don't know fear until you've been near someone casting his first fireball._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "litt",
+            "defe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks uncomfortable. _Oh, there's never any threat, really. Just playing it safe. Nothing unusual. Nope._",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

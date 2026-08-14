@@ -1,0 +1,907 @@
+{
+  "talkRecord": 8,
+  "townId": 8,
+  "personalityBase": 81,
+  "label": "Gypsy, Escovedo, Ellis, Terry, Herron, Jinx",
+  "people": [
+    {
+      "id": 81,
+      "slot": 0,
+      "title": "Gypsy",
+      "look": "A heavy set woman sits perched in the middle of the tavern, commanding everyone's attention. She plays a guitar flawlessly. When she finishes her song, she walks up to speak with you. Her skin is incredibly pale - she's an Exile!",
+      "name": "She bows. _I'm Gypsy. Nice to see familiar faces. What brings you to the surface?_",
+      "job": "She tunes her guitar as she speaks. _Oh, just touring the surface. Like you, I suppose._",
+      "dunno": "She pretends not to notice.",
+      "nodes": [
+        {
+          "keywords": [
+            "tour",
+            "surf"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            25,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, I've already played pretty much everywhere in Exile, so I snuck up here. Tricky, but I did it._",
+          "str2": "She sighs. _Well, I was having a wonderful time playing in Krizsan. But then the slime situation got too intense, so I came here. It's something of an improvement._"
+        },
+        {
+          "keywords": [
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Oh, but I was tired of that place! Too damp. Couldn't keep the guitar in tune. Not so bad up here ... there's lots of monsters, slimes and such, but we're all used to that._",
+          "str2": "She strums out a short tune on her instrument. It's lovely."
+        },
+        {
+          "keywords": [
+            "snuc",
+            "tric"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Volunteered to help build Fort Emergence. Slipped out onto the surface soon as I got the chance and never looked back. And I'm not the only one!_",
+          "str2": "_Pretty immoral of me, but, well, there you go._"
+        },
+        {
+          "keywords": [
+            "mons",
+            "slim"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            15,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The monsters are bad for the people up here, but it's no worse than what we're used to. Just be careful, and you should be fine._",
+          "str2": "She shakes her head. _Lots of monsters everywhere, and getting worse all the time. I'm going to have to keep touring soon, just to find someplace safe._"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "slot": 1,
+      "title": "Escovedo",
+      "look": "A dark skinned man with a variety of tattooes and earrings is walking around, carving a belaying pin and a sharp knife. He looks like he's just swallowed a lemon.",
+      "name": "_Hrrmmph. I'm Escovedo._",
+      "job": "He laughs - a harsh, bitter barking noise. _Nothing! Absolutely nothing!_",
+      "dunno": "_Pfaugh!_",
+      "nodes": [
+        {
+          "keywords": [
+            "noth",
+            "abso"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I make ships! Who wants them? No demand, these days!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ship",
+            "dema"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The slimes are everywhere, and monsters are around the other cities too! Everyone's looking to their own problems, and nobody's going anywhere. Pfaugh!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "pfau"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah! Pfaugh!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "slim",
+            "mons"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Like I know anything about that? Pfaugh!_ He turns away.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "slot": 2,
+      "title": "Ellis",
+      "look": "This archer is patrolling the streets of Krizsan, longbow at the ready. He has an arrow nocked, and is ready to fire it at a moment's notice.",
+      "name": "_Shh. I'm hunting. And the name's Ellis._",
+      "job": "_I'm hunting for slimes._ He spins around quickly, looking for a slime. Not seeing any, he keeps looking.",
+      "dunno": "You get a confused look.",
+      "nodes": [
+        {
+          "keywords": [
+            "hunt",
+            "slim"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            3,
+            0,
+            0
+          ],
+          "str1": "_Yep. They're weak, but in great supply. I just want to nail one before they get another victim._",
+          "str2": "_Yeah. Haven't been any around for a while, but I'll bet there are still a few hiding, ready to take someone with them._"
+        },
+        {
+          "keywords": [
+            "vict"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            10,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Every day, they get another poor farmer, or guard, or something. I'm always afraid someone will die because I missed one._",
+          "str2": "_They kill farmers or guards alike. And not long ago, one got poor Escovedo. He was a good friend of mine._"
+        },
+        {
+          "keywords": [
+            "weak",
+            "supp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It usually only takes one arrow to kill one. The problem is, nail one, and two are there the next day. They can ooze through the city walls, and they show no mercy. Every day, they get another victim._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "farm",
+            "guar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The slimes kill innocents and guards alike. They'll engulf a baby in its crib._ He spins around again, looking for slimes. _I kill all of them I can._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "esco",
+            "frie"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He was the shipwright. The acidic slimes burned through the city wall into his shipyard, and one of the magic ones burned him down before he could get away._",
+          "str2": "He shakes his head angrily. _Escovedo was a good, good man. Killed in his own shop, too. He didn't deserve that. Nobody does._"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "slot": 3,
+      "title": "Terry",
+      "look": "You meet a young, calm woman. She wears long white robes and the ankh of a healer, and, somewhat incongruously, wears a big axe at her belt.",
+      "name": "_I am called Terry. I'm the town healer._",
+      "job": "_Well, I mainly act as the town healer. Busy work. Plus, I maintain the shrine, for what it's worth._",
+      "dunno": "You get a confused look.",
+      "nodes": [
+        {
+          "keywords": [
+            "town",
+            "heal"
+          ],
+          "type": 18,
+          "typeName": "healer",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Terry the Healer",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "main",
+            "shri"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, Krizsan has one small shrine to the healing arts, and I look after it. Nothing compared to what the other cities have. It's more a worry than anything else, I'm afraid._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "othe",
+            "citi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Krizsan is the only major city in Valorim to not have a large temple. Even Shayder has a lovely temple._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "worr",
+            "afra"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, Krizsan has lots of sailors. They're a superstitious lot, but not the shrine-going type. It's all I can do to keep dust off of everything._",
+          "str2": "She sighs, and looks down at the axe on her belt. _Well, I was worried about getting people to come to the shrine. Now I'm worried about the slimes. They burned through the west wall not long ago. I'm scared my shrine is the next place they'll reach._"
+        },
+        {
+          "keywords": [
+            "valo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This is the continent of Valorim, the least populated continent in the Empire._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "shay",
+            "anam"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's a big city on the island to the northwest. Home to the Anama Worshipers. Strange lot. Don't quite see things their way, but they have a lovely temple._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "slot": 4,
+      "title": "Herron",
+      "look": "You meet a big, beefy man gleefully attacking a leg of lamb with a large cleaver. After years of chewing on mushrooms in the underworld, the smell of the food in this shop drives you wild.",
+      "name": "He looks you over knowingly. _I'm Herron. Proprietor of Herron's Herring._",
+      "job": "_You all look hungry, like you haven't seen good victuals in a long time._ He winks at you. _You're in luck. Herron's Herring has the best food for sale around!_",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "food",
+            "sale"
+          ],
+          "type": 11,
+          "typeName": "shop_food",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Herron's Herring",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "herr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grins. _Well, we don't have herring anyway, on accounts that the sailors when they come to shore are all sick of it. I just call this place that because it sounds good._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hung",
+            "vict"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You have the look of someone who's been living on lichen for a long time._ He winks. _Don't worry. Everyone's spreading rumors about the Exiles who've been sneaking around. Nobody really cares. They're too busy worrying about the slimes._",
+          "str2": "_By the way, while you're up here, be sure to go to Jinx's Smithy. She's got the best weapons you could want!_"
+        },
+        {
+          "keywords": [
+            "worr",
+            "slim"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He brandishes his cleaver. _I'm not worried. Jinx made this for me. A slime comes in, and ... wham!_ He slams the cleaver into the lamb, for emphasis.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "jinx",
+            "smit"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A fine woman, running a fine smithy. And don't think I'm biased or anything just because I'm married to her._ He laughs, and dumps some lamb into a stewpot. ",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "slot": 5,
+      "title": "Jinx",
+      "look": "This is one of the tallest woman you've ever seen. She looks down at you with a grinning face, as she effortlessly hefts about a huge hammer and tongs. She wears a leather jerkin, and her bare arms are sweaty and muscular.",
+      "name": "She gives the hammer a spinning toss, and catches it. _Welcome to my Smithy. Call me Jinx!_",
+      "job": "_Oh, well, what do you think? You can sell me what you got, and purchase weapons in return. Always glad to help a visitor to Krizsan._",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "purc",
+            "weap"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            3,
+            0,
+            0,
+            0,
+            87
+          ],
+          "str1": "Jinx's Weaponry",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            87
+          ],
+          "str1": "She quickly, efficiently appraises your items.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "visi",
+            "kriz"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She smiles, as if she's in on a joke you don't get. _Krizsan doesn't get many visitors these days, being as it's about as remote a large city as you can get. Sometimes we get people from odd places, though. Where are you from?_",
+          "str2": "_Oh, and be sure to ask me if you want a good meal. I know just where to go._ She chuckles at this."
+        },
+        {
+          "keywords": [
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She laughs. _Of course you are! I just wanted to see if you would admit it. Don't worry. Lots of people around here are thrilled to see some actual Exiles. Just be careful. Some people in the more northern cities won't be quite so pleased._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "good",
+            "meal"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, Herron, who's a ... a very good friend of mine, runs a food shop near here._ She rubs a small diamond ring on her finger and giggles. It's strange to see such a huge person giggle.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "nort",
+            "citi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You know, Sharimik and the like. Just watch yourself up there._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "slot": 6,
+      "title": "Jinx",
+      "look": "You meet a very tall woman with a grim face, twisted in anger and grief. She's pounding out a sword, smashing it with a huge hammer, but her heart clearly isn't in it, and the weapon is coming out crooked.",
+      "name": "She looks up at you vacantly, and says _I'm Jinx. Welcome to my shop._ in a toneless voice.",
+      "job": "At first, she seems not to hear you. Then, after a moment, she begins to speak. _I have weapons for you, if you want. You can also sell me things. For what it matters anymore._",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "matt",
+            "anym"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Her face twists in barely controlled fury. _Now that the slimes can kill anyone they want, what does it matter what we do?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "slim",
+            "kill"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Like my husband. Poor Herron. Just cooking in his shop. Some of them oozed in under the floor. Surrounded him, sprayed webs all over him before he could run. Killed him, just like that!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "herr",
+            "kill"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Her eyes tear up. _I loved that man. Now I just pass the days until they get in far enough to get my shop too._ ",
+          "str2": "She looks embarrassed to be telling this to strangers, and goes back to smashing on the sword with her hammer. It looks like it won't be long until it's an unrecognizable lump of metal. She isn't paying any attention to you."
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "slot": 7,
+      "title": "Benedict",
+      "look": "An elderly, angular man sits behind the counter, dispiritedly polishing a shield. There is plenty of armor behind the counter, which is peculiar considering the number of books in the shop.",
+      "name": "He looks you over. _I'm Benedict._",
+      "job": "_Well, I'm a businessman. You know, this and that. Right now, I deal in armor._",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "busi",
+            "cash"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I used to sell potions and such, but then the slimes started appearing. Armor suddenly became the best business to be in._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "this",
+            "that"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This and that. And sometimes the other thing._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "armo"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            25,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Rather not deal in armor now, but cash is cash and business is business. You can purchase some if you want. Prices are a bit high, but what did you expect?_",
+          "str2": "He indicates the implausibly heavy armor he's wearing. _Those slimes may attack me any day. I'm going to be ready. You should be too. You should purchase some today._"
+        },
+        {
+          "keywords": [
+            "slim",
+            "appe"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            3,
+            0,
+            0
+          ],
+          "str1": "_The ones who drip acid are the worst. Armor doesn't do a bit of good against acid. Still, armor usually helps a lot against them._",
+          "str2": "_Of course, the slimes haven't attacked for a while. Might be time to switch back to potions soon._"
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 5,
+          "typeName": "shop_armor",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Benedict's Armor",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "slot": 8,
+      "title": "Kessle",
+      "look": "The woman behind the counter looks like a buxom serving wench made good. Her demeanor and clean, stylish clothes clearly mark her as the one in charge.",
+      "name": "She mops up some beer on the counter and looks at you proudly. _I'm Kessle. Welcome to my inn._",
+      "job": "_I run the Crusty Sailor Inn. I feel that, even in the middle of all the slimes and horror, we should still have a little luxury to get us through. We have fine beer for 5 gold, fine wine for 10, and luxurious rooms for only 15 gold. What would you like?_",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "crus",
+            "sail"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            25,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The finest inn in the continent of Valorim, and one of the few buildings in Krizsan the slimes haven't attacked._",
+          "str2": "_The finest inn in the continent of Valorim. We did get one of our rooms wrecked by a slime not long ago, but don't worry. I had my walls reinforced, so you shouldn't have any problems if you stay here._"
+        },
+        {
+          "keywords": [
+            "slim",
+            "horr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We have to be careful in these dark days. And we also have to keep clear heads. Good heavens! Some people from the northern cities said the monsters were being sent by the Exiles!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "beer"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "After years of drinking swill-like mushroom beer in Exile, this rich, dark brew is enough to bring you to tears. You down every drop.",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "wine"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            10,
+            0,
+            0,
+            0
+          ],
+          "str1": "The wine is sublime. It takes a while for your tongue to get used to it, but when it does, the stuff is exquisite. Your heads spin gently.",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "room",
+            "luxu"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            15,
+            5,
+            0,
+            0
+          ],
+          "str1": "With a deep bow, Kessle shows you to your room. The walls have been recently reinforced, and the beds look very comfortable.",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "nort",
+            "citi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You know. Sharimik, Lorelei, Gale, those cities. They have their own problems, and are just itching for someone to blame it on. And the Exiles are who they chose._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Isn't that silly? I mean, the Exiles have plenty of reason to hate us, but even if they had the power to do that, why would they want to attack those of us out here in Krizsan? I mean, this is the boonies!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "kriz",
+            "boon"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Krizsan is a beautiful city, but it's the youngest and farthest out of the cities in Valorim. This is as far from the center of the action in the Empire as you can get._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "slot": 9,
+      "title": "Denzil",
+      "look": "You see a seedy looking sailor, walking around town looking bored. He paces over to you - it seems he finds talking to you preferable to doing nothing.",
+      "name": "He scrathes himself. _I'm called Denzil. Howdya' do?_",
+      "job": "He shrugs and spits. _Normally, I'm a sailor. It's a disaster for people in my trade these days, I tells' ya'!_ ",
+      "dunno": "He spits. _Beats me!_",
+      "nodes": [
+        {
+          "keywords": [
+            "sail"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He scratches a tattooed arm. _Bad trade to be in these days. Nobody is shipping anything anywhere. Too many monsters._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "disa",
+            "trad"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_No ships going anywhere these days. Everyone's afraid of being brought more monsters, or being attacked, or this and that. Me, I plan to keep moving._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ship",
+            "mons"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Betcha' think this is the only place with lots of monsters. Don't kid yourself. I've heard the rumors. We sailors get around. There's monsters running around everywhere. Watch your back._",
+          "str2": "_As for me, I'm running._"
+        },
+        {
+          "keywords": [
+            "runn",
+            "movi"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            122,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, Pergies is about the end of nowhere. But if more monsters show up, I'll keep running even if I have to swim the ocean!_",
+          "str2": "_I'm waiting to sign on with some merchants going west. There's a town called Pergies to the west, hasn't been attacked much. Maybe I'll be safe there. Sure getting out of here as soon as I can. Way too many monsters!_ "
+        }
+      ]
+    }
+  ]
+}

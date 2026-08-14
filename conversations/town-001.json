@@ -1,0 +1,805 @@
+{
+  "talkRecord": 1,
+  "townId": 1,
+  "personalityBase": 11,
+  "label": "Cat, Dog, Cave Cow, Cow, Chicken, Sheep",
+  "people": [
+    {
+      "id": 11,
+      "slot": 0,
+      "title": "Cat",
+      "look": "You encounter a cat. It looks up at you with the arrogance and disinterest its kind is known for.",
+      "name": "It stretches its back and bats at a bit of dust.",
+      "job": "_Meow?_",
+      "dunno": "It purrs.",
+      "nodes": [
+        {
+          "keywords": [
+            "meow",
+            "purr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It looks up at you in confusion. _Meow?_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "slot": 1,
+      "title": "Dog",
+      "look": "A dog bounds up to you, rubbing against your legs, eager to be petted.",
+      "name": "Pleased at the attention, it bounces up and down and barks.",
+      "job": "_Woof! Woof!_",
+      "dunno": "It whimpers, afraid it has displeased you.",
+      "nodes": [
+        {
+          "keywords": [
+            "woof"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It prances about, probably wishing you had a stick or ball or something.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stic",
+            "ball"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "You toss a piece of your equipment. The dog runs, grabs it, and brings it back to you. It clearly could happily do this all day.",
+          "str2": "Hopefully, you have better things to do."
+        },
+        {
+          "keywords": [
+            "bett",
+            "thin"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Of course, then again, maybe you don't. You play fetch for a while.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "slot": 2,
+      "title": "Cave Cow",
+      "look": "You meet one of the thin, pale cows that provide so much of the nourishment for Exiles. Their mushroom feed creates milk that is rank and meat that is worse, but, hey, at least it's edible.",
+      "name": "The cow munches on a mushroom distastefully and looks up at you.",
+      "job": "_Moooo._",
+      "dunno": "_Moooo?_",
+      "nodes": [
+        {
+          "keywords": [
+            "mooo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "The cow looks up, surprised, thinking perhaps that it's finally met an understanding member of its own kind.",
+          "str2": "Then it sees it's just you, and goes back to chewing its cud."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "slot": 3,
+      "title": "Cow",
+      "look": "This is a cow, a bovine provider of sustenance for a hungry and struggling world.",
+      "name": "It looks up at you with tired, sad eyes, and gives you a long, world-weary look. You feel it is trying to say: _WHAT? I'm a COW!_",
+      "job": "_Moooo. Mooo. Mooooooo. Mooo._",
+      "dunno": "_Mooo. Never heard of it. Mooo._",
+      "nodes": [
+        {
+          "keywords": [
+            "mooo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Moooo. Mu. Mooo._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "slot": 4,
+      "title": "Chicken",
+      "look": "A chicken pecks and scratches the ground in front of you.",
+      "name": "Scratch. Peck. Peck. Scratch. Scratch.",
+      "job": "It pecks the ground further.",
+      "dunno": "The ground pecking continues unabated.",
+      "nodes": [
+        {
+          "keywords": [
+            "peck",
+            "scra"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "After a little while, it finds a seed. It eats it, and resumes pecking.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "slot": 5,
+      "title": "Sheep",
+      "look": "You approach the sheep. It looks at you. You look at it. The air is thick with tension.",
+      "name": "_Baaaa,_ it says.",
+      "job": "_Baaaa! Baaa._",
+      "dunno": "It doesn't respond. Sheep are notoriously stupid animals.",
+      "nodes": [
+        {
+          "keywords": [
+            "baaa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Baaaa?_ you say. _Baaaaa!_ it retorts. This goes on for some time.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "slot": 6,
+      "title": "Innkeeper",
+      "look": "The innkeeper works busily behind the bar.",
+      "name": "_Eh. Just call me barkeep. Everyone else does._",
+      "job": "_Don't have much here, out in the middle of nowhere. You can get a drink. Good beer, only a gold. Or, you can have a room. Only five gold. And no vermin._",
+      "dunno": "_Don't know much 'bout that._",
+      "nodes": [
+        {
+          "keywords": [
+            "midd",
+            "nowh"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Beer and rooms for those few travelers who come through. That's my life._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "drin",
+            "beer"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "str1": "You pay your gold, and get a round of very, very unimpressive ale.",
+          "str2": "_You don't even have a gold? Sorry. No credit._"
+        },
+        {
+          "keywords": [
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            5,
+            3,
+            0,
+            0
+          ],
+          "str1": "You pay the five gold and go off to rest.",
+          "str2": "You don't have the money, and are refused lodging."
+        },
+        {
+          "keywords": [
+            "verm"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_None of them bedbugs or fleas or leeches like you find in the beds at other inns._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "slot": 7,
+      "title": "Sailor",
+      "look": "You meet a grizzled sailor, complete with tattoos, scars, and earrings.",
+      "name": "_What business is it of yours._",
+      "job": "The sailor spits, and utters several very uncouth words. _I'm waitin' for a berth._",
+      "dunno": "The sailor doesn't know about this, and expresses a sadness at the inability to help by saying several very dirty words indeed.",
+      "nodes": [
+        {
+          "keywords": [
+            "unco",
+            "word"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "That begin with letters like 'f'. Best not to think about it too hard. It would be too upsetting.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "wait",
+            "bert"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah. With all the monsters, ain't many ships going around. Pretty stupid, if ye' ask me._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stup",
+            "mons"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah! I mean, the only place no monsters is goin' is out on the water. Best place ta' be!_",
+          "str2": "This short speech is punctuated with several inappropriate words, which have been omitted."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "slot": 8,
+      "title": "",
+      "look": "You greet Anaximander, commander of spying and special forces for Fort Emergence, and a very fidgety, nervous man. He has, in fact, grown more worn and weary since you last met him.",
+      "name": "He gives a weary smile. _If you don't know by now, you never will._",
+      "job": "_I am still working on instructions for you. The monsters on the surface, however, are making my job much harder._",
+      "dunno": "_I have nothing to say about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "inst",
+            "work"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_These plagues of monsters on the surface that you described make it clear that I need to adjust our tactics. Keep exploring, and reporting back._",
+          "str2": "_We need to work even closer with our allies, find the culprits responsible, maybe even work with the Empire!_"
+        },
+        {
+          "keywords": [
+            "mons",
+            "surf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The surface world is being destroyed. This is the thing we last expected to happened. For years we in Exile dreamed of reaching the surface. We never imagined that when we returned, we may not want it._",
+          "str2": "_Outside this cave is our home. It must be saved._"
+        },
+        {
+          "keywords": [
+            "save",
+            "home"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This must be our first goal. Our original goal, to return to the surface, can only be achieved if the surface is attainable._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We are in the position where we may have to work with our old enemies, the Empire. What may come of that, I honestly cannot say._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "thef",
+            "arti"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            20
+          ],
+          "str1": "_Recently, Heavens only know how, some thieves broke in and stole the Orb of Thralni, one of Exile's most valuable and powerful magical artifacts._",
+          "str2": "_Perhaps, if you have the time, you could investigate. Speak with Levy, to the east. He was caretaker of the orb._"
+        },
+        {
+          "keywords": [
+            "towe",
+            "magi"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            5,
+            0,
+            0,
+            20
+          ],
+          "str1": "_The Tower of Magi is the source of magic in Exile. There are mages, Solberg and 'X', who have agreed to give you spells as rewards should you achieve any mighty deeds on the surface.",
+          "str2": "Anaximander looks grim. _Somehow, the Tower of Magi was seized by mighty demons. We've lost control of the portal! We need you to analyze the situation. You should go to the Portal Keep immediately!_"
+        },
+        {
+          "keywords": [
+            "port",
+            "keep"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            20
+          ],
+          "str1": "_The Portal Keep is a fort containing the teleportal between here and Exile. To get there, leave Fort Emergence to the south, and follow the road. Signs will lead you there._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "form",
+            "murd"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            4,
+            0,
+            0,
+            20
+          ],
+          "str1": "He looks confused. Perhaps this hasn't happened yet.",
+          "str2": "_There has been a mysterious and bizarre series of murders in New Formello, in the caves to the far northwest. I have sent Flanagan to investigate, but somehow I feel that is not sufficient._"
+        },
+        {
+          "keywords": [
+            "flan",
+            "suff"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            20
+          ],
+          "str1": "_He is a skilled man, but strange magic is involved. I would prefer you to go up to investigate as well. Somehow I think you will find things relevant to your quest._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "expl",
+            "repo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Keep finding out what is happening, and, if you get the chance, keep the monster plagues from doing too much damage. If you work as well as you have been, you will continue to be rewarded._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rewa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            20
+          ],
+          "str1": "_There are many ways we can reward you for bravery, persistence, and courage. In particular, we will give you magical spells and items. For the items, go to Levy._",
+          "str2": "_For the spells, you will need to go the Portal Fortress to be sent back to Exile._"
+        },
+        {
+          "keywords": [
+            "levy"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            20
+          ],
+          "str1": "_He is the quartermaster for all exceptional goods. His office is to the east._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "culp",
+            "resp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It is key to find out who is ravaging the surface world, so we may deal with them and stop them before they destroy our home. Be sure, in your explorations, to look for evidence of who is responsible._",
+          "str2": "_Should you find anything that seems like evidence, go see Berra._"
+        },
+        {
+          "keywords": [
+            "evid",
+            "berr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Berra lives in the Mage's section of this fort. Should you find any evidence of who is responsible for the monsters, go to him and ask him about evidence. He will analyze it and research what it is._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "slot": 9,
+      "title": "Anaximander",
+      "look": "You greet Anaximander, commander of spying and special forces for Fort Emergence, and a very fidgety, nervous man.",
+      "name": "He nods. _I am called Anaximander. I have some titles and ranks, as well, but prefer not to use them._",
+      "job": "_It is my job to give you instruction in your explorations of the surface world. It is a great honor that has fallen to you, to be given such a task._",
+      "dunno": "_I have nothing to say about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "surf",
+            "worl"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This fort is well concealed inside a hill. Simply exit out to the north, and you will be outside. What you will find there, we still have little idea._",
+          "str2": "_This is your task: to look out and report back. And, if you merit it, be rewarded._"
+        },
+        {
+          "keywords": [
+            "look",
+            "repo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Keep returning to see me, and to tell me what you have found. I will, in turn, give you instructions for how to proceed._ His expression grows stern.",
+          "str2": "_How we greet the Empire will determine much of the survival of Exile in the future. Care is essential._"
+        },
+        {
+          "keywords": [
+            "care",
+            "esse"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Be careful. Don't commit grotesque crimes. Keep a low profile. Don't murder people. That sort of thing._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi",
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Since the war with the Empire, we have heard nothing of them. Hopefully, this means they are rethinking how to deal with us. Perhaps, now that they know we have strong allies, we may negotiate with them._",
+          "str2": "_In particular, we may be able to get them to let us have some land on the surface. Your job is to let us know what's happening, so we can gauge if that is possible._"
+        },
+        {
+          "keywords": [
+            "conc",
+            "hill"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. Leave to the north, and you will emerge out of a hill on the surface. We believe that there is an Empire city to the southeast. You should go there first._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "inst",
+            "expl"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_At this point, we need to know what the Empire has been up to. Both we and our allies need to know. Soon, you should leave through the concealed hill entrance to the north, explore and report back._",
+          "str2": "_Of course, you can spend some time building strength first._"
+        },
+        {
+          "keywords": [
+            "stro",
+            "alli"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            19
+          ],
+          "str1": "_Yes, we have strong, and powerful allies: the Slithzerikai and, more importantly, the Vahnatai._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "buil",
+            "stre"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes, practice fighting and working as a team. Leave the fort to the south, and you will be in the caves. To the north east are lairs of both goblins and bandits. Somewhere in these offices is a map there._",
+          "str2": "_Go practice fighting if you want. But don't tarry too long ... all Exile waits on you!_"
+        },
+        {
+          "keywords": [
+            "gobl",
+            "band"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The military has been too busy preparing to deal with them. They've been hoping some adventurers will solve the problem for them._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "slit"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            19
+          ],
+          "str1": "_The intelligent lizard people. Once, we fought great wars with them, before we realized we had more in common than we thought._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "vahn"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            19
+          ],
+          "str1": "_The Vahnatai are the powerful and bizarre beings living far below us. They have a settlement in the caves to the north, called Ghikra._",
+          "str2": "_They were invaluable in winning the war against the Empire. Their magic is powerful, and their hatred of the Empire knows no bounds._"
+        },
+        {
+          "keywords": [
+            "ghik"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            19
+          ],
+          "str1": "_To get there, leave Fort Emergence to the south, and head north through the caves. It's to the east of a huge lake._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "grea",
+            "hono"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Much thought went into the decision who to send to the surface first. Eventually we decided not to send older adventurers ... their skills were well honed for the underworld, but not for the surface._",
+          "str2": "_Your inexperience may be a greater aid on the surface than you think. And, of course, we will be sending other spies._"
+        },
+        {
+          "keywords": [
+            "othe",
+            "spie"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_More than that I don't want to say. Suffice it to say that soon after you leave, others will fan out onto the surface, to gather information. Don't look for them, but rest assured they will find you._",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

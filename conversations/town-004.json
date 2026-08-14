@@ -1,0 +1,1090 @@
+{
+  "talkRecord": 4,
+  "townId": 4,
+  "personalityBase": 41,
+  "label": "Seles, Tor, Julio, Denise, Brantford, Seles",
+  "people": [
+    {
+      "id": 41,
+      "slot": 0,
+      "title": "Seles",
+      "look": "A neatly dressed mage stands between you and the towering pillar of energy that is the surface portal. She holds a thick notebook. The energy of the portal makes her hair stands almost straight up.",
+      "name": "_Welcome, adventurers. I am Seles, overseer of the portal._",
+      "job": "_My title is Portal Overseer. I look after and steer those emerging, and when someone wants to use it, it is I they must give there request to, and I who gives permission._",
+      "dunno": "_That's definitely not my job._",
+      "nodes": [
+        {
+          "keywords": [
+            "port",
+            "over"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's a tricky job. So many want to use the portal, for so many reasons. Do you wish to request permission to use it?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "requ",
+            "perm"
+          ],
+          "type": 108,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            46
+          ],
+          "specialId": 108,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "tric",
+            "reas"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The portal takes a lot of energy, and can only send so many people in a day. Most of its energy goes to bringing up as many people as possible. Access for other purposes, most of which are generally deemed frivolous, is limited._",
+          "str2": "_That is why anyone who wishes to use the portal must request permission from me._"
+        },
+        {
+          "keywords": [
+            "friv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Visiting friends and family, retrieving something you forgot, that sort of thing. Portal energy is just too limited to spend on non-vital things._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "thra",
+            "sphe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            46
+          ],
+          "str1": "_I don't know who stole it, or why, but I do know where they went. You see, any teleportation up here affects the portal, and I can cast spells to tell who blipped where and why and adjust this portal to compensate. Thus, I can help you find the thieves._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "comp",
+            "thie"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0,
+            46
+          ],
+          "str1": "_I detected a teleportation out of Fort Emergence, and I was able to magically tell where the thieves went to. If you use the portal now, you will end up near where the thieves are. You'll have to find your own way back, however._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "slot": 1,
+      "title": "Tor",
+      "look": "You meet an aging, grizzled old veteran. He walks ceaselessly through the fort, appraising the supplies, soldiers, walls, and everything else with a long practiced eye.",
+      "name": "He extends a callused hand. _Call me Tor._",
+      "job": "_Supplies are my life._",
+      "dunno": "Tor doesn't know what you're talking about.",
+      "nodes": [
+        {
+          "keywords": [
+            "supp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grins proudly. _Yep. Farmed for a while, but looking after goods is something I've always had a knack for._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "life"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, half of my life. Carol's the other half._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "farm"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Tough work. Disease. Nephilim. Salamanders. Just for a few mushrooms. Major pain. Sold the farm to the field hands and left it at that._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "caro"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My wife. She's a healer, and a fine one at that. She's up here with me. If she wasn't, well, I wouldn't be here neither._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "good",
+            "knac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, you're too young to remember, but once I gave supplies to every single person who entered Exile. They teleported down, and I gave 'em a knife and some food to get 'em by until they found work._",
+          "str2": "_It was good work. And this is good work too. Really appropriate, I mean._"
+        },
+        {
+          "keywords": [
+            "real",
+            "appr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, once I gave supplies to everyone who came down from the surface. Now I take care of the goods for everyone comin' up! Symmetry, ya' know?_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "slot": 2,
+      "title": "Julio",
+      "look": "You meet a small, heavily muscled man with dark skin and a quick eye. He wears all black, and has an outlandish hat and a wicked sword.",
+      "name": "He bows sharply. _I am Julio, traveler._",
+      "job": "_I'm an explorer. I make maps, that sort of thing._",
+      "dunno": "He shrugs.",
+      "nodes": [
+        {
+          "keywords": [
+            "expl"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I traveled from one end of Exile to the other, don't you know, looking for a route to the surface. I swore an oath, you see._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "maps"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You probably have one of my maps. I'm the one who mapped out these caves up here. I also made the only map we have of the area above. We haven't even been up there, but we have a map._",
+          "str2": "_Bet you're wondering how we did that!"
+        },
+        {
+          "keywords": [
+            "wond"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Magic! A mage managed to give me a split-second magical view of the land above Fort Emergence, from way, way up. From that, I made the map! Pretty amazing, huh?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "amaz"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Amazing, indeed! I drew a whole map, from a tiny glance. Excellent work, if I do say so myself._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "surf",
+            "oath"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A sacred oath! I promised I'd never rest until I saw the light of day again, good honest sunlight. And it looks like I'll finally get the chance, even if I have to sneak out through Fort Emergence to do it!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "snea",
+            "emer"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They aren't letting anyone out until they know it's safe, they say. Well, hell with that! I've been in prison down there for long enough. If I die, fine. I can deal with that._",
+          "str2": "_But damn it, I'll die in the sun!_"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "slot": 3,
+      "title": "Denise",
+      "look": "A young female mage sits before you, reading a scroll. She looks irritated at your intrusion.",
+      "name": "_I'm Denise. Leave me alone._",
+      "job": "_Look, what do I have to say or do to get some studying time alone? As if I didn't already have enough problems._",
+      "dunno": "_If you can't talk sense, please leave._",
+      "nodes": [
+        {
+          "keywords": [
+            "stud",
+            "time"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah, studying time! You don't think everyone gains magical abilities by killing monsters, do you?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "prob"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She slams her book shut in anger, but not anger at you. _I left an amulet down in the Tower of Magi, a valuable focusing aid! They rushed me along to come up here, and I forgot it!_",
+          "str2": "_Now, that bureaucrat Seles won't let me retrieve it, and I can't go on to my post without it!_"
+        },
+        {
+          "keywords": [
+            "bure",
+            "sele"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I hope she gets an infection. A special sort of infection._ She gives an unnervingly wicked smile.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "magi",
+            "abil"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Some of us don't want to go around butchering poor creatures all the time. We get our skill through good, honest work. So buzz off!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "amul",
+            "retr"
+          ],
+          "type": 109,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 109,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "post"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Look, I'm Unspecified Services, like you. I can't talk about it. Come to think of it, I probably shouldn't talk to you!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "slot": 4,
+      "title": "Brantford",
+      "look": "This mage looks more like a salesman than anything else. He holds a large sack at his side, which bulges with all manner of odd-shaped things. As you approach, he displays a rather predatory smile.",
+      "name": "_I am Brantford the mage. And collector._",
+      "job": "_I collect valuable items of all sorts._",
+      "dunno": "He smiles enigmatically.",
+      "nodes": [
+        {
+          "keywords": [
+            "coll",
+            "item"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            40,
+            0,
+            0,
+            0
+          ],
+          "str1": "He sighs. _Alas, the loss of the Tower of Magi as a place of business cost me valuable location and inventory. However, you can still purchase my wares, and sell me excess supplies._",
+          "str2": "_Yes! Many interesting souls come through the Tower of Magi, and I collect goods from them for resale. Perhaps you would like to purchase some of my goods? Or sell me some trinkets you no longer have need of?_ "
+        },
+        {
+          "keywords": [
+            "towe",
+            "magi"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            40,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Sad business, that. But one must soldier on, eh?_",
+          "str2": "_A wondrous place. Pity about the weirdness._"
+        },
+        {
+          "keywords": [
+            "weir"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Oh, one hears rumors of odd goings on. Although I have accumulated some magical skill over the years, I don't concern myself with such things. I am a businessman._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 17,
+          "typeName": "shop_misc",
+          "extras": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "str1": "Brantford's Goods",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell",
+            "trin"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He appraises your items, shaking his head sadly. _If you'd brought me this stuff last week, I could make much better offers. However, I'm in a generous mood. Perhaps we might still work something out._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "slot": 5,
+      "title": "Seles",
+      "look": "Seles the mage stills stands in front of the portal. However, the portal flickers ominously and has occasional tinges of an angry red shade. She no longer looks unconcerned about its proximity.",
+      "name": "She nods nervously, casting a worried glance at the portal behind here. _Seles._",
+      "job": "_I am still the Portal Overseer, a much more difficult job since the Tower disaster._",
+      "dunno": "_I rally don't have time for this right now._",
+      "nodes": [
+        {
+          "keywords": [
+            "port",
+            "over"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            5,
+            2,
+            0
+          ],
+          "str1": "_A horrible job, now. It's taking all my energy to keep what's going on in the Tower of Magi now from destroying the portal. Someone can teleport down there now, but they won't be able to for long. Gods help us if nobody can do anything._",
+          "str2": "_A grim job, since the Tower disaster. Nobody will be going down or coming up for a while. You can still request permission to use the portal, but I don't think there's much I'll be able to do for you._"
+        },
+        {
+          "keywords": [
+            "towe",
+            "disa"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            5,
+            2,
+            0
+          ],
+          "str1": "_We need to get someone down there, and fast, to take the Tower back from the evil creatures and stabilize the portal. Otherwise, the portal will be destroyed, along, probably, with most of Exile._",
+          "str2": "_The Tower disaster cut the portal loose at the Exile end, and it'll take a lot of work to anchor it again. Nobody is going down and coming up for a while. I hope you can make peace with the Empire, or we will have to fight a war with no reinforcements._"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "slot": 6,
+      "title": "Rentar-Ihrno",
+      "look": "You stand, edgily, before the most powerful of the Vahnatai: the archmage Rentar-Ihrno. She was Exile's greatest help in winning the Empire War. She looks at you curiously.",
+      "name": "She doesn't approach you. She doesn't seem to feel you merit much of her attention. _I am Rentar-Ihrno,_ she says.",
+      "job": "She sighs, resigned to waste time talking to you. _I am Ihrno to my people, and mistress of Ghikra. I do my research and protect our treasures._",
+      "dunno": "She looks at you blankly.",
+      "nodes": [
+        {
+          "keywords": [
+            "ihrn"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Ihrno is an honorary title. It means 'person of great learning.' It is appropriate that I should bear it, as I am the most magically talented of my people._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mist",
+            "ghik"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_When the war against the Empire was won, we decided we should maintain contact with the beings we shared these caves with. That is the purpose of Ghikra - the conduit through which communication between our peoples shall pass._",
+          "str2": "_I am here to control it. And to guard it. And we also wish to watch your efforts to reach the surface._"
+        },
+        {
+          "keywords": [
+            "prot",
+            "trea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Our Crystal Souls, the spirits of our ancestors in physical form, and even more powerful and knowledgeable than myself. I hope to be one myself. Alas, others covet them._",
+          "str2": "_We have two of them here, and guard them totally. However, we do allow some to visit them._"
+        },
+        {
+          "keywords": [
+            "peop"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Vahnatai are my people. We live in the caves far below you, and wish only to live safely and undisturbed._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "guar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_As the Empire taught us, we have great treasures others may covet._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We feel not all humans are bad. The Empire humans, however, have proved to be foes to us. It is good they are on the surface, away from us._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "surf"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            309,
+            8,
+            0,
+            0
+          ],
+          "str1": "_Be careful on the surface. The Empire is still a strong foe, and we will not be able to aid you._",
+          "str2": "You tell Rentar-Ihrno of the crystal shards you found under the giant's fortress. She isn't impressed. _Many besides us use crystal magic now. I know nothing of what happens up there now._"
+        },
+        {
+          "keywords": [
+            "allo",
+            "visi"
+          ],
+          "type": 2,
+          "typeName": "set_sdf",
+          "extras": [
+            41,
+            9,
+            0,
+            0
+          ],
+          "str1": "She looks uncomfortable. _They have said they wish to see humans who visit. I dislike letting humans near them, but their wishes are paramount._ She makes a few hand motions. ",
+          "str2": "_You may now pass the barriers that keep you from them._"
+        },
+        {
+          "keywords": [
+            "safe",
+            "undi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Honestly, who could wish for more?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "magi",
+            "tale"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Great are my powers._ She gets a peculiar expression on her face. It's difficult enough telling how a Vahnatai is feeling under normal circumstance. Sometimes, it's simply impossible.",
+          "str2": "The moment passes, however. She simply says _Do not trifle with us._"
+        },
+        {
+          "keywords": [
+            "rese"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She frowns. _That I prefer not speaking of._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "slot": 7,
+      "title": "Glantris-Bok",
+      "look": "You approach a large, perfectly flawless blue crystal, about a foot and a half high. As you do, you feel peculiar, as if someone other than you is inside your head. You hear a gentle voice in your mind: _Greetings._",
+      "name": "The smooth voice in your head continues. _I am Glantris-Bok. I am a Crystal Soul._",
+      "job": "_I exist for only one purpose: to help my people._",
+      "dunno": "The voice in your head is perplexed. _I know not of that._",
+      "nodes": [
+        {
+          "keywords": [
+            "crys",
+            "soul"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I lived in physical form twelve hundred years ago. Then, at the point of death, I was shifted into this form to exist for millenia more in service._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "help",
+            "peop"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_What could be greater? Long after you are dust, I will still be serving my race. I will remember you, and someday, a thousand years from now, I will tell a young Vahnatai of your struggles to instruct him._",
+          "str2": "_That is what I do. I remember, and advise._"
+        },
+        {
+          "keywords": [
+            "serv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_To help my people. To learn, and remember, and advise._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "reme",
+            "lear"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_In this form, I remember everything I hear, everything I see. It is a great gift._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "advi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Often, my people come to me for advice on what to do. I always give it. They do not always take it, but usually they do._",
+          "str2": "_This is why I told Rentar-Ihrno to let you see me. There is information I wish to impart to you._"
+        },
+        {
+          "keywords": [
+            "info",
+            "impa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "The voice in your head gets quiet, so that you have to struggle to make it out. _When you reach the surface, and deal with the Empire as it is today, remember Ourubourous._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ouru"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Ourubourous was the snake of legend, that was so mighty it encircled the world, and ate its own tail. It was all-powerful, and yet devoured itself. As you see the surface, remember that image._",
+          "str2": "_And that is all I have to say on the subject._ The voice in your head fades away. The presence is gone."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "slot": 8,
+      "title": "Vyvnas-Bok",
+      "look": "This is a perfectly flawless blue crystal, about two feet high. As you approach it, your head begins to hurt. You feel pressure inside your skull, as if someone just pushed their way in. A harsh voice in your mind says _Speak._",
+      "name": "There is a strange, scratchy, discordant sensation in your head. The voice in your mind is loud and disturbed. _I ammmmmm Vyvvnas-BOK!_ You've heard of it! This is one of the Crystal Souls stolen by the Empire.",
+      "job": "_I am here! HERE!_ The rough presence in your mind is getting very uncomfortable.",
+      "dunno": "_Eeeeeee!!!!_",
+      "nodes": [
+        {
+          "keywords": [
+            "empi"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Your head is filled with an intense, horrifying screeching. You back away, in horrible pain. Then it subsides. But the presence in your head is gone.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "here"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Unexpectedly, the voice in your head calms. _Apologies. I am still recovering from my imprisonment._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "impr",
+            "reco"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They I ... I ... I ... may not ... must not mention tested on me, twisting my thoughts on myself, to get me to BREAK TO SERVE THEM_ The volume of the voice is agonizing. Mercifully, it calms down.",
+          "str2": "_Now I lend my paranoia to my people._"
+        },
+        {
+          "keywords": [
+            "para"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Strange that must sound, but I am my people's fear. They must share their caves and their scarce resources with you humans and others. And the ... the ... the bad people are on the surface above us all._",
+          "str2": "_I am their constant reminder._"
+        },
+        {
+          "keywords": [
+            "cons",
+            "remi"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I remind what some want to do to us! WHAT THEY DO TO ME ... ME ... WHAT CAN ALWAYS HAPPEN!_ You back away under the force of this poor mad being's thoughts.",
+          "str2": "_We are strong but weak. Everyone must guard everyone from everyone._ It pauses. _Now I am tired. Leave me. Humans are often bad._ Then there is silence."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "slot": 9,
+      "title": "Koriba",
+      "look": "You meet a Vahnatai male, wearing the translucent softly glowing poncho that is the standard dress for their race. He is carving a gentle spiral of crystal with a small, elegant knife.",
+      "name": "He looks up from the crystal. You think he's smiling, but you aren't sure. _I am called Koriba._",
+      "job": "_I shape crystals. They are having many uses._ Like most Vahnatai, his grasp of your tongue is very poor.",
+      "dunno": "He shakes his head.",
+      "nodes": [
+        {
+          "keywords": [
+            "shap",
+            "crys"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He holds up the spiral he was working. It catches the dim light and sparkles beautifully. _Is there ever anything so lovely, so orderly?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "uses",
+            "havi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It is the basis of our artisticness, and of our magicalness._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "arti"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            41,
+            5,
+            0,
+            0
+          ],
+          "str1": "He looks somber. _Yes. I had a best example which is not here for showing. It was a statue, but it was stolen._",
+          "str2": "_Yes, as you saw in the statue you returned to me. Again for which I give many thanks._"
+        },
+        {
+          "keywords": [
+            "stat",
+            "stol"
+          ],
+          "type": 110,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 110,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "magi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes ... much magic we make with crystal items. For a example, I make the magic soul stones often._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ston",
+            "soul"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Soul Crystals, not to be confused with Crystal Souls. They are used for certain spells to trap creatures to be called forth later. Very strong._",
+          "str2": "He looks at you slyly. _In fact, certain such spells I am not forbidded from making for purchase to outside people. For prices_"
+        },
+        {
+          "keywords": [
+            "purc",
+            "spel"
+          ],
+          "type": 14,
+          "typeName": "shop_mage_spells",
+          "extras": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "str1": "Koriba",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stat",
+            "stol"
+          ],
+          "type": 110,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 110,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

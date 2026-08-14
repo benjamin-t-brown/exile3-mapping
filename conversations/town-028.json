@@ -1,0 +1,950 @@
+{
+  "talkRecord": 28,
+  "townId": 28,
+  "personalityBase": 281,
+  "label": "Yessenia, Mundt, Deborah, Randall, Kendra, Geoffrey",
+  "people": [
+    {
+      "id": 281,
+      "slot": 0,
+      "title": "Yessenia",
+      "look": "This woman clearly needs more sun. She's clearly been locked up in here with her thousands of scrolls for some time. She doesn't seem to mind so much.",
+      "name": "_I am Yessenia._",
+      "job": "_I am the official Librarian of Lorelei._",
+      "dunno": "She pretends to study her book.",
+      "nodes": [
+        {
+          "keywords": [
+            "lore"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Being in Lorelei has been hazardous for some time. Fortunately, I am generally disinclined to go outside anyway._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "disi",
+            "outs"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She shakes her head sadly. _My skin becomes painfully burned by even short exposure to the sun. I would not have chosen to spend every moment my life indoors looking after books. But then, one does what one must._",
+          "str2": "_At least it kept me safe from the giants._"
+        },
+        {
+          "keywords": [
+            "offi",
+            "libr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Unfortunately, my salary was recently cut. No money left for me. I have to make money other ways._",
+          "str2": "_Maybe I'll go up to Moon. They have an excellent collection there._"
+        },
+        {
+          "keywords": [
+            "othe",
+            "ways"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have been duplicating maps of Midori province for a little extra change. You can purchase one for only 50 gold. Also, I do a bit of identification._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "maps"
+          ],
+          "type": 22,
+          "typeName": "buy_town_map",
+          "extras": [
+            50,
+            4,
+            0,
+            0
+          ],
+          "str1": "The paper is cheap and the quality of the copying is poor. However, this is still a serviceable map of the city of Lorelei's surroundings.",
+          "str2": "You don't have the money."
+        },
+        {
+          "keywords": [
+            "iden"
+          ],
+          "type": 19,
+          "typeName": "identify",
+          "extras": [
+            15,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks your items over. _Not difficult,_ she says. _I'll tell you what each is for only 15 gold._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "moon",
+            "coll"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The town of Moon is north of here, at the north end of Lake Tomor. They have a really great library. They even have spellbooks! That's what I hear. They might pay me what I'm worth._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 282,
+      "slot": 1,
+      "title": "Mundt",
+      "look": "You meet a priest of the Anama. He looks you over, nodding in approval at your rings. He's a tall, distinguished man, the sort to be not at all concerned what other people think of him or his beliefs.",
+      "name": "_I am Father Mundt. Welcome to this sanctuary, fellow followers._",
+      "job": "_I guard this sanctuary, a place of safety for those who share our beliefs._",
+      "dunno": "_I don't understand, my child._",
+      "nodes": [
+        {
+          "keywords": [
+            "sanc",
+            "safe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My job is to provide succor and rejuvenation for those of our beliefs who are passing through to more hostile lands._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "beli"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Few believe as we do in these parts. Sometimes, their reactions can be hostile. That is the reason for this protected sanctuary._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "succ",
+            "reju"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I can provide you healing, at a very reasonable rate. In addition, I have alchemical herbs you can purchase. After all, alchemy is the nature's great gift us._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "alch"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Buying Herbs",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "heal"
+          ],
+          "type": 18,
+          "typeName": "healer",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Mundt's Healing",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 283,
+      "slot": 2,
+      "title": "Deborah",
+      "look": "When you get close, this warty beggarwoman kneels and extends her bowl. She's old and thin, and extremely brave to be out on the street like this.",
+      "name": "_Greetings, bold adventurers! It is an honor. My name is Deborah._",
+      "job": "She bows her head. _My farm was lost in a giant attack._",
+      "dunno": "She shrugs, and then says _Give me a coin?_",
+      "nodes": [
+        {
+          "keywords": [
+            "gian",
+            "atta"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My farm, and my husband. Now I am reduced to begging while trying to regain a more respectable place. Could you please give me a few coins?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "give",
+            "coin"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "You give her a few coins. She is beside herself with thanks. _And kind adventurers, I have advice in return!_",
+          "str2": "You have little money to give!"
+        },
+        {
+          "keywords": [
+            "advi",
+            "retu"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I hear many rumors. In particular, I've heard there are Exiles wandering all around us! Keep your weapons close. You never know what those worms will do!_ Then, with another bow of thanks, she stands and walks off.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 284,
+      "slot": 3,
+      "title": "Randall",
+      "look": "You meet a dusty man. Everything in this shop is dusty. The items, the counter, the proprietor. It's sort of like a junk shop, but some of the things actually look valuable.",
+      "name": "He brushes some dust off his arm, and moves up to shake your hand. _I'm Randall._",
+      "job": "_I'm an item salesman. I'm so glad you arrived - business has been terrible._",
+      "dunno": "_Huh?_",
+      "nodes": [
+        {
+          "keywords": [
+            "item",
+            "sale"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Here's how it works. Adventurers, looters, and other miscreants get objects, I don't care how, and sell them to me. Then others come and buy those objects from me._",
+          "str2": "_Our secret? Volume, volume, volume!_"
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He quickly appraises your identified items.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "obje"
+          ],
+          "type": 17,
+          "typeName": "shop_misc",
+          "extras": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "busi",
+            "terr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, what do you expect? Every day, someone gets wounded or killed by a flying rock. No thanks to our leaders._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "lead"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Nobody in charge does anything! We just put up walls to get knocked down, and absorb more punishment. Lousy for business. Just lousy._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "volu"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He sighs. _Actually, I don't sell much volume of anything. I just say that because it's fun to say._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "reci"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He thinks. _A recipe? No, don't know anything about ... no, wait! Lyle, at Internal Affairs, was in the other day and mentioned he'd heard something about this amazing potion recipe. Don't know anything else about it._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 285,
+      "slot": 4,
+      "title": "Kendra",
+      "look": "The woman behind the counter is busy repairing a chain mail gauntlet. As she works, she occasionally looks up at you with an amused expression. She acts as if she knows much that you don't.",
+      "name": "_I'm Kendra._",
+      "job": "_Oh, I deal with gloves. I love gloves. They're utterly fascinating._ You detect subtle traces of facetiousness in her voice.",
+      "dunno": "_Not my line, I'm afraid._",
+      "nodes": [
+        {
+          "keywords": [
+            "glov"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. You can sell me goods. Any goods. From anywhere._ She winks. _Then you can purchase my fine, high quality gloves._",
+          "str2": "_You may have heard I have other goods. I sure don't. Just wonderful, protective, warm, snug, five-fingered gloves._"
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Kendra's Gloves",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks your goods over with a surprisingly practiced eye, and makes an offer on anything identified.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "pack",
+            "good"
+          ],
+          "type": 152,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 152,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "guil"
+          ],
+          "type": 153,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 153,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 286,
+      "slot": 5,
+      "title": "Geoffrey",
+      "look": "This man wears leather armor, with a peculiar eye insignia carefully painted on the breast. He has a sword lying across his lap, and black goo covers the blade. He looks like a tough customer.",
+      "name": "_I am Geoffrey. Welcome to the Guild._",
+      "job": "He smiles coolly and rests his hand lightly on the hilt of the sword. _I control the Guild of Thieves._",
+      "dunno": "He looks at you blankly.",
+      "nodes": [
+        {
+          "keywords": [
+            "swor",
+            "blad"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He pats the sword. _Let's just say that this is a high risk occupation. I never go anywhere without the ability to kill at a moment's notice._ ",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "guil",
+            "thie"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I will not say details about the guild. I will not let you join. However, it may be to the guild's advantage to assist you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "deta",
+            "join"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You are not, shall we say, low profile travelers. Our guild is barely tolerated. Recruiting Exiles would be very bad for us. Ask instead how we may assist you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "assi",
+            "adva"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grins viciously. _Let me count the ways! I have valuable intelligence about access to Blackcrag Fortress. I know useful secrets of certain miscreants. And, most intriguingly, I can sometimes help people pretend to be members of the Anama._",
+          "str2": "_And you can even purchase tools from me!_"
+        },
+        {
+          "keywords": [
+            "blac",
+            "fort"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It is well known that the Empire has quarantined off Valorim to prevent the monster plagues from spreading. The gateway from the rest of the Empire to Valorim is Blackcrag Fortress._",
+          "str2": "_What is not well known is that some of us have a tunnel to bring people and goods in and out of Valorim._"
+        },
+        {
+          "keywords": [
+            "tunn",
+            "valo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There is a tunnel through the mountains to the north. A fork of this tunnel is a secret entrance into Blackcrag Fortress. It is our tunnel, not yours,_ He grins. _but I can sell you permission to pass through it._",
+          "str2": "_Permission to pass through can be had for a scant 3000 gold. If you want to obtain permission, let me know._"
+        },
+        {
+          "keywords": [
+            "perm",
+            "obta"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            3000,
+            13,
+            1,
+            0
+          ],
+          "str1": "He collects the cash. _The tunnel is in a secret valley, about sixty miles east of Blackcrag Fortress. Enter, and the thieves there will explain where to go. Good luck._",
+          "str2": "He looks very annoyed. _How dare you waste my time! You don't have the money!_"
+        },
+        {
+          "keywords": [
+            "secr",
+            "misc"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A certain, normally successful thief was recently slain. He tried to run off with one of my packages, and suffered an accident. An unfortunate accident. Accidental disemboweling. Very sad._",
+          "str2": "_At any rate, I know where he concealed his loot. I'll tell you for 500 gold._"
+        },
+        {
+          "keywords": [
+            "conc",
+            "loot"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            500,
+            0,
+            0,
+            0
+          ],
+          "str1": "You pay the 500 gold. Geoffrey says _He had this weird thing for hiding loot in stables. Heaven knows why. When you find an animal pen, though, take a peek around. You might find something good._",
+          "str2": "He looks very annoyed. _How dare you waste my time! You don't have the money!_"
+        },
+        {
+          "keywords": [
+            "memb",
+            "anam"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Anama are freaks, but they're sure to have a massive treasure in their temple. I can sometimes get some of the rings they use to mark themselves as members - you might be able to sneak into their inner sanctum wearing them._ ",
+          "str2": "_If you ever want a set of their rings, they're only 2500 gold._"
+        },
+        {
+          "keywords": [
+            "tool",
+            "tool"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "str1": "Guild of Thieves",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ring"
+          ],
+          "type": 154,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 154,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks confused. _What do you want? Tools? Anama rings for 2500? Tunnel permission for 3000? Location of concealed loot for 500?_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 287,
+      "slot": 6,
+      "title": "Bruskrud",
+      "look": "You meet the commander of the guard of Lorelei. She sits at her desk writing notes and orders, but wears full plate armor while doing it. Not surprising, considering she's an Empire Dervish, the most dedicated and single-minded of the Empire's troops.",
+      "name": "_I am Dervish Bruskrud. Have a seat, Exiles._ Meeting an Empire Dervish and not being attacked immediately is somewhat disconcerting.",
+      "job": "She turns toward you, adjusting her breastplate slightly. _I am the commander of the forces of Lorelei. I lead us in our battles against the giants. You're probably wondering why I am welcoming a band of Exiles._",
+      "dunno": "She shakes her head impatiently.",
+      "nodes": [
+        {
+          "keywords": [
+            "comm",
+            "forc"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            8,
+            0,
+            0
+          ],
+          "str1": "_I command my troops, all loyal and strong men and women, in the crushing war with the giants._ She clenches a gauntleted fist. _It would be less of a struggle, if our leadership were not so feeble._",
+          "str2": "_I command my troops, all loyal and strong men and women, against the giants. Their attacks have been weaker and less frequent, but still dangerous._ She clenches a gauntleted fist. _It would be less of a struggle, if our leadership were not so feeble._"
+        },
+        {
+          "keywords": [
+            "batt",
+            "gian"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            8,
+            0,
+            0
+          ],
+          "str1": "_You have but to look on the streets, to walk our empty streets among shattered buildings, to see the effect the giants have had on us. But that is not the worst of it. The worst thing is the feebleness of our leaders._",
+          "str2": "_The giants bombarded us constantly. Now they only raid us occasionally. Alas, those raids still cost us dearly. And still, we receive no help from our leaders._"
+        },
+        {
+          "keywords": [
+            "feeb",
+            "lead"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            15,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks distressed, as if it's a struggle to say what she's saying. _Our mayor was slain in a giant raid. My Empire, that I swore to give my life to protect, has shut us off. We must fend for ourselves._",
+          "str2": "She looks distressed, as if it's a struggle to say what she's saying. _Our mayor refuses to act! She lets our people die while waiting for the Empire to aid us. My Empire, that I swore to give my life for, has shut us off. We must fend for ourselves._"
+        },
+        {
+          "keywords": [
+            "welc",
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I did not serve in the Exile war, but I lost friends in it._ She shakes her head wearily. _That is ancient history. Now, only Exiles have had any luck fending off the plagues of monsters that afflict us._",
+          "str2": "_That is why I have allowed you into our city. I have a mission for you._"
+        },
+        {
+          "keywords": [
+            "fend",
+            "ours"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_That is why I have welcomed you here. If you will accept it, I have a mission for you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi",
+            "swor"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Imagine how difficult this is for me to say! I would have rather be slain by the giants than turn from my leaders. But I have soldiers to protect, and the people of this town as well!_",
+          "str2": "_That is why I am welcoming Exiles - our people are more important than my oath._"
+        },
+        {
+          "keywords": [
+            "miss"
+          ],
+          "type": 155,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 155,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "troo",
+            "loya"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Loyal and strong, if sometimes a little deranged._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dera"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, one fellow passing through here said he'd seen dragons. Dragons! As if they hadn't been wiped out years ago! Forget his name. He headed up to Dorngas to serve there. If you meet him, try not to get him started. He'd rant for hours!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 288,
+      "slot": 7,
+      "title": "Winterhouse",
+      "look": "You meet the keeper of this small, cramped inn. You notice his leg is in a cast.",
+      "name": "_I'm Winterhouse. Welcome to the Caring Cubbyhole inn._",
+      "job": "_Excuse me for not standing to greet you._ He pats his leg cast. _Had a little accident. We have a nice room free. It's only 4 gold for the night._",
+      "dunno": "_Can't help with that._",
+      "nodes": [
+        {
+          "keywords": [
+            "litt",
+            "acci"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah. Accidentally stepped under a thrown boulder. My fault for going outdoors._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "nice",
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            4,
+            3,
+            0,
+            0
+          ],
+          "str1": "_Can't show you to your room, I'm afraid._ He tells you what room to go to. _By the way, when you get up, come ask me about the rumors I've heard. You're adventurers - I can tell. I've heard some interesting things._",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "rumo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grins. _I heard something very intriguing about some sort of a really valuable recipe. Unfortunately, it's sort of slipped my mind._",
+          "str2": "_Fifty gold, however, may restore my memory. If you want me to try to remember about the recipe, let me know._"
+        },
+        {
+          "keywords": [
+            "reci"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            50,
+            0,
+            0,
+            0
+          ],
+          "str1": "He takes your money. _I overheard Randall, the item salesman, say something about hearing something about this incredibly rare and powerful alchemical recipe concoction thing. You might want to ask him about it._",
+          "str2": "You don't have 50 gold."
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "slot": 8,
+      "title": "Ghost of Hawke",
+      "look": "You see a translucent man, middle aged, standing by the pond. He's staring into the water. He doesn't look at you.",
+      "name": "You get no response.",
+      "job": "Suddenly, the ghost gets smashed to the ground, as it struck by something from overhead. The spectral body lies there for a moment. Then, in an instant, the ghost is standing again. Then it gets smashed again. And so on.",
+      "dunno": "There is no response.",
+      "nodes": []
+    },
+    {
+      "id": 290,
+      "slot": 9,
+      "title": "Ghost of Hawke",
+      "look": "You see a translucent, middle-aged man. He's standing next to a statue, staring at you.",
+      "name": "He says nothing.",
+      "job": "He doesn't respond. He just points at the statue.",
+      "dunno": "There is no response.",
+      "nodes": []
+    }
+  ]
+}

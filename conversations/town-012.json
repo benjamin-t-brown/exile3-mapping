@@ -1,0 +1,1062 @@
+{
+  "talkRecord": 12,
+  "townId": 12,
+  "personalityBase": 121,
+  "label": "Vincent, Clarisse, Piglet, Carrie, Conruc, Menlo",
+  "people": [
+    {
+      "id": 121,
+      "slot": 0,
+      "title": "Vincent",
+      "look": "The man sitting behind the counter is busily chopping pungent and peculiar herbs into small pieces. Shelves behind him sag beneath a variety of multicolored solutions with no doubt esoteric purposes.",
+      "name": "_I am Vincent. Welcome to my shop._",
+      "job": "_I make a variety of powerful potions, which are available for purchase. The Tower is an excellent place for this sort of business._",
+      "dunno": "_I can't help you._",
+      "nodes": [
+        {
+          "keywords": [
+            "powe",
+            "poti"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Potions are the most convenient of the item magics. Great strength, great portability, and they taste great! Who could ask for more?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "str1": "Vincent's Potions",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "plac",
+            "busi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have sold potions to the finest mages in Exile. Solberg, 'X', Patrick, and, well, others._ He seems to be debating whether to tell you something.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "solb",
+            "patr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Fine mages all._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "othe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks around to make sure nobody else is nearby. _I can't tell anybody here, but listen. Linda has been buying a lot of weird herbs. They're used for other things, true, but the herbs she's been buying are mainly used for summoning._",
+          "str2": "_It's suspicious. I stay out of tower business, but you guys have enough of a name that I thought you should know._"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "slot": 1,
+      "title": "Clarisse",
+      "look": "This woman is of utterly nondescript appearance: average height, average looks, dull hair. However, her robes are an immaculate white, and her face radiates peace and strength.",
+      "name": "_Welcome, children. I am Mother Clarisse._",
+      "job": "_I am a high priestess of the Church of the Seeking Soul. I spend my time learning, and teaching. And, when it cannot be avoided, wandering._",
+      "dunno": "_You confuse me, my child._",
+      "nodes": [
+        {
+          "keywords": [
+            "high",
+            "prie"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            24,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The greatest honor ever afforded to me._",
+          "str2": "She looks sad. _The greatest honor ever afforded to me. Alas, it did nothing to save the Tower of Magi._"
+        },
+        {
+          "keywords": [
+            "seek",
+            "soul"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We are dedicated to the liberation of learning. Why do we not suffer the tyranny of the strong? Why do we not live exclusively in hovels, prey to giant lizards and disease? Because of learning._",
+          "str2": "_We of this church accumulate and further knowledge in all forms. Knowledge is not wisdom, but it does lead to it._"
+        },
+        {
+          "keywords": [
+            "lear",
+            "educ"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My main responsibility in the Church of the Seeking Soul is to never stop learning, and never stop exploring. It is a great burden. Sometimes, I wish to stop and say enough is enough._",
+          "str2": "_Fortunately, the joy of teaching keeps me going._"
+        },
+        {
+          "keywords": [
+            "teac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Others hoard their magical skills. We delight in sharing them. Alas, we must request a fee to support our archival efforts. Are you interested in spells?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "wand",
+            "avoi"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            24,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Before I came here, I did service in the Empire War, healing, and even fighting. It provided an education, but one I would have been happier without._",
+          "str2": "She shakes her head angrily. _I was visiting here when Linda visited doom on my home, making me a wanderer again. The Tower of Magi is gone, and I mourn the souls lost._"
+        },
+        {
+          "keywords": [
+            "towe",
+            "magi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I mourn the many worthy and learned souls lost, and I pity our country for the wound it has suffered._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "spel"
+          ],
+          "type": 15,
+          "typeName": "shop_priest_spells",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Mother Clarisse",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "slot": 2,
+      "title": "Piglet",
+      "look": "There is a large woman with very short hair behind the counter. She was grinding something with a mortar and pestle when you came in, and her fingers have the permanent brownish stains that are the mark of a true alchemist.",
+      "name": "She wipes a hand clean and extends it to you. _I'm generally called Piglet._",
+      "job": "_I am an experimenter in the alchemical arts._",
+      "dunno": "_That it outside my area of knowledge._",
+      "nodes": [
+        {
+          "keywords": [
+            "pigl"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "expe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Magical training and experimentation is the main business of the Tower of Magi. It's a wonder any of us are still alive._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "alch",
+            "arts"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I don't make potions anymore. That's Vincent's business. What I do do is try to come up with new recipes. For example, I can teach you to make Weak Poison with holly leaves, or a lovely Speed Potion with comfrey root and wormgrass._",
+          "str2": "_Might you be interested in purchasing these fine recipes?_"
+        },
+        {
+          "keywords": [
+            "towe",
+            "magi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Tower has seen its share of turmoil over the years. Sometimes, dark powers have paid visits._ She shivers.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stil",
+            "aliv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Apprentices learning spells. Wizards trying new concoctions.  Mages tinkering with fire and ice and acid and poison and dark powers. It's a wonder nothing has blown us up yet._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dark",
+            "powe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks annoyed. _You should know that certain things are not asked of lightly._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "reci"
+          ],
+          "type": 16,
+          "typeName": "shop_alchemy",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Piglet's Recipes",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "slot": 3,
+      "title": "Carrie",
+      "look": "This woman wears the robes of a student mage. However, she completely lacks the scraping, servile manner of an apprentice. In fact, she looks downright combative.",
+      "name": "_I'm Carrie the apprentice._ She says 'apprentice' as if she wants you to make something of it._",
+      "job": "_Well, I just completed my silence period, and am beginning my preparatory training. That means I'll learn something useful in, say, fifty years or so._",
+      "dunno": "She shrugs.",
+      "nodes": [
+        {
+          "keywords": [
+            "sile",
+            "peri"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_All apprentice mages here spend a year in magically forced silence. It's supposed to, um ..., 'Force us to focus our inner mind.' or 'Free us to learn without the weight of response.'_",
+          "str2": "_It's pure bollocks, of course. They just like to see us squirm._"
+        },
+        {
+          "keywords": [
+            "prep",
+            "trai"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Now I can actually talk. That means a full year of grinding herbs for the masters while they pretend to teach us something useful. We don't learn any actual spells for two full years!_",
+          "str2": "_I tell you, if it wasn't for Bernard, I'd die of boredom._"
+        },
+        {
+          "keywords": [
+            "fift",
+            "year"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She sighs. _Well, more like three years before we learn even a spell of the first circle. But the silence period makes it seem like much, much more, believe me._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "bern"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks upset that she let it slip, but then decides that you aren't a threat. _He's still in his silence period, but believe me, he can communicate more without words than most can with a year of talking._",
+          "str2": "She grins. _Of course, if I hadn't just spent a year being completely quiet, I wouldn't think you were worth telling any of this. No offense._"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "slot": 4,
+      "title": "Conruc",
+      "look": "This mage wears a sash of office - he must be an official of some sort. He must not be working now ... he's just wandering aimlessly through the tower.",
+      "name": "He looks you over. _I'm Conrac. I'm just the administrator. You probably want Vidrain. He's to the southwest._ He seems eager to leave.",
+      "job": "_Oh, there's no need to make conversation on my behalf. I'm powerless to do anything to help you._",
+      "dunno": "He bites his fingernails.",
+      "nodes": [
+        {
+          "keywords": [
+            "vidr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He's in charge of the portal, and thus of the day to day operations of the tower. The Triad controls all the magical stuff, which leave me powerless._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "powe",
+            "help"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Vidrain and the Triad control everything important in the tower between them. And I, the Administrator, am stuck with making sure the trash gets taken out._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "make",
+            "conv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Nobody needs to talk to me anymore. I just sat for hours waiting in that awful Council Room, and nobody came. So now I walk around. It's only mildly awful this way._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "coun",
+            "room"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Let's make a room in the Vahnatai style, they said! Hah! Those chairs are uncomfortable as hell!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "tria"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The ever so mysterious and aloof Triad. They consider me completely beneath them! I didn't want to bring Linda back, but they didn't listen to one word I said!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "lind"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_'We wish the return of Linda.' they said. 'Oh, swell. She only summoned a demon lord into the Tower once, and is only mildly insane. What a beautiful idea! Let's proceed at once!' I said._",
+          "str2": "_'We appreciate your acquiescence,' they said. And that was that. Sarcasm is lost on that lot._ He kicks a wall in irritation."
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "slot": 6,
+      "title": "Menlo",
+      "look": "The crone behind the counter is so aged and brittle you're surprised nothing is actually falling off of her.",
+      "name": "_Menlo,_ she says, in a creaky voice.",
+      "job": "_Child, I've forgotten more than you'll even learn. My knowledge extends from the bottom of the sea and to the highest star. And I'll share it with you, if you ask nicely._",
+      "dunno": "_I do know about that. But I won't tell you._",
+      "nodes": [
+        {
+          "keywords": [
+            "forg",
+            "know"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Learning is my life's work. Why else would I be here?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "know",
+            "shar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks you over, and thinks. _You are the surface adventurers. I know of you. I will tell you of Erika for 200 gold, and dragons for 400. Also, I can lower myself to identifying your items if need be._",
+          "str2": "_Finally, for a scant 25 gold, I can give a friendly warning._"
+        },
+        {
+          "keywords": [
+            "frie",
+            "warn"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            25,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Certain metals give off deadly magics, which cause those nearby to become ill. Certain magic items can do this as well. If you find yourself becoming ill for no reason, look to your inventory._",
+          "str2": "She shakes her head. _Knowledge is never free._"
+        },
+        {
+          "keywords": [
+            "erik"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            200,
+            0,
+            0,
+            0
+          ],
+          "str1": "You pay her. _Erika is the boon and bane of Exile. Without her skills and leadership years ago, we Exiles would be starving and miserable, or dead. Without her hatred of the Empire, the Empire war would not have happened. Her tower is in Upper Exile._",
+          "str2": "She shakes her head. _Knowledge is never free._"
+        },
+        {
+          "keywords": [
+            "drag"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            400,
+            0,
+            0,
+            0
+          ],
+          "str1": "You pay her. _There were three dragons in Exile, Athron, Sulfras, and Khoth. They went up to the surface, suddenly, some years ago. I know not why. I only know one thing ... they all hated the Empire with a passion._",
+          "str2": "She shakes her head. _Knowledge is never free._"
+        },
+        {
+          "keywords": [
+            "iden",
+            "item"
+          ],
+          "type": 19,
+          "typeName": "identify",
+          "extras": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "str1": "She mutters a brief spell, gives your items the merest glance, and comes away with full knowledge of their properties.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "slot": 7,
+      "title": "Spider",
+      "look": "This spider stares at you with big beady eyes. At first, you aren't sure what it's going to do. Then it says, in a friendly, high-pitched voice, _Hi there!_ It starts to bounce up and down happily.",
+      "name": "The chirpy, happy voice continues. _My name is Spider! Pleased to meet you!_",
+      "job": "_I'm here because the neato wizards here wanted to study me!_ He looks at you closely. _You're cute!_",
+      "dunno": "_You're silly!_",
+      "nodes": [
+        {
+          "keywords": [
+            "cute"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah!_ it chirps. _Wanna' go eat bugs?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "neat",
+            "wiza"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The wizards are really, really powerful! They can kill a thousand flies with a single wave of their hand! Cool, huh?_ It gives a single, emphatic hop of approval.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stud"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They say I'm a Giant, Intelligent, Friendly, Talking Spider, and a neat freak of nature or something. They say they should study us before we all disappear!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "bugs"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Bugs are yummy, and the wizards keep a bunch around for me. Wanna' go eat some?_ You politely decline. It looks sad for a moment.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "disa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There aren't many of us in these icky caves anymore. Most of us went to the surface, where the bugs are tastier!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "surf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We snuck there in Secret Tunnels, known only to we spiders!_ It scuttles back and forth to illustrate the sneaking part. _The spiders are up there now, living a happy, yummy life! If you see them, say hi!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "secr",
+            "tunn"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They're secret, silly!_ It thinks it over, and looks at you carefully. _You're cute!_ it finally says.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "slot": 8,
+      "title": "Linda",
+      "look": "You meet the shredded wreckage of a human being. She has grievous wounds on her arms and chest, but one look in her eyes tell you her worst damage is at a much deeper level.",
+      "name": "Her voice scrapes its way out of her throat. _I was Linda._",
+      "job": "She digs her torn nails into her legs, and speaks. _I failed. I brought destruction on us all._",
+      "dunno": "She doesn't seem to hear you.",
+      "nodes": [
+        {
+          "keywords": [
+            "fail",
+            "dest"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She inhales painfully, and speaks. _I brought demons here. I thought I could bend Grah-Hoth to my will by using my own spirit as the gate._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "grah",
+            "hoth"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Her face twists in horror. _I wanted to bend Exile's great foe to our will, to use against the Empire. I would channel him here through me. It is complicated, but I would hold them back with my own spirit._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "spir"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She screams, a long, wrenching keen. Her chest heaves, which, considering the extent of the burns on her chest, must be agonizing. _They used me as a gate, and ripped my soul away! I am their gate!_",
+          "str2": "She quiets down. _My spirit has been taken from me, and made into a gate, through which demons will pour into Exile._"
+        },
+        {
+          "keywords": [
+            "soul",
+            "gate"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She starts to lose consciousness, but manages to pull back from oblivion. _It must be torn. It must be destroyed. It is the only way to save us all. It can be severed, if you have the blessed athame._",
+          "str2": "_There is little other help I can give._"
+        },
+        {
+          "keywords": [
+            "bles",
+            "atha"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I managed to put it in the temple. It will be safe there, but not for long. Then go to the portal. It is in the northwest corner. Don't hesitate to destroy it, or we are all doomed._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "temp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_To the north. The demons cannot approach the altar._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "help",
+            "give"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She starts barking out what she knows. _Do not go into the garden at the center! Grah-Hoth's forces are there! If you can find my laboratory, there are things that will help! And some spirits can give information!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gard",
+            "cent"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The worst of the demons are there, in the garden at the center of the tower, guarding the way to the gate._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "spir",
+            "info"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "The effort of speaking is clearly agonizng for her, but she continues. _I have seen some of the spirits of those the demons slew. They're nearby. I don't know why they stayed, but they must have a reason!_",
+          "str2": "_Speak to them, if you can._"
+        },
+        {
+          "keywords": [
+            "labo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's just southwest of the garden. Beware the garden!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "slot": 9,
+      "title": "Solberg",
+      "look": "You meet Solberg,  wearing torn and scorched robes that mark him as a member of the Triad of the Tower of Magi. He is dirty and has been burned, and is cowering back here out of the way.",
+      "name": "_I am Solberg. Thank Heavens help has come!_",
+      "job": "He waves at the cracked and burnt walls. _It was Linda! She tried again to summon and control the dark powers, and now we may all be doomed!_",
+      "dunno": "_Enough of that! Time is wasting!_",
+      "nodes": [
+        {
+          "keywords": [
+            "lind"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He seems barely able to contain his anger. _Damn her to the pit forever! You cannot imagine the horror that has been wrought here! If you cannot help us contain the dark power, we may all be doomed!_",
+          "str2": "He calms down a little. _Still, if you could speak to her, she might be able to tell you what she did. She survived the demon's attack._"
+        },
+        {
+          "keywords": [
+            "dark",
+            "powe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Years ago, we finally banished the demon lord Grah-Hoth from our caves. Now, she has made it possible for him to return! There is a gate to the north, through which even now he is trying to force himself._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "doom",
+            "help"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Linda created a gate, at the northwest corner of the Tower, and Grah-Hoth is trying to work his way through. The gate must be destroyed!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "grah",
+            "hoth"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It was only through great luck and cost that he was banished before. This time, he is prepared. He must be kept away!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gate",
+            "dest"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_That is the problem! I don't know how to close the gate. I can sense it from here ... it is powerful in a way I am completely unfamiliar with! Explore the Tower as best you can. Maybe you will find a clue for how to deal with it. Linda might know._",
+          "str2": "_But before you go, a warning!_"
+        },
+        {
+          "keywords": [
+            "demo",
+            "atta"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We received no warning. She did something in her lab, and the creatures poured forth. Hardly anyone survived. The Triad is sundered. I hide myself here magically. That is the only reason I am still alive._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "spea",
+            "surv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I saw her running to the southeast. I hope she survives this ordeal, if only so I can punish her myself!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "warn"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There is a garden in the center of the Tower. It is guarded by the bulk of Grah-Hoth's forces. Avoid it, or you may well be overwhelmed._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "tria",
+            "sund"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I felt Mahdavi's death. 'X' teleported away. I am stuck here. Together, we might have been able to do something, but the demons came without warning._",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,747 @@
+{
+  "talkRecord": 26,
+  "townId": 26,
+  "personalityBase": 261,
+  "label": "Masok, Adrianne, Laverne, Carmine, Shirley, Voltok",
+  "people": [
+    {
+      "id": 261,
+      "slot": 0,
+      "title": "Masok",
+      "look": "You meet a grim, squat halberdier of the Empire army. It's amazing how total his disinterest in speaking with you is.",
+      "name": "_Masok._ The word sounds like it was ripped out of him with a hook.",
+      "job": "_I'm a soldier._",
+      "dunno": "He grunts.",
+      "nodes": [
+        {
+          "keywords": [
+            "sold"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah. And that's all._ He turns away. What an uninteresting conversation.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "halb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks angry that you know, and then confused, and then he thinks it over. His voice is quiet. _Look. There's this thing called the Black Halberd. It's sort of a legend. The best halberd ever made. Nobody really believes in it._",
+          "str2": "_I sure didn't. Until I found a scroll._"
+        },
+        {
+          "keywords": [
+            "scro"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I found it in a stump. No kidding. It's old, and it's supposed to give directions to where the halberd is. Don't believe it's real? No difference to me. I can get it myself._",
+          "str2": "_But if you want to purchase it from me, that'd be good too. Only 2000 gold._"
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 149,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 149,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 262,
+      "slot": 1,
+      "title": "Adrianne",
+      "look": "A young, radiantly beautiful woman works behind the bar. She moves like a sylph, almost floating off the ground. Of course, you may only think that because the mead she's serving smells so good.",
+      "name": "She graces you with a dimpled smile. _I'm Adrianne. May I help you?_",
+      "job": "_Our best room is free. Only 8 gold. We still have some of our wonderful, locally made mead. A mere 10 gold for a round._",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "best",
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            8,
+            4,
+            0,
+            0
+          ],
+          "str1": "She leads you you a nice, neat room. _Be sure to come back later for the mead! It's excellent._ She winks at you, and returns to the bar.",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "mead",
+            "roun"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            10,
+            0,
+            0,
+            0
+          ],
+          "str1": "The mead is rich and exquisite. Soon, your head is spinning. You hadn't realized how much you were missing out on in Exile. When you're done, Adrianne leans close. _Fresh goblets of mead will only be 5 gold. I like your faces!_",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "fres",
+            "gobl"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "She fills your goblets with the ambrosia. As she does, she makes conversation. _You know, some soldiers were through here recently. They talked about having seen dragons._",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "sold",
+            "drag"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yep. Sounds fishy, if you ask me, but they said they saw some dragons flying overhead near some mountains somewhere. Look - one of them was a captain, and they said they were going to Lorelei. That's to the north._",
+          "str2": "_If you see them and are interested, be sure to ask._"
+        }
+      ]
+    },
+    {
+      "id": 263,
+      "slot": 2,
+      "title": "Laverne",
+      "look": "You meet an aging woman with curly hair and a winning smile.",
+      "name": "_I'm Laverne. How are ya'?_",
+      "job": "_Oh, not much. I run a little boarding house here, for people in town for a bit._",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "boar",
+            "hous"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You can have a room for the night for only 5 gold. Don't get many visitors out here. Only the odd types who want to see Carmine._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "carm"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Oooh! He's a blacksmith, but a touchy fella'. His doors are locked, and he won't see anybody! Real odd and eccentric and stuff. But the people who come through say he's the best! Go figure._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "room",
+            "nigh"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            5,
+            3,
+            0,
+            0
+          ],
+          "str1": "She thanks you and lets you into a cozy room next door. The next morning, after a restful sleep, she brings you scones.",
+          "str2": "You don't have enough money."
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "slot": 3,
+      "title": "Carmine",
+      "look": "You meet a dark, hunched over, slightly deranged looking man. He holds a hammer in one hand, and a pair of tongs in the other.",
+      "name": "_I'm Carmine. This better be good!_",
+      "job": "He snarls. _I bet you come to purchase weapons, huh?_",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "purc",
+            "weap"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well forget it! I don't make stuff much anymore! I'm just too good. My skills are wasted!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "skil",
+            "wast"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Oh, I can see a little bit of healthy pride is alien to you! Well, I stay out here and plan, and I'm proud of it!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "plan",
+            "prou"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I plan the truly great weapon I'm going to make. The problem is, I need truly great material. You got any quality metal?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "qual",
+            "meta"
+          ],
+          "type": 148,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 148,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "swor",
+            "crea"
+          ],
+          "type": 148,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 148,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 265,
+      "slot": 4,
+      "title": "Shirley",
+      "look": "This woman has soft clothes, soft hands, and a piercing, calculating gaze. She was doing a bit of accounting, but when you approach she sets down her pen.",
+      "name": "_I'm Shirley._",
+      "job": "_I'm a merchant. I look after the trading in this area._ Her calm, implacable, businesslike demeanor is somewhat intimidating after so many months out in the wild.",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "merc",
+            "trad"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Why, yes. Trading up and down this coast has been increasing at a highly profitable rate. Are you interested in making some money?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "maki",
+            "mone"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, it works very simply and smoothly. Couriers can get goods down south, bring them here, and sell them. They can then purchase the herbs we produce, and take them down to Libras and sell them._",
+          "str2": "_Quick, easy, safe, profitable. Who could ask for more?_"
+        },
+        {
+          "keywords": [
+            "purc",
+            "herb"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Rare Herbs",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell",
+            "good"
+          ],
+          "type": 150,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 150,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 266,
+      "slot": 5,
+      "title": "Voltok",
+      "look": "A mage sits behind the counter, polishing a dark crystal.",
+      "name": "_I am Voltok._",
+      "job": "_I collect and prepare crystals. It's an ideal place for it._",
+      "dunno": "_I don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "coll",
+            "crys"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Crystals and herbs - the main products out here. You can get herbs next doors. You can purchase crystals here._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "idea",
+            "plac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's very unspoiled. All the stone collectors haven't been all over here yet. The only problem is the gremlins._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Voltok's Crystals",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "herb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Not alchemical herbs, but herbs people out west love to pay money to have on their food. Out here in the woods, they grow great, and as long as we leave the trees alone, the gremlins don't mind._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "grem"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Oh, there are plenty of spooky creatures out there. The worst are the gremlins. Fortunately, we can deal with them. We leave them milk and cookies in one of our buildings, and they eat them and leave us alone._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "alon",
+            "buil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks nervous. _Just don't ask too much about it. And don't poke around too much. You aren't from around here. Just leave things be._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "slot": 6,
+      "title": "Hermit",
+      "look": "You meet a pale, thin, priest with worn clothes and a worn face. He looks very upset that you've intruded upon his solitude.",
+      "name": "_I don't want you here._",
+      "job": "_I came here to contemplate my faith in solitude._",
+      "dunno": "_Leave me alone._",
+      "nodes": [
+        {
+          "keywords": [
+            "fait",
+            "soli"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes, and you're intruding. Good day._ He waves his hand, and you find yourself somewhere else.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ritu",
+            "sanc"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks nervous. _Ah. You want the ritual. An Empire priestess came to me, but she only wanted the ritual in order to sell it. That is not becoming._",
+          "str2": "_There is only one reason I do not expel you now._"
+        },
+        {
+          "keywords": [
+            "reas",
+            "expe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He watches you carefully for any sign of your true intentions. _Yes. I speak with you because the ritual can be a powerful tool for good, and I feel bound to share it if that is how it will be used._",
+          "str2": "_So, tell me. Who do you plan to use the ritual against?_"
+        },
+        {
+          "keywords": [
+            "empi",
+            "exil"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He shakes his head. _They are of no interest to me._ He waves his hand, and you find yourself somewhere else.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "slim",
+            "cock"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He shakes his head. _They are of no interest to me._ He waves his hand, and you find yourself somewhere else.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ogre",
+            "trog"
+          ],
+          "type": 151,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 151,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 268,
+      "slot": 7,
+      "title": "King Vothkaro",
+      "look": "You stand face to face with the King of the Troglodytes. He wears gleaming steel armor and a massive blade. His face is scarred and deeply lined, and his hair is black and stringy.",
+      "name": "_I am King Vothkaro - High King of the Troglodyte People._",
+      "job": "His voice is deep and commanding. _The scroll I had left for you told you the things you need to know about our people. We are a rootless people, we are a holy people, and we have an ancient enemy._",
+      "dunno": "_I know not of that._",
+      "nodes": [
+        {
+          "keywords": [
+            "trog"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We are the troglodytes. Do not call us troglos. It is insulting._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "root"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We were once destroyed - wiped off the face of the earth. Then we were brought back by the Glowing Ones. We aren't sure who our destroyers were, but I have a guess._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dest",
+            "gues"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I believe the Ancient Enemy destroyed us._ (Actually, it was almost undoubtedly the Empire, but you keep quiet.)",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "holy",
+            "khaz"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Our gods are secret and powerful, and our people are always half ruled by our holy leaders - the khazis. Khazis are generally wise. Unfortunately, there are exceptions._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "anci",
+            "enem"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The giants!_ He hawks and spits. _Our holy, eternal foe! Their crimes against us were unspeakable, and their punishment will be too!_",
+          "str2": "He glowers. _Unfortunately, the khazis do not agree. That is why I have had you come here._"
+        },
+        {
+          "keywords": [
+            "glow",
+            "ones"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We know little of the glowing ones. They speak to us. They made us, or so they say. They are insubstantial glowing forms, and we can tell little of what they truly are. They tell us to do things. We do them, but only because it is what we wish._",
+          "str2": "_They do not want us to fight the giants. I wish to. One khazi agrees with them. I do not think he is wise._"
+        },
+        {
+          "keywords": [
+            "exce",
+            "wise"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The leader of the khazis is Elhioc. He believes something so heretical anyone else saying it would be killed - that we should ignore the ancient enemy and concentrate on fighting the humans.",
+          "str2": "_Alas, he is my equal. That is why I have brought you here. I have a mission for you._"
+        },
+        {
+          "keywords": [
+            "equa",
+            "miss"
+          ],
+          "type": 21,
+          "typeName": "buy_service",
+          "extras": [
+            0,
+            28,
+            8,
+            5
+          ],
+          "str1": "He smiles wryly. _Elhioc is wise, and the walls have ears. Let us just say he should be made to answer for his heresy._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "answ",
+            "here"
+          ],
+          "type": 21,
+          "typeName": "buy_service",
+          "extras": [
+            0,
+            28,
+            8,
+            5
+          ],
+          "str1": "_Return to your cell. A new scroll awaits you. Much will be made clear to you._ (You take note of this.)",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

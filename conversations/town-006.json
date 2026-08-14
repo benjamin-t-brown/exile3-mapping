@@ -1,0 +1,984 @@
+{
+  "talkRecord": 6,
+  "townId": 6,
+  "personalityBase": 61,
+  "label": "Gointz, Asp, Spike, Pathass, McDonald, Foley",
+  "people": [
+    {
+      "id": 61,
+      "slot": 0,
+      "title": "Gointz",
+      "look": "This man is intensely unappealing. He has bushy whiskers, a distracting personal odor, and wartmoss stains on his shirt (wartmoss is chewed much like tobacco). He fixes a beady eye on you as you approach.",
+      "name": "He hawks and spits a grayish stream at a nearby spittoon. He isn't too picky about his aim. _Call me Gointz, kid._",
+      "job": "He hawks and spits. _I sails the lake._",
+      "dunno": "He grunts and spits.",
+      "nodes": [
+        {
+          "keywords": [
+            "hawk",
+            "spit"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He hawks and spits enthusiastically. _Wartmoss. Live for the stuff. Want some?_ You decline.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sail",
+            "lake"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He hawks and spits. _Yep. Cave fish are good eatin'. Sell plenty of 'em. See some interesting sights too. Real interesting sights._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "cave",
+            "fish"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He hawks and spits. _White, clammy, and weird lookin'. But good eatin'._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "inte",
+            "sigh"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He hawks and spits. _That's fer darn sure. Lots of peculiar goin's on out there. Lots of stuff to see, if maybe ya' got a boat._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "boat"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He hawks and spits. Twice. Then he looks at you sharply. _Interesting ya' should mention it. Sometimes I got an old boat I needs to unload. If you might be into some sort of purchase, let me know. I ain't goin' anywhere._ ",
+          "str2": "_It's a bargain at 500 gold, after all. A bit steep I know, but hey, I'm the only guy with boats!_"
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 116,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 116,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "slot": 1,
+      "title": "Asp",
+      "look": "This shifty looking man wanders aimlessly but quickly around the town. It takes a minute to catch up with him. He doesn't seem keen on talking to you.",
+      "name": "He looks you over, then seems to recognize you. _Call me Asp._",
+      "job": "He looks you up and down appraisingly. _Just wandering. And observing._",
+      "dunno": "_Shhh! The walls have ears!_",
+      "nodes": [
+        {
+          "keywords": [
+            "wand"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Here and there. Like you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "obse"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well you know, there's a lot to be seen by someone who likes to pay attention. Like maybe you might have noticed something peculiar nearby._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "pecu",
+            "near"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Like in the northwest corner of town._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "bunk"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_That's what it's called, eh'? Interesting._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "nort",
+            "corn"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There's a building up there with no doors. No entrances. Nobody in or out. Been watching for days. And you know what's really bizarre?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "real",
+            "biza"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Nobody around here owns up to noticing it. Mention it and everyone gets real uncomfortable and pretends they don't know what you're wondering about. What's the big secret?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "secr"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It's some secret Exile thing, I tell you. I shouldn't be goin' after it like I am, but I really want to know what's in there!_ He suddenly looks suspicious. _Wait! Do you work for Exile? Never mind! I don't know anything about anything!_",
+          "str2": "He backs away, and looks over at the dark stone building nervously."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "slot": 2,
+      "title": "Spike",
+      "look": "There is a small kitten here. It seems well fed. It is also meowing an awful lot.",
+      "name": "There's a name tag around its neck. It says _Spike._ When you look, it says _Meow. Mew. Mew. Meow. Meow._",
+      "job": "_Meow. Meow. Meow. Mew. Mew. Mew. Meow._ It's a very noisy kitten. You start to wonder if it ever stops for air.",
+      "dunno": "_Meowmeowmeowmeowmeow!_",
+      "nodes": [
+        {
+          "keywords": [
+            "meow"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It looks very pleased. _Meowmeowmeowmeow! Meowmeowmeow! Meowmeowmeowmeow!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "slot": 3,
+      "title": "Pathass",
+      "look": "You meet a tottering old Slith, his once green scales darkening around the edges with age. It wears many amulets and teeth around its neck.",
+      "name": "_Ssss. Greetingsss. Welcome to the Bunker. I am Pathass._",
+      "job": "He speaks in a shaky, sibilant voice. _At the asssking of Exile, I have come to the Bunker. I help with their research._",
+      "dunno": "_Sssss. I know not of that._",
+      "nodes": [
+        {
+          "keywords": [
+            "bunk"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Thissss was built here with the help of the New Cotransss, asss a ssssort of magical crisisss handling center/ We wait here for some need for research, and then we resssspond. The people here have been a great assistance._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "help",
+            "rese"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He sighs. _I am a priessst of my people normally. But I am alssso one of their strongest magesss, and I know much of metal working too. That is why they asssked for me. I miss my temple._",
+          "str2": "_Of course, it is an opportunity too._"
+        },
+        {
+          "keywords": [
+            "assi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They bring us food at night, and they keep thisss place secret. And they give ussss company sometimes. Thisss can be a lonely place to wait._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "temp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Down in our city of Gnass, in the Great Cave, in Exile. A beautiful city. I missss it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "oppo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_For example, to meet the great magesss and mindsss of Exile. Like Erika. I met her not long ago._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "erik"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_She issss the greatessst mage of Exile. She livesss up here now, to the northeassst. But she can never again go to the surface._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "surf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They cursssed her when they banished her, so much they feared her power, If ever again she sees the sssun, it will slay her inssstantly. That is why she hatesss the Empire so much._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi",
+            "hate"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It was an honor to meet her, but frightening asss well. The depth of her hatred isss hard to comprehend._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "slot": 4,
+      "title": "McDonald",
+      "look": "You meet a tall, thin, awkward looking man with curly dark hair. He is polishing a rough bar that seems to have been set up rather quickly.",
+      "name": "He has a high pitched, nervous voice. _I am McDonald. Who are you?_",
+      "job": "_I take care of the food here. That's all I do, so don't get mad at me if anything goes wrong! Lord knows everything is messed up, and I didn't do it!_",
+      "dunno": "_I'm kind of busy now. OK?_",
+      "nodes": [
+        {
+          "keywords": [
+            "food",
+            "purc"
+          ],
+          "type": 11,
+          "typeName": "shop_food",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "McDonald's Rations",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "wron",
+            "mess"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            4,
+            0,
+            0
+          ],
+          "str1": "_Everything's behind schedule! Everyone hates each other! Bugs keep attacking! It's not my fault!_",
+          "str2": "_Well we were behind schedule, and there were bugs and everything, and that wasn't enough! Now we've had these murders! I didn't do it!_"
+        },
+        {
+          "keywords": [
+            "behi",
+            "sche"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We were supposed to have all the buildings up by now. That wasn't my job! It wasn't my fault!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hate",
+            "othe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Some of the humans really hate sliths. They don't want to work together. I have no problem with the lizards, and I wish they could just all get along._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "bugs",
+            "atta"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Those chitrachs have been moving into every cave we can get into, and they grow big and mean. They keep walking up and chomping down on us. Two appear for every one we kill. It's a big mess._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "murd"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks frantically nervous. _I know nothing about it! Honest! Foley and Thompson went north to survey. We had to go look for them a few days later, because they didn't come back._",
+          "str2": "_We found their bodies, and ran for it and called for help. You would have run too! We were afraid of getting attacked by bugs at any moment._"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "slot": 5,
+      "title": "Foley",
+      "look": "There is a young man with short hair and a broad smile sitting at the table. He seems very friendly.",
+      "name": "_Hi there! I'm called Foley._",
+      "job": "He turns his smile to you, setting you at ease. _Well you know, I'm here to help build things._",
+      "dunno": "_Oh yeah. I really, really, really want to talk about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "help",
+            "buil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Oh yes, I'd absolutely love to talk about what I spend all day doing. I would really, really love that. I can't get enough of it._ His voice drips with sarcasm, but his expression remains perfectly open and friendly.",
+          "str2": "_Maybe I want to hear about somebody else's life. Like maybe I want to hear about your adventures!_"
+        },
+        {
+          "keywords": [
+            "adve"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He pauses. _You know, come to think of it I don't want to hear about your adventures. I want to talk about other things._ His smile remains undisturbed.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "othe",
+            "thin"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Oh, all sorts of things. Just nothing I want to talk about with you._ He pauses, still smiling. _Wait a moment! I know something about magic!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "magi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_No, I don't really. I'm just trying to make conversation, you big idiot!_ All of the burly workers laugh at you. You keep from killing him.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "slot": 6,
+      "title": "Thompson",
+      "look": "You meet a tall, solidly built worker. He's drinking mushroom beer from a slender glass.",
+      "name": "_I'm Thompson. But I answer to Buddy._",
+      "job": "_I've been doing a lot of surveying. That's mainly what I'm up here for._",
+      "dunno": "_Don't know about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "budd"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grins wickedly. _Yesssss?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "surv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks you up and down and sighs. _Well, the caves around here, mainly. Looking for places to build, and resources, and all those other useful things. Foley and I have been going north lately._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fole"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Sweet guy. You ought to go chat with him._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "nort"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Lots of little caves and tunnels up there. Very lovely and private. We can't guess what treasure we might find._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_But of course, all we'll find are big piles of rocks. What else, around here?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "love",
+            "priv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Just right to get eaten up by all sorts of insects._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "slot": 7,
+      "title": "McKinley",
+      "look": "There is a short, stout woman sitting at the bar, working on her fifth mug of mushroom beer. She looks very uninterested in your presence.",
+      "name": "_McKinley. OK?_ she grunts.",
+      "job": "_I'm a laborer here._",
+      "dunno": "_Huh?_",
+      "nodes": [
+        {
+          "keywords": [
+            "labo",
+            "here"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            308,
+            4,
+            0,
+            0
+          ],
+          "str1": "She turns to you, annoyed. _Look, I'm trying to drink here, OK? You want my time, get me a drink?_",
+          "str2": "She turn to you, angry. _Look, two of my friends just got murdered, OK? Idiot?_"
+        },
+        {
+          "keywords": [
+            "frie",
+            "murd"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah. They went north. I think some bugs got 'em. That's all I know._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "bugs"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Chitrachs, they're called. They snuck into Upper Exile with the humans somehow. That's all I know, OK? Let me get blasted in peace._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "drin"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "You buy her another beer. _OK. Let's make this quick. We're building New Formello. It's a pain. We keep getting attacked. Whaddaya' wanna' know?_",
+          "str2": "You don't have enough money. McKinley ignores you."
+        },
+        {
+          "keywords": [
+            "atta"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_By chitrachs. They're big, nasty bugs._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "form"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There's a Formello down in Exile. Big city. Never been there. I'm from Dharmon myself._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dhar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_That's another town down in Exile._ She takes a deep swig of beer.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "pain"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, you try to build a city, from scratch, in the middle of nowhere, with a bunch of dumb lizards to help, while being attacked by bugs all the time, and see how much fun you have!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dumb",
+            "liza"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Oh, sorry. We have to call them Slithzerikai. I forgot. Big deal._ She takes another swig of beer.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "slot": 8,
+      "title": "McCullouch",
+      "look": "There is a short man with short hair on his hands and knees here, cementing stone floor tiles.",
+      "name": "He looks up at you and cocks his head. _I am McCullouch. Welcome to my work place._",
+      "job": "_I am assembling a floor, as you can see. Alone._",
+      "dunno": "_What?_",
+      "nodes": [
+        {
+          "keywords": [
+            "asse",
+            "floo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Very rewarding work. I'm good at it. You see, someday, it will be walked on constantly. I can relate._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "alon"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. Normally, there would be a slith named Ahsoth helping me. However, it is absent, as you can see._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "abse"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Normally, one might be inclined to take this as evidence of the laziness of Slithzerikai, especially considering how often it has been happening lately. And how lousy the work they've been doing has been._",
+          "str2": "_However, I'm sure you wouldn't come up with the idea that the Sliths are just big dumb lizards. That wouldn't be a conclusion we would come to, right?_"
+        },
+        {
+          "keywords": [
+            "conc",
+            "righ"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Of course. We enlightened types have to stick together._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "slot": 9,
+      "title": "Ahsoth",
+      "look": "There is a muscular Slithzerikai sitting on this bed. It looks like it's meditating. When you approach, he comes out of it and looks at you with unblinking eyes.",
+      "name": "_I am Ahsoth. Greetingsss to you, humanssss._",
+      "job": "His face remains expressionless but his eyes are filled with fury. _I wasss sent here by my people as a gesture of peace to humanssss. I help them build this city._",
+      "dunno": "She smiles sweetly. _Can't help you._",
+      "nodes": [
+        {
+          "keywords": [
+            "gest",
+            "peac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Not long ago, our two peoplesss warred, but now we have a sort of peace, and work together. We asssked to help you build this place, and some of usss came up here to help build this city._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "buil",
+            "city"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We sliths are not used to buildings. Cavesss are our natural homes. We only started making buildings not long ago, and we are unused to the work. The humansss to not understand thisss._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "huma"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Maybe many humansss are good, so our leadersss say. But humansss here call us lazy, and stupid, and insssult usss as we work. And lately, they keep it always so cold._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "cold"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We slithsss are, as you call it, cold-blooded. We need much heat, but the humansss do not create it. There are fewer firesss now, and we are alwaysss cold. This only worsens the problem!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "wors",
+            "prob"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_When we are cold, we slow down, and they call usss lazier. And think we deserve less heat, which makes us slower still, and so it goes. We complain, but they do not listen._",
+          "str2": "_Oh, we long to return to our home. We will share with our leaders the other side of their beloved humanssss._"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,540 @@
+{
+  "talkRecord": 0,
+  "townId": 0,
+  "personalityBase": 1,
+  "label": "Weaponsmith, Armorsmith, Merry, Provisioner, Tailor, Fletcher",
+  "people": [
+    {
+      "id": 1,
+      "slot": 0,
+      "title": "Weaponsmith",
+      "look": "The town weaponsmith bows to you, politely waiting to take your order.",
+      "name": "_I am known around here simply as Smith._",
+      "job": "_You may, if you wish, purchase fine weaponry here. In addition, you may sell your excess tools of destruction._",
+      "dunno": "_I don't know much about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "purc",
+            "weap"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "Fine Weaponry",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fine"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I would sell no less than the finest weaponry here. Unlike my competitors._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "tool",
+            "dest"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I know not what use my blades and such are put to when they pass beyond my door. That is not my job. I just make them._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "unli",
+            "comp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Thieves and scoundrels, every one. Avoid them, if you know what's good for you!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 8,
+          "typeName": "sell_weapons",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "The merchant carefully looks at and appraises your weaponry.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slot": 1,
+      "title": "Armorsmith",
+      "look": "You are greeted by a grinning and helpful armor salesman.",
+      "name": "_I am known in these parts as Pat._",
+      "job": "_Traveling is dangerous these days. You should definitely purchase some armor to protect yourself. And, if you're protected enough already, you can sell excess armor back to me._",
+      "dunno": "_I'm afraid I only deal in armor._",
+      "nodes": [
+        {
+          "keywords": [
+            "trav",
+            "dang"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You've heard, I'm sure, of the many monsters roaming our lands. My business is booming, and yet I find myself unable to take much pleasure in it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "armo"
+          ],
+          "type": 5,
+          "typeName": "shop_armor",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "Buying armor:",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mons",
+            "land"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I know little of the effects of the monsters upon our lands, except to say that they have been very, very bad._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell",
+            "exce"
+          ],
+          "type": 6,
+          "typeName": "sell_armor",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "The merchant looks over your armor with a trained eye. Everything not armor is ignored.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slot": 2,
+      "title": "Merry",
+      "look": "The toolsmith looks up from a rather intricate repair job. You can't help but feel the smith's face looks familiar somehow.",
+      "name": "_I am known as Merry. Welcome to my shop._",
+      "job": "_I and my siblings run shops such as this all over Valorim. I have a host of fine tools you can purchase. Also, I deal in used goods. Any supplies you no longer want you can sell to me._",
+      "dunno": "Merry shrugs.",
+      "nodes": [
+        {
+          "keywords": [
+            "tool",
+            "purc"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "Merry's Supplies",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell",
+            "supp"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Merry looks over all of your supplies, and makes on offer on everything that has been identified.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "valo",
+            "sibl"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes! My parents were well blessed with children, and taught us well the toolsmithing trade. We have since then left home and spread all over Valorim, opening shops and plying our trade._",
+          "str2": "_You may have visited one of my brother's or sister's shops. You would be able to tell because of our unfortunate naming situation._"
+        },
+        {
+          "keywords": [
+            "unfo",
+            "situ"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My parents were somewhat uncreative, and gave us all the same name. Kind people, our parents. Talented with their hands. But dumb as posts._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "pare",
+            "chil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They brought many of us into the world, and taught us well. However, when it came to naming us, it was an unfortunate situation._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slot": 3,
+      "title": "Provisioner",
+      "look": "A heavy-set man with a dark complexion is working hard rolling out pie crusts. His hands and clothes are covered with flour.",
+      "name": "He barely looks up from his work. _I'm Alfredo. Welcome to my shop._",
+      "job": "_You look to be adventurers. I have all sort of rations for sale. Quality goods ... they'll hold up well while you travel._",
+      "dunno": "He concentrates on the pie crust and pretends he didn't hear you.",
+      "nodes": [
+        {
+          "keywords": [
+            "rati",
+            "sale"
+          ],
+          "type": 11,
+          "typeName": "shop_food",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Provisioner",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "adve"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grunts and slaps some recalcitrant dough flat with the palm of his hand. _Oh, I'd love to go gallivanting on quests and stuff, looting and slaying. But I travel enough as it is._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "qual"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It needs to be! It's what I eat when I travel._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "loot",
+            "slay"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, that's what you adventurers do, isn't it? Break into creatures homes, slay them, and take their stuff, isn't it? Damned impolite, if you ask me._",
+          "str2": "He tastes the dough. It seems to meet with his approval."
+        },
+        {
+          "keywords": [
+            "trav"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Sure, I have to travel! I run shops like this all over Valorim. Others take care of them, usually, but I have to go all around anyway to make sure they're all in shape._",
+          "str2": "_In fact, you may see me at one of them!_"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slot": 4,
+      "title": "Tailor",
+      "look": "The town tailor sits at a wide table, pins in her mouth, hemming a long dress.",
+      "name": "She says something, but the pins in her mouth keep you from understanding.",
+      "job": "She starts saying something about what she does and what she has for sale, but the pins in her mouth make her very hard to understand. You do make out the word _sale._",
+      "dunno": "She looks confused, and says something you almost but can't quite make out.",
+      "nodes": [
+        {
+          "keywords": [
+            "sale",
+            "purc"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "At the tailor:",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "pins"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She says something in response, but again, the pins keep you from understanding. It sounds like _Wrrrss tmmmm prrrmmbblmmm?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "wrrr",
+            "prrr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She nods and smiles. _Tmmmm hooorrrkllaaa._ Satisfied, she gets back to work.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "tmmm",
+            "hooo"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks irritated. _Wrrrr hoooo prrrmmmsm?_ You wonder how she talks so emphatically with the pins in her mouth without poking her lips.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slot": 5,
+      "title": "Fletcher",
+      "look": "You meet the town fletcher, who sits at a counter covered with feathers, thin wood shafts, broken arrows, and other items of the trade.",
+      "name": "You get a vacant look. _You know, I've been working so hard at fletching, for so long, I'm not sure I remember._ An awkward smile. _Sorry._",
+      "job": "_I forget a lot of things, but I never forget that. I have missiles for sale. It's my life's work!_",
+      "dunno": "_I'm afraid I forgot everything I knew about that._",
+      "nodes": [
+        {
+          "keywords": [
+            "forg",
+            "reme"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Forgot where I lived last week. Fortunately, someone, I forget who, pointed out where I should go. I think I ended up in the wrong place, but I'm not sure._",
+          "str2": "_I didn't know any of the people there, but they seemed very nice, so maybe I know them and just forgot them. Who knows?_"
+        },
+        {
+          "keywords": [
+            "sale",
+            "miss"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Missile weapons:",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "life",
+            "work"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_To the exclusion of all else, I'm afraid. As I fill my mind with knowledge of arrows and bolts and such, other things keep getting crowded out._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "slot": 9,
+      "title": "Lizard",
+      "look": "A small lizard looks up at you with beady eyes.",
+      "name": "_Hiss._",
+      "job": "_Hiss hiss._",
+      "dunno": "_Hiss?_",
+      "nodes": [
+        {
+          "keywords": [
+            "hiss"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "The lizard looks up at you as if deciding whether you're food or not. _Hiss. Ssss. Hiss._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ssss"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "The conversation continues in this vein for some time. You learn very little.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hoho"
+          ],
+          "type": 26,
+          "typeName": "npc_leaves",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "The lizard's eyes widen in surprise. _Sss! You know the secret lizard password! Who told you? Ssssss! The other lizards must know!_",
+          "str2": "The lizard runs off, tail twitching in agitation."
+        }
+      ]
+    }
+  ]
+}

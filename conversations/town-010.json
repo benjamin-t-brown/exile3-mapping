@@ -1,0 +1,838 @@
+{
+  "talkRecord": 10,
+  "townId": 10,
+  "personalityBase": 101,
+  "label": "Glydden, Ilsa, Paulo, Feral, Illyree, Wandering Monk",
+  "people": [
+    {
+      "id": 101,
+      "slot": 0,
+      "title": "Glydden",
+      "look": "A priest with a large sword sits at the bar, drinking untoward amounts of grog. She turns as you approach, and you readily see the booze hasn't affected her in the slightest.",
+      "name": "_I'm Glydden. I'm captain here._",
+      "job": "_I'm the captain in Delis._ She eyes you carefully. _Been here for five years, since I served in the Exile campaign._",
+      "dunno": "_What's that?_",
+      "nodes": [
+        {
+          "keywords": [
+            "exil",
+            "camp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_It was a long, bloody business. I got nothin' against the Worms. It's nothing personal._ (Worms are what the Empire troops called the Exiles.) _But I'll gut any one of them who messes with my boys._",
+          "str2": "She watches you carefully as she says this. No doubt she suspects you're Exiles, if she isn't sure already."
+        },
+        {
+          "keywords": [
+            "capt",
+            "town"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I send out the patrols here, and keep an eye on what all happens in town. Plus, sometimes I gotta' do priest stuff. I spent a lot of years as a holy soldier._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "town",
+            "deli"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This is the big seaport for stuff being shipped to and from the north. Sometimes I think there's more than just shipping going on._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "boys",
+            "patr"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            281,
+            5,
+            0,
+            0
+          ],
+          "str1": "_They're good lads, out day after day wiping out slimes. And anyone else who gets in their way, if you catch my meanin'._ She watches you coldly.",
+          "str2": "You tell her how you helped her patrol out. _Well_, she says  _I never thought I'd see the day one of my troops was saved by an Exile. If you're fighting the slimes with us, I have a bit of advice for you._"
+        },
+        {
+          "keywords": [
+            "holy",
+            "sold"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I did a lot of fightin', and a lot of healing. I can do that for you if you need it, but it'll cost._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "heal",
+            "cost"
+          ],
+          "type": 18,
+          "typeName": "healer",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ship"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She shakes her head. _Not my job.  Don't know nothin' about it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "advi"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            3,
+            0,
+            0
+          ],
+          "str1": "_West of Krizsan on the south shore we've seen this tower, that has slimes working for brigands._ She nods. _That's right. Slimes actually enslaved to brigands. Someone should check that out ... might learn something interesting._",
+          "str2": "_Now that the slimes are almost all dead, there's still plenty of other monsters to fight. Head up to Shayder, on the island to the northwest. The cockroaches aren't much tougher than the slimes, I hear._"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "slot": 1,
+      "title": "Ilsa",
+      "look": "The bar is being tended by a vigorous woman in a black leather jerkin. She has dirty blond hair and a tanned face.",
+      "name": "_I'm Ilsa. Care for a drink?_",
+      "job": "_We have the standard inn fare. Beer is two gold, and a room is eight. Room's expensive, but very, very nice. And not much worry about slimes._",
+      "dunno": "She shakes her head.",
+      "nodes": [
+        {
+          "keywords": [
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            10,
+            4,
+            0,
+            0
+          ],
+          "str1": "She takes your gold and gives you a key. _Second door on the right. Sweet dreams!_",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "expe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We only have two rooms after all. Have to make what money off 'em we can!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "beer"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "The beer is excellent, if a bit gritty from all the dust. By way of conversation, Ilsa says _Watch out for that weird priest._",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "slim"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            3,
+            0,
+            0
+          ],
+          "str1": "She looks very worried. _There aren't many of them out here, thank Heavens, but they're coming. Mark my words. Hope something's done about it soon. I'm worried sick about my daughter._",
+          "str2": "She sighs. _They say the slimes are all dead, but there's still a few of 'em around. I try to keep my daughter indoors, but she won't have any of it!_"
+        },
+        {
+          "keywords": [
+            "daug"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Her name's Susie. She'll be around her somewhere, that little tomboy. I just hope if she sees a slime she has the sense to run, instead of throwing rocks at it or trying to make it a pet, or some insane thing like that!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "weir",
+            "prie"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He says his name's Paulo. He's in the first room. He says he teaches spells, but I think he's a bit creepy. Still, as long as he pays for his room and doesn't bug anybody, he's not so awful._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "slot": 2,
+      "title": "Paulo",
+      "look": "A man with dark skin and an intense expression sits at the table, reading a prayer book. He seems strangely unconcerned that you just barged into his room. He wears ominous, blood-red robes.",
+      "name": "_I am simply called Paulo._",
+      "job": "_I am a humble priest, wandering the lands and spreading my teachings. For now, I have found this village a pleasant place to stay._",
+      "dunno": "He doesn't respond.",
+      "nodes": [
+        {
+          "keywords": [
+            "humb",
+            "prie"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Sometimes it is a struggle to be humble, considering the foolishness and idiocy I must encounter every day. But I manage._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "spre",
+            "teac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "His face beams. _Ah! You wish to take the path to enlightenment? Are you more interested in philosophy or magic?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "vill",
+            "stay"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Pergies is pleasant, and far from most of the monsters that afflict Valorim. I plan to stay here for some time._",
+          "str2": "_Alas, not all in this area are entirely savory._"
+        },
+        {
+          "keywords": [
+            "magi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I know several simple rituals, which may easily be adapted to the workings of your faith. Alas, I need to eat. I will require a small fee, should you wish to purchase my knowledge._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "know"
+          ],
+          "type": 15,
+          "typeName": "shop_priest_spells",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Paulo's Rituals",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "phil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I teach the divinely inspired philosophy of Divine Independence._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "divi",
+            "inde"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We have been given by our creators the greatest gift of all: the ability to act as independent creatures. This has a much ignored accompanying responsibility, however: the responsibility to remain independent._",
+          "str2": "_Those who lose their independence are parasites. One should only take from others as part of a fair trade._"
+        },
+        {
+          "keywords": [
+            "inde",
+            "para"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Let's just say that the other churches are perfectly free to saddle themselves with the poor and crippled. We take only those who can help us, and who want the divine freedom to not help others._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fair",
+            "trad"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He thinks for a bit. _Fair trades take all forms. For example, I recently tried to obtain a package of herbs for my art. Parasites took my herbs from me, in a crude theft._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "herb",
+            "thef"
+          ],
+          "type": 121,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 121,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "savo"
+          ],
+          "type": 4,
+          "typeName": "depend_on_time",
+          "extras": [
+            60,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The village of Delis, to the south, is a rather immoral place, for example. In fact, some people there, and I consider them only barely human, committed the theft of a package of my herbs._",
+          "str2": "_The village of Delis, to the south, was a rather immoral place. Then the slimes rose up and took the town by surprise. The place is a ruin. It's a great annoyance. One person there had stolen some of my herbs._"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "slot": 6,
+      "title": "Feral",
+      "look": "You meet a seedy looking archer from the Empire army. He's low on arrows, has dirty armor, and is clearly on one of his later glasses of mead. He scoots over to make room for you as you approach.",
+      "name": "_My pals call me Feral._ You aren't surprised.",
+      "job": "_Well, I'm waiting here for my unit to get me, so we can go hunting for slimes. I'm really looking forward to it._ He rolls his eyes. _I got a lot out of my last patrol, but don't want to try to repeat the experience._",
+      "dunno": "He spits.",
+      "nodes": [
+        {
+          "keywords": [
+            "wait",
+            "unit"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They're days late. They may have gotten eaten by slimes. Be a shame._ He takes a swig of mead. _Good stuff, this._ He burps.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hunt",
+            "slim"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_As horribly dangerous, violent, pointless work goes, it's above average._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "repe",
+            "expe"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah, the last time I was on patrol, we found a bunch of escaped horses. We split 'em up among us, and then I won a few playin' cards. It was great! Horses are really rare now. The slimes love to eat them._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "burp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Excuse me._ He burps again.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hors",
+            "rare"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grins. _Horses are really valuable these days. If you're interested, though, you might be able to obtain some._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "obta"
+          ],
+          "type": 120,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 120,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "slot": 7,
+      "title": "Illyree",
+      "look": "The woman lying back on this pile of filthy furs has pale green skin, silvery hair, and impossibly elegant features. She must be one of those legendary creatures - the dryads. She looks pale and ill, however, and stares blankly at the ceiling.",
+      "name": "She turns her head weakly to you. _I am Illyree,_ she croaks.",
+      "job": "She coughs. _I have been taken from my forest. Soon I will be beyond help._",
+      "dunno": "She says nothing.",
+      "nodes": [
+        {
+          "keywords": [
+            "fore"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We dryads must be out in the woods to survive. If I stay in this pit long, I will die. I am doomed if you do not help me._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "beyo",
+            "help"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The giant Guhkbar keeps me here. I could slip away, but this door has a magic lock._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gian",
+            "guhk"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Her eyes flash red. It's an eerie sight. _He is an ancient giant, my long time enemy. He surprised me and carried me off. I would curse him mightily, if I could be helped from this cell._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "magi",
+            "lock"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I saw some things when I was carried in. Guhkbar has a key in the box right by his sleeping pad. It's in his lair, the cave that has a statue outside it. To get there, you would have to slip past Guhkbar._",
+          "str2": "She has a coughing fit, which wracks her delicate body. _I have some power left. I have a charm which could help you get the key._"
+        },
+        {
+          "keywords": [
+            "char"
+          ],
+          "type": 21,
+          "typeName": "buy_service",
+          "extras": [
+            0,
+            305,
+            0,
+            80
+          ],
+          "str1": "She makes a rough motion with her hand. She's just cast a spell on you. _There. If you don't go too near Guhkbar, you can slip by him into his cave. Beware. He is crafty. Avoid diversions._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "craf",
+            "dive"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The charm will not last long. Get the key and return. Keep your distance from the giant, so it doesn't see you. Don't go astray. Otherwise, you may fall afoul of the traps he has placed on his treasure._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trap",
+            "plea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_If you free me, his treasure will be yours. Now go!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "slot": 8,
+      "title": "Wandering Monk",
+      "look": "You meet a quiet, young woman in loose, flowing black clothes. She moves silently through the town, seemingly looking for someone.",
+      "name": "She turns to you. _I do not say my name, except to those who fully have my trust. That is a teaching of the wise man I seek._",
+      "job": "_I seek a teacher._",
+      "dunno": "The monk maintains a stoic silence.",
+      "nodes": [
+        {
+          "keywords": [
+            "mess",
+            "teac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I know not his name. Nobody does. He is said to have great wisdom, and great knowledge._ She sighs sadly. _He is also difficult to find._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "wisd",
+            "know"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He is a wizard, but his magical arts are second to the power of his mind. He says things that at first seem to make no sense, but then provide learning later on._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sens",
+            "lear"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_In that not wondrous?_ Her eyes flash with excitement. If only I could locate him._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "loca",
+            "wish"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I am tempted to ask if you have seen him, but I shall not. He has said 'The goal is lost when the goal is achieved.'_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "find",
+            "diff"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have heard he travels between Krizsan and Delan, and sometimes goes to other towns around here as well. I do so wish I could locate him. Alas, I am lacking in wisdom._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "slot": 9,
+      "title": "Claw",
+      "look": "There is a nephil with all the markings and necklaces of a shaman sitting at the desk. It's writing with a quill pen, held awkwardly in its right hand. It's left hand is just a stump.",
+      "name": "It looks up at you with inscrutable feline eyes. _Hmrrr. I am called Claw._",
+      "job": "It makes a low rumbling sound deep in its throat. _I run this flop. I was a sailor._",
+      "dunno": "It purrs noncommittally.",
+      "nodes": [
+        {
+          "keywords": [
+            "flop"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Hmrrrrr. There are only rooms for sailors._ It scrapes idly at the desktop with its claw.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sail"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I am not welcome with my people._ It makes a brief, angry hissing noise as it says this. _I went to the sea, where a shark surprised me._ He holds up his stump. _Now I run this flop, and look after my fellows._",
+          "str2": "His speech is unusually good for a nephil."
+        },
+        {
+          "keywords": [
+            "welc",
+            "peop"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Nephilim beliefs are Nephilim secrets._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fell"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Sailors are my fellows now. Sailors of all types._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "type"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It makes an annoyed hissing noise. _You ask too much, human land person!_",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

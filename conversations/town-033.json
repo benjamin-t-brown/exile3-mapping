@@ -1,0 +1,672 @@
+{
+  "talkRecord": 33,
+  "townId": 33,
+  "personalityBase": 331,
+  "label": "Kalen, Stern, Dharas, Asp, Gelahd, Hssrrr",
+  "people": [
+    {
+      "id": 331,
+      "slot": 0,
+      "title": "Kalen",
+      "look": "This man quickly stuffs a package in his pocket when you approach. He bows to you.",
+      "name": "_I am Master Kalen. Greetings to you._",
+      "job": "His face twitches suddenly. He looks pained. He still manages to talk. _I am the trainer for Gale. Would you like knowledge?_",
+      "dunno": "_What of it?_",
+      "nodes": [
+        {
+          "keywords": [
+            "trai",
+            "know"
+          ],
+          "type": 9,
+          "typeName": "training",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "twit",
+            "pain"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "His hand falls unconsciously to rest on his pocket. _Pardon me. I just have a headache. They happen._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "pock"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks defensive. _What? What are you saying?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "herb",
+            "drug"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks upset. _I have nothing more to say to you!_ He walks away quickly, hand on his pocket.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 332,
+      "slot": 1,
+      "title": "Stern",
+      "look": "This shop is run by a grim, pale woman. She sits at her counter, sharpening a small, finely made throwing knife.",
+      "name": "She says simply _Stern._",
+      "job": "She continues to work on the knife. _I'm the fletcher for Gale. I have fine missiles here._",
+      "dunno": "_What do you mean?_",
+      "nodes": [
+        {
+          "keywords": [
+            "purc",
+            "miss"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Stern's Missiles",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gale"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She shakes her head. _I don't talk politics. And I don't want herb, if that's what you're asking about._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "poli"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Golems fire spells over our walls constantly, and we need missiles to fire back, and that's all I know about it. Anything beyond that is beyond me._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "herb"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_If everyone in this cursed city wants to hammer their brains into mush with that stuff, that's their business. Beyond my control. I just make missiles._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 333,
+      "slot": 2,
+      "title": "Dharas",
+      "look": "The proprietor of this shop is proudly polishing a beautifully made steel helmet. He holds it up to let it gleam in the light. Then he turns to you.",
+      "name": "_I'm Dharas, armorsmith of Gale, he says proudly._",
+      "job": "_Even in these troubled times, Gale's armor is still some of the finest in the world. Surprisingly, I still have some items in stock, which you can purchase if you have sufficient money and taste._",
+      "dunno": "_I don't do that._",
+      "nodes": [
+        {
+          "keywords": [
+            "mone",
+            "tast"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Both are necessary if you wish to own some of my goods. Such is the cost of quality._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "armo"
+          ],
+          "type": 5,
+          "typeName": "shop_armor",
+          "extras": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "str1": "Dharas",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "trou",
+            "time"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_With all the horror and carnage these days, I am forced to concentrate twice as hard on making the best armor I possibly can. Unfortunately, that means I don't follow too much what's going on._ He thinks. _Beyond, of course, how much people need armor._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 334,
+      "slot": 3,
+      "title": "Asp",
+      "look": "You find a vacant, bleary-eyed man, holding sway over a dusty and disused forge. When you enter he makes a clumsy effort to look professional.",
+      "name": "_I am weaponmaster Asp,_ he mumbles.",
+      "job": "_You can purchase from my stock, and I do improvements,_ he mumbles. A tiny bit of drool forms at the corner of his mouth.",
+      "dunno": "_I can't help with that._",
+      "nodes": [
+        {
+          "keywords": [
+            "purc",
+            "weap"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "Asp's Weapons",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "impr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grabs a hammer and gives it a few practice swings. You can see that not all of the skill has drained out of him. _I've lost a bit lately, but I can still make a blade sharp enough to cut steel. If you want something augmented, let me know._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "augm"
+          ],
+          "type": 20,
+          "typeName": "enchant",
+          "extras": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks your weapons over, and gives you prices to improve each non-magical one.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "lost",
+            "late"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I don't want to talk about it. The golems. They were too much. I was too afraid. I don't want to talk about it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gole",
+            "afra"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I don't want to talk about it._ He turns shakily away.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 335,
+      "slot": 4,
+      "title": "Gelahd",
+      "look": "A beggar runs up to you, drops nimbly to his knees, and raises his bowl. His fingers have light green stains, and his eyes are glazed over.",
+      "name": "_Thank you for being so kind as to ask. I am Gelahd, kind adventurers._",
+      "job": "_I've heard of you. You are great and bold. It is an incredible honor to meet you. And, if you would be so kind as to give me some gold, maybe I can aid you._",
+      "dunno": "_Give me a few gold?_",
+      "nodes": [
+        {
+          "keywords": [
+            "incr",
+            "hono"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_An honor, I tell you, to meet such heroes, such colossi, standing astride our troubled times. Such heroes, I'm sure, are greatly rich, not only in wisdom but in gold._ He looks at you hopefully.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "give",
+            "gold"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            10,
+            0,
+            0,
+            0
+          ],
+          "str1": "He takes 10 of your gold. _Thank you so much. And for 100 gold more, I can tell you something very interesting about the golems._",
+          "str2": "He looks disappointed. _You are even poorer than me._"
+        },
+        {
+          "keywords": [
+            "gole"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            100,
+            0,
+            0,
+            0
+          ],
+          "str1": "He takes the money gratefully. _In the herb house there's a mage. She's always there, always not quite awake. She mumbles. And sometimes she mumbles about golems! Prod her about it, and you might find something good!_",
+          "str2": "He shakes his head. _You don't have the gold._ A little bit of spittle runs down his chin."
+        },
+        {
+          "keywords": [
+            "herb",
+            "hous"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I'm not supposed to say. It's here in town. You're so bright. You find it!_ He suddenly seems very eager to get away.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 336,
+      "slot": 5,
+      "title": "Hssrrr",
+      "look": "You find the most pathetic, bedraggled Nephilim you've ever seen. Her hair is scraggly and missing in patches. One of her fangs is broken off. She holds a begging bowl. It's a horrible sight.",
+      "name": "She walks over to you on her knees. _I am Hssrr._",
+      "job": "She emits a raspy purr. _Oh please, great ones. Please give me a few coins._",
+      "dunno": "She purrs confusedly.",
+      "nodes": [
+        {
+          "keywords": [
+            "give",
+            "coin"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "You give her a few coins. She bows silently to you in gratitude. Or perhaps abasement.",
+          "str2": "You have too little to give. Her head bows in defeat."
+        }
+      ]
+    },
+    {
+      "id": 338,
+      "slot": 7,
+      "title": "Carol",
+      "look": "You meet a tall sailor, who seems resigned to pacing back and forth restlessly by the docks.",
+      "name": "She seems pleased to be able to talk to someone, in order to break the monotony. _I'm Carol._",
+      "job": "_I'm trying to get out of here before the golems kill me._",
+      "dunno": "She looks confused.",
+      "nodes": [
+        {
+          "keywords": [
+            "gole",
+            "kill"
+          ],
+          "type": 28,
+          "typeName": "depend_on_event",
+          "extras": [
+            19,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks ruefully at the burns running down her side. _Just happened a few days ago. God, I want to get out of here. This city is pathetic. Their leaders are worse. I just want out before I get really unlucky._",
+          "str2": "_There hasn't been a ship out of here in months. God, I want to get out of here. This city is pathetic. Their leaders are worse._"
+        },
+        {
+          "keywords": [
+            "burn",
+            "unlu"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A golem threw a fireball over the wall. Killed two people, just seared me. Hurts like hell. Enough to make me want to try that herb stuff. But I'm not that stupid!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "city",
+            "path"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Everyone just wanders around like zombies, waiting to die. Those who haven't been lost to the herb, that is._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "herb",
+            "stup"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She shakes her head and spits in disgust. _It's madness! It's great for a while! Really makes you stronger! But then it wears off, and the pain grabs your soul. Some of the soldiers take it before combat. What a price to pay!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "lead",
+            "wors"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She smiles wryly. _You know, I could say how the town's leaders are mad, more concerned in making themselves look good and omnipotent than in saving the city. But then I'd disappear and never be seen again._",
+          "str2": "_So I won't say that. All right?_"
+        }
+      ]
+    },
+    {
+      "id": 339,
+      "slot": 8,
+      "title": "Mrrurr",
+      "look": "You meet a Nephilim male. He wears a earring and sword hanging at his belt. He watches you nervously as you approach.",
+      "name": "_I am Mrrurr._ He looks around, alert and on edge.",
+      "job": "_Mrrr. I am a sailor, stranded in this town._",
+      "dunno": "He shakes his head.",
+      "nodes": [
+        {
+          "keywords": [
+            "sail"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I came here serving on a ship, but now the ship won't leave because there is nowhere for it to go. So instead I bought a skiff with my savings._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stra",
+            "town"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_This is a bad, bad place for one of my kind to be._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "kind",
+            "neph"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks around again. _The leaders here are filled with hate, and sometimes it spills out at us. I wish to leave on the next ship. My skiff is no good to get away._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "skif",
+            "savi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He shakes his head and makes a hissing noise. _It was good for nothing. The leaky thing could only get to the island to the south._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "isla",
+            "sout"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_That is useless to me. The island to the south is overrun by undead, and may well always be. I wish to get rid of the worthless boat, if possible._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "wort",
+            "boat"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "His ears perk up. _I would let you purchase the skiff for only 100 gold. If you were odd enough to want to see the undead island, that is._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 21,
+          "typeName": "buy_service",
+          "extras": [
+            100,
+            16,
+            8,
+            1
+          ],
+          "str1": "He takes your gold gratefully. _The skiff is at the end of the central dock. Thank you much._",
+          "str2": "He shakes his head. _You haven't the gold. I am sure I can be finding a purchaser somewhere._"
+        }
+      ]
+    },
+    {
+      "id": 340,
+      "slot": 9,
+      "title": "Roselei",
+      "look": "You find a mage of the Empire, decayed to a horrifying extent. She lies back on the filthy bed, the corners of her mouth crusted with herbal potion. She mumbles incoherently.",
+      "name": "Somehow, she manages to hear you. _I am Roselei._",
+      "job": "She mumbles. _Oh, Edward. Oh, oh, Edward._",
+      "dunno": "She stares glassily at you.",
+      "nodes": [
+        {
+          "keywords": [
+            "edwa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Her eyes open wide. _Edward? I thought they had you! Have you come back to me? Have you returned?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "retu",
+            "back"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She suddenly starts to cry. She stares in your direction, but doesn't see you. _You cannot fool me. My Edward was slain. He is gone. Go away, and leave me to what little poor peace I can find._ She turns spasmodically away.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gole"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Her eyes open wide. She struggles desperately to attain a few moments of coherence. _Yes! Yes! Before Edward left me! I had to tell people! I met a mage. In mountains. North of here. Southeast of Tevrono. Must fly to get there._",
+          "str2": "With a final exertion of energy, she says _Go to him. Met him. Knows golems._ Then she sinks back, exhausted."
+        }
+      ]
+    }
+  ]
+}

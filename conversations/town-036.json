@@ -1,0 +1,815 @@
+{
+  "talkRecord": 36,
+  "townId": 36,
+  "personalityBase": 361,
+  "label": "Velasquez, Seymour, Howar, Petrie, Shane, Prosise",
+  "people": [
+    {
+      "id": 361,
+      "slot": 0,
+      "title": "Velasquez",
+      "look": "The man behind the counter seems unfriendly in the extreme. However, he is at least willing to talk to you.",
+      "name": "_Bad question. You can call me Velasquez._",
+      "job": "_You're very lucky. We were expecting you. Just follow the rules, and everything will be happy. A room is 50 gold. A drink is 25._",
+      "dunno": "_Quiet._",
+      "nodes": [
+        {
+          "keywords": [
+            "very",
+            "luck"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Word was sent ahead that you might be coming to get into Blackcrag, and that you should be allowed to pass. If we hadn't heard otherwise, you would be dead now._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "foll",
+            "rule"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Don't talk to people. Don't pick things up. Don't go where you aren't wanted. Go to Blackcrag, or leave._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            50,
+            3,
+            0,
+            0
+          ],
+          "str1": "All eyes in the room upon you, you are shown to a chilly, cramped room.",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Velasquez grimly looks over your items, and makes offers.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "drin"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            25,
+            0,
+            0,
+            0
+          ],
+          "str1": "You pay an excessive amount of money for bitter, oily whiskey that makes your eyes water. _You drink well,_ Velasquez says. _You can sell me your loot if you wish._",
+          "str2": "You don't have the gold."
+        },
+        {
+          "keywords": [
+            "blac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The passage to Blackcrag is north of the inn. Before you go, there's a button hidden in my office. Press it once to make it possible to get through. Now go._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 362,
+      "slot": 1,
+      "title": "Seymour",
+      "look": "You are welcomed to mighty Blackcrag Fortress by a small mousy man, probably a valet. He seems terrified of you.",
+      "name": "_I am Seymour._ He adds, nonverbally, _Don't hit me._",
+      "job": "He shifts his weight nervously from foot to foot. _I was, well, left to wait here and give you a message._",
+      "dunno": "He cowers.",
+      "nodes": [
+        {
+          "keywords": [
+            "mess"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I was told to stay here and to tell you that Empress Prazac herself wishes to meet you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empr",
+            "praz"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_She's the leader of the whole Empire._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "wish",
+            "meet"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_She's in the throne room. You can get to it to the south, though you'll have to do some looking to find the way. Just be careful._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "care"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He fidgets. _They tell me some people don't want you here, so you're supposed to stay in out of sight. Just so you know._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 363,
+      "slot": 2,
+      "title": "Howar",
+      "look": "This shop is filled with foul smells, vials and gourds cover every available surface, and the proprietor's hands are covered with grisly, permanent stains. Must be an alchemy shop.",
+      "name": "_I am Howar._",
+      "job": "_I am the alchemist for Blackcrag, here to do major research._ He looks you over appraisingly. _I also have a few recipes I teach on the side._",
+      "dunno": "He shrugs.",
+      "nodes": [
+        {
+          "keywords": [
+            "alch",
+            "rese"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Many mages are here to do research. It's part of why Valorim has been put under quarantine._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "reci",
+            "teac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I know two powerful recipes. One is for Resurrection Balm, using Ember Flowers, and one is for Medium Power potions, using Wormgrass and Mandrake Root. Care to purchase one?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "valo",
+            "quar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Nobody is being let out of Valorim, to help make sure none of the monsters sneak out with them. The Empress is trying to buy time so we can research to find out ways to combat the creatures. That's why we mages are here._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mage"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_There are three of us in this corner of the fortress, each looking for solutions as fast as we can._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 16,
+          "typeName": "shop_alchemy",
+          "extras": [
+            6,
+            0,
+            0,
+            0
+          ],
+          "str1": "Howar's Recipes",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 364,
+      "slot": 3,
+      "title": "Petrie",
+      "look": "There is a woman sitting at her desk, holding a powerful looking glass in her hand. She is examining a huge cockroach. She pauses, however, when you enter.",
+      "name": "_I am Petrie. Greetings._",
+      "job": "_I am doing research on this vile beast._",
+      "dunno": "She shakes her head.",
+      "nodes": [
+        {
+          "keywords": [
+            "rese"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Many mages have come here, to try to figure out where the monsters are coming from and how best to deal with them._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "vile",
+            "beas"
+          ],
+          "type": 1,
+          "typeName": "depend_on_sdf",
+          "extras": [
+            307,
+            5,
+            0,
+            0
+          ],
+          "str1": "_Yes. They plague the Isle of Bigail. I'm trying to figure out how it was made so large._ She pokes it. _But I am sure you have other areas of interest._",
+          "str2": "_I know you wiped them out, but we still need to figure out how they were made. Otherwise, the next such creature to come along will slay us._ She pokes it. _But I am sure you have other areas of interest._"
+        },
+        {
+          "keywords": [
+            "area",
+            "inte"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We were told that you Exiles might be coming, and that we should assist you if at all possible. I know several spells of great power, which I can teach you if you wish._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "teac"
+          ],
+          "type": 14,
+          "typeName": "shop_mage_spells",
+          "extras": [
+            6,
+            0,
+            0,
+            0
+          ],
+          "str1": "Petrie's Spells",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 365,
+      "slot": 4,
+      "title": "Shane",
+      "look": "A dour mage sits at his desk, examing a vial filled with ocher slime.",
+      "name": "_I am Shane,_ he says grimly.",
+      "job": "_Well, I did have a booming business. But I had to interrupt it, when I was forced to come here._",
+      "dunno": "He seems like he's going to say something about that, and then thinks better of it.",
+      "nodes": [
+        {
+          "keywords": [
+            "boom",
+            "busi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have a thriving trade in magical items, highly reliable and hand crafted. I did bring some with when I was forced to come here, in the hope of wresting some profit from this tedious exercise. Care to purchase some?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "inte",
+            "forc"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_All the powerful mages within 500 miles were brought to this area, to try to figure out what the monsters in Valorim were there for. Like the fate of those barbarians is our problem!_ He looks at the slime grumpily.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            6,
+            0,
+            0,
+            0
+          ],
+          "str1": "Magic Items",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "barb",
+            "prob"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He snorts. _Oh please! Everyone knows what a bunch of backwards, lice-ridden creatures the people of Valorim are? If they can't be bothered to look after themselves, why should we be?_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 366,
+      "slot": 5,
+      "title": "Prosise",
+      "look": "You stumble upon one of Blackcrag Fortress' large number of serving wenches. She is clearly terrified of you.",
+      "name": "_I'm Prosise,_ she stammers.",
+      "job": "_I'm ... I'm ... I work in the kitchen._ She stares at your faces intently, recognizing the paleness that marks Exiles.",
+      "dunno": "She edges away from you nervously.",
+      "nodes": [
+        {
+          "keywords": [
+            "kitc"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes, and I need to get back there now._ She starts to back away. _Sorry!_ She runs away.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 367,
+      "slot": 6,
+      "title": "Winn",
+      "look": "Unsurprisingly, Blackcrag has its own small forge. The woman running it looks extremely capable. She looks you over. It's clear she recognizes who you are, and equally clear that she doesn't care.",
+      "name": "_I am Winn. Greetings._",
+      "job": "_I'm helping prepare the army for its assault. Though, I often do some tasks on the side in the meantime._",
+      "dunno": "She scratches her arm thoughtfully.",
+      "nodes": [
+        {
+          "keywords": [
+            "prep",
+            "assa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Sure. You didn't think that the quarantine would last forever? That the Empire would give up on a whole continent?_ She shakes her head. _The counter-attack is coming, mark my words._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "side",
+            "task"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, I've made a lot of excellent weapons, which are available at reasonable prices. Also, if you have truly good taste, I can improve your weapons._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "weap"
+          ],
+          "type": 7,
+          "typeName": "shop_weapons",
+          "extras": [
+            6,
+            0,
+            0,
+            0
+          ],
+          "str1": "Winn's Weapons",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "impr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I know a few spells, which can make your weapon burst into flame whenever drawn. If you have the cash and desire your augmentation, let me know._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "augm"
+          ],
+          "type": 20,
+          "typeName": "enchant",
+          "extras": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "str1": "She looks over your weapons, and quotes a price to improve all the identified, non-magical ones.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 368,
+      "slot": 7,
+      "title": "Vladimir",
+      "look": "An officious bureaucrat stands by the door to the throne room, waiting. He sniffs slightly as you approach.",
+      "name": "_Chief Valorim Liaison Vladimir, at your service._",
+      "job": "_Waiting for you. I assume you wish to see Empress Prazac._",
+      "dunno": "He smiles enigmatically.",
+      "nodes": [
+        {
+          "keywords": [
+            "empr",
+            "praz"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, she wishes to see you. However, the situation has several complexities._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "situ",
+            "comp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Everything is currently unstable. Certain factions, should they find that the Empress is dealing with Exiles, would become very aggravated, and there would be difficulties. Serious difficulties._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "seri",
+            "diff"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I'm sure you understand. Of course, I may give you permission to enter. You have but to request it._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "requ",
+            "perm"
+          ],
+          "type": 169,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 169,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 369,
+      "slot": 8,
+      "title": "Empress Prazac",
+      "look": "You stand before Empress Prazac, leader of the Empire, the sworn, eternal foe of Exile. She seems strong, but not cruel, alert, but not nervous, skeptical, but not hostile. With a simple, regal movement of her hand, she motions you forward.",
+      "name": "_I am Prazac, Empress of the Eternal Empire, Scion of Pralgad, Highest Lady of  Vantanas, Mistress of Valorim. Welcome to Blackcrag Fortress._",
+      "job": "_I am the Empress of the Empire. I am here to deal with this horrible mess. What else is there to say?_ Her voice is calm, measured, utterly confidant. She bears the near absolute power she bears very well.",
+      "dunno": "She arches her eyebrows regally.",
+      "nodes": [
+        {
+          "keywords": [
+            "empr",
+            "empi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Hawthorne was my father, and the ruler of the Empire up until some Exiles slew him._ She watches you carefully as she says that. _Now I have to clean up many of the disasters he left._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "horr",
+            "mess"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Hundreds of thousands of our citizens dead, wounded, or refugees. Confidence in the Empire shaken. A whole continent under quarantine. Yes, mess seems to wrap it up._",
+          "str2": "She sighs. _And worse, it could have been avoided._"
+        },
+        {
+          "keywords": [
+            "hawt",
+            "fath"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A cruel, cold man. Believe me, he is not missed. He was powerful and brilliant, but too cruel to be a truly strong leader. Just look at the whole Exile situation!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "clea",
+            "disa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Look at the horrible death and expense of the war with Exile. For that matter, look at the whole Exile situation! That was his doing._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "exil",
+            "situ"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He prized order above all else. So what did he do? Take anyone who damaged his precious order, and get rid of them! Other rulers have had enemies. He created his!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "enem",
+            "crea"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_He sent warriors, wizards, resources down into Exile. Not killing them outright was to his credit, I suppose. About the only merciful thing he ever did. But now the Empire has an enemy, and a strong one at that._",
+          "str2": "_And worse, by getting rid of everyone different, he helped make this horrible mess I have to solve._"
+        },
+        {
+          "keywords": [
+            "conf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Not even the Exile war shook our people's confidence in us!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dead",
+            "refu"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes, the toll has been that serious._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "quar",
+            "cont"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I cannot imagine what they say about us in Valorim now, but the quarantine is a necessity. Otherwise, the monsters may spread. The offical purpose is, of course, to have time to prepare to fight them._",
+          "str2": "_However, I have serious doubts about our abilities against them._"
+        },
+        {
+          "keywords": [
+            "abil",
+            "doub"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Whoever made the monsters designed them very well. They attack in completely non-standard ways._",
+          "str2": "_You see, when Hawthorne sent anyone different to Exile, we lost exactly the creative minds, especially in our military, who could have figured out ways to defeat them. Thus, an avoidable catastrophe occurred._"
+        },
+        {
+          "keywords": [
+            "avoi",
+            "cata"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_That leads me to why I allowed you to see me._ She pauses, and steels herself to say what she is about to say. _We need Exile's help. Exile defeated us. Exile is the only force that can destroy the monsters too._",
+          "str2": "_I have an important offer to make to Exile. That is why I have a diplomatic mission for you._"
+        },
+        {
+          "keywords": [
+            "dipl",
+            "miss"
+          ],
+          "type": 170,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 170,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

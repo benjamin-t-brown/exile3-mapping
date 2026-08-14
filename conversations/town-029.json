@@ -1,0 +1,843 @@
+{
+  "talkRecord": 29,
+  "townId": 29,
+  "personalityBase": 291,
+  "label": "Marjorie, Foxfire, Mia, Mrrrr, Kagan, Kirchner",
+  "people": [
+    {
+      "id": 291,
+      "slot": 0,
+      "title": "Marjorie",
+      "look": "You meet the elderly, crabby woman who greeted you when you first entered your house. She's busy dusting.",
+      "name": "_Hi, boss. I'm Marjorie._",
+      "job": "She straightens up proudly to her full five feet of height. _I'm the caretaker for Hawke's Manse._",
+      "dunno": "She grumbles. _You're wastin' my valuable cleanin' time!_",
+      "nodes": [
+        {
+          "keywords": [
+            "care"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yep. I have to be here. Because of the curse, you see._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hawk",
+            "mans"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. This is it. Built 60 years ago, by the master. Feel free to stay here any time. Also, if you leave your items here, I can guarantee they'll be safe._ (Very generous of her, considering it's your home.)",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mast"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She shakes her head sadly. _Killed by a giant's rock. In the courtyard. Tragic._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "curs"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The curse has been in place for many years. Nobody knows who caused it, or what the effects would be. All we know is that, if Hawke's Manse ever doesn't have a caretaker, horrible things would happen._",
+          "str2": "She looks at you smugly. _So I have to be here. Get used to it._"
+        }
+      ]
+    },
+    {
+      "id": 292,
+      "slot": 1,
+      "title": "Foxfire",
+      "look": "You see a bard, a wandering entertainer. However, her act is truly unlike anything you've ever seen. She is creating colored, wraithlike magical lights, and making them dance before you.",
+      "name": "The lights pirouette before here. _My name is lost. I am called Foxfire._",
+      "job": "_I make beauty._",
+      "dunno": "She smiles enigmatically, and makes the strange lights dance more.",
+      "nodes": [
+        {
+          "keywords": [
+            "beau"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She makes the colored lights fly and dance in a wondrous, intricate pattern. It's truly hypnotizing. At last, alas, the show ends for the moment. She says _My faith inspires me to bring people joy._",
+          "str2": "_Alas, to bring people more joy requires food for me. May I have a coin?_"
+        },
+        {
+          "keywords": [
+            "coin"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "str1": "She thanks you sincerely, utters a prayer, and begins to make the lights dance again.",
+          "str2": "You have no money."
+        },
+        {
+          "keywords": [
+            "reci"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "The dance of the lights stop. She looks confused. Then she remember. _Oh, yes! I did find out about that. Someone gave me a gift in thanks for my show._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gift",
+            "than"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The man said that he got a key to a cult, which had much knowledge, including this incredibly powerful and rare alchemical recipe. I hung on to it. For 500 gold I can use to continue my act for a long time, I can give you the key._",
+          "str2": "_Will you give me payment for it?"
+        },
+        {
+          "keywords": [
+            "give",
+            "paym"
+          ],
+          "type": 22,
+          "typeName": "buy_town_map",
+          "extras": [
+            500,
+            16,
+            0,
+            0
+          ],
+          "str1": "She hands you a small silver key. _The man said the cult was on the southernmost of the Remote Isles, in far southeastern Valorim. He said the cultists were very odd. Good luck to you, and thank you!_",
+          "str2": "You don't have the 500 gold."
+        }
+      ]
+    },
+    {
+      "id": 293,
+      "slot": 2,
+      "title": "Mia",
+      "look": "You meet a middle aged woman, deep into her fourth tankard of ale. She looks blearily up at you.",
+      "name": "_I'm Mia._",
+      "job": "_I'm drowning my sorrows. Why shouldn't I?_",
+      "dunno": "She takes a swift swig of beer.",
+      "nodes": [
+        {
+          "keywords": [
+            "drow",
+            "sorr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_In memory of my poor child._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "poor",
+            "chil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_My poor son, lost fishing on Lake Tomor. His boat went out, and hasn't returned. Oh, for something to remember him by._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "some",
+            "reme"
+          ],
+          "type": 158,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 158,
+          "str1": "",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 294,
+      "slot": 3,
+      "title": "Mrrrr",
+      "look": "You meet the trainer of Malloc. He's an educated Nephilim, a rarity in the cities of the Empire (or anywhere). He sits patiently and alertly, ready to increase your skills.",
+      "name": "_I am Mrrrr._",
+      "job": "He purrs. _I am the trainer of Malloc. I don't have many other interests, really._",
+      "dunno": "_I can't help with that._",
+      "nodes": [
+        {
+          "keywords": [
+            "trai",
+            "purc"
+          ],
+          "type": 9,
+          "typeName": "training",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "othe",
+            "inte"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "His whiskers twitch. _I have so many other skills to master. Don't really have much time for hobbies._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 295,
+      "slot": 4,
+      "title": "Kagan",
+      "look": "This man looks like yet another Empire citizen, a harmless and hard working farmer. Then he walks close to you. He clearly wants to speak with you.",
+      "name": "_I am Kagan. I'm glad to meet you at last._",
+      "job": "_I know I don't look like it, but I'm an Exile! Unspecified Services! I have information for you._",
+      "dunno": "He shakes his head.",
+      "nodes": [
+        {
+          "keywords": [
+            "unsp",
+            "serv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I and one other were sent to do recon against the giants, to try to find out what created them. It didn't work out. That's why I have information for you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "info"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_A compatriot and I were trying to sneak into the giants cavern. Unfortunately, our stealth spell didn't hold out._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "stea",
+            "spel"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We got caught. My friend was slain. I escaped. But worst of all, we lost Smite._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "smit"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Smite was a magical weapon, a hammer which could slay giants! The giants took it. But maybe you could regain it!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "rega"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We lost the hammer in the forge, a lava and blacksmith filled cavern near the giant's caves. If you wish to fight the giants, that hammer would be a huge help._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "huge",
+            "help"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grins. _Now, if you'll excuse me, I got a bit of spying to do._",
+          "str2": "He thinks. _Oh, by the way. There are two others of our number who spend time in Lorelei. One spends all his time there, one other is there sometimes. Just forget their names._ Then he leaves."
+        }
+      ]
+    },
+    {
+      "id": 296,
+      "slot": 5,
+      "title": "Kirchner",
+      "look": "This man has a kind, but weary face. He wears priest's robes, has an ankh around his neck, and carries a well worn walking staff.",
+      "name": "_I am Kirchner._",
+      "job": "_I am a travelling healer. In these dark times, I'm afraid there's a great need for my services._",
+      "dunno": "_Sorry. I'm just a healer._",
+      "nodes": [
+        {
+          "keywords": [
+            "trav",
+            "heal"
+          ],
+          "type": 18,
+          "typeName": "healer",
+          "extras": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "str1": "Kirchner the Healer",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "need",
+            "serv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I wander Midori province, healing those hurt by the giants as best I can. Earlier, I was up by Gale. Things are grim up there, I can tell you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gale",
+            "grim"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They were being attacked constantly by golems - magical statues who fired magical ice and flames, cast spells, and take huge amount of punishment before being destroyed._",
+          "str2": "_I would have stayed up there healing, but, well, I will be able to do very little good when I'm dead._"
+        }
+      ]
+    },
+    {
+      "id": 297,
+      "slot": 6,
+      "title": "Alonzo",
+      "look": "This man walks only with great difficulty. It's easy to see why. He has a heavy bandage around his chest, and struggles to carry a massive backpack.",
+      "name": "He sets down his pack, and says _I'm Alonzo._",
+      "job": "He opens his pack, revealing racks filled with small, liquid filled vials. _I am a potion salesman. I'm from Appleton. I only narrowly escaped._",
+      "dunno": "_Sorry._",
+      "nodes": [
+        {
+          "keywords": [
+            "poti",
+            "sale"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I can't make them anymore, alas. Giants sacked my shop in Appleton. However, selling this stock should get me enough gold to start up again._",
+          "str2": "_Care to purchase something? Help the cause?_"
+        },
+        {
+          "keywords": [
+            "appl",
+            "esca"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks at you sadly. _Appleton was a town to the east. I say was. The giants sacked it. It's rubble now. Many died._",
+          "str2": "He looks down at the bandage. _I only got out with a serious wound._"
+        },
+        {
+          "keywords": [
+            "purc",
+            "caus"
+          ],
+          "type": 12,
+          "typeName": "shop_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Alonzo's Potions",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "band",
+            "woun"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_As I fled Appleton, a giant's boulder broke four of my ribs. I managed to get to Bengaro, but only with much agony. To make a long story short, now I'm here. Safe, for now._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 298,
+      "slot": 7,
+      "title": "Macitar",
+      "look": "A wizard of the Empire army patrols the town, looking carefully for breaches in the walls. He stops so you can talk to him, but doesn't stop watching the walls.",
+      "name": "_I am Macitar the wizard._",
+      "job": "_I command the garrison of Dellston. I repair the walls when they get broken._ He turns to you, and fixes you with a steely gaze. _And I have little love for Exiles._",
+      "dunno": "He shakes his cowled head.",
+      "nodes": [
+        {
+          "keywords": [
+            "garr",
+            "dell"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I've sworn to defend this city, or die trying. It's a draining task, especially since it keeps me from my first love, teaching._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "wall",
+            "brok"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I use force barriers, the fastest and easiest way to repair the breaches the giants' boulders make in our walls._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "love",
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Exiles slew Garzahd, the greatest Empire mage for a century, perhaps in history. He was a dark man, and little loved, but he was the greatest of our number, and such crimes are seldom forgiven._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "teac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He thinks, grimly. _I have little love for Exiles, but much love for teaching magic. Also, I know you fight the same foes as us. You may purchase a few of my spells, if you wish._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "spel"
+          ],
+          "type": 14,
+          "typeName": "shop_mage_spells",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "Macitar's Spells",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "slot": 8,
+      "title": "Durning",
+      "look": "A lithe, lethal looking man moves smoothly through Dellston, alert for giants to fight. He turns to look at you. He looks somewhat deranged, at best.",
+      "name": "_I am Durning!_",
+      "job": "_I fight giants!_",
+      "dunno": "He remains quiet.",
+      "nodes": [
+        {
+          "keywords": [
+            "figh",
+            "gian"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes!_ he says brightly. _I am mighty warrior, of Heaven and Earth Association!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "heav",
+            "asso"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have mighty kung-fu! I know Flying Fist and Shadow Kick style!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "flyi",
+            "fist"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_What's more, I can jump straight up twenty feet, with mighty swooshing noise, if necessary._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "shad",
+            "kick"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I fight with great honor, doing all my own stunts! My kung-fu is greatest of all!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 300,
+      "slot": 9,
+      "title": "Daltrey",
+      "look": "You meet an Empire soldier. Although he wears chain mail, he clearly is not a melee fighter. He is small, old, and twisted, with pale, chalky skin and a cold gaze.",
+      "name": "_I am Commander Daltrey._",
+      "job": "He smiles thinly. _I wish to speak with you, Exiles._",
+      "dunno": "_I know nothing of such things._",
+      "nodes": [
+        {
+          "keywords": [
+            "spea",
+            "exil"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I was privileged to practice my craft on many of you during the Exile War._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "prac",
+            "craf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "His face twitches slightly. _I am an interrogator._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "inte"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I get answers from prisoners. By whatever means are necessary._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "mean",
+            "nece"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_What's past is past. What I wish to tell you is what I determined from a giant who became my prisoner, information you can use, if you fight the giants like you fought other foes. Do you wish to learn?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "info",
+            "lear"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He chuckles dryly. _The giant held up well under his torments, but twice the size, twice the nerves. He told me that the giants have four tribes, and a huge temple in addition._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "four",
+            "trib"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The four tribes live in the upper level of their huge network of caverns. They seem to be having some sort of religious argument._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "huge",
+            "temp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The temple is in the lower part of their huge network of caverns. The hill giant said the temple has a guarded room filled with booty._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "boot"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Don't you think this information might be worth a little change? A fifty gold donation, perhaps?_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "dona",
+            "chan"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            50,
+            0,
+            0,
+            0
+          ],
+          "str1": "He takes your gold. _They have a room in which they store items taken from their foes, in the lower level west of their great temple. It has a bizarre magical lock. That is what the giant said. What value you can get from that is your business._",
+          "str2": "He shakes his head. _I must insist._"
+        },
+        {
+          "keywords": [
+            "reli",
+            "argu"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Some giants have this odd snake cult. Some want to worship the old gods, whatever they are. But who cares?_",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

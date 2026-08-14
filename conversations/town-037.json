@@ -1,0 +1,537 @@
+{
+  "talkRecord": 37,
+  "townId": 37,
+  "personalityBase": 371,
+  "label": "Terak, Bon-Ihnro, Town Guy, Town Guard",
+  "people": [
+    {
+      "id": 371,
+      "slot": 0,
+      "title": "Terak",
+      "look": "A smiling, shiny faced you man greets you.",
+      "name": "_I am Terok. Welcome to Erox._",
+      "job": "_Well, not much. I just look after Erox, what's left of it. I can offer you little hospitality._",
+      "dunno": "He shrugs.",
+      "nodes": [
+        {
+          "keywords": [
+            "erox",
+            "left"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We're a port village, pretty isolated as you've seen. We depended on the ships that passed by._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "ship",
+            "pass"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They brought goods, and paid for use of our little safe haven. Then the quarantine happened._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "quar",
+            "happ"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_No ships can go from here to the rest of the Empire. No more ships means no more supplies coming here. No supplies, no Erox. Most people abandoned our little village._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "aban",
+            "vill"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Can you blame them? No supplies, and no ships? Totally isolated? Vulnerable to whatever nasties may be out there?_ He waves towards the woods to the north.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "vuln",
+            "nast"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Never knowing when one will wake up to feel the teeth sinking lovingly into your throat? That's if you're lucky! Now the gazers, they'll delight in your agonies for days, before mercifully devouring you. No, I can't blame people for leaving!_ He laughs.",
+          "str2": "Terak seems to have a real dark side."
+        },
+        {
+          "keywords": [
+            "litt",
+            "hosp"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He grins toothily. _The inn has a room you can rest in if you want. The northern one. I sleep in the southern one. And, if you're interested, plenty of wine got left behind._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "plen",
+            "wine"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "Your mentioning this pleases him immensely. _It's so lonely to drink alone. Some of the finest wine you'll ever taste is in the chest behind the bar. Help yourself!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 372,
+      "slot": 1,
+      "title": "Bon-Ihnro",
+      "look": "Bon-Ihrno, hero and figure of legend, sits slumped in his chair before you. He looks very tired.",
+      "name": "_I am Bon-Ihrno,_ he rasps.",
+      "job": "He sighs. _I fight insanity. And, joyously, my battle is almost over._",
+      "dunno": "_I know not of that._",
+      "nodes": [
+        {
+          "keywords": [
+            "figh",
+            "insa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He slumps further in his seat. _I wish to assist you in your assault on Rentar and her minions. I wish it was not necessary to turn against my people. But I must. This revenge madness has consumed them._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "joyo",
+            "batt"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I am old, and tired, and the side I has chosen is a small and losing one, and my foes are too many. Too strong. And, to top that, I have been assisting you. Soon, there will be a finish._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fini"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I wish not to talk of that. Instead, let us speak of the insanity that has consumed my people._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "reve",
+            "madn"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire stole three of our Crystal Souls, our leaders, our Gods, the most beloved of us all. I cannot express what a horrid shock this was to us. In the thousands and thousands of years of our recorded history, no such thing had ever happened._",
+          "str2": "_That theft led to all this warfare._"
+        },
+        {
+          "keywords": [
+            "warf"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Our leaders have convinced themselves that destroying the thieves, the Empire, will make them safe. They are wrong, of course. Nothing can do that. And the war will only ravage this world and cause millions of needless deaths._",
+          "str2": "_And that, brave humans, is why I must assist you._"
+        },
+        {
+          "keywords": [
+            "rent",
+            "mini"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Rentar-Ihrno is our greatest mage. She is our most powerful mage in the last millennium. He skills were what defeated the Empire in their war with you. The monsters were her creation._",
+          "str2": "_Unfortunately, I sometimes feel her mind has departed her._"
+        },
+        {
+          "keywords": [
+            "depa",
+            "mind"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_She is like your archmage Erika. Hatred of the Empire consumes her, to the conclusion of all else. I respect her. I respect her skills. But the revenge madness has made her a danger, and she must me stopped._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "empi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Some of the Empire committed a grievous crime against us. Those people paid with their lives._ He shakes his head. _Why then must the entire surface be destroyed? It make no sense._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "assi",
+            "assa"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. I have been trying to project myself to you for months, to give you advice and aid. Here are supplies and rest for you. Most importantly, I have the most vital information to give you._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "vita",
+            "info"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yes. Rentar-Ihrno's fortress is to the southeast. It is where she performs her mighty alchemy to make the monsters. Her rituals are both powerful and delicate._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "powe",
+            "deli"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_She molds the monsters - the slimes and roaches and golems and troglos and giants and beasts. She makes them, using a powerful alchemical spell._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "powe",
+            "spel"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_She has four vats of magical, powerful liquid stored in vats under her tower. It is poured along trenches into one massive central vat. There, it mixes. She casts the final spell, and life emerges._",
+          "str2": "_It is magic of power beyond my comprehension. However, it has a weakness._"
+        },
+        {
+          "keywords": [
+            "weak"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_When one, two, or three fluids mix, it can be shaped. Four, however, are too much. If all four liquids reach the center, and the magical machines which energize the liquid and make life are activated, the explosion will destroy her fortress!_",
+          "str2": "_Alas, there is the problem._"
+        },
+        {
+          "keywords": [
+            "prob"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Once the liquids are in the vat, the controls to activate the magic are by Rentar-Ihrno's throne. To reach it, you will have to elude her._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "elud"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks concerned. _I'm afraid that will be your problem. I cannot help with that. I wish you the best of luck in your assault. And, if you wish, there are rest and supplies for you here._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "supp",
+            "rest"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have set up a room where you can sleep safely. There is also a supply room, where you can get some useful potions. Were I not forced to be secret, I could help more._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "secr"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks incredibly sad. _My people wish nothing to do with one who will not join in their revenge madness. I hide here, and oppose them. It is just a part of the misery that has become my life._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "erik"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Another female suffused with power and consumed by hate. These two titans of magic fill me with fear._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 373,
+      "slot": 2,
+      "title": "Town Guy",
+      "look": "A dark, embittered man sits at the bar, waiting for you.",
+      "name": "_Jeff. What's it to you?_",
+      "job": "_I'm here to tell you my whole life story. What'd you expect?_",
+      "dunno": "_Bite me._",
+      "nodes": [
+        {
+          "keywords": [
+            "life",
+            "stor"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah. Isn't that what everyone's supposed to do? You walk in, some random weird looking heavily armed people from the Empire's enemy, and I'm supposed to just spill my guts to you. Right?_",
+          "str2": "_It's so implausible it makes me sick._"
+        },
+        {
+          "keywords": [
+            "impl",
+            "sick"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I didn't want to be in this game. It's shareware, for God's sake! I wanted to be in a nice commercial game._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "comm",
+            "game"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Like Daggerfall! That would be awesome! Not much dialogue, but high exposure! Great for good roles! Or Diablo! Or even Ultima Online! Anything with a nice shiny box._",
+          "str2": "_Whatever. Blah, blah, blah._"
+        },
+        {
+          "keywords": [
+            "blah"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Oh, just go on and finish the game. You're close. I'm going to work on my resume._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "resu"
+          ],
+          "type": 23,
+          "typeName": "end_talk",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Betrayal in Antara. Love to be in that!_ You leave him to his daydream.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 374,
+      "slot": 3,
+      "title": "Town Guard",
+      "look": "You meet a guard.",
+      "name": "_I'm a guard._",
+      "job": "_I'm a guard,_ he says helpfully.",
+      "dunno": "_Up yours._",
+      "nodes": [
+        {
+          "keywords": [
+            "guar"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I'm a guard,_ he repeats. This is just an uninteresting, interchangeable NPC. Lots of them around. Nothin' to see here.",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,813 @@
+{
+  "talkRecord": 19,
+  "townId": 19,
+  "personalityBase": 191,
+  "label": "Johanna, Kurtz, Gavlax, Volb, Nekaros, Horrid Spectre",
+  "people": [
+    {
+      "id": 191,
+      "slot": 0,
+      "title": "Johanna",
+      "look": "A businesslike woman with a predatory gaze works the bar. She looks at your nice armor and weapons, and is clearly sizing up ways to relieve you of your money.",
+      "name": "_I'm Johanna. Welcome to my bar._",
+      "job": "She lists the services in a clipped, businesslike manner. _We have fine rooms, only 10 gold for the night, and no sailors in them. Also, we have excellent whiskey, 5 gold a round._",
+      "dunno": "She seems to feel you're wasting her time.",
+      "nodes": [
+        {
+          "keywords": [
+            "fine",
+            "room"
+          ],
+          "type": 3,
+          "typeName": "inn",
+          "extras": [
+            10,
+            4,
+            0,
+            0
+          ],
+          "str1": "She quickly leads you to a rather pleasant room, then returns to the bar.",
+          "str2": "She looks annoyed at your lack of cash."
+        },
+        {
+          "keywords": [
+            "exce",
+            "whis"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "str1": "The whiskey is cheap, and burns your throat. They don't have alcohol this strong in Exile. As you choke it down, Johanna leans close. _Want advice?_",
+          "str2": "She looks annoyed at your lack of cash."
+        },
+        {
+          "keywords": [
+            "advi"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "She grins. _Good information, reasonably priced. I know a great way to make quick cash, only 25 gold. Also, I know a little something about the Anama. Twenty gold._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "quic",
+            "cash"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            25,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Go to Shayder and buy a drink at the bar. The barkeep will send you to someone who'll give you sweet courier jobs._",
+          "str2": "She looks annoyed at your lack of cash."
+        },
+        {
+          "keywords": [
+            "anam"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They're loopy, and when you join you can't cast Mage Spells anymore, but they'll give you priest spells and lots of other stuff. You can snow them easy. Just go to all the priests, and always agree with them._",
+          "str2": "She looks annoyed at your lack of cash."
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "slot": 1,
+      "title": "Kurtz",
+      "look": "A shifty looking man is grinding up leaves you don't recognize into powder you don't recognize. He puts it under the counter as you approach.",
+      "name": "_Kurtz,_ he says, sizing you carefully.",
+      "job": "He wipes some gray powder off his fingers. _I do alchemy. Safe thing to do on this island._",
+      "dunno": "_I can't help you with that._",
+      "nodes": [
+        {
+          "keywords": [
+            "purc",
+            "reci"
+          ],
+          "type": 16,
+          "typeName": "shop_alchemy",
+          "extras": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "str1": "Kurtz's Recipes",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "gray",
+            "powd"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He pretends to not know what you're talking about.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "alch"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I have a pair of recipes for sale, one for a Speed potion, using wormgrass and comfrey root, and the other for a good poison using just wormgrass. You can purchase them if you want._",
+          "str2": "_I have other services as well._"
+        },
+        {
+          "keywords": [
+            "safe",
+            "isla"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Let's just say, on this island, alchemy is much more acceptable than spells._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "othe",
+            "serv"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, you can sell me things. I identify items. Also, for a mere 100 gold, I'll tell you where you can find fresh ingredients._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "sell"
+          ],
+          "type": 13,
+          "typeName": "sell_items",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks your items over. He doesn't ask any questions about where you got them.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "iden",
+            "item"
+          ],
+          "type": 19,
+          "typeName": "identify",
+          "extras": [
+            8,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks your items over. His identification prices are very reasonable.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "fres",
+            "ingr"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            100,
+            0,
+            0,
+            0
+          ],
+          "str1": "He says _Wise choice. Good ingredients are hard to find. Go to the swamp to the northwest, and look for a big rock outcropping. Look just to the north of it._",
+          "str2": "You don't have the cash."
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "slot": 2,
+      "title": "Gavlax",
+      "look": "An Anama priest stands at the altar. He looks at you skeptically.",
+      "name": "_Father Gavlax._ He's clearly not pleased to be talking to you.",
+      "job": "_I lead the few Anama in this foul place. And I'm supposed to discuss the faith with the likes of you._ He frowns. _I could be happier._",
+      "dunno": "_I can't help you with that._",
+      "nodes": [
+        {
+          "keywords": [
+            "anam"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We are people who have rejected magic. I have been instructed to discuss our faith with you, even though everyone knows adventurers are constant magic users. But I follow orders._ He looks at you with distaste.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "foul",
+            "plac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Fenris Port is a place of sailors, illicit activities, and crime. There are few Anama here, and we're about the only people who do honest work._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "disc",
+            "fait"
+          ],
+          "type": 128,
+          "typeName": "call_special",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "specialId": 128,
+          "str1": "",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "inst",
+            "orde"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I would rather not say. You have been discussed. Leave it at that._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "illi",
+            "acti"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Well, let's just say that not everything Kurtz buys was obtained legally._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "slot": 3,
+      "title": "Volb",
+      "look": "A man in rags stands at the dock, selling tickets. His feet are bare.",
+      "name": "_I'm Volb. Would you like a ticket?_",
+      "job": "_I sell boat tickets to across the channel. Would you like to purchase one? Only 10 gold._",
+      "dunno": "He snivels in confusion.",
+      "nodes": [
+        {
+          "keywords": [
+            "chan",
+            "boat"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He looks nervous. _I forget to what town. The one just across the corner. I only just became a salesman._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "purc",
+            "tick"
+          ],
+          "type": 10,
+          "typeName": "shop_drinks",
+          "extras": [
+            10,
+            0,
+            0,
+            0
+          ],
+          "str1": "He takes your gold, and give you a ticket. _Go to the end of the north dock, and the ferry will take you to ... well ... wherever you're going._",
+          "str2": "He says _I'm really sorry, but I have to get the money._ He genuinely looks apologetic."
+        },
+        {
+          "keywords": [
+            "sale"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The other guy doing it got diseased by a roach. I took over. Real sad what happened, but I don't mourn too much. I'm hungry!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "slot": 4,
+      "title": "Nekaros",
+      "look": "At first, you think this person is just another skeleton wandering the halls, this one wearing mage's robes. Then you realize it's a human, who just happens to be disturbingly pallid and thin.",
+      "name": "_I am Nekaros,_ he says, in a thin, reedy voice.",
+      "job": "_I maintain Northpoint Lighthouse,_ he hisses. _It gives me time to study my other pursuits._",
+      "dunno": "_And why should I help with that?_",
+      "nodes": [
+        {
+          "keywords": [
+            "nort",
+            "poin"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_The Empire maintains this Lighthouse to warn the passing ships of the nearby rocks. None of this is interesting, especially compared to my studies of death._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "othe",
+            "purs"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_I am immersed in the study of the beauty of death._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "beau",
+            "deat"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "His teeth are exposed in a ghastly grin. _I believe that, quite simply, Death Is Just Another Phase Of Life. Thus, creating undead is the most humane thing you can do._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "unde",
+            "huma"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_After all, wouldn't you rather have your existence continued in a rather mundane way than have no existence at all? Creating undead gives people more life, and is a beautiful thing!_",
+          "str2": "_Plus, they're so useful!_"
+        },
+        {
+          "keywords": [
+            "usef"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "He smiles. _Not only are the dead quiet, patient company, but they're very good at simple, household chores._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "hous",
+            "chor"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You know, emptying trash, sweeping, that sort of thing. I'm sure that death can be very beautiful. All you need is a good attitude about housework._",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "slot": 5,
+      "title": "Horrid Spectre",
+      "look": "You see a horrid, shadowy spectre, lurking back in an isolated nook of the lighthouse. It looks at you hungrily.",
+      "name": "It hisses _I have no name no longer. I just am!_",
+      "job": "_I wait here, for my chance for vengeance!_",
+      "dunno": "It hisses in annoyance.",
+      "nodes": [
+        {
+          "keywords": [
+            "chan",
+            "veng"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Nekaros created me! He tried to bind me! I was too strong. Now, I want revenge on all pathetic living things!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "thin",
+            "livi"
+          ],
+          "type": 27,
+          "typeName": "start_fight",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Like you!_ It hisses joyously, and attacks. ",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "slot": 6,
+      "title": "Guard Roach",
+      "look": "A huge cockroach, about five feet long, stands guard here. It watches you closely, its antennae twitching.",
+      "name": "_I'm Gregor!_ it says, in a cheery happy voice. It sounds a lot like one of the friendly spiders. The voice is a lot more disturbing coming from a roach.",
+      "job": "_I'm a guard roach!_",
+      "dunno": "_You're silly!_",
+      "nodes": [
+        {
+          "keywords": [
+            "guar",
+            "roac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It's antenna twitch excitedly. _Yeah! Any mean humans or spiders come in here, I give 'em a big bite!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "bite"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It displays its mandibles to you.",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "huma",
+            "spid"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Most humans and big spiders aren't neat and cute, like you. They try to eat or stab us, rather than talk and be friendly!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "talk",
+            "frie"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_You're nice! I like you!_ It hops up and down happily.",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "slot": 7,
+      "title": "Filth Spreader",
+      "look": "This huge cockroach stops gobbling down disgusting grayish material, and turns to speak with you.",
+      "name": "_I'm Filth Spreader,_ it says happily, poking some slime with a leg and spreading it around to emphasize the point.",
+      "job": "_I'm eating, silly!_",
+      "dunno": "_You're silly!_",
+      "nodes": [
+        {
+          "keywords": [
+            "eati",
+            "sill"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_We smart roaches have to eat lots more if we're goin' to stay smart. That's one of the neat things we figured out in the Filth Factory._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "filt",
+            "fact"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Yeah. That's where most of the big roaches are born. Most of us are dumb. But some of us were born smart We don't know why. We didn't want to get killed by humans, so we came to hide here._",
+          "str2": "_We remember where the factory is, though, and we might return someday._"
+        },
+        {
+          "keywords": [
+            "kill",
+            "huma"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Humans and spiders are all mean to us, and all we roaches want to do is roam and eat and live and mate and be friendly and live our lives with joy! We're just like everyone else, only a little filthier!_",
+          "str2": "_But you humans are nice! I'd even tell you where the Filth Factory is located!_"
+        },
+        {
+          "keywords": [
+            "reme",
+            "retu"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Would you like to know where it's located? You're so nice, I know you wouldn't do anything mean there!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "loca"
+          ],
+          "type": 24,
+          "typeName": "buy_location",
+          "extras": [
+            0,
+            26,
+            0,
+            0
+          ],
+          "str1": "_It's hidden real good. There's a wall blocking the entry, that's not really there. You can walk through it! It's north of the biggest human town, and south of a small one, in the big hills. It's really neat! I hope you like it!_",
+          "str2": "(You take note of this.)"
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "slot": 8,
+      "title": "Slime Gobbler",
+      "look": "This roach looks very nervous when you approach.",
+      "name": "_I'm called Slime Gobbler,_ it says, in a squeaky, nervous voice.",
+      "job": "_I'm looking for a mate. The old one is gone,_ it says sadly.",
+      "dunno": "_You're silly!_",
+      "nodes": [
+        {
+          "keywords": [
+            "mate",
+            "gone"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It looks dejected. _She was Scum Cruncher, the most lovely roach you've ever seen. She was out walking our 80 children, when they saw some humans and went to say hi._",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "beau",
+            "roac"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It emits a long, warbling sigh. _Long, elegant, curved antennae, slender wings, and she developed the most beautiful egg sacs. I miss her so. Darn you humans, for taking her from me!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "huma"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_One of them threw fire, and they all died. I wept, then snuck into their camp and got little bits of filth in their food. I followed them. They ate it and got sick! Serves them right, the big meanies!_",
+          "str2": ""
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "slot": 9,
+      "title": "Spider Slayer",
+      "look": "This roach is prancing back and forth, practicing bites and lunges. Sometimes it jumps too hard and falls over. It stops when it sees you.",
+      "name": "_I'm Spider Slayer,_ it says proudly.",
+      "job": "_I'm practicing to defend our hunters from mean spiders!_",
+      "dunno": "_You're silly!_",
+      "nodes": [
+        {
+          "keywords": [
+            "mean",
+            "spid"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_They attack sometimes when we're out hunting. We work really hard to collect our filth!_",
+          "str2": ""
+        },
+        {
+          "keywords": [
+            "coll",
+            "filt"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "It points an antenna at the walls of trash around you. _It's tough to find good filth. Want some?_ You decline. _We carried all this here, bit by bit, blob by blob._",
+          "str2": "_It's hard work. And all we want is to be loved!_"
+        },
+        {
+          "keywords": [
+            "love",
+            "filt"
+          ],
+          "type": 0,
+          "typeName": "regular",
+          "extras": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "str1": "_Nobody likes us. It hurts our feelings. All we want is to get along with you and take your filth._",
+          "str2": ""
+        }
+      ]
+    }
+  ]
+}
